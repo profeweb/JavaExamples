@@ -41,8 +41,8 @@
     "WebServerToolWindowFactoryState": "false"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.AreaCercle">
-    <configuration name="AreaCercle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Application.basics.AreaCercle">
+    <configuration name="basics.AreaCercle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="basics.AreaCercle" />
       <module name="JavaExamples" />
       <extension name="coverage">
@@ -55,7 +55,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HelloWorld" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="basics.HelloWorld" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="basics.HelloWorld" />
       <module name="JavaExamples" />
       <extension name="coverage">
@@ -68,7 +68,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SumaDosNumeros" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="basics.SumaDosNumeros" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="basics.SumaDosNumeros" />
       <module name="JavaExamples" />
       <extension name="coverage">
@@ -81,7 +81,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TemperaturaCelsius" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="basics.TemperaturaCelsius" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="basics.TemperaturaCelsius" />
       <module name="JavaExamples" />
       <extension name="coverage">
@@ -96,10 +96,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.AreaCercle" />
-        <item itemvalue="Application.TemperaturaCelsius" />
-        <item itemvalue="Application.SumaDosNumeros" />
-        <item itemvalue="Application.HelloWorld" />
+        <item itemvalue="Application.basics.AreaCercle" />
+        <item itemvalue="Application.basics.TemperaturaCelsius" />
+        <item itemvalue="Application.basics.SumaDosNumeros" />
+        <item itemvalue="Application.basics.HelloWorld" />
       </list>
     </recent_temporary>
   </component>

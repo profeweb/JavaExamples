@@ -1,6 +1,6 @@
 package basics;
 
-public class imprimirStrings {
+public class ImprimirStrings {
     public static void main(String[] args) {
 
         String a = "Hello";
