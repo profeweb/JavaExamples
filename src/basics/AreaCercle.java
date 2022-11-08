@@ -1,7 +1,7 @@
 package basics;
 
 import java.util.Scanner;
-import java.lang.Math.*;
+import static java.lang.Math.PI;
 
 class AreaCercle {
 
@@ -14,7 +14,7 @@ class AreaCercle {
         double r = input.nextFloat();
 
         // AREA = 2*PI*R*R
-        double area = 2*Math.PI*r*r;
+        double area = 2*PI*r*r;
 
         // OUTPUT AREA
         System.out.println("AREA: "+area);
