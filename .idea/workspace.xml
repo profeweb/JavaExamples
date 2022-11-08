@@ -2,12 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e3daea28-0551-4b13-ab45-39306edd8b83" name="Changes" comment="Exemples">
-      <change afterPath="$PROJECT_DIR$/src/basics/AreaCercle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/basics/ImprimirReals.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/basics/ImprimirSencers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/basics/PerimetreRectangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/basics/SumaDosNumeros.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/basics/TemperaturaCelsius.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/basics/AreaRectangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/basics/Divisio2Numeros.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/basics/ImprimirInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/basics/ImprimirInfoInput.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/basics/TemperaturaFarenheit.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -34,16 +33,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="Application.basics.AreaCercle">
-    <configuration name="basics.AreaCercle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="basics.AreaCercle" />
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="basics" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.ImprimirInfoInput">
+    <configuration name="AreaRectangle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="basics.AreaRectangle" />
       <module name="JavaExamples" />
       <extension name="coverage">
         <pattern>
@@ -55,8 +59,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="basics.HelloWorld" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="basics.HelloWorld" />
+    <configuration name="Divisio2Numeros" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="basics.Divisio2Numeros" />
       <module name="JavaExamples" />
       <extension name="coverage">
         <pattern>
@@ -68,8 +72,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="basics.SumaDosNumeros" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="basics.SumaDosNumeros" />
+    <configuration name="ImprimirInfo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="basics.ImprimirInfo" />
       <module name="JavaExamples" />
       <extension name="coverage">
         <pattern>
@@ -81,8 +85,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="basics.TemperaturaCelsius" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="basics.TemperaturaCelsius" />
+    <configuration name="ImprimirInfoInput" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="basics.ImprimirInfoInput" />
+      <module name="JavaExamples" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="basics.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TemperaturaFarenheit" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="basics.TemperaturaFarenheit" />
       <module name="JavaExamples" />
       <extension name="coverage">
         <pattern>
@@ -96,10 +113,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.basics.AreaCercle" />
-        <item itemvalue="Application.basics.TemperaturaCelsius" />
-        <item itemvalue="Application.basics.SumaDosNumeros" />
-        <item itemvalue="Application.basics.HelloWorld" />
+        <item itemvalue="Application.ImprimirInfoInput" />
+        <item itemvalue="Application.AreaRectangle" />
+        <item itemvalue="Application.TemperaturaFarenheit" />
+        <item itemvalue="Application.Divisio2Numeros" />
+        <item itemvalue="Application.ImprimirInfo" />
       </list>
     </recent_temporary>
   </component>
@@ -111,7 +129,11 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1667812131623</updated>
-      <workItem from="1667812134033" duration="1166000" />
+      <workItem from="1667812134033" duration="1490000" />
+      <workItem from="1667819922342" duration="778000" />
+      <workItem from="1667858999217" duration="123000" />
+      <workItem from="1667894482822" duration="862000" />
+      <workItem from="1667911074591" duration="907000" />
     </task>
     <task id="LOCAL-00001" summary="Exemples">
       <created>1667812340493</created>
@@ -120,7 +142,21 @@
       <option name="project" value="LOCAL" />
       <updated>1667812340493</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Exemples">
+      <created>1667813504687</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1667813504687</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Exemples">
+      <created>1667813595064</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1667813595064</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
