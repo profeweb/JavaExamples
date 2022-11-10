@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e3daea28-0551-4b13-ab45-39306edd8b83" name="Changes" comment="Exemples">
-      <change afterPath="$PROJECT_DIR$/src/basics/EnumeratDia.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/basics/CalculaForça.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/basics/CalculaMovimentRectilini.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/basics/CalculaMovimentRectiliniAccelerat.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/basics/AreaRectangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/basics/AreaRectangle.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -132,7 +133,7 @@
       <workItem from="1667894482822" duration="862000" />
       <workItem from="1667911074591" duration="1714000" />
       <workItem from="1667922056601" duration="1192000" />
-      <workItem from="1668072108208" duration="3633000" />
+      <workItem from="1668072108208" duration="5048000" />
     </task>
     <task id="LOCAL-00001" summary="Exemples">
       <created>1667812340493</created>
@@ -169,7 +170,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667912213128</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Exemples">
+      <created>1668077427523</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1668077427523</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
