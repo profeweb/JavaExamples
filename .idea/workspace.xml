@@ -2,12 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e3daea28-0551-4b13-ab45-39306edd8b83" name="Changes" comment="Exemples">
-      <change afterPath="$PROJECT_DIR$/src/basics/AreaRectangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/basics/Divisio2Numeros.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/basics/ImprimirInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/basics/ImprimirInfoInput.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/basics/TemperaturaFarenheit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/basics/EnumeratDia.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/basics/AreaRectangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/basics/AreaRectangle.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,7 +42,7 @@
       <recent name="basics" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ImprimirInfoInput">
+  <component name="RunManager" selected="Application.EnumeratDia">
     <configuration name="AreaRectangle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="basics.AreaRectangle" />
       <module name="JavaExamples" />
@@ -72,8 +69,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ImprimirInfo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="basics.ImprimirInfo" />
+    <configuration name="EnumeratDia" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="basics.EnumeratDia" />
       <module name="JavaExamples" />
       <extension name="coverage">
         <pattern>
@@ -113,11 +110,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ImprimirInfoInput" />
+        <item itemvalue="Application.EnumeratDia" />
         <item itemvalue="Application.AreaRectangle" />
+        <item itemvalue="Application.ImprimirInfoInput" />
         <item itemvalue="Application.TemperaturaFarenheit" />
         <item itemvalue="Application.Divisio2Numeros" />
-        <item itemvalue="Application.ImprimirInfo" />
       </list>
     </recent_temporary>
   </component>
@@ -133,7 +130,9 @@
       <workItem from="1667819922342" duration="778000" />
       <workItem from="1667858999217" duration="123000" />
       <workItem from="1667894482822" duration="862000" />
-      <workItem from="1667911074591" duration="907000" />
+      <workItem from="1667911074591" duration="1714000" />
+      <workItem from="1667922056601" duration="1192000" />
+      <workItem from="1668072108208" duration="3633000" />
     </task>
     <task id="LOCAL-00001" summary="Exemples">
       <created>1667812340493</created>
@@ -156,7 +155,21 @@
       <option name="project" value="LOCAL" />
       <updated>1667813595064</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Exemples">
+      <created>1667912117425</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1667912117426</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Exemples">
+      <created>1667912213128</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1667912213128</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
