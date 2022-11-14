@@ -2,8 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e3daea28-0551-4b13-ab45-39306edd8b83" name="Changes" comment="Exemples">
-      <change afterPath="$PROJECT_DIR$/src/condicionals/ControlVelocitat3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/condicionals/ArrelsQuadratiques.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/condicionals/ControlDiscoteca.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/condicionals/Maxim2Numeros.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/condicionals/PreuEntrades.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/condicionals/Notes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/condicionals/Notes.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,28 +33,41 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "full.screen.before.presentation.mode": "false",
-    "settings.editor.selected.configurable": "preferences.lookFeel"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;full.screen.before.presentation.mode&quot;: &quot;false&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="condicionals" />
       <recent name="basics" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Notes">
-    <configuration name="AreaRectangle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="basics.AreaRectangle" />
+  <component name="RunManager" selected="Application.ArrelsQuadratiques">
+    <configuration name="ArrelsQuadratiques" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="condicionals.ArrelsQuadratiques" />
       <module name="JavaExamples" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="basics.*" />
+          <option name="PATTERN" value="condicionals.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ControlDiscoteca" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="condicionals.ControlDiscoteca" />
+      <module name="JavaExamples" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="condicionals.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -84,19 +101,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ImprimirInfoInput" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="basics.ImprimirInfoInput" />
-      <module name="JavaExamples" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="basics.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Notes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="condicionals.Notes" />
       <module name="JavaExamples" />
@@ -112,11 +116,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ArrelsQuadratiques" />
         <item itemvalue="Application.Notes" />
+        <item itemvalue="Application.ControlDiscoteca" />
         <item itemvalue="Application.ControlVelocitat" />
         <item itemvalue="Application.EnumeratDia" />
-        <item itemvalue="Application.AreaRectangle" />
-        <item itemvalue="Application.ImprimirInfoInput" />
       </list>
     </recent_temporary>
   </component>
@@ -138,7 +142,8 @@
       <workItem from="1668085776522" duration="30000" />
       <workItem from="1668086052202" duration="5000" />
       <workItem from="1668421045733" duration="52000" />
-      <workItem from="1668421116137" duration="3328000" />
+      <workItem from="1668421116137" duration="4047000" />
+      <workItem from="1668435659662" duration="1569000" />
     </task>
     <task id="LOCAL-00001" summary="Exemples">
       <created>1667812340493</created>
@@ -196,7 +201,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668426407204</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Exemples">
+      <created>1668427328810</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1668427328810</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
