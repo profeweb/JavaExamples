@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e3daea28-0551-4b13-ab45-39306edd8b83" name="Changes" comment="Exemples">
-      <change afterPath="$PROJECT_DIR$/src/condicionals/ControlVelocitat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/condicionals/ControlVelocitat2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/condicionals/Notes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/condicionals/ControlVelocitat3.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -46,7 +44,7 @@
       <recent name="basics" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ControlVelocitat">
+  <component name="RunManager" selected="Application.Notes">
     <configuration name="AreaRectangle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="basics.AreaRectangle" />
       <module name="JavaExamples" />
@@ -99,12 +97,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TemperaturaFarenheit" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="basics.TemperaturaFarenheit" />
+    <configuration name="Notes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="condicionals.Notes" />
       <module name="JavaExamples" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="basics.*" />
+          <option name="PATTERN" value="condicionals.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -114,11 +112,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Notes" />
         <item itemvalue="Application.ControlVelocitat" />
         <item itemvalue="Application.EnumeratDia" />
         <item itemvalue="Application.AreaRectangle" />
         <item itemvalue="Application.ImprimirInfoInput" />
-        <item itemvalue="Application.TemperaturaFarenheit" />
       </list>
     </recent_temporary>
   </component>
@@ -140,7 +138,7 @@
       <workItem from="1668085776522" duration="30000" />
       <workItem from="1668086052202" duration="5000" />
       <workItem from="1668421045733" duration="52000" />
-      <workItem from="1668421116137" duration="2552000" />
+      <workItem from="1668421116137" duration="3328000" />
     </task>
     <task id="LOCAL-00001" summary="Exemples">
       <created>1667812340493</created>
@@ -191,7 +189,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668079468462</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Exemples">
+      <created>1668426407204</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1668426407204</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
