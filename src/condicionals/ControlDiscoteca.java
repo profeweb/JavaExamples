@@ -9,10 +9,10 @@ public class ControlDiscoteca {
         Scanner input = new Scanner(System.in);
 
         System.out.print("Enter your age:");
-        int speed = input.nextInt();
+        int age = input.nextInt();
 
-        if(speed<18){
-            System.out.println("Sorry, you ca\'nt enter!");
+        if(age<18){
+            System.out.println("Sorry, you can\'t enter!");
         }
         else {
             System.out.println("Welcome to the Disco!!");
