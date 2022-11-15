@@ -2,8 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e3daea28-0551-4b13-ab45-39306edd8b83" name="Changes" comment="Exemples">
-      <change afterPath="$PROJECT_DIR$/src/condicionals/SwitchSetmana.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/condicionals/SwitchSuspeses.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bucles/Alfabet2Asc.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bucles/AlfabetAsc.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bucles/Compta100Asc.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bucles/Compta100Desc.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bucles/Compta100DoWhileAsc.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bucles/Compta100ForAsc.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bucles/DemanaBreak.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bucles/EndivinaNumero.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bucles/MitjanaNumeros.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bucles/PotenciesDe2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bucles/ProducteSenseMultiplicar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bucles/SumaNumeros.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -41,17 +51,18 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="bucles" />
       <recent name="condicionals" />
       <recent name="basics" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SwitchSuspeses">
-    <configuration name="ArrelsQuadratiques" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="condicionals.ArrelsQuadratiques" />
+  <component name="RunManager" selected="Application.EndivinaNumero">
+    <configuration name="Alfabet2Asc" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="bucles.Alfabet2Asc" />
       <module name="JavaExamples" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="condicionals.*" />
+          <option name="PATTERN" value="bucles.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -59,12 +70,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ControlDiscoteca" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="condicionals.ControlDiscoteca" />
+    <configuration name="DemanaBreak" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="bucles.DemanaBreak" />
       <module name="JavaExamples" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="condicionals.*" />
+          <option name="PATTERN" value="bucles.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -72,12 +83,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ControlVelocitat" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="condicionals.ControlVelocitat" />
+    <configuration name="EndivinaNumero" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="bucles.EndivinaNumero" />
       <module name="JavaExamples" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="condicionals.*" />
+          <option name="PATTERN" value="bucles.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -85,12 +96,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Notes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="condicionals.Notes" />
+    <configuration name="PotenciesDe2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="bucles.PotenciesDe2" />
       <module name="JavaExamples" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="condicionals.*" />
+          <option name="PATTERN" value="bucles.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -98,12 +109,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SwitchSuspeses" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="condicionals.SwitchSuspeses" />
+    <configuration name="ProducteSenseMultiplicar" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="bucles.ProducteSenseMultiplicar" />
       <module name="JavaExamples" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="condicionals.*" />
+          <option name="PATTERN" value="bucles.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -113,11 +124,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.SwitchSuspeses" />
-        <item itemvalue="Application.ArrelsQuadratiques" />
-        <item itemvalue="Application.Notes" />
-        <item itemvalue="Application.ControlDiscoteca" />
-        <item itemvalue="Application.ControlVelocitat" />
+        <item itemvalue="Application.EndivinaNumero" />
+        <item itemvalue="Application.PotenciesDe2" />
+        <item itemvalue="Application.ProducteSenseMultiplicar" />
+        <item itemvalue="Application.DemanaBreak" />
+        <item itemvalue="Application.Alfabet2Asc" />
       </list>
     </recent_temporary>
   </component>
@@ -141,7 +152,8 @@
       <workItem from="1668421045733" duration="52000" />
       <workItem from="1668421116137" duration="4047000" />
       <workItem from="1668435659662" duration="2172000" />
-      <workItem from="1668495524646" duration="2592000" />
+      <workItem from="1668495524646" duration="7098000" />
+      <workItem from="1668516738777" duration="713000" />
     </task>
     <task id="LOCAL-00001" summary="Exemples">
       <created>1667812340493</created>
@@ -220,7 +232,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668496316037</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Exemples">
+      <created>1668498148903</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1668498148903</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
