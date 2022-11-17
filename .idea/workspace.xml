@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e3daea28-0551-4b13-ab45-39306edd8b83" name="Changes" comment="Exemples">
-      <change afterPath="$PROJECT_DIR$/src/bucles/ImprimirMultiples3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bucles/NumeroPrimer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bucles/SuccessioAritmetica.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,20 +46,7 @@
       <recent name="basics" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ImprimirImpars1a13">
-    <configuration name="ImprimirImpars1a13" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="bucles.ImprimirImpars1a13" />
-      <module name="JavaExamples" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="bucles.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.NumeroPrimer2">
     <configuration name="ImprimirPrintF" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="basics.ImprimirPrintF" />
       <module name="JavaExamples" />
@@ -71,8 +60,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="bucles.EndivinaNumero" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="bucles.EndivinaNumero" />
+    <configuration name="NumeroPrimer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="bucles.NumeroPrimer" />
       <module name="JavaExamples" />
       <extension name="coverage">
         <pattern>
@@ -84,8 +73,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="bucles.Potencies" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="bucles.Potencies" />
+    <configuration name="bucles.ImprimirImpars1a13" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="bucles.ImprimirImpars1a13" />
       <module name="JavaExamples" />
       <extension name="coverage">
         <pattern>
@@ -97,8 +86,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="bucles.PotenciesDe2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="bucles.PotenciesDe2" />
+    <configuration name="bucles.NumeroPrimer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="bucles.NumeroPrimer" />
+      <module name="JavaExamples" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="bucles.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="bucles.SuccessioAritmetica" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="bucles.SuccessioAritmetica" />
       <module name="JavaExamples" />
       <extension name="coverage">
         <pattern>
@@ -112,11 +114,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ImprimirImpars1a13" />
+        <item itemvalue="Application.NumeroPrimer2" />
+        <item itemvalue="Application.bucles.NumeroPrimer" />
+        <item itemvalue="Application.bucles.SuccessioAritmetica" />
+        <item itemvalue="Application.bucles.ImprimirImpars1a13" />
         <item itemvalue="Application.ImprimirPrintF" />
-        <item itemvalue="Application.bucles.EndivinaNumero" />
-        <item itemvalue="Application.bucles.Potencies" />
-        <item itemvalue="Application.bucles.PotenciesDe2" />
       </list>
     </recent_temporary>
   </component>
@@ -143,7 +145,7 @@
       <workItem from="1668495524646" duration="7098000" />
       <workItem from="1668516738777" duration="1402000" />
       <workItem from="1668536173445" duration="71000" />
-      <workItem from="1668674069374" duration="4391000" />
+      <workItem from="1668674069374" duration="5562000" />
     </task>
     <task id="LOCAL-00001" summary="Exemples">
       <created>1667812340493</created>
@@ -243,7 +245,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668678121125</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Exemples">
+      <created>1668678677801</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1668678677801</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
