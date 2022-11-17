@@ -23,7 +23,6 @@ public class ProducteSenseMultiplicar {
             producte += a;
             num--;
         }
-
         System.out.print("El producte de "+a +" x "+b+ " és "+producte);
     }
 }

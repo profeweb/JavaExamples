@@ -2,19 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e3daea28-0551-4b13-ab45-39306edd8b83" name="Changes" comment="Exemples">
-      <change afterPath="$PROJECT_DIR$/src/bucles/Alfabet2Asc.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bucles/AlfabetAsc.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bucles/Compta100Asc.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bucles/Compta100Desc.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bucles/Compta100DoWhileAsc.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bucles/Compta100ForAsc.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bucles/DemanaBreak.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bucles/EndivinaNumero.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bucles/MitjanaNumeros.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bucles/PotenciesDe2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bucles/ProducteSenseMultiplicar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bucles/SumaNumeros.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/basics/ImprimirPrintF.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bucles/ImprimirImpars1a13.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bucles/Potencies.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bucles/ProducteSenseMultiplicar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bucles/ProducteSenseMultiplicar.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,9 +48,9 @@
       <recent name="basics" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.EndivinaNumero">
-    <configuration name="Alfabet2Asc" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="bucles.Alfabet2Asc" />
+  <component name="RunManager" selected="Application.ImprimirImpars1a13">
+    <configuration name="ImprimirImpars1a13" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="bucles.ImprimirImpars1a13" />
       <module name="JavaExamples" />
       <extension name="coverage">
         <pattern>
@@ -70,12 +62,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DemanaBreak" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="bucles.DemanaBreak" />
+    <configuration name="ImprimirPrintF" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="basics.ImprimirPrintF" />
       <module name="JavaExamples" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="bucles.*" />
+          <option name="PATTERN" value="basics.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -83,7 +75,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EndivinaNumero" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="bucles.EndivinaNumero" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="bucles.EndivinaNumero" />
       <module name="JavaExamples" />
       <extension name="coverage">
@@ -96,8 +88,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PotenciesDe2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="bucles.PotenciesDe2" />
+    <configuration name="bucles.Potencies" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="bucles.Potencies" />
       <module name="JavaExamples" />
       <extension name="coverage">
         <pattern>
@@ -109,8 +101,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProducteSenseMultiplicar" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="bucles.ProducteSenseMultiplicar" />
+    <configuration name="bucles.PotenciesDe2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="bucles.PotenciesDe2" />
       <module name="JavaExamples" />
       <extension name="coverage">
         <pattern>
@@ -124,11 +116,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.EndivinaNumero" />
-        <item itemvalue="Application.PotenciesDe2" />
-        <item itemvalue="Application.ProducteSenseMultiplicar" />
-        <item itemvalue="Application.DemanaBreak" />
-        <item itemvalue="Application.Alfabet2Asc" />
+        <item itemvalue="Application.ImprimirImpars1a13" />
+        <item itemvalue="Application.ImprimirPrintF" />
+        <item itemvalue="Application.bucles.EndivinaNumero" />
+        <item itemvalue="Application.bucles.Potencies" />
+        <item itemvalue="Application.bucles.PotenciesDe2" />
       </list>
     </recent_temporary>
   </component>
@@ -153,7 +145,9 @@
       <workItem from="1668421116137" duration="4047000" />
       <workItem from="1668435659662" duration="2172000" />
       <workItem from="1668495524646" duration="7098000" />
-      <workItem from="1668516738777" duration="713000" />
+      <workItem from="1668516738777" duration="1402000" />
+      <workItem from="1668536173445" duration="71000" />
+      <workItem from="1668674069374" duration="3913000" />
     </task>
     <task id="LOCAL-00001" summary="Exemples">
       <created>1667812340493</created>
@@ -239,7 +233,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668498148903</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Exemples">
+      <created>1668517550570</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1668517550570</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
