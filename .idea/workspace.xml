@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e3daea28-0551-4b13-ab45-39306edd8b83" name="Changes" comment="Exemples">
-      <change afterPath="$PROJECT_DIR$/src/bucles/MaximComuDivisor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/funcions/MCDFuncio.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/funcions/Minim2NumerosFuncio.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bucles/SuccessioAritmetica.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bucles/SuccessioAritmetica.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,7 +46,7 @@
       <recent name="basics" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MCDFuncio">
+  <component name="RunManager" selected="Application.bucles.SuccessioAritmetica">
     <configuration name="ImprimirPrintF" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="basics.ImprimirPrintF" />
       <module name="JavaExamples" />
@@ -116,9 +114,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.bucles.SuccessioAritmetica" />
         <item itemvalue="Application.MCDFuncio" />
         <item itemvalue="Application.bucles.NumeroPrimer" />
-        <item itemvalue="Application.bucles.SuccessioAritmetica" />
         <item itemvalue="Application.bucles.ImprimirImpars1a13" />
         <item itemvalue="Application.ImprimirPrintF" />
       </list>
@@ -151,7 +149,8 @@
       <workItem from="1668682786851" duration="75000" />
       <workItem from="1668685167940" duration="761000" />
       <workItem from="1668756929791" duration="625000" />
-      <workItem from="1668968850257" duration="482000" />
+      <workItem from="1668968850257" duration="499000" />
+      <workItem from="1669024888741" duration="710000" />
     </task>
     <task id="LOCAL-00001" summary="Exemples">
       <created>1667812340493</created>
@@ -265,7 +264,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668680274715</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Exemples">
+      <created>1668969342385</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1668969342386</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

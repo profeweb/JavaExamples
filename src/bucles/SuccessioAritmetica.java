@@ -14,8 +14,7 @@ public class SuccessioAritmetica {
 
         for(int i=1; i<=n; i++){
             int x = 2*i - 1;
-            System.out.println("L\' "+i+"-èssim valor de la successió és: "+x);
+            System.out.printf("L\' %d-èssim valor de la successió és %d.\n",i, x);
         }
-
     }
 }
