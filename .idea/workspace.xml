@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e3daea28-0551-4b13-ab45-39306edd8b83" name="Changes" comment="Exemples">
-      <change afterPath="$PROJECT_DIR$/src/funcions/AfegirIVA.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/funcions/Potencia2Funcio.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/funcions/PotenciaFuncio.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -46,7 +47,7 @@
       <recent name="basics" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.AfegirIVA">
+  <component name="RunManager" selected="Application.Potencia2Funcio">
     <configuration name="AfegirIVA" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="funcions.AfegirIVA" />
       <module name="JavaExamples" />
@@ -73,8 +74,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MCDFuncio" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="funcions.MCDFuncio" />
+    <configuration name="Potencia2Funcio" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="funcions.Potencia2Funcio" />
       <module name="JavaExamples" />
       <extension name="coverage">
         <pattern>
@@ -114,11 +115,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Potencia2Funcio" />
         <item itemvalue="Application.AfegirIVA" />
         <item itemvalue="Application.ImprimirNumerosFuncio" />
         <item itemvalue="Application.bucles.NumeroPrimer" />
         <item itemvalue="Application.bucles.SuccessioAritmetica" />
-        <item itemvalue="Application.MCDFuncio" />
       </list>
     </recent_temporary>
   </component>
@@ -150,7 +151,7 @@
       <workItem from="1668685167940" duration="761000" />
       <workItem from="1668756929791" duration="625000" />
       <workItem from="1668968850257" duration="499000" />
-      <workItem from="1669024888741" duration="5133000" />
+      <workItem from="1669024888741" duration="6591000" />
     </task>
     <task id="LOCAL-00001" summary="Exemples">
       <created>1667812340493</created>
@@ -285,7 +286,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669029500306</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="Exemples">
+      <created>1669030670936</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1669030670936</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
