@@ -25,17 +25,17 @@ public class NumeroPrimerFuncio {
         int d = n -1;
 
         while(d>1){
-            System.out.println("Comprovat "+d);
             if(n%d==0){
                 break;
             }
             d--;
         }
+
         if(d==1){
-            return false;
+            return true;
         }
         else {
-            return true;
+            return false;
         }
     }
 }

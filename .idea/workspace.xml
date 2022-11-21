@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e3daea28-0551-4b13-ab45-39306edd8b83" name="Changes" comment="Exemples">
-      <change afterPath="$PROJECT_DIR$/src/funcions/NumeroPrimerFuncio.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/funcions/NumeroPrimerFuncio.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/funcions/NumeroPrimerFuncio.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,7 +46,7 @@
       <recent name="basics" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Potencia2Funcio">
+  <component name="RunManager" selected="Application.NumeroPrimerFuncio">
     <configuration name="AfegirIVA" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="funcions.AfegirIVA" />
       <module name="JavaExamples" />
@@ -61,6 +62,19 @@
     </configuration>
     <configuration name="ImprimirNumerosFuncio" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="funcions.ImprimirNumerosFuncio" />
+      <module name="JavaExamples" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="funcions.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NumeroPrimerFuncio" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="funcions.NumeroPrimerFuncio" />
       <module name="JavaExamples" />
       <extension name="coverage">
         <pattern>
@@ -98,26 +112,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="bucles.SuccessioAritmetica" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="bucles.SuccessioAritmetica" />
-      <module name="JavaExamples" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="bucles.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.NumeroPrimerFuncio" />
         <item itemvalue="Application.Potencia2Funcio" />
         <item itemvalue="Application.AfegirIVA" />
         <item itemvalue="Application.ImprimirNumerosFuncio" />
         <item itemvalue="Application.bucles.NumeroPrimer" />
-        <item itemvalue="Application.bucles.SuccessioAritmetica" />
       </list>
     </recent_temporary>
   </component>
@@ -149,7 +150,7 @@
       <workItem from="1668685167940" duration="761000" />
       <workItem from="1668756929791" duration="625000" />
       <workItem from="1668968850257" duration="499000" />
-      <workItem from="1669024888741" duration="6953000" />
+      <workItem from="1669024888741" duration="7460000" />
     </task>
     <task id="LOCAL-00001" summary="Exemples">
       <created>1667812340493</created>
@@ -298,7 +299,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669032139895</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="Exemples">
+      <created>1669032506871</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1669032506871</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
