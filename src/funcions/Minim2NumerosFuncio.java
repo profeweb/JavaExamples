@@ -22,11 +22,13 @@ public class Minim2NumerosFuncio {
     }
 
     public static int minim2(int a, int b){
+        int m;
         if(a<b){
-            return a;
+            m= a;
         }
         else {
-            return b;
+            m= b;
         }
+        return m;
     }
 }

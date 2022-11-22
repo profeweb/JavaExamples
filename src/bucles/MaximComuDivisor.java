@@ -14,12 +14,16 @@ public class MaximComuDivisor {
         System.out.print("Enter B:");
         int b = input.nextInt();
 
-        int m =  (a<b) ? a : b;
+        int m =  minim(a, b);
         while(a%m!=0 || b%m!=0){
             m--;
         }
 
         System.out.printf("MCD de %d i %d és %d.", a, b, m);
 
+    }
+
+    public static int minim(int a, int b){
+        return (a<b) ? a : b;
     }
 }
