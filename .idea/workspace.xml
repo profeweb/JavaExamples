@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e3daea28-0551-4b13-ab45-39306edd8b83" name="Changes" comment="Exemples">
-      <change afterPath="$PROJECT_DIR$/src/arrays/ArrayNumeros.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/funcions/FuncioValorAbsolut.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/arrays/SumaArray.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/arrays/ArrayNumeros.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/arrays/ArrayNumeros.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,13 +41,14 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="arrays" />
       <recent name="funcions" />
       <recent name="bucles" />
       <recent name="condicionals" />
       <recent name="basics" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ArrayNumeros">
+  <component name="RunManager" selected="Application.SumaArray">
     <configuration name="ArrayNumeros" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="arrays.ArrayNumeros" />
       <module name="JavaExamples" />
@@ -100,12 +101,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NumeroPrimerFuncio" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="funcions.NumeroPrimerFuncio" />
+    <configuration name="SumaArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="arrays.SumaArray" />
       <module name="JavaExamples" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="funcions.*" />
+          <option name="PATTERN" value="arrays.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -115,11 +116,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SumaArray" />
         <item itemvalue="Application.ArrayNumeros" />
         <item itemvalue="Application.FuncioFactorial" />
         <item itemvalue="Application.FuncioAreaRectangle" />
         <item itemvalue="Application.MaximComuDivisor" />
-        <item itemvalue="Application.NumeroPrimerFuncio" />
       </list>
     </recent_temporary>
   </component>
@@ -154,7 +155,7 @@
       <workItem from="1669024888741" duration="7460000" />
       <workItem from="1669033039972" duration="44000" />
       <workItem from="1669044394561" duration="596000" />
-      <workItem from="1669100074180" duration="4472000" />
+      <workItem from="1669100074180" duration="5789000" />
     </task>
     <task id="LOCAL-00001" summary="Exemples">
       <created>1667812340493</created>
@@ -338,7 +339,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669102672353</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="Exemples">
+      <created>1669104786449</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1669104786449</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
