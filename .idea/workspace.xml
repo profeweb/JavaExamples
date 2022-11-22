@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="e3daea28-0551-4b13-ab45-39306edd8b83" name="Changes" comment="Exemples">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/funcions/NumeroPrimerFuncio.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/funcions/NumeroPrimerFuncio.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -151,6 +150,9 @@
       <workItem from="1668756929791" duration="625000" />
       <workItem from="1668968850257" duration="499000" />
       <workItem from="1669024888741" duration="7460000" />
+      <workItem from="1669033039972" duration="44000" />
+      <workItem from="1669044394561" duration="596000" />
+      <workItem from="1669100074180" duration="455000" />
     </task>
     <task id="LOCAL-00001" summary="Exemples">
       <created>1667812340493</created>
@@ -306,7 +308,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669032506871</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="Exemples">
+      <created>1669033060615</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1669033060615</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

@@ -20,4 +20,13 @@ public class Minim2NumerosFuncio {
     public static int minim(int a, int b){
         return (a<b) ? a : b;
     }
+
+    public static int minim2(int a, int b){
+        if(a<b){
+            return a;
+        }
+        else {
+            return b;
+        }
+    }
 }
