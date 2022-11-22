@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e3daea28-0551-4b13-ab45-39306edd8b83" name="Changes" comment="Exemples">
-      <change afterPath="$PROJECT_DIR$/src/arrays/SumaArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/arrays/NumPositiusArray.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/arrays/ArrayNumeros.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/arrays/ArrayNumeros.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,7 +47,7 @@
       <recent name="basics" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SumaArray">
+  <component name="RunManager" selected="Application.NumPositiusArray">
     <configuration name="ArrayNumeros" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="arrays.ArrayNumeros" />
       <module name="JavaExamples" />
@@ -88,12 +87,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MaximComuDivisor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="bucles.MaximComuDivisor" />
+    <configuration name="NumPositiusArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="arrays.NumPositiusArray" />
       <module name="JavaExamples" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="bucles.*" />
+          <option name="PATTERN" value="arrays.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -116,11 +115,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.NumPositiusArray" />
         <item itemvalue="Application.SumaArray" />
         <item itemvalue="Application.ArrayNumeros" />
         <item itemvalue="Application.FuncioFactorial" />
         <item itemvalue="Application.FuncioAreaRectangle" />
-        <item itemvalue="Application.MaximComuDivisor" />
       </list>
     </recent_temporary>
   </component>
@@ -155,7 +154,7 @@
       <workItem from="1669024888741" duration="7460000" />
       <workItem from="1669033039972" duration="44000" />
       <workItem from="1669044394561" duration="596000" />
-      <workItem from="1669100074180" duration="5789000" />
+      <workItem from="1669100074180" duration="6096000" />
     </task>
     <task id="LOCAL-00001" summary="Exemples">
       <created>1667812340493</created>
@@ -346,7 +345,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669104786449</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="Exemples">
+      <created>1669106264783</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1669106264783</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
