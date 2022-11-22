@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e3daea28-0551-4b13-ab45-39306edd8b83" name="Changes" comment="Exemples">
-      <change afterPath="$PROJECT_DIR$/src/funcions/FuncioAreaRectangle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bucles/MaximComuDivisor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bucles/MaximComuDivisor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/funcions/Minim2NumerosFuncio.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/funcions/Minim2NumerosFuncio.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/funcions/FuncioFactorial.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/funcions/FuncioAreaRectangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/funcions/FuncioAreaRectangle.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,9 +46,9 @@
       <recent name="basics" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.FuncioAreaRectangle">
-    <configuration name="AfegirIVA" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="funcions.AfegirIVA" />
+  <component name="RunManager" selected="Application.FuncioFactorial">
+    <configuration name="FuncioAreaRectangle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="funcions.FuncioAreaRectangle" />
       <module name="JavaExamples" />
       <extension name="coverage">
         <pattern>
@@ -62,8 +60,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FuncioAreaRectangle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="funcions.FuncioAreaRectangle" />
+    <configuration name="FuncioFactorial" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="funcions.FuncioFactorial" />
       <module name="JavaExamples" />
       <extension name="coverage">
         <pattern>
@@ -116,11 +114,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FuncioFactorial" />
         <item itemvalue="Application.FuncioAreaRectangle" />
         <item itemvalue="Application.MaximComuDivisor" />
         <item itemvalue="Application.NumeroPrimerFuncio" />
         <item itemvalue="Application.Potencia2Funcio" />
-        <item itemvalue="Application.AfegirIVA" />
       </list>
     </recent_temporary>
   </component>
@@ -155,7 +153,7 @@
       <workItem from="1669024888741" duration="7460000" />
       <workItem from="1669033039972" duration="44000" />
       <workItem from="1669044394561" duration="596000" />
-      <workItem from="1669100074180" duration="1619000" />
+      <workItem from="1669100074180" duration="2282000" />
     </task>
     <task id="LOCAL-00001" summary="Exemples">
       <created>1667812340493</created>
@@ -325,7 +323,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669100773801</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="Exemples">
+      <created>1669101836091</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1669101836091</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

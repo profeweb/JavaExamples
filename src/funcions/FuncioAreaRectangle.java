@@ -19,7 +19,6 @@ public class FuncioAreaRectangle {
 
         System.out.printf("El rectangle de costats %f i %f, té \n area: %f \n perimetre: %f.",
                             a, b, area, perimetre);
-
     }
 
     public static float areaRect(float a, float b){
