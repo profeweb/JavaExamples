@@ -2,8 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e3daea28-0551-4b13-ab45-39306edd8b83" name="Changes" comment="Exemples">
-      <change afterPath="$PROJECT_DIR$/src/arrays/NumPositiusArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/arrays/MaximArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/arrays/MaximArrayFuncio.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bucles/MinimComuMultiple.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/funcions/MinimComuMultipleFuncio.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/funcions/TemperaturaFarenheitFuncio.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/arrays/NumPositiusArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/arrays/NumPositiusArray.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,9 +52,9 @@
       <recent name="basics" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.NumPositiusArray">
-    <configuration name="ArrayNumeros" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="arrays.ArrayNumeros" />
+  <component name="RunManager" selected="Application.MaximArray">
+    <configuration name="MaximArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="arrays.MaximArray" />
       <module name="JavaExamples" />
       <extension name="coverage">
         <pattern>
@@ -61,12 +66,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FuncioAreaRectangle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="funcions.FuncioAreaRectangle" />
+    <configuration name="MinimComuMultiple" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="bucles.MinimComuMultiple" />
       <module name="JavaExamples" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="funcions.*" />
+          <option name="PATTERN" value="bucles.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -74,8 +79,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FuncioFactorial" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="funcions.FuncioFactorial" />
+    <configuration name="MinimComuMultipleFuncio" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="funcions.MinimComuMultipleFuncio" />
       <module name="JavaExamples" />
       <extension name="coverage">
         <pattern>
@@ -100,12 +105,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SumaArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="arrays.SumaArray" />
+    <configuration name="TemperaturaFarenheitFuncio" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="funcions.TemperaturaFarenheitFuncio" />
       <module name="JavaExamples" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="arrays.*" />
+          <option name="PATTERN" value="funcions.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -115,11 +120,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MaximArray" />
+        <item itemvalue="Application.MinimComuMultipleFuncio" />
+        <item itemvalue="Application.MinimComuMultiple" />
+        <item itemvalue="Application.TemperaturaFarenheitFuncio" />
         <item itemvalue="Application.NumPositiusArray" />
-        <item itemvalue="Application.SumaArray" />
-        <item itemvalue="Application.ArrayNumeros" />
-        <item itemvalue="Application.FuncioFactorial" />
-        <item itemvalue="Application.FuncioAreaRectangle" />
       </list>
     </recent_temporary>
   </component>
@@ -154,7 +159,8 @@
       <workItem from="1669024888741" duration="7460000" />
       <workItem from="1669033039972" duration="44000" />
       <workItem from="1669044394561" duration="596000" />
-      <workItem from="1669100074180" duration="6096000" />
+      <workItem from="1669100074180" duration="7036000" />
+      <workItem from="1669200028224" duration="694000" />
     </task>
     <task id="LOCAL-00001" summary="Exemples">
       <created>1667812340493</created>
@@ -352,7 +358,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669106264783</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="Exemples">
+      <created>1669106425760</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1669106425760</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

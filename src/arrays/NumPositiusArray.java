@@ -5,7 +5,7 @@ public class NumPositiusArray {
     public static void main(String[] args){
 
         int[] numeros = {3, -5, 2, 8, 9, -3, 0};
-        System.out.printf("L\'array té %d números positius.\n", numPositiusArray(numeros));
+        System.out.printf("L\'array té %d números positius.", numPositiusArray(numeros));
 
     }
 
