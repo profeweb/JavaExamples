@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e3daea28-0551-4b13-ab45-39306edd8b83" name="Changes" comment="Exemples">
-      <change afterPath="$PROJECT_DIR$/src/arrays/CopiaArray.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -47,7 +46,7 @@
       <recent name="basics" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.NumParellsArray">
+  <component name="RunManager" selected="Application.CreaArrayPotencies2">
     <configuration name="CreaArrayNumerosEntreAiB" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="arrays.CreaArrayNumerosEntreAiB" />
       <module name="JavaExamples" />
@@ -115,8 +114,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.NumParellsArray" />
         <item itemvalue="Application.CreaArrayPotencies2" />
+        <item itemvalue="Application.NumParellsArray" />
         <item itemvalue="Application.CreaArrayNumerosEntreAiB" />
         <item itemvalue="Application.MaximArray" />
         <item itemvalue="Application.MinimComuMultipleFuncio" />
@@ -160,6 +159,8 @@
       <workItem from="1669204473368" duration="596000" />
       <workItem from="1669219641804" duration="1422000" />
       <workItem from="1669279920505" duration="3917000" />
+      <workItem from="1669286083874" duration="275000" />
+      <workItem from="1669286379551" duration="15000" />
     </task>
     <task id="LOCAL-00001" summary="Exemples">
       <created>1667812340493</created>
@@ -378,7 +379,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669282314209</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="Exemples">
+      <created>1669286351491</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1669286351491</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

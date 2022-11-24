@@ -20,12 +20,18 @@ public class CreaArrayPotencies2 {
     public static int[] creaArrayPotencies2(int n){
         int[] numeros = new int[n];
 
-        int p = 2;
         for(int i=0; i<numeros.length; i++){
-            numeros[i] = p;
-            p*=2;
+            numeros[i] = potencia2(i);
         }
         return numeros;
+    }
+
+    public static int potencia2(int n){
+        int p=1;
+        for(int i=1; i<=n; i++){
+            p*=2;
+        }
+        return p;
     }
 
     public static void imprimirArray(int[] a){
