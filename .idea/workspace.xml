@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e3daea28-0551-4b13-ab45-39306edd8b83" name="Changes" comment="Exemples">
-      <change afterPath="$PROJECT_DIR$/src/arrays/CreaArrayNumerosEntreAiB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/arrays/CopiaArray.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -47,9 +47,22 @@
       <recent name="basics" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CreaArrayNumerosEntreAiB">
+  <component name="RunManager" selected="Application.NumParellsArray">
     <configuration name="CreaArrayNumerosEntreAiB" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="arrays.CreaArrayNumerosEntreAiB" />
+      <module name="JavaExamples" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="arrays.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CreaArrayPotencies2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="arrays.CreaArrayPotencies2" />
       <module name="JavaExamples" />
       <extension name="coverage">
         <pattern>
@@ -74,19 +87,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MinimComuMultiple" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="bucles.MinimComuMultiple" />
-      <module name="JavaExamples" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="bucles.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="MinimComuMultipleFuncio" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="funcions.MinimComuMultipleFuncio" />
       <module name="JavaExamples" />
@@ -100,12 +100,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TemperaturaFarenheitFuncio" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="funcions.TemperaturaFarenheitFuncio" />
+    <configuration name="NumParellsArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="arrays.NumParellsArray" />
       <module name="JavaExamples" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="funcions.*" />
+          <option name="PATTERN" value="arrays.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -115,11 +115,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.NumParellsArray" />
+        <item itemvalue="Application.CreaArrayPotencies2" />
         <item itemvalue="Application.CreaArrayNumerosEntreAiB" />
         <item itemvalue="Application.MaximArray" />
         <item itemvalue="Application.MinimComuMultipleFuncio" />
-        <item itemvalue="Application.MinimComuMultiple" />
-        <item itemvalue="Application.TemperaturaFarenheitFuncio" />
       </list>
     </recent_temporary>
   </component>
@@ -159,7 +159,7 @@
       <workItem from="1669202454868" duration="1000" />
       <workItem from="1669204473368" duration="596000" />
       <workItem from="1669219641804" duration="1422000" />
-      <workItem from="1669279920505" duration="2368000" />
+      <workItem from="1669279920505" duration="3917000" />
     </task>
     <task id="LOCAL-00001" summary="Exemples">
       <created>1667812340493</created>
@@ -371,7 +371,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669200750390</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="Exemples">
+      <created>1669282314209</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1669282314209</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
