@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e3daea28-0551-4b13-ab45-39306edd8b83" name="Changes" comment="Exemples">
+      <change afterPath="$PROJECT_DIR$/src/arrays/CreaArrayPotencies.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/arrays/SubArray.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/arrays/NumParellsArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/arrays/NumParellsArray.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,7 +49,7 @@
       <recent name="basics" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CreaArrayPotencies2">
+  <component name="RunManager" selected="Application.SubArray">
     <configuration name="CreaArrayNumerosEntreAiB" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="arrays.CreaArrayNumerosEntreAiB" />
       <module name="JavaExamples" />
@@ -86,19 +89,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MinimComuMultipleFuncio" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="funcions.MinimComuMultipleFuncio" />
-      <module name="JavaExamples" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="funcions.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="NumParellsArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="arrays.NumParellsArray" />
       <module name="JavaExamples" />
@@ -112,13 +102,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SubArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="arrays.SubArray" />
+      <module name="JavaExamples" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="arrays.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SubArray" />
         <item itemvalue="Application.CreaArrayPotencies2" />
         <item itemvalue="Application.NumParellsArray" />
         <item itemvalue="Application.CreaArrayNumerosEntreAiB" />
         <item itemvalue="Application.MaximArray" />
-        <item itemvalue="Application.MinimComuMultipleFuncio" />
       </list>
     </recent_temporary>
   </component>
@@ -161,6 +164,9 @@
       <workItem from="1669279920505" duration="3917000" />
       <workItem from="1669286083874" duration="275000" />
       <workItem from="1669286379551" duration="15000" />
+      <workItem from="1669287656333" duration="216000" />
+      <workItem from="1669293341394" duration="22000" />
+      <workItem from="1669629038415" duration="2943000" />
     </task>
     <task id="LOCAL-00001" summary="Exemples">
       <created>1667812340493</created>
@@ -386,7 +392,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669286351491</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="Exemples">
+      <created>1669287831590</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1669287831590</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
