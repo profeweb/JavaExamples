@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e3daea28-0551-4b13-ab45-39306edd8b83" name="Changes" comment="Exemples">
-      <change afterPath="$PROJECT_DIR$/src/arrays/ComparaArrays.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/arrays/Juntar2Arrays.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/arrays/Suma2Arrays.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -47,7 +48,7 @@
       <recent name="basics" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ComparaArrays">
+  <component name="RunManager" selected="Application.Juntar2Arrays">
     <configuration name="ComparaArrays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="arrays.ComparaArrays" />
       <module name="JavaExamples" />
@@ -74,21 +75,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CreaArrayPotencies2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="arrays.CreaArrayPotencies2" />
-      <module name="JavaExamples" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="arrays.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="NumParellsArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="arrays.NumParellsArray" />
+    <configuration name="Juntar2Arrays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="arrays.Juntar2Arrays" />
       <module name="JavaExamples" />
       <extension name="coverage">
         <pattern>
@@ -113,13 +101,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Suma2Arrays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="arrays.Suma2Arrays" />
+      <module name="JavaExamples" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="arrays.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Juntar2Arrays" />
+        <item itemvalue="Application.Suma2Arrays" />
         <item itemvalue="Application.ComparaArrays" />
         <item itemvalue="Application.CreaArrayPotencies" />
         <item itemvalue="Application.SubArray" />
-        <item itemvalue="Application.CreaArrayPotencies2" />
-        <item itemvalue="Application.NumParellsArray" />
       </list>
     </recent_temporary>
   </component>
@@ -164,7 +165,7 @@
       <workItem from="1669286379551" duration="15000" />
       <workItem from="1669287656333" duration="216000" />
       <workItem from="1669293341394" duration="22000" />
-      <workItem from="1669629038415" duration="4079000" />
+      <workItem from="1669629038415" duration="6295000" />
     </task>
     <task id="LOCAL-00001" summary="Exemples">
       <created>1667812340493</created>
@@ -404,7 +405,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669633050381</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="Exemples">
+      <created>1669634368833</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1669634368833</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
