@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e3daea28-0551-4b13-ab45-39306edd8b83" name="Changes" comment="Exemples">
-      <change afterPath="$PROJECT_DIR$/src/arrays/Juntar2Arrays.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/arrays/Suma2Arrays.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/recursius/FactorialRecursiu.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -166,6 +164,7 @@
       <workItem from="1669287656333" duration="216000" />
       <workItem from="1669293341394" duration="22000" />
       <workItem from="1669629038415" duration="6295000" />
+      <workItem from="1669648805238" duration="156000" />
     </task>
     <task id="LOCAL-00001" summary="Exemples">
       <created>1667812340493</created>
