@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e3daea28-0551-4b13-ab45-39306edd8b83" name="Changes" comment="Exemples">
-      <change afterPath="$PROJECT_DIR$/src/recursius/FactorialRecursiu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/arrays/MaximMinimArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/recursius/FactorialRecursiu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/recursius/FactorialRecursiu.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,7 +48,7 @@
       <recent name="basics" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Juntar2Arrays">
+  <component name="RunManager" selected="Application.MaximMinimArray">
     <configuration name="ComparaArrays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="arrays.ComparaArrays" />
       <module name="JavaExamples" />
@@ -60,12 +62,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CreaArrayPotencies" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="arrays.CreaArrayPotencies" />
+    <configuration name="FactorialRecursiu" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="recursius.FactorialRecursiu" />
       <module name="JavaExamples" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="arrays.*" />
+          <option name="PATTERN" value="recursius.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -86,8 +88,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SubArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="arrays.SubArray" />
+    <configuration name="MaximMinimArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="arrays.MaximMinimArray" />
       <module name="JavaExamples" />
       <extension name="coverage">
         <pattern>
@@ -114,11 +116,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MaximMinimArray" />
+        <item itemvalue="Application.FactorialRecursiu" />
         <item itemvalue="Application.Juntar2Arrays" />
         <item itemvalue="Application.Suma2Arrays" />
         <item itemvalue="Application.ComparaArrays" />
-        <item itemvalue="Application.CreaArrayPotencies" />
-        <item itemvalue="Application.SubArray" />
       </list>
     </recent_temporary>
   </component>
@@ -164,7 +166,8 @@
       <workItem from="1669287656333" duration="216000" />
       <workItem from="1669293341394" duration="22000" />
       <workItem from="1669629038415" duration="6295000" />
-      <workItem from="1669648805238" duration="156000" />
+      <workItem from="1669648805238" duration="228000" />
+      <workItem from="1669666496409" duration="350000" />
     </task>
     <task id="LOCAL-00001" summary="Exemples">
       <created>1667812340493</created>
@@ -411,7 +414,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669634368833</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="Exemples">
+      <created>1669648970624</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1669648970624</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
