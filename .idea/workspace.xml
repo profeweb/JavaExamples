@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e3daea28-0551-4b13-ab45-39306edd8b83" name="Changes" comment="Exemples">
-      <change afterPath="$PROJECT_DIR$/src/recursius/CountDown.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/recursius/Fibonacci.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/recursius/MCDRecursiu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/recursius/PotenciaRecursiva.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/recursius/ProducteRecursiu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/strings/FuncionsString.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -41,14 +43,14 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="recursius" />
       <recent name="arrays" />
       <recent name="funcions" />
       <recent name="bucles" />
       <recent name="condicionals" />
-      <recent name="basics" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CountDown">
+  <component name="RunManager" selected="Application.FuncionsString">
     <configuration name="CountDown" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="recursius.CountDown" />
       <module name="JavaExamples" />
@@ -62,8 +64,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FactorialRecursiu" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="recursius.FactorialRecursiu" />
+    <configuration name="FuncionsString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="strings.FuncionsString" />
+      <module name="JavaExamples" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="strings.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MCDRecursiu" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="recursius.MCDRecursiu" />
       <module name="JavaExamples" />
       <extension name="coverage">
         <pattern>
@@ -75,8 +90,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Fibonacci" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="recursius.Fibonacci" />
+    <configuration name="PotenciaRecursiva" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="recursius.PotenciaRecursiva" />
       <module name="JavaExamples" />
       <extension name="coverage">
         <pattern>
@@ -88,25 +103,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Juntar2Arrays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="arrays.Juntar2Arrays" />
+    <configuration name="ProducteRecursiu" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="recursius.ProducteRecursiu" />
       <module name="JavaExamples" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="arrays.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MaximMinimArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="arrays.MaximMinimArray" />
-      <module name="JavaExamples" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="arrays.*" />
+          <option name="PATTERN" value="recursius.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -116,11 +118,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FuncionsString" />
+        <item itemvalue="Application.ProducteRecursiu" />
+        <item itemvalue="Application.MCDRecursiu" />
+        <item itemvalue="Application.PotenciaRecursiva" />
         <item itemvalue="Application.CountDown" />
-        <item itemvalue="Application.Fibonacci" />
-        <item itemvalue="Application.FactorialRecursiu" />
-        <item itemvalue="Application.MaximMinimArray" />
-        <item itemvalue="Application.Juntar2Arrays" />
       </list>
     </recent_temporary>
   </component>
@@ -168,7 +170,7 @@
       <workItem from="1669629038415" duration="6295000" />
       <workItem from="1669648805238" duration="228000" />
       <workItem from="1669666496409" duration="648000" />
-      <workItem from="1669705420408" duration="1525000" />
+      <workItem from="1669705420408" duration="5878000" />
     </task>
     <task id="LOCAL-00001" summary="Exemples">
       <created>1667812340493</created>
@@ -429,7 +431,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669666868752</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="Exemples">
+      <created>1669707178039</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1669707178039</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
