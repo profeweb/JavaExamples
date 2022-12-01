@@ -3,11 +3,8 @@ package recursius;
 public class CapicuaRecursiu {
 
     public static void main(String[] args){
-
         System.out.printf("%s és capicua? %b.\n", "ahha", esCapicua("ahha"));
-
         System.out.printf("%s és capicua? %b.\n", "ahxoyha", esCapicua("ahxoyha"));
-
     }
 
     public static boolean esCapicua(String s){
