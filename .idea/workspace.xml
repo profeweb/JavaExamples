@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e3daea28-0551-4b13-ab45-39306edd8b83" name="Changes" comment="Exemples">
-      <change afterPath="$PROJECT_DIR$/src/recursius/MenjaBocata.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/recursius/GirarParaula.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/recursius/CapicuaRecursiu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/recursius/CapicuaRecursiu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/recursius/ParRecursiu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/recursius/ParRecursiu.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,7 +47,7 @@
       <recent name="condicionals" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MenjaBocata">
+  <component name="RunManager" selected="Application.GirarParaula">
     <configuration name="CapicuaRecursiu" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="recursius.CapicuaRecursiu" />
       <module name="JavaExamples" />
@@ -69,6 +67,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="strings.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GirarParaula" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="recursius.GirarParaula" />
+      <module name="JavaExamples" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="recursius.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -102,26 +113,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProducteRecursiu" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="recursius.ProducteRecursiu" />
-      <module name="JavaExamples" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="recursius.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.GirarParaula" />
         <item itemvalue="Application.MenjaBocata" />
         <item itemvalue="Application.CapicuaRecursiu" />
         <item itemvalue="Application.ParRecursiu" />
         <item itemvalue="Application.FuncionsString" />
-        <item itemvalue="Application.ProducteRecursiu" />
       </list>
     </recent_temporary>
   </component>
@@ -172,7 +170,8 @@
       <workItem from="1669705420408" duration="7735000" />
       <workItem from="1669715530030" duration="597000" />
       <workItem from="1669723086727" duration="10000" />
-      <workItem from="1669884308776" duration="3598000" />
+      <workItem from="1669884308776" duration="3837000" />
+      <workItem from="1669892536020" duration="354000" />
     </task>
     <task id="LOCAL-00001" summary="Exemples">
       <created>1667812340493</created>
@@ -461,7 +460,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669713212765</updated>
     </task>
-    <option name="localTasksCounter" value="42" />
+    <task id="LOCAL-00042" summary="Exemples">
+      <created>1669888026121</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1669888026121</updated>
+    </task>
+    <option name="localTasksCounter" value="43" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
