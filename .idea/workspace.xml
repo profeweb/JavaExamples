@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e3daea28-0551-4b13-ab45-39306edd8b83" name="Changes" comment="Exemples">
-      <change afterPath="$PROJECT_DIR$/src/arrays/SumaArray2D.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/arrays/ArrayString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/arrays/MatriuIdentitat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/arrays/ProducteEscalarArray2D.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/arrays/ZipArrays.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -47,7 +50,7 @@
       <recent name="condicionals" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SumaArray2D">
+  <component name="RunManager" selected="Application.ZipArrays">
     <configuration name="Array2D" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="arrays.Array2D" />
       <module name="JavaExamples" />
@@ -61,12 +64,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CapicuaRecursiu" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="recursius.CapicuaRecursiu" />
+    <configuration name="ArrayString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="arrays.ArrayString" />
       <module name="JavaExamples" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="recursius.*" />
+          <option name="PATTERN" value="arrays.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -74,25 +77,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GirarParaula" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="recursius.GirarParaula" />
+    <configuration name="ProducteEscalarArray2D" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="arrays.ProducteEscalarArray2D" />
       <module name="JavaExamples" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="recursius.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MenjaBocata" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="recursius.MenjaBocata" />
-      <module name="JavaExamples" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="recursius.*" />
+          <option name="PATTERN" value="arrays.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -113,13 +103,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ZipArrays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="arrays.ZipArrays" />
+      <module name="JavaExamples" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="arrays.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ZipArrays" />
+        <item itemvalue="Application.ArrayString" />
+        <item itemvalue="Application.ProducteEscalarArray2D" />
         <item itemvalue="Application.SumaArray2D" />
         <item itemvalue="Application.Array2D" />
-        <item itemvalue="Application.GirarParaula" />
-        <item itemvalue="Application.MenjaBocata" />
-        <item itemvalue="Application.CapicuaRecursiu" />
       </list>
     </recent_temporary>
   </component>
@@ -176,7 +179,7 @@
       <workItem from="1670664492585" duration="600000" />
       <workItem from="1670671948658" duration="604000" />
       <workItem from="1670838834509" duration="1208000" />
-      <workItem from="1670915132243" duration="4913000" />
+      <workItem from="1670915132243" duration="7250000" />
     </task>
     <task id="LOCAL-00001" summary="Exemples">
       <created>1667812340493</created>
@@ -493,7 +496,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670918632655</updated>
     </task>
-    <option name="localTasksCounter" value="46" />
+    <task id="LOCAL-00046" summary="Exemples">
+      <created>1670920242983</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1670920242983</updated>
+    </task>
+    <option name="localTasksCounter" value="47" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
