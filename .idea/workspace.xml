@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e3daea28-0551-4b13-ab45-39306edd8b83" name="Changes" comment="Exemples">
+      <change afterPath="$PROJECT_DIR$/src/arrays/SumaArray2D.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/arrays/Array2D.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/arrays/Array2D.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,14 +40,14 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="recursius" />
       <recent name="arrays" />
+      <recent name="recursius" />
       <recent name="funcions" />
       <recent name="bucles" />
       <recent name="condicionals" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Array2D">
+  <component name="RunManager" selected="Application.SumaArray2D">
     <configuration name="Array2D" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="arrays.Array2D" />
       <module name="JavaExamples" />
@@ -100,12 +100,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ParRecursiu" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="recursius.ParRecursiu" />
+    <configuration name="SumaArray2D" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="arrays.SumaArray2D" />
       <module name="JavaExamples" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="recursius.*" />
+          <option name="PATTERN" value="arrays.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -115,11 +115,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SumaArray2D" />
         <item itemvalue="Application.Array2D" />
         <item itemvalue="Application.GirarParaula" />
         <item itemvalue="Application.MenjaBocata" />
         <item itemvalue="Application.CapicuaRecursiu" />
-        <item itemvalue="Application.ParRecursiu" />
       </list>
     </recent_temporary>
   </component>
@@ -176,7 +176,7 @@
       <workItem from="1670664492585" duration="600000" />
       <workItem from="1670671948658" duration="604000" />
       <workItem from="1670838834509" duration="1208000" />
-      <workItem from="1670915132243" duration="3277000" />
+      <workItem from="1670915132243" duration="4913000" />
     </task>
     <task id="LOCAL-00001" summary="Exemples">
       <created>1667812340493</created>
@@ -486,7 +486,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670917335155</updated>
     </task>
-    <option name="localTasksCounter" value="45" />
+    <task id="LOCAL-00045" summary="Exemples">
+      <created>1670918632655</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1670918632655</updated>
+    </task>
+    <option name="localTasksCounter" value="46" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
