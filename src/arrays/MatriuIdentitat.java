@@ -2,12 +2,18 @@ package arrays;
 
 public class MatriuIdentitat {
 
-    public static int[][] a = { {4, 2, 8, 5}, {5, 1, 0, 0}, {2, 2, 4, 1}};
+    public static int[][] a;
 
     public static void main(String[] args){
+        printArray2DFiles(matriuIdentitat(5));
+    }
 
-        System.out.println();
-
+    public static int[][] matriuIdentitat(int n){
+        int[][] m = new int[n][n];
+        for(int i=0; i<m.length; i++){
+            m[i][i]=1;
+        }
+        return m;
     }
 
 

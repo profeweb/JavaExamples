@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e3daea28-0551-4b13-ab45-39306edd8b83" name="Changes" comment="Exemples">
-      <change afterPath="$PROJECT_DIR$/src/parametres/PasReferencia.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/parametres/PasValor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/arrays/MatriuIdentitat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/arrays/MatriuIdentitat.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,9 +46,22 @@
       <recent name="bucles" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.PasValor">
+  <component name="RunManager" selected="Application.MatriuIdentitat">
     <configuration name="ArrayString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="arrays.ArrayString" />
+      <module name="JavaExamples" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="arrays.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MatriuIdentitat" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="arrays.MatriuIdentitat" />
       <module name="JavaExamples" />
       <extension name="coverage">
         <pattern>
@@ -88,19 +99,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProducteEscalarArray2D" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="arrays.ProducteEscalarArray2D" />
-      <module name="JavaExamples" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="arrays.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="ZipArrays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="arrays.ZipArrays" />
       <module name="JavaExamples" />
@@ -116,11 +114,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MatriuIdentitat" />
         <item itemvalue="Application.PasValor" />
         <item itemvalue="Application.PasReferencia" />
         <item itemvalue="Application.ZipArrays" />
         <item itemvalue="Application.ArrayString" />
-        <item itemvalue="Application.ProducteEscalarArray2D" />
       </list>
     </recent_temporary>
   </component>
@@ -179,7 +177,7 @@
       <workItem from="1670838834509" duration="1208000" />
       <workItem from="1670915132243" duration="7470000" />
       <workItem from="1670933263857" duration="12000" />
-      <workItem from="1671092470263" duration="3057000" />
+      <workItem from="1671092470263" duration="3381000" />
     </task>
     <task id="LOCAL-00001" summary="Exemples">
       <created>1667812340493</created>
@@ -510,7 +508,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670930923683</updated>
     </task>
-    <option name="localTasksCounter" value="48" />
+    <task id="LOCAL-00048" summary="Exemples">
+      <created>1671097352200</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1671097352200</updated>
+    </task>
+    <option name="localTasksCounter" value="49" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
