@@ -3,23 +3,28 @@ import java.util.Scanner;
 
 public class TresEnLinia {
 
+    public static int numTirades =0;
+
     public static void main(String[] args){
         Scanner input = new Scanner(System.in);
         initTauler();
         printTauler();
         do {
             int[] t = demanaTirada(input);
-            tauler[t[0]][t[1]] = VALOR.X;
+            tauler[t[0]][t[1]] = (numTirades%2==0)? VALOR.X : VALOR.O;
             printTauler();
-        }while(!hihaGuanyador());
+            numTirades++;
+        }while(!hihaGuanyador() && numTirades<9);
     }
 
     public static int[] demanaTirada(Scanner input){
         int[] tirada = new int[2];
-        System.out.print("Fila: ");
-        tirada[0] = input.nextInt();
-        System.out.print("Columna: ");
-        tirada[1] = input.nextInt();
+        do {
+            System.out.print("Fila: ");
+            tirada[0] = input.nextInt();
+            System.out.print("Columna: ");
+            tirada[1] = input.nextInt();
+        }while(tauler[tirada[0]][tirada[1]]!=VALOR.BUIDA);
         return tirada;
     }
 
