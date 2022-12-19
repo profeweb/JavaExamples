@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e3daea28-0551-4b13-ab45-39306edd8b83" name="Changes" comment="Exemples">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/tresenlinia/TresEnLinia.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tresenlinia/TresEnLinia.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -179,14 +180,7 @@
       <workItem from="1670933263857" duration="12000" />
       <workItem from="1671092470263" duration="3597000" />
       <workItem from="1671103984164" duration="2202000" />
-      <workItem from="1671445372627" duration="3055000" />
-    </task>
-    <task id="LOCAL-00004" summary="Exemples">
-      <created>1667912117425</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1667912117426</updated>
+      <workItem from="1671445372627" duration="5099000" />
     </task>
     <task id="LOCAL-00005" summary="Exemples">
       <created>1667912213128</created>
@@ -524,7 +518,14 @@
       <option name="project" value="LOCAL" />
       <updated>1671448040467</updated>
     </task>
-    <option name="localTasksCounter" value="53" />
+    <task id="LOCAL-00053" summary="Exemples">
+      <created>1671448460613</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1671448460613</updated>
+    </task>
+    <option name="localTasksCounter" value="54" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

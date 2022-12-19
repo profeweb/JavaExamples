@@ -7,9 +7,11 @@ public class TresEnLinia {
         Scanner input = new Scanner(System.in);
         initTauler();
         printTauler();
-        int[] t = demanaTirada(input);
-        tauler[t[0]][t[1]]=VALOR.X;
-        printTauler();
+        do {
+            int[] t = demanaTirada(input);
+            tauler[t[0]][t[1]] = VALOR.X;
+            printTauler();
+        }while(!hihaGuanyador());
     }
 
     public static int[] demanaTirada(Scanner input){
@@ -48,8 +50,44 @@ public class TresEnLinia {
         }
     }
 
+    public static boolean hihaGuanyador(){
+
+        for(int f=0; f<tauler.length; f++){
+            if(filaIguals(f)== true){
+                return true;
+            }
+        }
+
+        for(int c=0; c<tauler[0].length; c++){
+            if(columnaIguals(c)== true){
+                return true;
+            }
+        }
+
+        return diagAscIguals() || diagDescIguals();
+    }
+
     public static boolean filaIguals(int f){
         return (tauler[f][0]==tauler[f][1] &&
-                tauler[f][1]==tauler[f][2]&& tauler[f][0]!=VALOR.BUIDA);
+                tauler[f][1]==tauler[f][2]&&
+                tauler[f][0]!=VALOR.BUIDA);
+    }
+
+    public static boolean columnaIguals(int c){
+        return (tauler[0][c]==tauler[1][c] &&
+                tauler[1][c]==tauler[2][c]&&
+                tauler[0][c]!=VALOR.BUIDA);
+    }
+
+    public static boolean diagAscIguals(){
+        return (tauler[2][0]==tauler[1][1] &&
+                tauler[1][1]==tauler[0][2]&&
+                tauler[1][1]!=VALOR.BUIDA);
+    }
+
+    public static boolean diagDescIguals(){
+        return (tauler[0][0]==tauler[1][1] &&
+                tauler[1][1]==tauler[2][2]&&
+                tauler[1][1]!=VALOR.BUIDA);
     }
 }
