@@ -47,4 +47,9 @@ public class TresEnLinia {
             System.out.println();
         }
     }
+
+    public static boolean filaIguals(int f){
+        return (tauler[f][0]==tauler[f][1] &&
+                tauler[f][1]==tauler[f][2]&& tauler[f][0]!=VALOR.BUIDA);
+    }
 }
