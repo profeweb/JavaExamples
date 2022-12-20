@@ -4,6 +4,8 @@ import java.util.Scanner;
 public class TresEnLinia {
 
     public static int numTirades =0;
+    public enum VALOR {X, O, BUIDA};
+    public static VALOR[][] tauler;
 
     public static void main(String[] args){
         Scanner input = new Scanner(System.in);
@@ -15,21 +17,18 @@ public class TresEnLinia {
             printTauler();
             numTirades++;
         }while(!hihaGuanyador() && numTirades<9);
+        printResultat();
     }
 
-    public static int[] demanaTirada(Scanner input){
-        int[] tirada = new int[2];
-        do {
-            System.out.print("Fila: ");
-            tirada[0] = input.nextInt();
-            System.out.print("Columna: ");
-            tirada[1] = input.nextInt();
-        }while(tauler[tirada[0]][tirada[1]]!=VALOR.BUIDA);
-        return tirada;
+    public static void printResultat(){
+        if(hihaGuanyador()){
+            int jugador = (numTirades-1)%2;
+            System.out.printf("Guanya %s", VALOR.values()[jugador]);
+        }
+        else {
+            System.out.println("EMPAT!!!!! :)");
+        }
     }
-
-    public enum VALOR {BUIDA, X, O};
-    public static VALOR[][] tauler;
 
     public static void initTauler(){
         tauler = new VALOR[3][3];
@@ -53,6 +52,17 @@ public class TresEnLinia {
             }
             System.out.println();
         }
+    }
+
+    public static int[] demanaTirada(Scanner input){
+        int[] tirada = new int[2];
+        do {
+            System.out.print("Fila: ");
+            tirada[0] = input.nextInt();
+            System.out.print("Columna: ");
+            tirada[1] = input.nextInt();
+        }while(tauler[tirada[0]][tirada[1]]!=VALOR.BUIDA);
+        return tirada;
     }
 
     public static boolean hihaGuanyador(){
