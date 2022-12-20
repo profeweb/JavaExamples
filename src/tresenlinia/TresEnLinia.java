@@ -9,15 +9,23 @@ public class TresEnLinia {
 
     public static void main(String[] args){
         Scanner input = new Scanner(System.in);
-        initTauler();
-        printTauler();
         do {
-            int[] t = demanaTirada(input);
-            tauler[t[0]][t[1]] = (numTirades%2==0)? VALOR.X : VALOR.O;
+            initTauler();
             printTauler();
-            numTirades++;
-        }while(!hihaGuanyador() && numTirades<9);
-        printResultat();
+            do {
+                int[] t = demanaTirada(input);
+                tauler[t[0]][t[1]] = (numTirades % 2 == 0) ? VALOR.X : VALOR.O;
+                printTauler();
+                numTirades++;
+            } while (!hihaGuanyador() && numTirades < 9);
+            printResultat();
+        } while(continuar(input));
+    }
+
+    public static boolean continuar(Scanner input){
+        System.out.print("Vols continuar? (S/N): ");
+        char c = input.next().charAt(0);
+        return (c=='S') || (c=='s');
     }
 
     public static void printResultat(){
@@ -57,12 +65,19 @@ public class TresEnLinia {
     public static int[] demanaTirada(Scanner input){
         int[] tirada = new int[2];
         do {
-            System.out.print("Fila: ");
-            tirada[0] = input.nextInt();
-            System.out.print("Columna: ");
-            tirada[1] = input.nextInt();
+            tirada[0] = demanaNumero(input, "Fila:", 0, 2);
+            tirada[1] = demanaNumero(input, "Columna:", 0, 2);
         }while(tauler[tirada[0]][tirada[1]]!=VALOR.BUIDA);
         return tirada;
+    }
+
+    public static int demanaNumero(Scanner input, String txt, int min, int max){
+        int n;
+        do {
+            System.out.print(txt);
+            n = input.nextInt();
+        }while(!(n>=min && n<=max));
+        return n;
     }
 
     public static boolean hihaGuanyador(){
