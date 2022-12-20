@@ -6,9 +6,12 @@ public class TresEnLinia {
     public static int numTirades =0;
     public enum VALOR {X, O, BUIDA};
     public static VALOR[][] tauler;
+    public static String[] jugadors;
+    public static int numJugadors = 2;
 
     public static void main(String[] args){
         Scanner input = new Scanner(System.in);
+        demanaJugadors(input);
         do {
             initTauler();
             printTauler();
@@ -20,6 +23,14 @@ public class TresEnLinia {
             } while (!hihaGuanyador() && numTirades < 9);
             printResultat();
         } while(continuar(input));
+    }
+
+    public static void demanaJugadors(Scanner input){
+        jugadors = new String[numJugadors];
+        for(int j=0; j<numJugadors; j++){
+            System.out.printf("Nom del Jugador %d:", j);
+            jugadors[j] = input.next();
+        }
     }
 
     public static boolean continuar(Scanner input){
