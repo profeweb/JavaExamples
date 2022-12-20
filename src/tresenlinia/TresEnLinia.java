@@ -8,6 +8,7 @@ public class TresEnLinia {
     public static VALOR[][] tauler;
     public static String[] jugadors;
     public static int numJugadors = 2;
+    public static int N = 5;
 
     public static void main(String[] args){
         Scanner input = new Scanner(System.in);
@@ -16,13 +17,17 @@ public class TresEnLinia {
             initTauler();
             printTauler();
             do {
-                int[] t = demanaTirada(input);
-                tauler[t[0]][t[1]] = (numTirades % 2 == 0) ? VALOR.X : VALOR.O;
-                printTauler();
-                numTirades++;
-            } while (!hihaGuanyador() && numTirades < 9);
+                jugar(input);
+            } while (!hihaGuanyador() && numTirades < N*N);
             printResultat();
         } while(continuar(input));
+    }
+
+    public static void jugar(Scanner input){
+        int[] t = demanaTirada(input);
+        tauler[t[0]][t[1]] = (numTirades % 2 == 0) ? VALOR.X : VALOR.O;
+        printTauler();
+        numTirades++;
     }
 
     public static void demanaJugadors(Scanner input){
@@ -42,7 +47,7 @@ public class TresEnLinia {
     public static void printResultat(){
         if(hihaGuanyador()){
             int jugador = (numTirades-1)%2;
-            System.out.printf("Guanya %s", VALOR.values()[jugador]);
+            System.out.printf("Guanya %s", jugadors[jugador]);
         }
         else {
             System.out.println("EMPAT!!!!! :)");
@@ -50,7 +55,7 @@ public class TresEnLinia {
     }
 
     public static void initTauler(){
-        tauler = new VALOR[3][3];
+        tauler = new VALOR[N][N];
         for(int f=0; f<tauler.length; f++){
             for(int c=0; c<tauler[0].length; c++) {
                 tauler[f][c] = VALOR.BUIDA;
@@ -76,8 +81,8 @@ public class TresEnLinia {
     public static int[] demanaTirada(Scanner input){
         int[] tirada = new int[2];
         do {
-            tirada[0] = demanaNumero(input, "Fila:", 0, 2);
-            tirada[1] = demanaNumero(input, "Columna:", 0, 2);
+            tirada[0] = demanaNumero(input, "Fila:", 0, N-1);
+            tirada[1] = demanaNumero(input, "Columna:", 0, N-1);
         }while(tauler[tirada[0]][tirada[1]]!=VALOR.BUIDA);
         return tirada;
     }
@@ -109,15 +114,19 @@ public class TresEnLinia {
     }
 
     public static boolean filaIguals(int f){
-        return (tauler[f][0]==tauler[f][1] &&
-                tauler[f][1]==tauler[f][2]&&
-                tauler[f][0]!=VALOR.BUIDA);
+        boolean b = true;
+        for(int c=0; c<tauler[0].length-1; c++){
+            b = b && (tauler[f][c] == tauler[f][c+1]);
+        }
+        return (b && tauler[f][0]!=VALOR.BUIDA);
     }
 
     public static boolean columnaIguals(int c){
-        return (tauler[0][c]==tauler[1][c] &&
-                tauler[1][c]==tauler[2][c]&&
-                tauler[0][c]!=VALOR.BUIDA);
+        boolean b = true;
+        for(int f=0; f<tauler.length-1; f++){
+            b = b && (tauler[f][c]==tauler[f+1][c]);
+        }
+        return b && (tauler[0][c]!=VALOR.BUIDA);
     }
 
     public static boolean diagAscIguals(){
