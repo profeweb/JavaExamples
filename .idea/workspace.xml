@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e3daea28-0551-4b13-ab45-39306edd8b83" name="Changes" comment="Exemples">
-      <change afterPath="$PROJECT_DIR$/src/conversions/Binari2Decimal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/conversions/Decimal2binari.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/conversions/Decimal2hexadecimal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/conversions/Decimal2octal.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tresenlinia/TresEnLinia.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tresenlinia/TresEnLinia.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,20 +41,20 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="conversions" />
       <recent name="arrays" />
       <recent name="parametres" />
       <recent name="recursius" />
       <recent name="funcions" />
-      <recent name="bucles" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.conversions.Binari2Decimal">
-    <configuration name="ComparaMatrius" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="arrays.ComparaMatrius" />
+  <component name="RunManager" selected="Application.Decimal2hexadecimalArray">
+    <configuration name="Decimal2binari" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="conversions.Decimal2binari" />
       <module name="JavaExamples" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="arrays.*" />
+          <option name="PATTERN" value="conversions.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -63,12 +62,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MatriuIdentitat" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="arrays.MatriuIdentitat" />
+    <configuration name="Decimal2hexadecimal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="conversions.Decimal2hexadecimal" />
       <module name="JavaExamples" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="arrays.*" />
+          <option name="PATTERN" value="conversions.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -76,12 +75,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PasValor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="parametres.PasValor" />
+    <configuration name="Decimal2hexadecimalArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="conversions.Decimal2hexadecimalArray" />
       <module name="JavaExamples" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="parametres.*" />
+          <option name="PATTERN" value="conversions.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -89,12 +88,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TresEnLinia" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="tresenlinia.TresEnLinia" />
+    <configuration name="Decimal2octal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="conversions.Decimal2octal" />
       <module name="JavaExamples" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tresenlinia.*" />
+          <option name="PATTERN" value="conversions.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -117,11 +116,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Decimal2hexadecimalArray" />
+        <item itemvalue="Application.Decimal2hexadecimal" />
+        <item itemvalue="Application.Decimal2octal" />
+        <item itemvalue="Application.Decimal2binari" />
         <item itemvalue="Application.conversions.Binari2Decimal" />
-        <item itemvalue="Application.TresEnLinia" />
-        <item itemvalue="Application.ComparaMatrius" />
-        <item itemvalue="Application.MatriuIdentitat" />
-        <item itemvalue="Application.PasValor" />
       </list>
     </recent_temporary>
   </component>
@@ -187,14 +186,7 @@
       <workItem from="1671519660949" duration="11782000" />
       <workItem from="1671538513152" duration="595000" />
       <workItem from="1671560143903" duration="39000" />
-      <workItem from="1676283540342" duration="1956000" />
-    </task>
-    <task id="LOCAL-00011" summary="Exemples">
-      <created>1668496316036</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1668496316037</updated>
+      <workItem from="1676283540342" duration="3035000" />
     </task>
     <task id="LOCAL-00012" summary="Exemples">
       <created>1668498148903</created>
@@ -532,7 +524,14 @@
       <option name="project" value="LOCAL" />
       <updated>1671526415680</updated>
     </task>
-    <option name="localTasksCounter" value="60" />
+    <task id="LOCAL-00060" summary="Exemples">
+      <created>1676287440872</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1676287440873</updated>
+    </task>
+    <option name="localTasksCounter" value="61" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
