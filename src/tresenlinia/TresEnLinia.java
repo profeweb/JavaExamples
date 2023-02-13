@@ -47,7 +47,7 @@ public class TresEnLinia {
     public static void printResultat(){
         if(hihaGuanyador()){
             int jugador = (numTirades-1)%2;
-            System.out.printf("Guanya %s", jugadors[jugador]);
+            System.out.printf("Guanya %s!!!\n", jugadors[jugador]);
         }
         else {
             System.out.println("EMPAT!!!!! :)");
@@ -130,14 +130,19 @@ public class TresEnLinia {
     }
 
     public static boolean diagAscIguals(){
-        return (tauler[2][0]==tauler[1][1] &&
-                tauler[1][1]==tauler[0][2]&&
-                tauler[1][1]!=VALOR.BUIDA);
+        boolean b = true;
+        int nc = tauler.length-1;
+        for(int d=0; d<nc; d++){
+            b = b && (tauler[nc-d][d]==tauler[nc-d-1][d+1]);
+        }
+        return b && (tauler[nc][0]!=VALOR.BUIDA);
     }
 
     public static boolean diagDescIguals(){
-        return (tauler[0][0]==tauler[1][1] &&
-                tauler[1][1]==tauler[2][2]&&
-                tauler[1][1]!=VALOR.BUIDA);
+        boolean b = true;
+        for(int d=0; d<tauler.length-1; d++) {
+            b = b && (tauler[d][d] == tauler[d+1][d+1]);
+        }
+        return b && (tauler[0][0]!=VALOR.BUIDA);
     }
 }

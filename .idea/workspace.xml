@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e3daea28-0551-4b13-ab45-39306edd8b83" name="Changes" comment="Exemples">
+      <change afterPath="$PROJECT_DIR$/src/conversions/Binari2Decimal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/conversions/Decimal2binari.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/tresenlinia/TresEnLinia.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tresenlinia/TresEnLinia.java" afterDir="false" />
     </list>
@@ -47,7 +49,7 @@
       <recent name="bucles" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TresEnLinia">
+  <component name="RunManager" selected="Application.conversions.Binari2Decimal">
     <configuration name="ComparaMatrius" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="arrays.ComparaMatrius" />
       <module name="JavaExamples" />
@@ -67,19 +69,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="arrays.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PasReferencia" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="parametres.PasReferencia" />
-      <module name="JavaExamples" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="parametres.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -113,13 +102,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="conversions.Binari2Decimal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="conversions.Binari2Decimal" />
+      <module name="JavaExamples" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="conversions.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.conversions.Binari2Decimal" />
         <item itemvalue="Application.TresEnLinia" />
         <item itemvalue="Application.ComparaMatrius" />
         <item itemvalue="Application.MatriuIdentitat" />
         <item itemvalue="Application.PasValor" />
-        <item itemvalue="Application.PasReferencia" />
       </list>
     </recent_temporary>
   </component>
@@ -182,14 +184,10 @@
       <workItem from="1671103984164" duration="2202000" />
       <workItem from="1671445372627" duration="6367000" />
       <workItem from="1671471603492" duration="915000" />
-      <workItem from="1671519660949" duration="6684000" />
-    </task>
-    <task id="LOCAL-00010" summary="Exemples">
-      <created>1668437247174</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1668437247178</updated>
+      <workItem from="1671519660949" duration="11782000" />
+      <workItem from="1671538513152" duration="595000" />
+      <workItem from="1671560143903" duration="39000" />
+      <workItem from="1676283540342" duration="1956000" />
     </task>
     <task id="LOCAL-00011" summary="Exemples">
       <created>1668496316036</created>
@@ -527,7 +525,14 @@
       <option name="project" value="LOCAL" />
       <updated>1671524429646</updated>
     </task>
-    <option name="localTasksCounter" value="59" />
+    <task id="LOCAL-00059" summary="Exemples">
+      <created>1671526415680</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1671526415680</updated>
+    </task>
+    <option name="localTasksCounter" value="60" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
