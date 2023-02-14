@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e3daea28-0551-4b13-ab45-39306edd8b83" name="Changes" comment="Exemples">
-      <change afterPath="$PROJECT_DIR$/src/conversions/Decimal2hexadecimal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/conversions/Decimal2octal.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -48,7 +46,7 @@
       <recent name="funcions" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Decimal2hexadecimalArray">
+  <component name="RunManager" selected="Application.Octal2Decimal">
     <configuration name="Decimal2binari" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="conversions.Decimal2binari" />
       <module name="JavaExamples" />
@@ -101,8 +99,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="conversions.Binari2Decimal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="conversions.Binari2Decimal" />
+    <configuration name="Octal2Decimal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="conversions.Octal2Decimal" />
       <module name="JavaExamples" />
       <extension name="coverage">
         <pattern>
@@ -116,11 +114,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Decimal2hexadecimalArray" />
+        <item itemvalue="Application.Octal2Decimal" />
         <item itemvalue="Application.Decimal2hexadecimal" />
         <item itemvalue="Application.Decimal2octal" />
+        <item itemvalue="Application.Decimal2hexadecimalArray" />
         <item itemvalue="Application.Decimal2binari" />
-        <item itemvalue="Application.conversions.Binari2Decimal" />
       </list>
     </recent_temporary>
   </component>
@@ -186,14 +184,9 @@
       <workItem from="1671519660949" duration="11782000" />
       <workItem from="1671538513152" duration="595000" />
       <workItem from="1671560143903" duration="39000" />
-      <workItem from="1676283540342" duration="3035000" />
-    </task>
-    <task id="LOCAL-00012" summary="Exemples">
-      <created>1668498148903</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1668498148903</updated>
+      <workItem from="1676283540342" duration="3261000" />
+      <workItem from="1676357981687" duration="614000" />
+      <workItem from="1676359152966" duration="837000" />
     </task>
     <task id="LOCAL-00013" summary="Exemples">
       <created>1668517550570</created>
@@ -531,7 +524,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676287440873</updated>
     </task>
-    <option name="localTasksCounter" value="61" />
+    <task id="LOCAL-00061" summary="Exemples">
+      <created>1676292290596</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1676292290596</updated>
+    </task>
+    <option name="localTasksCounter" value="62" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
