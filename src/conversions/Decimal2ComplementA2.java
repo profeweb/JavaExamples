@@ -57,31 +57,31 @@ public class Decimal2ComplementA2 {
     }
 
     public static int[] complement(int[] array){
-        int [] carray = new int[array.length];
+        int [] compArray = new int[array.length];
         for(int i=0; i<array.length; i++){
-            carray[i] = (array[i]==0)? 1 : 0;
+            compArray[i] = (array[i]==0)? 1 : 0;
         }
-        return carray;
+        return compArray;
     }
 
     public static int[] sumaUn(int[] array){
-        int [] sarray = new int[array.length];
+        int [] sumArray = new int[array.length];
         int carry = 1;
         for(int i=array.length-1; i>=0; i--) {
             if (array[i] + carry == 0){
-                sarray[i] = 0;
+                sumArray[i] = 0;
                 carry = 0;
             }
             else if (array[i] + carry == 1){
-                sarray[i] = 1;
+                sumArray[i] = 1;
                 carry = 0;
             }
             else if (array[i] + carry == 2){
-                sarray[i] = 0;
+                sumArray[i] = 0;
                 carry = 1;
             }
         }
-        return sarray;
+        return sumArray;
     }
 
 
