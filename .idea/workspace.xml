@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e3daea28-0551-4b13-ab45-39306edd8b83" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/poo/cotxes/Cotxe.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/poo/cotxes/Cotxes.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/poo/alumnes/ExempleClasseAlumne.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/poo/alumnes/ExempleClasseAlumne.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,13 +48,13 @@
       <recent name="funcions" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ExempleClasseAlumne">
-    <configuration name="Decimal2ComplementA2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="conversions.Decimal2ComplementA2" />
+  <component name="RunManager" selected="Application.Cotxes">
+    <configuration name="Cotxes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="poo.cotxes.Cotxes" />
       <module name="JavaExamples" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="conversions.*" />
+          <option name="PATTERN" value="poo.cotxes.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -61,8 +62,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Decimal2hexadecimal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="conversions.Decimal2hexadecimal" />
+    <configuration name="Decimal2ComplementA2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="conversions.Decimal2ComplementA2" />
       <module name="JavaExamples" />
       <extension name="coverage">
         <pattern>
@@ -115,11 +116,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Cotxes" />
         <item itemvalue="Application.ExempleClasseAlumne" />
         <item itemvalue="Application.Decimal2ComplementA2" />
         <item itemvalue="Application.Hexa2Decimal" />
         <item itemvalue="Application.Octal2Decimal" />
-        <item itemvalue="Application.Decimal2hexadecimal" />
       </list>
     </recent_temporary>
   </component>
@@ -196,14 +197,7 @@
       <workItem from="1677050756784" duration="2998000" />
       <workItem from="1678097437524" duration="1392000" />
       <workItem from="1678193525946" duration="129000" />
-      <workItem from="1678702588747" duration="4906000" />
-    </task>
-    <task id="LOCAL-00018" summary="Exemples">
-      <created>1669026059727</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
-      <option name="project" value="LOCAL" />
-      <updated>1669026059727</updated>
+      <workItem from="1678702588747" duration="6182000" />
     </task>
     <task id="LOCAL-00019" summary="Exemples">
       <created>1669029500306</created>
@@ -541,7 +535,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678706016458</updated>
     </task>
-    <option name="localTasksCounter" value="67" />
+    <task id="LOCAL-00067" summary="Exemples">
+      <created>1678707546738</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1678707546738</updated>
+    </task>
+    <option name="localTasksCounter" value="68" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
