@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e3daea28-0551-4b13-ab45-39306edd8b83" name="Changes" comment="Exemples">
-      <change afterPath="$PROJECT_DIR$/src/conversions/Decimal2ComplementA2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/poo/alumnes/Alumne.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/poo/alumnes/ExempleClasseAlumne.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/conversions/Decimal2ComplementA2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/conversions/Decimal2ComplementA2.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,7 +49,7 @@
       <recent name="funcions" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Decimal2ComplementA2">
+  <component name="RunManager" selected="Application.ExempleClasseAlumne">
     <configuration name="Decimal2ComplementA2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="conversions.Decimal2ComplementA2" />
       <module name="JavaExamples" />
@@ -74,12 +76,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Decimal2octal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="conversions.Decimal2octal" />
+    <configuration name="ExempleClasseAlumne" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="poo.alumnes.ExempleClasseAlumne" />
       <module name="JavaExamples" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="conversions.*" />
+          <option name="PATTERN" value="poo.alumnes.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -115,11 +117,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ExempleClasseAlumne" />
         <item itemvalue="Application.Decimal2ComplementA2" />
         <item itemvalue="Application.Hexa2Decimal" />
         <item itemvalue="Application.Octal2Decimal" />
         <item itemvalue="Application.Decimal2hexadecimal" />
-        <item itemvalue="Application.Decimal2octal" />
       </list>
     </recent_temporary>
   </component>
@@ -193,21 +195,10 @@
       <workItem from="1676891001077" duration="740000" />
       <workItem from="1676904351239" duration="1713000" />
       <workItem from="1676962781142" duration="1970000" />
-      <workItem from="1677050756784" duration="2709000" />
-    </task>
-    <task id="LOCAL-00015" summary="Exemples">
-      <created>1668678677801</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1668678677801</updated>
-    </task>
-    <task id="LOCAL-00016" summary="Exemples">
-      <created>1668680274715</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1668680274715</updated>
+      <workItem from="1677050756784" duration="2998000" />
+      <workItem from="1678097437524" duration="1392000" />
+      <workItem from="1678193525946" duration="129000" />
+      <workItem from="1678702588747" duration="3239000" />
     </task>
     <task id="LOCAL-00017" summary="Exemples">
       <created>1668969342385</created>
@@ -538,7 +529,21 @@
       <option name="project" value="LOCAL" />
       <updated>1676926460627</updated>
     </task>
-    <option name="localTasksCounter" value="64" />
+    <task id="LOCAL-00064" summary="Exemples">
+      <created>1677054545712</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1677054545712</updated>
+    </task>
+    <task id="LOCAL-00065" summary="Exemples">
+      <created>1677054635317</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1677054635317</updated>
+    </task>
+    <option name="localTasksCounter" value="66" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

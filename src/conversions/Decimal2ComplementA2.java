@@ -38,12 +38,10 @@ public class Decimal2ComplementA2 {
     public static int[] decimalToBinary(int nd){
         int nb[] = new int[8];
         int index = 7;
-        int pot = 1;
         while(nd!=0 && index>=0){
             int r = nd % 2;
             nd = nd / 2;
             nb[index] = r;
-            pot = 10* pot;
             index--;
         }
         return nb;
