@@ -21,7 +21,7 @@ public class Poligon {
             angle += 2*Math.PI / numPunts;
         }
     }
-    
+
 
     int getNumPunts(){
         return punts.length;
