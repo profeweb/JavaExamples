@@ -4,6 +4,10 @@ public class Planetari {
 
     public static void main(String[] args){
 
+        Estrella e = new Estrella("Canopius", "1234", 'F', 16.3f);
+        e.print();
+
+        /*
         CosAstronomic p1 = new CosAstronomic("Terra", CosAstronomic.Tipus.PLANETA, "2641");
         p1.setMasa(59735e24);
         p1.setGravetat(9.780327);
@@ -18,6 +22,8 @@ public class Planetari {
 
         CosAstronomic c2 = new CosAstronomic("Sol", CosAstronomic.Tipus.ESTRELLA, "2609");
         c2.print();
+
+         */
 
     }
 }
