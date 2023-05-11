@@ -154,7 +154,7 @@ public class CosAstronomic {
     }
 
 
-    // Altres
+    // Altres mètodes
 
     void print(){
         System.out.println("COS ASTRONÒMIC: ");

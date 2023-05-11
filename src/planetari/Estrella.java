@@ -2,49 +2,54 @@ package planetari;
 
 public class Estrella extends CosAstronomic {
 
+    // Atributs
     char tipusEspectral;
     float brillo;
     float temperatura;
     float indexColorUB;
 
+    // Contructor
     Estrella(String n, String c, char te, float b){
         super(n, CosAstronomic.Tipus.ESTRELLA, c);
         this.tipusEspectral = te;
         this.brillo = b;
     }
 
+    // Getters
     public char getTipusEspectral() {
         return tipusEspectral;
-    }
-
-    public void setTipusEspectral(char tipusEspectral) {
-        this.tipusEspectral = tipusEspectral;
     }
 
     public float getBrillo() {
         return brillo;
     }
 
-    public void setBrillo(float brillo) {
-        this.brillo = brillo;
-    }
-
     public float getTemperatura() {
         return temperatura;
-    }
-
-    public void setTemperatura(float temperatura) {
-        this.temperatura = temperatura;
     }
 
     public float getIndexColorUB() {
         return indexColorUB;
     }
 
+    // Setters
+    public void setTipusEspectral(char tipusEspectral) {
+        this.tipusEspectral = tipusEspectral;
+    }
+
+    public void setBrillo(float brillo) {
+        this.brillo = brillo;
+    }
+
+    public void setTemperatura(float temperatura) {
+        this.temperatura = temperatura;
+    }
+
     public void setIndexColorUB(float indexColorUB) {
         this.indexColorUB = indexColorUB;
     }
 
+    // Altres mètodes
     void print(){
         System.out.println("ESTRELLA: ");
         System.out.println("\t Nom: "+this.nom);

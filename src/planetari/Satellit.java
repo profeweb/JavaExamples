@@ -4,49 +4,54 @@ public class Satellit extends CosAstronomic {
 
     enum TipusSatelit {NATURAL, PASTOR,  TROIA, COORBITAL, ASTEROIDAL};
 
+    // Atributs
     TipusSatelit tipusSatelit;
     Planeta planeta;
     double pressio;
     float temperatura;
 
+    // Constructor
     Satellit(String n, String c, TipusSatelit ts, Planeta p){
         super(n, Tipus.SATÈLIT, c);
         this.tipusSatelit = ts;
         this.planeta = p;
     }
 
+    // Getters
     public TipusSatelit getTipusSatelit() {
         return tipusSatelit;
-    }
-
-    public void setTipusSatelit(TipusSatelit tipusSatelit) {
-        this.tipusSatelit = tipusSatelit;
     }
 
     public Planeta getPlaneta() {
         return planeta;
     }
 
-    public void setPlaneta(Planeta planeta) {
-        this.planeta = planeta;
-    }
-
     public double getPressio() {
         return pressio;
-    }
-
-    public void setPressio(double pressio) {
-        this.pressio = pressio;
     }
 
     public float getTemperatura() {
         return temperatura;
     }
 
+    // Setters
+    public void setTipusSatelit(TipusSatelit tipusSatelit) {
+        this.tipusSatelit = tipusSatelit;
+    }
+
+    public void setPlaneta(Planeta planeta) {
+        this.planeta = planeta;
+    }
+
+    public void setPressio(double pressio) {
+        this.pressio = pressio;
+    }
+
     public void setTemperatura(float temperatura) {
         this.temperatura = temperatura;
     }
 
+    // Altres mètodes
     void print(){
         System.out.println("SATÈL·LIT: ");
         System.out.println("\t Nom: "+this.nom);

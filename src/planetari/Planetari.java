@@ -4,24 +4,27 @@ public class Planetari {
 
     public static void main(String[] args){
 
-        Estrella e = new Estrella("Sol", "2609", 'F', 7500);
-        e.print();
+        // 1 Estrella
+        Estrella sol = new Estrella ( "Sol", "2609", 'G', -26.8f );
 
-        Planeta p1 = new Planeta("Terra", "2641", Planeta.TipusPlaneta.ROCOS, e);
-        p1.setMasa(59735e24);
-        p1.setGravetat(9.780327);
-        p1.setRadiOrbita(0.999855);
-        p1.setAnells(false);
-        p1.setNumSatellits(1);
-        p1.print();
+        // 2 Planetes
+        Planeta terra, mart;
 
-        CosAstronomic p2 = new CosAstronomic("Mart", CosAstronomic.Tipus.PLANETA, "2642");
-        p2.setMasa(6.4185e23);
-        p2.setGravetat(3.711);
-        p2.setRadiOrbita(1.523662);
-        p2.print();
+        terra = new Planeta( "Terra" , "2641" , Planeta.TipusPlaneta.ROCOS, sol);
+        mart = new Planeta( "Mart" , "2642" , Planeta.TipusPlaneta.ROCOS, sol);
 
-        Satellit lluna = new Satellit("LLuna", "2222", Satellit.TipusSatelit.NATURAL, p1);
+        // 2 variables Satèlits
+        Satellit lluna, deimos;
+
+        // Instanciar els 2 objectes Satèlit
+        lluna = new Satellit("Lluna", "2600", Satellit.TipusSatelit.NATURAL, terra);
+        deimos = new Satellit("Deimos", "0000", Satellit.TipusSatelit.NATURAL, mart);
+
+        // Imprimir dades dels 5 cossos astronòmics creats
+        sol.print();
+        terra.print();
+        mart.print();
         lluna.print();
+        deimos.print();
     }
 }

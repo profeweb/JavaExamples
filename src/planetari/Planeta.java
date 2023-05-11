@@ -4,48 +4,54 @@ public class Planeta extends CosAstronomic {
 
     enum TipusPlaneta {ROCOS, GASOS, NAN };
 
+    // Atributs
     TipusPlaneta tipusPlaneta;
     Estrella estrella;
     boolean anells;
     int numSatellits;
 
+    // Constructor
     Planeta(String n, String c, TipusPlaneta tp, Estrella e){
         super(n, CosAstronomic.Tipus.PLANETA, c);
         this.tipusPlaneta = tp;
         this.estrella = e;
     }
 
+    // Getters
     public TipusPlaneta getTipusPlaneta() {
         return tipusPlaneta;
-    }
-
-    public void setTipusPlaneta(TipusPlaneta tipusPlaneta) {
-        this.tipusPlaneta = tipusPlaneta;
     }
 
     public Estrella getEstrella() {
         return estrella;
     }
 
-    public void setEstrella(Estrella estrella) {
-        this.estrella = estrella;
-    }
-
     public boolean isAnells() {
         return anells;
-    }
-
-    public void setAnells(boolean anells) {
-        this.anells = anells;
     }
 
     public int getNumSatellits() {
         return numSatellits;
     }
 
+    // Setters
+    public void setTipusPlaneta(TipusPlaneta tipusPlaneta) {
+        this.tipusPlaneta = tipusPlaneta;
+    }
+
+    public void setEstrella(Estrella estrella) {
+        this.estrella = estrella;
+    }
+
+    public void setAnells(boolean anells) {
+        this.anells = anells;
+    }
+
     public void setNumSatellits(int numSatellits) {
         this.numSatellits = numSatellits;
     }
+
+    // Altres mètodes
 
     public void print(){
         System.out.println("PLANETA: ");
