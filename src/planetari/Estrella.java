@@ -73,4 +73,15 @@ public class Estrella extends CosAstronomic {
         System.out.println("\t\t Excentricitat: "+this.excentricitat);
         System.out.println("");
     }
+
+    void print2(){
+
+        super.print();
+
+        System.out.println("\t Propietats Estrella: ");
+        System.out.println("\t\t Tipus Espectral: "+this.tipusEspectral);
+        System.out.println("\t\t Brillo: "+this.brillo);
+        System.out.println("\t\t Temperatura: "+this.temperatura);
+        System.out.println("\t\t Index de Color UB: "+this.gravetat);
+    }
 }
