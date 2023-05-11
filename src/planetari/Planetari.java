@@ -21,5 +21,7 @@ public class Planetari {
         p2.setRadiOrbita(1.523662);
         p2.print();
 
+        Satellit lluna = new Satellit("LLuna", "2222", Satellit.TipusSatelit.NATURAL, p1);
+        lluna.print();
     }
 }
