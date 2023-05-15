@@ -26,7 +26,6 @@ public class CosAstronomic {
     double periodeRotació;
     double excentricitat;
 
-
     // Constructor
     CosAstronomic(String n, Tipus t, String c){
         this.nom = n;

@@ -4,27 +4,33 @@ public class Planetari {
 
     public static void main(String[] args){
 
+        CosAstronomic[] cossos = new CosAstronomic[12];
+
         // 1 Estrella
-        Estrella sol = new Estrella ( "Sol", "2609", 'G', -26.8f );
+        cossos[0] = new Estrella ( "Sol", "2609", 'G', -26.8f );
 
         // 2 Planetes
-        Planeta terra, mart;
+        cossos[1] = new Planeta( "Terra" , "2641" , Planeta.TipusPlaneta.ROCOS, (Estrella)cossos[0]);
+        cossos[2] = new Planeta( "Mart" , "2642" , Planeta.TipusPlaneta.ROCOS, (Estrella)cossos[0]);
 
-        terra = new Planeta( "Terra" , "2641" , Planeta.TipusPlaneta.ROCOS, sol);
-        mart = new Planeta( "Mart" , "2642" , Planeta.TipusPlaneta.ROCOS, sol);
+        // 2 Satèlits
+        cossos[3] = new Satellit("Lluna", "2600", Satellit.TipusSatelit.NATURAL, (Planeta)cossos[1]);
+        cossos[4] = new Satellit("Deimos", "0000", Satellit.TipusSatelit.NATURAL, (Planeta)cossos[2]);
 
-        // 2 variables Satèlits
-        Satellit lluna, deimos;
+        // Imprimir els planetes creats
+        for(int i=0; i<cossos.length; i++) {
+            if(cossos[i]!=null && cossos[i].tipus== CosAstronomic.Tipus.PLANETA) {
+                cossos[i].print();
+            }
+        }
 
-        // Instanciar els 2 objectes Satèlit
-        lluna = new Satellit("Lluna", "2600", Satellit.TipusSatelit.NATURAL, terra);
-        deimos = new Satellit("Deimos", "0000", Satellit.TipusSatelit.NATURAL, mart);
+        // Imprimir els satèl·lits creats
+        for(int i=0; i<cossos.length; i++) {
+            if(cossos[i]!=null && cossos[i] instanceof Satellit) {
+                cossos[i].print();
+            }
+        }
 
-        // Imprimir dades dels 5 cossos astronòmics creats
-        sol.print();
-        terra.print();
-        mart.print();
-        lluna.print();
-        deimos.print();
+
     }
 }
