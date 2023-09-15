@@ -37,5 +37,31 @@ public class Main {
 
         c3.addRunner(r1);
         c3.addRunner(r3);
+
+        // Afegir carreres a corredors
+        r1.addRace("Puig Major");
+        r1.addTime(65);
+
+        r1.addRace("Son Macia");
+        r1.addTime(55);
+
+        r1.addRace("Lluc");
+        r1.addTime(75);
+
+        r1.addRace("Petra");
+        r1.addTime(45);
+
+        r1.addRace("Calvià");
+        r1.addTime(35);
+
+        r1.addRace("Volta al Món");
+        r1.addRace("Volta al Món al enrevés");
+
+        float minTempsR1 = r1.bestTime();
+        System.out.printf("El millor temps de %s és %f.\n", r1.getName(), minTempsR1);
+
+        float avgTempsR1 = r1.averageTimes();
+        System.out.printf("Mitjana de temps de %s és %f.\n", r1.getName(), avgTempsR1);
+
     }
 }

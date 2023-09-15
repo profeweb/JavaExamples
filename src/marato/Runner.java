@@ -12,12 +12,20 @@ public class Runner {
 
     public Runner(String name) {
         this.name = name;
+        this.team = "Sense Equip";
+        this.raceIDs = new String[5];
+        this.times = new float[5];
+        this.numRaces = 0;
+        this.professional = false;
     }
 
     public Runner(String name, String team, boolean professional) {
         this.name = name;
         this.team = team;
         this.professional = professional;
+        this.raceIDs = new String[5];
+        this.times = new float[5];
+        this.numRaces = 0;
     }
 
     // Getters (Accesor)
@@ -59,19 +67,36 @@ public class Runner {
     // Altres mètodes
 
     public void addRace(String idRace){
-
+        if(numRaces<5) {
+            raceIDs[numRaces] = idRace;
+            numRaces++;
+            System.out.printf("Has afegit la carrera %s al corredor %s.\n", idRace, this.name);
+        }
+        else {
+            System.out.println("Error! Màxim (5) de carreres corregudes pel corredor.");
+        }
     }
 
     public void addTime(float time){
-
+        times[numRaces-1] = time;
     }
 
     public float bestTime(){
-        return 0;
+        float minTime = Float.MAX_VALUE;
+        for(int i=0; i<numRaces; i++){
+            if(times[i]<minTime){
+                minTime = times[i];
+            }
+        }
+        return minTime;
     }
 
     public float averageTimes(){
-        return 0;
+        float avg = 0;
+        for(int i=0; i<numRaces; i++){
+            avg += times[i];
+        }
+        return avg / numRaces;
     }
 
     public String bestRace(){

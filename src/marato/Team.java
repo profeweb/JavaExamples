@@ -37,5 +37,7 @@ public class Team {
     public void addRunner(Runner r){
     }
 
-    public float averageTimes(){ return 0; }
+    public float averageTimes(){
+        return 0;
+    }
 }
