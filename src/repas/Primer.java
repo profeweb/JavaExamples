@@ -25,8 +25,10 @@ public class Primer {
         //invertirArray(numeros);
         //printArray(numeros);
 
-        ordenaArray(numeros);
-        printArray(numeros);
+        //ordenaArray(numeros);
+        //printArray(numeros);
+
+        System.out.println("Mitjana: " + mitjanaArray(numeros));
 
     }
 
@@ -81,7 +83,7 @@ public class Primer {
         }
     }
 
-    public static  float mitjanaArray(int[] a){
+    public static float mitjanaArray(int[] a){
         float sum = 0;
         for(int i=0; i<a.length; i++){
             sum += a[i];
