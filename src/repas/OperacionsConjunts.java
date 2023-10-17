@@ -9,9 +9,12 @@ public class OperacionsConjunts {
         int[] a = {3, 7, 8, 1, 4};
         int[] b = {2, 7, 1, 6, 9};
 
-        //int[] c = unioAmbRepetits(a, b);
+        int[] c = unioAmbRepetits(a, b);
         int[] d = unioSenseRepetits(a, b);
-        imprimirArray(d);
+        int[] e = interseccio(a, b);
+        int[] f = diferencia(a, b);
+
+        imprimirArray(f);
 
         //System.out.printf("%d dins array A: %b.\n", 5, estaDinsArray(5, a));
         //System.out.printf("%d dins array A: %b.\n", 8, estaDinsArray(8, a));
@@ -80,6 +83,18 @@ public class OperacionsConjunts {
                     c[nc] = b[i];
                     nc++;
                 }
+            }
+        }
+        return c;
+    }
+
+    public static int[] diferencia(int[] a, int[] b){
+        int[] c =  new int[a.length];
+        int nc = 0;
+        for(int i=0; i<a.length; i++){
+            if(!estaDinsArray(a[i], b)){
+                c[nc] = a[i];
+                nc++;
             }
         }
         return c;

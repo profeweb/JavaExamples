@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e3daea28-0551-4b13-ab45-39306edd8b83" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/repas/OperacionsConjunts.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/repas/OperacionsConjunts.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/repas/OperacionsConjunts.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -219,14 +218,7 @@
       <workItem from="1696324310907" duration="625000" />
       <workItem from="1696934041618" duration="5140000" />
       <workItem from="1697020958441" duration="1188000" />
-      <workItem from="1697537554234" duration="4024000" />
-    </task>
-    <task id="LOCAL-00035" summary="Exemples">
-      <created>1669634368833</created>
-      <option name="number" value="00035" />
-      <option name="presentableId" value="LOCAL-00035" />
-      <option name="project" value="LOCAL" />
-      <updated>1669634368833</updated>
+      <workItem from="1697537554234" duration="4662000" />
     </task>
     <task id="LOCAL-00036" summary="Exemples">
       <created>1669648970624</created>
@@ -564,7 +556,14 @@
       <option name="project" value="LOCAL" />
       <updated>1696939240310</updated>
     </task>
-    <option name="localTasksCounter" value="84" />
+    <task id="LOCAL-00084" summary="Exemples">
+      <created>1697542829916</created>
+      <option name="number" value="00084" />
+      <option name="presentableId" value="LOCAL-00084" />
+      <option name="project" value="LOCAL" />
+      <updated>1697542829916</updated>
+    </task>
+    <option name="localTasksCounter" value="85" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
