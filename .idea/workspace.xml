@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e3daea28-0551-4b13-ab45-39306edd8b83" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/files/PgnReader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/repas/Primer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/repas/OperacionsConjunts.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -48,13 +47,13 @@
       <recent name="funcions" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Primer">
-    <configuration name="Escola" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="poo.herencia.Escola" />
+  <component name="RunManager" selected="Application.OperacionsConjunts">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="marato.Main" />
       <module name="JavaExamples" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="poo.herencia.*" />
+          <option name="PATTERN" value="marato.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -62,12 +61,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="marato.Main" />
+    <configuration name="OperacionsConjunts" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="repas.OperacionsConjunts" />
       <module name="JavaExamples" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="marato.*" />
+          <option name="PATTERN" value="repas.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -101,7 +100,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Primer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="repas.Primer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="repas.Primer" />
       <module name="JavaExamples" />
       <extension name="coverage">
@@ -116,11 +115,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Primer" />
+        <item itemvalue="Application.OperacionsConjunts" />
+        <item itemvalue="Application.repas.Primer" />
         <item itemvalue="Application.PgnReader" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.Planetari" />
-        <item itemvalue="Application.Escola" />
       </list>
     </recent_temporary>
   </component>
@@ -218,21 +217,9 @@
       <workItem from="1696059737384" duration="8432000" />
       <workItem from="1696237704070" duration="4197000" />
       <workItem from="1696324310907" duration="625000" />
-      <workItem from="1696934041618" duration="4751000" />
-    </task>
-    <task id="LOCAL-00033" summary="Exemples">
-      <created>1669287831590</created>
-      <option name="number" value="00033" />
-      <option name="presentableId" value="LOCAL-00033" />
-      <option name="project" value="LOCAL" />
-      <updated>1669287831590</updated>
-    </task>
-    <task id="LOCAL-00034" summary="Exemples">
-      <created>1669633050380</created>
-      <option name="number" value="00034" />
-      <option name="presentableId" value="LOCAL-00034" />
-      <option name="project" value="LOCAL" />
-      <updated>1669633050381</updated>
+      <workItem from="1696934041618" duration="5140000" />
+      <workItem from="1697020958441" duration="1188000" />
+      <workItem from="1697537554234" duration="4024000" />
     </task>
     <task id="LOCAL-00035" summary="Exemples">
       <created>1669634368833</created>
@@ -563,7 +550,21 @@
       <option name="project" value="LOCAL" />
       <updated>1694782774197</updated>
     </task>
-    <option name="localTasksCounter" value="82" />
+    <task id="LOCAL-00082" summary="Exemples">
+      <created>1696939038606</created>
+      <option name="number" value="00082" />
+      <option name="presentableId" value="LOCAL-00082" />
+      <option name="project" value="LOCAL" />
+      <updated>1696939038607</updated>
+    </task>
+    <task id="LOCAL-00083" summary="Exemples">
+      <created>1696939240309</created>
+      <option name="number" value="00083" />
+      <option name="presentableId" value="LOCAL-00083" />
+      <option name="project" value="LOCAL" />
+      <updated>1696939240310</updated>
+    </task>
+    <option name="localTasksCounter" value="84" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
