@@ -14,7 +14,14 @@ public class OperacionsConjunts {
         int[] e = interseccio(a, b);
         int[] f = diferencia(a, b);
 
-        imprimirArray(f);
+        //imprimirArray(f);
+
+        int[] x = {-3, 6, -2, -1, 7, 9};
+        int[] pos = new int[x.length];
+        int[] neg = new int[x.length];
+        separa(x, pos, neg);
+        //imprimirArray(pos);
+        imprimirArray(neg);
 
         //System.out.printf("%d dins array A: %b.\n", 5, estaDinsArray(5, a));
         //System.out.printf("%d dins array A: %b.\n", 8, estaDinsArray(8, a));
@@ -98,5 +105,19 @@ public class OperacionsConjunts {
             }
         }
         return c;
+    }
+
+    public static void separa(int[] a, int[] pos, int[] neg){
+        int np = 0, nn=0;
+        for(int i=0; i<a.length; i++){
+            if(a[i]>0){
+                pos[np] = a[i];
+                np++;
+            }
+            else if(a[i]<0){
+                neg[nn] = a[i];
+                nn++;
+            }
+        }
     }
 }
