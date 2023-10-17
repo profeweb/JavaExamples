@@ -9,6 +9,9 @@ public class OperacionsConjunts {
         int[] a = {3, 7, 8, 1, 4};
         int[] b = {2, 7, 1, 6, 9};
 
+        //System.out.printf("%d dins array A: %b.\n", 5, estaDinsArray(5, a));
+        //System.out.printf("%d dins array A: %b.\n", 8, estaDinsArray(8, a));
+
         int[] c = unioAmbRepetits(a, b);
         int[] d = unioSenseRepetits(a, b);
         int[] e = interseccio(a, b);
@@ -20,11 +23,12 @@ public class OperacionsConjunts {
         int[] pos = new int[x.length];
         int[] neg = new int[x.length];
         separa(x, pos, neg);
-        //imprimirArray(pos);
+        System.out.println("Positius: ");
+        imprimirArray(pos);
+        System.out.println("Negatius: ");
         imprimirArray(neg);
 
-        //System.out.printf("%d dins array A: %b.\n", 5, estaDinsArray(5, a));
-        //System.out.printf("%d dins array A: %b.\n", 8, estaDinsArray(8, a));
+
     }
 
     public static void imprimirArray(int[] a){
