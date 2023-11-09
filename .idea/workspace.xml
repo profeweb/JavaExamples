@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e3daea28-0551-4b13-ab45-39306edd8b83" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/basics/Divisio2NumerosQualsevols.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/basics/MitjanaTresNumeros.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/basics/Divisio2Numeros.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/basics/Divisio2Numeros.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -40,14 +40,14 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="basics" />
       <recent name="conversions" />
       <recent name="arrays" />
       <recent name="parametres" />
       <recent name="recursius" />
-      <recent name="funcions" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Divisio2Numeros">
+  <component name="RunManager" selected="Application.MitjanaTresNumeros">
     <configuration name="Divisio2Numeros" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="basics.Divisio2Numeros" />
       <module name="JavaExamples" />
@@ -61,12 +61,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="marato.Main" />
+    <configuration name="MitjanaTresNumeros" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="basics.MitjanaTresNumeros" />
       <module name="JavaExamples" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="marato.*" />
+          <option name="PATTERN" value="basics.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -115,11 +115,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MitjanaTresNumeros" />
         <item itemvalue="Application.Divisio2Numeros" />
         <item itemvalue="Application.OperacionsConjunts" />
         <item itemvalue="Application.repas.Primer" />
         <item itemvalue="Application.PgnReader" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -221,14 +221,7 @@
       <workItem from="1697020958441" duration="1188000" />
       <workItem from="1697537554234" duration="5535000" />
       <workItem from="1697618753218" duration="613000" />
-      <workItem from="1699515150089" duration="335000" />
-    </task>
-    <task id="LOCAL-00040" summary="Exemples">
-      <created>1669713113116</created>
-      <option name="number" value="00040" />
-      <option name="presentableId" value="LOCAL-00040" />
-      <option name="project" value="LOCAL" />
-      <updated>1669713113116</updated>
+      <workItem from="1699515150089" duration="756000" />
     </task>
     <task id="LOCAL-00041" summary="Exemples">
       <created>1669713212765</created>
@@ -566,7 +559,14 @@
       <option name="project" value="LOCAL" />
       <updated>1699515216478</updated>
     </task>
-    <option name="localTasksCounter" value="89" />
+    <task id="LOCAL-00089" summary="Exemples">
+      <created>1699515531028</created>
+      <option name="number" value="00089" />
+      <option name="presentableId" value="LOCAL-00089" />
+      <option name="project" value="LOCAL" />
+      <updated>1699515531028</updated>
+    </task>
+    <option name="localTasksCounter" value="90" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

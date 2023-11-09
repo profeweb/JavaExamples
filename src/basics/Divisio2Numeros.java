@@ -9,6 +9,6 @@ public class Divisio2Numeros {
         int b = 6;
         int d = a / b;
         System.out.println("DIVISIÓ de " + a + " entre " + b + " és " + d);
-        
+
     }
 }
