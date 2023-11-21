@@ -9,12 +9,14 @@ public class Divisio2NumerosQualsevols {
         Scanner input = new Scanner(System.in);
 
         System.out.print("A:");
-        int a = input.nextInt();
+        float a = input.nextFloat();
 
         System.out.print("B:");
-        int b = input.nextInt();
+        float b = input.nextFloat();
 
-        int d = a / b;
-        System.out.println("DIVISIÓ de " + a + " entre " + b + " és " + d);
+        float q = a / b;
+        float r = a % b;
+        System.out.println("QUOCIENT de " + a + " entre " + b + " és " + q);
+        System.out.println("RESTA de " + a + " entre " + b + " és " + r);
     }
 }
