@@ -12,7 +12,7 @@ public class NumParellsArray {
                 n++;
             }
         }
-        
+
         System.out.printf("L\'array té %d números parells.", n);
 
     }
