@@ -24,10 +24,10 @@ public class Minim2NumerosFuncio {
     public static int minim2(int a, int b){
         int m;
         if(a<b){
-            m= a;
+            m = a;
         }
         else {
-            m= b;
+            m = b;
         }
         return m;
     }

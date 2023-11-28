@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e3daea28-0551-4b13-ab45-39306edd8b83" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/arrays/Arrays.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/funcions/FuncioFactorial.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/funcions/FuncioFactorial.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/funcions/Minim2NumerosFuncio.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/funcions/Minim2NumerosFuncio.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,14 +42,14 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="funcions" />
       <recent name="bucles" />
       <recent name="basics" />
       <recent name="conversions" />
       <recent name="arrays" />
-      <recent name="parametres" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.PerimetreRectangle">
+  <component name="RunManager" selected="Application.Arrays">
     <configuration name="Abecedari2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="bucles.Abecedari2" />
       <module name="JavaExamples" />
@@ -73,12 +76,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Divisio2NumerosQualsevols" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="basics.Divisio2NumerosQualsevols" />
+    <configuration name="Arrays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="arrays.Arrays" />
       <module name="JavaExamples" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="basics.*" />
+          <option name="PATTERN" value="arrays.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -86,8 +89,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MitjanaTresNumeros" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="basics.MitjanaTresNumeros" />
+    <configuration name="Divisio2NumerosQualsevols" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="basics.Divisio2NumerosQualsevols" />
       <module name="JavaExamples" />
       <extension name="coverage">
         <pattern>
@@ -114,11 +117,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Arrays" />
         <item itemvalue="Application.PerimetreRectangle" />
         <item itemvalue="Application.Abecedari2" />
         <item itemvalue="Application.AbecedariContinue" />
         <item itemvalue="Application.Divisio2NumerosQualsevols" />
-        <item itemvalue="Application.MitjanaTresNumeros" />
       </list>
     </recent_temporary>
   </component>
@@ -225,13 +228,9 @@
       <workItem from="1699958169370" duration="926000" />
       <workItem from="1699961738076" duration="1208000" />
       <workItem from="1700556953569" duration="2439000" />
-    </task>
-    <task id="LOCAL-00043" summary="Exemples">
-      <created>1669893069045</created>
-      <option name="number" value="00043" />
-      <option name="presentableId" value="LOCAL-00043" />
-      <option name="project" value="LOCAL" />
-      <updated>1669893069045</updated>
+      <workItem from="1701073477385" duration="1422000" />
+      <workItem from="1701161531009" duration="7358000" />
+      <workItem from="1701174941480" duration="14000" />
     </task>
     <task id="LOCAL-00044" summary="Exemples">
       <created>1670917335155</created>
@@ -569,7 +568,14 @@
       <option name="project" value="LOCAL" />
       <updated>1700559118753</updated>
     </task>
-    <option name="localTasksCounter" value="92" />
+    <task id="LOCAL-00092" summary="Exemples">
+      <created>1701073649155</created>
+      <option name="number" value="00092" />
+      <option name="presentableId" value="LOCAL-00092" />
+      <option name="project" value="LOCAL" />
+      <updated>1701073649157</updated>
+    </task>
+    <option name="localTasksCounter" value="93" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

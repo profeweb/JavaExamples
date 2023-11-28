@@ -15,7 +15,7 @@ public class FuncioFactorial {
     }
     public static int factorial(int n){
         int f = n;
-        int v = n -1;
+        int v = n - 1;
         while(v>1){
             f*=v;
             v--;
