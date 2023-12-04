@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e3daea28-0551-4b13-ab45-39306edd8b83" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/arrays/Suma2ArraysDiferents.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/arrays/InvertirArray.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/arrays/Arrays.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/arrays/Arrays.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,7 +47,7 @@
       <recent name="conversions" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Suma2ArraysDiferents">
+  <component name="RunManager" selected="Application.InvertirArray">
     <configuration name="Abecedari2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="bucles.Abecedari2" />
       <module name="JavaExamples" />
@@ -62,12 +61,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AbecedariContinue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="bucles.AbecedariContinue" />
+    <configuration name="Arrays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="arrays.Arrays" />
       <module name="JavaExamples" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="bucles.*" />
+          <option name="PATTERN" value="arrays.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -75,8 +74,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Arrays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="arrays.Arrays" />
+    <configuration name="InvertirArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="arrays.InvertirArray" />
       <module name="JavaExamples" />
       <extension name="coverage">
         <pattern>
@@ -116,11 +115,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.InvertirArray" />
         <item itemvalue="Application.Suma2ArraysDiferents" />
         <item itemvalue="Application.Arrays" />
         <item itemvalue="Application.PerimetreRectangle" />
         <item itemvalue="Application.Abecedari2" />
-        <item itemvalue="Application.AbecedariContinue" />
       </list>
     </recent_temporary>
   </component>
@@ -231,14 +230,11 @@
       <workItem from="1701161531009" duration="7358000" />
       <workItem from="1701174941480" duration="14000" />
       <workItem from="1701187242403" duration="319000" />
-      <workItem from="1701241187264" duration="7173000" />
-    </task>
-    <task id="LOCAL-00046" summary="Exemples">
-      <created>1670920242983</created>
-      <option name="number" value="00046" />
-      <option name="presentableId" value="LOCAL-00046" />
-      <option name="project" value="LOCAL" />
-      <updated>1670920242983</updated>
+      <workItem from="1701241187264" duration="7842000" />
+      <workItem from="1701262929828" duration="16000" />
+      <workItem from="1701334649616" duration="2302000" />
+      <workItem from="1701684931311" duration="1186000" />
+      <workItem from="1701694582360" duration="332000" />
     </task>
     <task id="LOCAL-00047" summary="Exemples">
       <created>1670930923683</created>
@@ -576,7 +572,14 @@
       <option name="project" value="LOCAL" />
       <updated>1701187423358</updated>
     </task>
-    <option name="localTasksCounter" value="95" />
+    <task id="LOCAL-00095" summary="Exemples">
+      <created>1701249383377</created>
+      <option name="number" value="00095" />
+      <option name="presentableId" value="LOCAL-00095" />
+      <option name="project" value="LOCAL" />
+      <updated>1701249383379</updated>
+    </task>
+    <option name="localTasksCounter" value="96" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
