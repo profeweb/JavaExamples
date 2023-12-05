@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e3daea28-0551-4b13-ab45-39306edd8b83" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/arrays/InvertirArray.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -234,14 +233,8 @@
       <workItem from="1701262929828" duration="16000" />
       <workItem from="1701334649616" duration="2302000" />
       <workItem from="1701684931311" duration="1186000" />
-      <workItem from="1701694582360" duration="332000" />
-    </task>
-    <task id="LOCAL-00047" summary="Exemples">
-      <created>1670930923683</created>
-      <option name="number" value="00047" />
-      <option name="presentableId" value="LOCAL-00047" />
-      <option name="project" value="LOCAL" />
-      <updated>1670930923683</updated>
+      <workItem from="1701694582360" duration="1211000" />
+      <workItem from="1701762204013" duration="710000" />
     </task>
     <task id="LOCAL-00048" summary="Exemples">
       <created>1671097352200</created>
@@ -579,7 +572,14 @@
       <option name="project" value="LOCAL" />
       <updated>1701249383379</updated>
     </task>
-    <option name="localTasksCounter" value="96" />
+    <task id="LOCAL-00096" summary="Exemples">
+      <created>1701695202519</created>
+      <option name="number" value="00096" />
+      <option name="presentableId" value="LOCAL-00096" />
+      <option name="project" value="LOCAL" />
+      <updated>1701695202520</updated>
+    </task>
+    <option name="localTasksCounter" value="97" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
