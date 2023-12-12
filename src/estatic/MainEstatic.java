@@ -10,7 +10,7 @@ public class MainEstatic {
         double d = CosaEstatica.potencia(3, 4);
 
         // Cal instanciar objectes de la classe per emprar propietats o mètodes no estàtics
-        // Cridada al constructor de la classe
+        // Cridada al constructor de la classe (instanciació d'un objecte)
         CosaNoEstatica cne1 = new CosaNoEstatica();
 
         float h = cne1.PLANK;              // Accés a propietat no estàtica
