@@ -2,6 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e3daea28-0551-4b13-ab45-39306edd8b83" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/abstracte/CosaAbstracta.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/abstracte/FillaAbstracta.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/abstracte/MainAbstracta.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/access/a/A.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/access/a/MainA.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/access/b/B.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/access/b/MainB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/arrays/ArrayChars.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bocata/Bocata.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/estatic/CosaEstatica.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/estatic/CosaNoEstatica.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/estatic/MainEstatic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/recursius/ComptarAs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/recursius/ComptarVocals.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/strings/CosesStrings.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -46,22 +61,9 @@
       <recent name="conversions" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.InvertirArray">
-    <configuration name="Abecedari2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="bucles.Abecedari2" />
-      <module name="JavaExamples" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="bucles.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Arrays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="arrays.Arrays" />
+  <component name="RunManager" selected="Application.ComptarVocals">
+    <configuration name="ArrayChars" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="arrays.ArrayChars" />
       <module name="JavaExamples" />
       <extension name="coverage">
         <pattern>
@@ -73,12 +75,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InvertirArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="arrays.InvertirArray" />
+    <configuration name="Bocata" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="bocata.Bocata" />
       <module name="JavaExamples" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="arrays.*" />
+          <option name="PATTERN" value="bocata.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -86,12 +88,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PerimetreRectangle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="funcions.PerimetreRectangle" />
+    <configuration name="ComptarAs" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="recursius.ComptarAs" />
       <module name="JavaExamples" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="funcions.*" />
+          <option name="PATTERN" value="recursius.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -99,12 +101,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Suma2ArraysDiferents" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="arrays.Suma2ArraysDiferents" />
+    <configuration name="ComptarVocals" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="recursius.ComptarVocals" />
       <module name="JavaExamples" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="arrays.*" />
+          <option name="PATTERN" value="recursius.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CosesStrings" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="strings.CosesStrings" />
+      <module name="JavaExamples" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="strings.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -114,11 +129,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.InvertirArray" />
-        <item itemvalue="Application.Suma2ArraysDiferents" />
-        <item itemvalue="Application.Arrays" />
-        <item itemvalue="Application.PerimetreRectangle" />
-        <item itemvalue="Application.Abecedari2" />
+        <item itemvalue="Application.ComptarVocals" />
+        <item itemvalue="Application.ComptarAs" />
+        <item itemvalue="Application.ArrayChars" />
+        <item itemvalue="Application.Bocata" />
+        <item itemvalue="Application.CosesStrings" />
       </list>
     </recent_temporary>
   </component>
@@ -235,13 +250,8 @@
       <workItem from="1701684931311" duration="1186000" />
       <workItem from="1701694582360" duration="1211000" />
       <workItem from="1701762204013" duration="710000" />
-    </task>
-    <task id="LOCAL-00048" summary="Exemples">
-      <created>1671097352200</created>
-      <option name="number" value="00048" />
-      <option name="presentableId" value="LOCAL-00048" />
-      <option name="project" value="LOCAL" />
-      <updated>1671097352200</updated>
+      <workItem from="1701766314868" duration="2295000" />
+      <workItem from="1702371411744" duration="10940000" />
     </task>
     <task id="LOCAL-00049" summary="Exemples">
       <created>1671097706095</created>
@@ -579,7 +589,14 @@
       <option name="project" value="LOCAL" />
       <updated>1701695202520</updated>
     </task>
-    <option name="localTasksCounter" value="97" />
+    <task id="LOCAL-00097" summary="Exemples">
+      <created>1701766569215</created>
+      <option name="number" value="00097" />
+      <option name="presentableId" value="LOCAL-00097" />
+      <option name="project" value="LOCAL" />
+      <updated>1701766569217</updated>
+    </task>
+    <option name="localTasksCounter" value="98" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
