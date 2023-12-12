@@ -2,22 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e3daea28-0551-4b13-ab45-39306edd8b83" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/abstracte/CosaAbstracta.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/abstracte/FillaAbstracta.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/abstracte/MainAbstracta.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/access/a/A.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/access/a/MainA.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/access/b/B.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/access/b/MainB.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/arrays/ArrayChars.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bocata/Bocata.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/estatic/CosaEstatica.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/estatic/CosaNoEstatica.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/estatic/MainEstatic.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/recursius/ComptarAs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/recursius/ComptarVocals.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/strings/CosesStrings.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/abstracte/CosaAbstracta.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/abstracte/CosaAbstracta.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/abstracte/FillaAbstracta.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/abstracte/FillaAbstracta.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/abstracte/MainAbstracta.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/abstracte/MainAbstracta.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/access/a/A.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/access/a/A.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/access/a/MainA.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/access/a/MainA.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/access/b/MainB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/access/b/MainB.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/estatic/CosaEstatica.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/estatic/CosaEstatica.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/estatic/CosaNoEstatica.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/estatic/CosaNoEstatica.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/estatic/MainEstatic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/estatic/MainEstatic.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -251,14 +245,8 @@
       <workItem from="1701694582360" duration="1211000" />
       <workItem from="1701762204013" duration="710000" />
       <workItem from="1701766314868" duration="2295000" />
-      <workItem from="1702371411744" duration="10940000" />
-    </task>
-    <task id="LOCAL-00049" summary="Exemples">
-      <created>1671097706095</created>
-      <option name="number" value="00049" />
-      <option name="presentableId" value="LOCAL-00049" />
-      <option name="project" value="LOCAL" />
-      <updated>1671097706095</updated>
+      <workItem from="1702371411744" duration="11165000" />
+      <workItem from="1702393146322" duration="1481000" />
     </task>
     <task id="LOCAL-00050" summary="Exemples">
       <created>1671106956829</created>
@@ -596,7 +584,14 @@
       <option name="project" value="LOCAL" />
       <updated>1701766569217</updated>
     </task>
-    <option name="localTasksCounter" value="98" />
+    <task id="LOCAL-00098" summary="Exemples">
+      <created>1702386086467</created>
+      <option name="number" value="00098" />
+      <option name="presentableId" value="LOCAL-00098" />
+      <option name="project" value="LOCAL" />
+      <updated>1702386086468</updated>
+    </task>
+    <option name="localTasksCounter" value="99" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
