@@ -3,15 +3,13 @@ package recursius;
 public class ComptarVocals {
 
     public static void main(String[] args) {
-        String s = "murciElagOs";
+        String s = "murciElagOsA";
         System.out.println("Num Vocals: "+ comptarVocalsRec(s));
     }
 
     public static int comptarVocalsRec(String s){
         if(s.length()==1){
-            //String c = new String(s.charAt(0));
-            //return esVocal(c) ? 1 : 0;
-            return 0;
+            return esVocal(s) ? 1 : 0;
         }
         else {
             String left = s.substring(0, s.length()/2);

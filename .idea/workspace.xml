@@ -2,16 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e3daea28-0551-4b13-ab45-39306edd8b83" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/abstracte/CosaAbstracta.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/abstracte/CosaAbstracta.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/abstracte/FillaAbstracta.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/abstracte/FillaAbstracta.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/abstracte/MainAbstracta.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/abstracte/MainAbstracta.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/access/a/A.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/access/a/A.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/access/a/MainA.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/access/a/MainA.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/access/b/MainB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/access/b/MainB.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/estatic/CosaEstatica.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/estatic/CosaEstatica.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/estatic/CosaNoEstatica.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/estatic/CosaNoEstatica.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/estatic/MainEstatic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/estatic/MainEstatic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/recursius/ComptarVocals.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/recursius/ComptarVocals.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -246,14 +237,7 @@
       <workItem from="1701762204013" duration="710000" />
       <workItem from="1701766314868" duration="2295000" />
       <workItem from="1702371411744" duration="11165000" />
-      <workItem from="1702393146322" duration="1481000" />
-    </task>
-    <task id="LOCAL-00050" summary="Exemples">
-      <created>1671106956829</created>
-      <option name="number" value="00050" />
-      <option name="presentableId" value="LOCAL-00050" />
-      <option name="project" value="LOCAL" />
-      <updated>1671106956830</updated>
+      <workItem from="1702393146322" duration="2133000" />
     </task>
     <task id="LOCAL-00051" summary="Exemples">
       <created>1671446762053</created>
@@ -591,7 +575,14 @@
       <option name="project" value="LOCAL" />
       <updated>1702386086468</updated>
     </task>
-    <option name="localTasksCounter" value="99" />
+    <task id="LOCAL-00099" summary="Exemples">
+      <created>1702394655030</created>
+      <option name="number" value="00099" />
+      <option name="presentableId" value="LOCAL-00099" />
+      <option name="project" value="LOCAL" />
+      <updated>1702394655031</updated>
+    </task>
+    <option name="localTasksCounter" value="100" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
