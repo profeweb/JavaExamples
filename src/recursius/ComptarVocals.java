@@ -13,11 +13,10 @@ public class ComptarVocals {
         }
         else {
             String left = s.substring(0, s.length()/2);
-            String dreta = s.substring(s.length()/2, s.length());
+            String dreta = s.substring(s.length()/2);
             return comptarVocalsRec(left) + comptarVocalsRec(dreta);
         }
     }
-
 
     public static boolean esVocal(String s){
         return  s.toUpperCase().charAt(0)=='A' ||

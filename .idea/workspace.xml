@@ -2,6 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e3daea28-0551-4b13-ab45-39306edd8b83" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/estatic/CosaNoEstatica.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/estatic/CosaNoEstatica.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/estatic/MainEstatic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/estatic/MainEstatic.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/recursius/ComptarVocals.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/recursius/ComptarVocals.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -46,7 +49,7 @@
       <recent name="conversions" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ComptarVocals">
+  <component name="RunManager" selected="Application.MainEstatic">
     <configuration name="ArrayChars" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="arrays.ArrayChars" />
       <module name="JavaExamples" />
@@ -99,12 +102,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CosesStrings" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="strings.CosesStrings" />
+    <configuration name="MainEstatic" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="estatic.MainEstatic" />
       <module name="JavaExamples" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="strings.*" />
+          <option name="PATTERN" value="estatic.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -114,11 +117,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MainEstatic" />
         <item itemvalue="Application.ComptarVocals" />
         <item itemvalue="Application.ComptarAs" />
         <item itemvalue="Application.ArrayChars" />
         <item itemvalue="Application.Bocata" />
-        <item itemvalue="Application.CosesStrings" />
       </list>
     </recent_temporary>
   </component>
@@ -237,14 +240,9 @@
       <workItem from="1701762204013" duration="710000" />
       <workItem from="1701766314868" duration="2295000" />
       <workItem from="1702371411744" duration="11165000" />
-      <workItem from="1702393146322" duration="2133000" />
-    </task>
-    <task id="LOCAL-00051" summary="Exemples">
-      <created>1671446762053</created>
-      <option name="number" value="00051" />
-      <option name="presentableId" value="LOCAL-00051" />
-      <option name="project" value="LOCAL" />
-      <updated>1671446762053</updated>
+      <workItem from="1702393146322" duration="3369000" />
+      <workItem from="1702403355835" duration="47000" />
+      <workItem from="1702405803330" duration="333000" />
     </task>
     <task id="LOCAL-00052" summary="Exemples">
       <created>1671448040467</created>
@@ -582,7 +580,14 @@
       <option name="project" value="LOCAL" />
       <updated>1702394655031</updated>
     </task>
-    <option name="localTasksCounter" value="100" />
+    <task id="LOCAL-00100" summary="Exemples">
+      <created>1702395562183</created>
+      <option name="number" value="00100" />
+      <option name="presentableId" value="LOCAL-00100" />
+      <option name="project" value="LOCAL" />
+      <updated>1702395562183</updated>
+    </task>
+    <option name="localTasksCounter" value="101" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

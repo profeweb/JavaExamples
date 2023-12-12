@@ -11,9 +11,17 @@ public class MainEstatic {
 
         // Cal instanciar objectes de la classe per emprar propietats o mètodes no estàtics
         // Cridada al constructor de la classe
-        CosaNoEstatica cne = new CosaNoEstatica();
+        CosaNoEstatica cne1 = new CosaNoEstatica();
 
-        float h = cne.PLANK;                // Accés a propietat no estàtica
-        float s = cne.suma(5, 10);  // Ús de mètode no estàtic
+        float h = cne1.PLANK;              // Accés a propietat no estàtica
+        float s = cne1.suma(5, 10);  // Ús de mètode no estàtic
+
+
+        // Comprovació de que les propietats estàtiques són comunes a tots els objectes de la classe
+        CosaNoEstatica cne2 = new CosaNoEstatica();
+        cne2.numCoses = 6;
+
+        System.out.println("Num Coses: "+ cne1.numCoses);
+        System.out.println("Num Coses: "+ cne2.numCoses);
     }
 }

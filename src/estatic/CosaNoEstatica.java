@@ -10,5 +10,10 @@ public class CosaNoEstatica {
         return a + b;
     }
 
+    // Propietat estàtica (comuna a tots els objectes de la classe).
+    static int numCoses = 0;
+
+
+
 
 }
