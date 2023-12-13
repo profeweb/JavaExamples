@@ -45,6 +45,7 @@ public class MaximMinimMitjaArray2D {
         estadistiques[0] = minValue;
         estadistiques[1] = maxValue;
         estadistiques[2] = sumValue / (dades.length * dades[0].length);
+
         return estadistiques;
     }
 }
