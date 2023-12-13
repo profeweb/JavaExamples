@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e3daea28-0551-4b13-ab45-39306edd8b83" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/papers/paper2/t4/DrinkItem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/papers/paper2/t4/Exercici01P24.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/papers/paper2/t4/FoodItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/estatic/Cosa.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/estatic/MainCosa.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,7 +47,7 @@
       <recent name="conversions" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.papers.paper2.t4.pregunta1.Exercici01P24">
+  <component name="RunManager" selected="Application.MainCosa">
     <configuration name="ComptarVocals" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="recursius.ComptarVocals" />
       <module name="JavaExamples" />
@@ -62,8 +61,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainEstatic" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="estatic.MainEstatic" />
+    <configuration name="MainCosa" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="estatic.MainCosa" />
       <module name="JavaExamples" />
       <extension name="coverage">
         <pattern>
@@ -116,11 +115,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MainCosa" />
         <item itemvalue="Application.papers.paper2.t4.pregunta1.Exercici01P24" />
         <item itemvalue="Application.SumaMatrius" />
         <item itemvalue="Application.RecorrerArray2D" />
         <item itemvalue="Application.ComptarVocals" />
-        <item itemvalue="Application.MainEstatic" />
       </list>
     </recent_temporary>
   </component>
@@ -242,14 +241,7 @@
       <workItem from="1702393146322" duration="3369000" />
       <workItem from="1702403355835" duration="47000" />
       <workItem from="1702405803330" duration="1117000" />
-      <workItem from="1702450930998" duration="6005000" />
-    </task>
-    <task id="LOCAL-00055" summary="Exemples">
-      <created>1671451660532</created>
-      <option name="number" value="00055" />
-      <option name="presentableId" value="LOCAL-00055" />
-      <option name="project" value="LOCAL" />
-      <updated>1671451660532</updated>
+      <workItem from="1702450930998" duration="6616000" />
     </task>
     <task id="LOCAL-00056" summary="Exemples">
       <created>1671521280688</created>
@@ -587,7 +579,14 @@
       <option name="project" value="LOCAL" />
       <updated>1702459591250</updated>
     </task>
-    <option name="localTasksCounter" value="104" />
+    <task id="LOCAL-00104" summary="Exemples">
+      <created>1702460149097</created>
+      <option name="number" value="00104" />
+      <option name="presentableId" value="LOCAL-00104" />
+      <option name="project" value="LOCAL" />
+      <updated>1702460149097</updated>
+    </task>
+    <option name="localTasksCounter" value="105" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
