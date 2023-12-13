@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e3daea28-0551-4b13-ab45-39306edd8b83" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/arrays2d/RecorrerArray2D.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/arrays2d/SumaMatrius.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/estatic/CosaNoEstatica.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/estatic/CosaNoEstatica.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/estatic/MainEstatic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/estatic/MainEstatic.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/recursius/ComptarVocals.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/recursius/ComptarVocals.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,33 +49,7 @@
       <recent name="conversions" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MainEstatic">
-    <configuration name="ArrayChars" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="arrays.ArrayChars" />
-      <module name="JavaExamples" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="arrays.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Bocata" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="bocata.Bocata" />
-      <module name="JavaExamples" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="bocata.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.SumaMatrius">
     <configuration name="ComptarAs" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="recursius.ComptarAs" />
       <module name="JavaExamples" />
@@ -115,13 +89,39 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="RecorrerArray2D" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="arrays2d.RecorrerArray2D" />
+      <module name="JavaExamples" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="arrays2d.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SumaMatrius" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="arrays2d.SumaMatrius" />
+      <module name="JavaExamples" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="arrays2d.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MainEstatic" />
+        <item itemvalue="Application.SumaMatrius" />
+        <item itemvalue="Application.RecorrerArray2D" />
         <item itemvalue="Application.ComptarVocals" />
+        <item itemvalue="Application.MainEstatic" />
         <item itemvalue="Application.ComptarAs" />
-        <item itemvalue="Application.ArrayChars" />
-        <item itemvalue="Application.Bocata" />
       </list>
     </recent_temporary>
   </component>
@@ -242,21 +242,8 @@
       <workItem from="1702371411744" duration="11165000" />
       <workItem from="1702393146322" duration="3369000" />
       <workItem from="1702403355835" duration="47000" />
-      <workItem from="1702405803330" duration="333000" />
-    </task>
-    <task id="LOCAL-00052" summary="Exemples">
-      <created>1671448040467</created>
-      <option name="number" value="00052" />
-      <option name="presentableId" value="LOCAL-00052" />
-      <option name="project" value="LOCAL" />
-      <updated>1671448040467</updated>
-    </task>
-    <task id="LOCAL-00053" summary="Exemples">
-      <created>1671448460613</created>
-      <option name="number" value="00053" />
-      <option name="presentableId" value="LOCAL-00053" />
-      <option name="project" value="LOCAL" />
-      <updated>1671448460613</updated>
+      <workItem from="1702405803330" duration="1117000" />
+      <workItem from="1702450930998" duration="5705000" />
     </task>
     <task id="LOCAL-00054" summary="Exemples">
       <created>1671450814222</created>
@@ -587,7 +574,21 @@
       <option name="project" value="LOCAL" />
       <updated>1702395562183</updated>
     </task>
-    <option name="localTasksCounter" value="101" />
+    <task id="LOCAL-00101" summary="Exemples">
+      <created>1702406149794</created>
+      <option name="number" value="00101" />
+      <option name="presentableId" value="LOCAL-00101" />
+      <option name="project" value="LOCAL" />
+      <updated>1702406149795</updated>
+    </task>
+    <task id="LOCAL-00102" summary="Exemples">
+      <created>1702406318432</created>
+      <option name="number" value="00102" />
+      <option name="presentableId" value="LOCAL-00102" />
+      <option name="project" value="LOCAL" />
+      <updated>1702406318432</updated>
+    </task>
+    <option name="localTasksCounter" value="103" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
