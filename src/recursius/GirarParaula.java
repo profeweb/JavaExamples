@@ -24,7 +24,7 @@ public class GirarParaula {
         }
         else {
             char primera = s.charAt(0);
-            String resta = s.substring(1, s.length());
+            String resta = s.substring(1);
             return girarRecursiu(resta) + primera;
         }
     }
