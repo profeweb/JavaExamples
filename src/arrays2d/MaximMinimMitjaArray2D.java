@@ -12,10 +12,9 @@ public class MaximMinimMitjaArray2D {
 
         float[] e = calculaEstadistiques(numeros);
 
-        System.out.printf(" El mínim valor és %f.", e[0]);
-        System.out.printf(" El màxim valor és %f.", e[1]);
+        System.out.printf(" El mínim valor és %f.\n", e[0]);
+        System.out.printf(" El màxim valor és %f.\n", e[1]);
         System.out.printf(" La mitja és %f.", e[2]);
-
 
     }
 
