@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e3daea28-0551-4b13-ab45-39306edd8b83" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/trenenliniatopdown/TresEnLiniaV02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/trenenliniatopdown/TresEnLiniaV03.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/trenenliniatopdown/TresEnLiniaV01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/trenenliniatopdown/TresEnLiniaV01.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,20 +47,7 @@
       <recent name="basics" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TresEnLiniaV02">
-    <configuration name="MainCosa" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="estatic.MainCosa" />
-      <module name="JavaExamples" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="estatic.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.TresEnLiniaV03">
     <configuration name="Majuscules" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="parametres.Majuscules" />
       <module name="JavaExamples" />
@@ -114,13 +100,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TresEnLiniaV03" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="trenenliniatopdown.TresEnLiniaV03" />
+      <module name="JavaExamples" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="trenenliniatopdown.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TresEnLiniaV03" />
         <item itemvalue="Application.TresEnLiniaV02" />
         <item itemvalue="Application.Majuscules" />
         <item itemvalue="Application.SumaUn" />
         <item itemvalue="Application.MaximMinimMitjaArray2D" />
-        <item itemvalue="Application.MainCosa" />
       </list>
     </recent_temporary>
   </component>
@@ -250,14 +249,7 @@
       <workItem from="1702556773218" duration="44000" />
       <workItem from="1702557197291" duration="284000" />
       <workItem from="1702624400638" duration="1668000" />
-      <workItem from="1702894407782" duration="3393000" />
-    </task>
-    <task id="LOCAL-00062" summary="Exemples">
-      <created>1676366154918</created>
-      <option name="number" value="00062" />
-      <option name="presentableId" value="LOCAL-00062" />
-      <option name="project" value="LOCAL" />
-      <updated>1676366154918</updated>
+      <workItem from="1702894407782" duration="4518000" />
     </task>
     <task id="LOCAL-00063" summary="Exemples">
       <created>1676926460627</created>
@@ -595,7 +587,14 @@
       <option name="project" value="LOCAL" />
       <updated>1702626001901</updated>
     </task>
-    <option name="localTasksCounter" value="111" />
+    <task id="LOCAL-00111" summary="Exemples">
+      <created>1702897840512</created>
+      <option name="number" value="00111" />
+      <option name="presentableId" value="LOCAL-00111" />
+      <option name="project" value="LOCAL" />
+      <updated>1702897840513</updated>
+    </task>
+    <option name="localTasksCounter" value="112" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
