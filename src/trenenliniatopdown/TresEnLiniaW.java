@@ -138,10 +138,10 @@ public class TresEnLiniaW {
             System.out.println("La partida ha acabat en empat!");
         }
         else if(resultat == RESULTAT.GUANYADOR_A){
-            System.out.println("El guanyador/a és A!");
+            System.out.printf("El guanyador/a és A (%s)!", nomsJugadors[0]);
         }
         else if(resultat == RESULTAT.GUANYADOR_B){
-            System.out.println("El guanyador/a és B!");
+            System.out.printf("El guanyador/a és B (%s)!", nomsJugadors[1]);
         }
     }
 }
