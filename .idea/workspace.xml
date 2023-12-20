@@ -2,13 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e3daea28-0551-4b13-ab45-39306edd8b83" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/papers/paper2/t4/pregunta1b/DrinkItem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/papers/paper2/t4/pregunta1b/Exercici01P24.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/papers/paper2/t4/pregunta1b/FoodItem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/papers/paper2/t4/pregunta1b/Item.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/papers/paper2/t4/pregunta1b/Payment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/trenenliniatopdown/TresEnLiniaW.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/arrays2d/ValorsEntreArray2D.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/arrays2d/ValorsEntreArray2D.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/trenenliniatopdown/TresEnLiniaW.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/trenenliniatopdown/TresEnLiniaW.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,11 +46,11 @@
       <recent name="C:\Users\tonim\IdeaProjects\JavaExamples\src\papers\paper2\t4" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="arrays2d" />
       <recent name="trenenliniatopdown" />
       <recent name="arrays" />
       <recent name="funcions" />
       <recent name="bucles" />
-      <recent name="basics" />
     </key>
   </component>
   <component name="RunManager" selected="Application.ValorsEntreArray2D">
@@ -262,13 +258,8 @@
       <workItem from="1702894407782" duration="5014000" />
       <workItem from="1702900517547" duration="116000" />
       <workItem from="1702976212926" duration="8160000" />
-    </task>
-    <task id="LOCAL-00064" summary="Exemples">
-      <created>1677054545712</created>
-      <option name="number" value="00064" />
-      <option name="presentableId" value="LOCAL-00064" />
-      <option name="project" value="LOCAL" />
-      <updated>1677054545712</updated>
+      <workItem from="1703001322142" duration="921000" />
+      <workItem from="1703055780853" duration="2878000" />
     </task>
     <task id="LOCAL-00065" summary="Exemples">
       <created>1677054635317</created>
@@ -606,7 +597,14 @@
       <option name="project" value="LOCAL" />
       <updated>1702899133756</updated>
     </task>
-    <option name="localTasksCounter" value="113" />
+    <task id="LOCAL-00113" summary="Exemples">
+      <created>1703001618077</created>
+      <option name="number" value="00113" />
+      <option name="presentableId" value="LOCAL-00113" />
+      <option name="project" value="LOCAL" />
+      <updated>1703001618078</updated>
+    </task>
+    <option name="localTasksCounter" value="114" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

@@ -15,13 +15,10 @@ public class ValorsEntreArray2D {
 
         int num2= quantsNumerosEntre(numeros, 10, 30);
         System.out.printf(" Entre 10 i 30 hi ha %d números. \n", num2);
-
     }
 
     public static int quantsNumerosEntre(float[][] dades, int minVal, int maxVal){
-
         int n=0;
-
         for(int i=0; i<dades.length; i++){
             for(int j=0; j<dades[i].length; j++){
                 if(dades[i][j]>=minVal && dades[i][j]<=maxVal){
@@ -29,7 +26,6 @@ public class ValorsEntreArray2D {
                 }
             }
         }
-
         return n;
     }
 }

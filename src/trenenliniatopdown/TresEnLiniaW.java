@@ -1,5 +1,6 @@
 package trenenliniatopdown;
 
+import javax.swing.plaf.synth.SynthTextAreaUI;
 import java.util.Scanner;
 
 public class TresEnLiniaW {
@@ -14,19 +15,33 @@ public class TresEnLiniaW {
     public static TORN torn;
     public static int numTirades;
 
+    public static String[] nomsJugadors;
+
     public static void main(String[] args) {
 
         Scanner input = new Scanner(System.in);
 
+        nomsJugadors = demanaNoms(input);
         inicialitzaPartida();
         mostraTauler(tauler);
         while(!partidaAcabada()){
             ferTirada(input, torn, tauler);
             mostraTauler(tauler);
-            resultat = comprovaResultat(tauler);
+            if(numTirades>=5) {
+                resultat = comprovaResultat(tauler);
+            }
             torn = canviaTorn(torn);
         }
         mostrarResultat(resultat);
+    }
+
+    public static String[] demanaNoms(Scanner input){
+        String[] noms = new String[2];
+        for(int i=0; i<2; i++) {
+            System.out.print("Nom del Jugador: ");
+            noms[i] = input.next();
+        }
+        return noms;
     }
 
     public static void inicialitzaPartida(){
@@ -74,9 +89,46 @@ public class TresEnLiniaW {
         } while(!(fila>=0 && fila<3 && col>=0 && col<3 && tauler[fila][col]==VALOR.BUIDA));
 
         tauler[fila][col] = (torn == TORN.JUGADOR_A) ? VALOR.CERCLE : VALOR.CREU;
-
+        numTirades++;
     }
-    public static RESULTAT comprovaResultat(VALOR[][] t){ return RESULTAT.ENJOC;}
+    public static RESULTAT comprovaResultat(VALOR[][] t){
+        boolean guanya = false;
+
+        // Comprovació per files
+        for(int f=0; f<t.length; f++){
+            if (t[f][0] == t[f][1] && t[f][1] == t[f][2] && t[f][0] != VALOR.BUIDA) {
+                guanya = true;
+            }
+        }
+
+        // Comprovació per columnes
+        for(int c=0; c<t.length; c++){
+            if (t[0][c] == t[1][c] && t[1][c] == t[2][c] && t[0][c] != VALOR.BUIDA) {
+                guanya = true;
+            }
+        }
+
+        // Comprovació Diagonal Descendent
+        if (t[0][0] == t[1][1] && t[1][1] == t[2][2] && t[0][0] != VALOR.BUIDA) {
+            guanya = true;
+        }
+
+        // Comprovació Diagonal Ascendent
+        if (t[2][0] == t[1][1] && t[1][1] == t[0][2] && t[2][0] != VALOR.BUIDA) {
+            guanya = true;
+        }
+
+        if(guanya && torn == TORN.JUGADOR_A){
+            return RESULTAT.GUANYADOR_A;
+        }
+        else if(guanya && torn == TORN.JUGADOR_B){
+            return RESULTAT.GUANYADOR_B;
+        }
+        else if(!guanya && numTirades==9){
+            return RESULTAT.EMPAT;
+        }
+        return RESULTAT.ENJOC;
+    }
 
     public static TORN canviaTorn(TORN t){
         return (t == TORN.JUGADOR_A) ? TORN.JUGADOR_B : TORN.JUGADOR_A;
