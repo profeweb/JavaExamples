@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e3daea28-0551-4b13-ab45-39306edd8b83" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/training/EstadisticaDau.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/arrays2d/ValorsEntreArray2D.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/arrays2d/ValorsEntreArray2D.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/trenenliniatopdown/TresEnLiniaW.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/trenenliniatopdown/TresEnLiniaW.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,13 +52,13 @@
       <recent name="bucles" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ValorsEntreArray2D">
-    <configuration name="Majuscules" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="parametres.Majuscules" />
+  <component name="RunManager" selected="Application.EstadisticaDau">
+    <configuration name="EstadisticaDau" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="training.EstadisticaDau" />
       <module name="JavaExamples" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="parametres.*" />
+          <option name="PATTERN" value="training.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -121,11 +120,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ValorsEntreArray2D" />
+        <item itemvalue="Application.EstadisticaDau" />
         <item itemvalue="Application.TresEnLiniaW" />
+        <item itemvalue="Application.ValorsEntreArray2D" />
         <item itemvalue="Application.TresEnLiniaV03" />
         <item itemvalue="Application.TresEnLiniaV02" />
-        <item itemvalue="Application.Majuscules" />
       </list>
     </recent_temporary>
   </component>
@@ -259,21 +258,11 @@
       <workItem from="1702900517547" duration="116000" />
       <workItem from="1702976212926" duration="8160000" />
       <workItem from="1703001322142" duration="921000" />
-      <workItem from="1703055780853" duration="2878000" />
-    </task>
-    <task id="LOCAL-00065" summary="Exemples">
-      <created>1677054635317</created>
-      <option name="number" value="00065" />
-      <option name="presentableId" value="LOCAL-00065" />
-      <option name="project" value="LOCAL" />
-      <updated>1677054635317</updated>
-    </task>
-    <task id="LOCAL-00066" summary="Exemples">
-      <created>1678706016457</created>
-      <option name="number" value="00066" />
-      <option name="presentableId" value="LOCAL-00066" />
-      <option name="project" value="LOCAL" />
-      <updated>1678706016458</updated>
+      <workItem from="1703055780853" duration="3159000" />
+      <workItem from="1703059033492" duration="72000" />
+      <workItem from="1703063417897" duration="486000" />
+      <workItem from="1704825853639" duration="655000" />
+      <workItem from="1704879604279" duration="22000" />
     </task>
     <task id="LOCAL-00067" summary="Exemples">
       <created>1678707546738</created>
@@ -604,7 +593,21 @@
       <option name="project" value="LOCAL" />
       <updated>1703001618078</updated>
     </task>
-    <option name="localTasksCounter" value="114" />
+    <task id="LOCAL-00114" summary="Exemples">
+      <created>1703058693623</created>
+      <option name="number" value="00114" />
+      <option name="presentableId" value="LOCAL-00114" />
+      <option name="project" value="LOCAL" />
+      <updated>1703058693624</updated>
+    </task>
+    <task id="LOCAL-00115" summary="Exemples">
+      <created>1703058920323</created>
+      <option name="number" value="00115" />
+      <option name="presentableId" value="LOCAL-00115" />
+      <option name="project" value="LOCAL" />
+      <updated>1703058920323</updated>
+    </task>
+    <option name="localTasksCounter" value="116" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
