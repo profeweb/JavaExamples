@@ -4,7 +4,8 @@ import java.util.Scanner;
 
 public class CalculadoraCientífica {
 
-    public static char [ ] operadors = { '+', '-', '*', '/', 'S', 'C', 'T', 'F', 'E', '=' };
+    public static char [ ] operadors = { '+', '-', '*', '/', 'S', 'C', 'T', 'F', 'E', '=' , 'R' };
+    public static char[] constants = {'P', 'G'};
     public static int numOperands;
     public static float[] operands;
     public static char operador;
@@ -33,12 +34,20 @@ public class CalculadoraCientífica {
                 else if(esOperadorUnari() && numOperands==1){
                     aplicaOperacioUnaria();
                 }
+                else if (esReset()){
+                    initCalculadora();
+                }
 
             }
             else {
 
                 numOperands++;
-                operands[numOperands-1] = convertToFloat(entrada);
+                if(esConstant(entrada)){
+                    char lletraConstant = entrada.charAt(0);
+                    operands[numOperands - 1] = aplicaConstant(lletraConstant);
+                } else {
+                    operands[numOperands - 1] = convertToFloat(entrada);
+                }
 
                 if(numOperands == 1 && esSimbol()){
                     aplicaSimbol();
@@ -51,7 +60,6 @@ public class CalculadoraCientífica {
 
                 }
             }
-
         }
 
     }
@@ -75,6 +83,17 @@ public class CalculadoraCientífica {
         return false;
     }
 
+    public static boolean esConstant(String s) {
+        if(s.length() == 1) {
+            for(int i=0; i<constants.length; i++ ){
+                if(constants[i] == s.charAt(0)){
+                    return true;
+                }
+            }
+        }
+        return false;
+    }
+
     public static boolean esSimbol(){
         return (operador=='+' || operador=='-');
     }
@@ -89,6 +108,9 @@ public class CalculadoraCientífica {
 
     public static boolean esOperadorBinari(){
         return (operador=='+' || operador=='-' || operador=='*' || operador =='/' || operador=='E');
+    }
+    public static boolean esReset(){
+        return (operador=='R');
     }
 
     public static void aplicaOperacioUnaria(){
@@ -127,6 +149,15 @@ public class CalculadoraCientífica {
             operands[0] *= -1;
             operador = ' ';
         }
+    }
+
+    public static float aplicaConstant(char constant){
+        float valor =  0;
+        switch(constant){
+            case 'P': valor = (float) Math.PI; break;
+            case 'G': valor = 9.81f; break;
+        }
+        return valor;
     }
 
     public static void mostraCalculsiResultat(){
