@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e3daea28-0551-4b13-ab45-39306edd8b83" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/training/CalculadoraCientíficaBasica.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/training/CalculadoraCientífica.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/training/CalculadoraCientífica.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -65,8 +66,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EstadisticaDau" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="training.EstadisticaDau" />
+    <configuration name="CalculadoraCientíficaBasica" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="training.CalculadoraCientíficaBasica" />
       <module name="JavaExamples" />
       <extension name="coverage">
         <pattern>
@@ -78,12 +79,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TresEnLiniaV03" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="trenenliniatopdown.TresEnLiniaV03" />
+    <configuration name="EstadisticaDau" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="training.EstadisticaDau" />
       <module name="JavaExamples" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="trenenliniatopdown.*" />
+          <option name="PATTERN" value="training.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -120,10 +121,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.CalculadoraCientífica" />
+        <item itemvalue="Application.CalculadoraCientíficaBasica" />
         <item itemvalue="Application.EstadisticaDau" />
         <item itemvalue="Application.TresEnLiniaW" />
         <item itemvalue="Application.ValorsEntreArray2D" />
-        <item itemvalue="Application.TresEnLiniaV03" />
       </list>
     </recent_temporary>
   </component>
@@ -265,14 +266,7 @@
       <workItem from="1705563594432" duration="4008000" />
       <workItem from="1705568164075" duration="1344000" />
       <workItem from="1705581580558" duration="91000" />
-      <workItem from="1706089547048" duration="2328000" />
-    </task>
-    <task id="LOCAL-00069" summary="Exemples">
-      <created>1678783945504</created>
-      <option name="number" value="00069" />
-      <option name="presentableId" value="LOCAL-00069" />
-      <option name="project" value="LOCAL" />
-      <updated>1678783945505</updated>
+      <workItem from="1706089547048" duration="2789000" />
     </task>
     <task id="LOCAL-00070" summary="Exemples">
       <created>1679314099098</created>
@@ -610,7 +604,14 @@
       <option name="project" value="LOCAL" />
       <updated>1706091500606</updated>
     </task>
-    <option name="localTasksCounter" value="118" />
+    <task id="LOCAL-00118" summary="Exemples">
+      <created>1706092165602</created>
+      <option name="number" value="00118" />
+      <option name="presentableId" value="LOCAL-00118" />
+      <option name="project" value="LOCAL" />
+      <updated>1706092165602</updated>
+    </task>
+    <option name="localTasksCounter" value="119" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

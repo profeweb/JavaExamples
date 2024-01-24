@@ -2,10 +2,9 @@ package training;
 
 import java.util.Scanner;
 
-public class CalculadoraCientífica {
+public class CalculadoraCientíficaBasica {
 
-    public static char [ ] operadors = { '+', '-', '*', '/', 'S', 'C', 'T', 'F', 'E', '=', 'R' };
-    public static char[] constants = {'P', 'G'};
+    public static char [ ] operadors = { '+', '-', '*', '/', 'S', 'C', 'T', 'F', 'E', '=' };
     public static int numOperands;
     public static float[] operands;
     public static char operador;
@@ -34,20 +33,12 @@ public class CalculadoraCientífica {
                 else if(esOperadorUnari() && numOperands==1){
                     aplicaOperacioUnaria();
                 }
-                else if (esReset()){
-                    initCalculadora();
-                }
 
             }
             else {
 
                 numOperands++;
-                if(esConstant(entrada)){
-                    char lletraConstant = entrada.charAt(0);
-                    operands[numOperands - 1] = aplicaConstant(lletraConstant);
-                } else {
-                    operands[numOperands - 1] = convertToFloat(entrada);
-                }
+                operands[numOperands - 1] = convertToFloat(entrada);
 
                 if(numOperands == 1 && esSimbol()){
                     aplicaSimbol();
@@ -76,17 +67,6 @@ public class CalculadoraCientífica {
         if(s.length() == 1) {
             for(int i=0; i<operadors.length; i++ ){
                 if(operadors[i] == s.charAt(0)){
-                    return true;
-                }
-            }
-        }
-        return false;
-    }
-
-    public static boolean esConstant(String s) {
-        if(s.length() == 1) {
-            for(int i=0; i<constants.length; i++ ){
-                if(constants[i] == s.charAt(0)){
                     return true;
                 }
             }
@@ -149,15 +129,6 @@ public class CalculadoraCientífica {
             operands[0] *= -1;
             operador = ' ';
         }
-    }
-
-    public static float aplicaConstant(char constant){
-        float valor =  0;
-        switch(constant){
-            case 'P': valor = (float) Math.PI; break;
-            case 'G': valor = 9.81f; break;
-        }
-        return valor;
     }
 
     public static void mostraCalculsiResultat(){
