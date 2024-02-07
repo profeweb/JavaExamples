@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e3daea28-0551-4b13-ab45-39306edd8b83" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/conversions/Binari2DecimalFuncio.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/conversions/Binari2Decimal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/conversions/Binari2Decimal.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,14 +46,27 @@
       <recent name="C:\Users\tonim\IdeaProjects\JavaExamples\src\papers\paper2\t4" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="conversions" />
       <recent name="training" />
       <recent name="arrays2d" />
       <recent name="trenenliniatopdown" />
       <recent name="arrays" />
-      <recent name="funcions" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CalculadoraCientífica">
+  <component name="RunManager" selected="Application.Binari2Decimal">
+    <configuration name="Binari2Decimal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="conversions.Binari2Decimal" />
+      <module name="JavaExamples" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="conversions.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CalculadoraCientífica" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="training.CalculadoraCientífica" />
       <module name="JavaExamples" />
@@ -104,26 +119,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ValorsEntreArray2D" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="arrays2d.ValorsEntreArray2D" />
-      <module name="JavaExamples" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="arrays2d.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Binari2Decimal" />
         <item itemvalue="Application.CalculadoraCientífica" />
         <item itemvalue="Application.CalculadoraCientíficaBasica" />
         <item itemvalue="Application.EstadisticaDau" />
         <item itemvalue="Application.TresEnLiniaW" />
-        <item itemvalue="Application.ValorsEntreArray2D" />
       </list>
     </recent_temporary>
   </component>
@@ -267,13 +269,8 @@
       <workItem from="1705581580558" duration="91000" />
       <workItem from="1706089547048" duration="3579000" />
       <workItem from="1706203089122" duration="180000" />
-    </task>
-    <task id="LOCAL-00071" summary="Exemples">
-      <created>1683788868939</created>
-      <option name="number" value="00071" />
-      <option name="presentableId" value="LOCAL-00071" />
-      <option name="project" value="LOCAL" />
-      <updated>1683788868941</updated>
+      <workItem from="1707246421009" duration="729000" />
+      <workItem from="1707288992440" duration="1478000" />
     </task>
     <task id="LOCAL-00072" summary="Exemples">
       <created>1683790916520</created>
@@ -611,7 +608,14 @@
       <option name="project" value="LOCAL" />
       <updated>1706092426706</updated>
     </task>
-    <option name="localTasksCounter" value="120" />
+    <task id="LOCAL-00120" summary="Exemples">
+      <created>1707246433536</created>
+      <option name="number" value="00120" />
+      <option name="presentableId" value="LOCAL-00120" />
+      <option name="project" value="LOCAL" />
+      <updated>1707246433537</updated>
+    </task>
+    <option name="localTasksCounter" value="121" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
