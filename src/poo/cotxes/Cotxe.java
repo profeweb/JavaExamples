@@ -1,6 +1,30 @@
 package poo.cotxes;
 
 public class Cotxe {
+
+    // Atributs
+    String matricula;
+    String marca;
+    float velocitat;
+    int numPortes;
+
+    // Constructors
+
+    Cotxe(String mat, String mar, float v, int np){
+        matricula = mat;
+        marca = mar;
+        velocitat = v;
+        numPortes = np;
+    }
+
+    Cotxe(String mat, String mar){
+        matricula = mat;
+        marca = mar;
+        numPortes = 5;
+        velocitat = 0;
+    }
+
+    // Getters i Setters
     public String getMatricula() {
         return matricula;
     }
@@ -33,27 +57,14 @@ public class Cotxe {
         this.numPortes = numPortes;
     }
 
-    String matricula;
-    String marca;
-    float velocitat;
-    int numPortes;
-
-    Cotxe(String mat, String mar, float v, int np){
-        matricula = mat;
-        marca = mar;
-        velocitat = v;
-        numPortes = np;
-    }
-
-    Cotxe(String mat, String mar){
-        matricula = mat;
-        marca = mar;
-        numPortes = 5;
-        velocitat = 0;
-    }
+    // Altres
 
     void accelerar(){
         velocitat += 0.1;
+    }
+
+    void accelerar(float inc){
+        velocitat += inc;
     }
 
     void print(){
