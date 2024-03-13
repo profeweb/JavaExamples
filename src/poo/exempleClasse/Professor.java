@@ -51,6 +51,6 @@ public class Professor {
     }
 
     String getNomMesCurt(Professor altre){
-        return null;
+        return (this.nom.length()>altre.nom.length()) ? altre.nom : this.nom;
     }
 }
