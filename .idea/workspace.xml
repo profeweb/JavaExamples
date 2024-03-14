@@ -2,20 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e3daea28-0551-4b13-ab45-39306edd8b83" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/poo/composicio/Cercle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/poo/composicio/Linia.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/poo/composicio/ProvaLinia.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/poo/composicio/ProvaPunt2D.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/poo/composicio/ProvaPunt3D.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/poo/composicio/Punt2D.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/poo/composicio/Punt3D.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/poo/composicio/Triangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/poo/persones/Alumne.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/poo/persones/Jugador.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/poo/persones/Persona.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/poo/persones/ProvaJugador.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/poo/persones/ProvaPersones.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/poo/composicio/ProvaCercle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/poo/composicio/ProvaTriangle.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -294,14 +282,7 @@
       <workItem from="1710272736753" duration="19000" />
       <workItem from="1710313271868" duration="6520000" />
       <workItem from="1710323392308" duration="31000" />
-      <workItem from="1710440577244" duration="1392000" />
-    </task>
-    <task id="LOCAL-00075" summary="Exemples">
-      <created>1683794401360</created>
-      <option name="number" value="00075" />
-      <option name="presentableId" value="LOCAL-00075" />
-      <option name="project" value="LOCAL" />
-      <updated>1683794401360</updated>
+      <workItem from="1710440577244" duration="1769000" />
     </task>
     <task id="LOCAL-00076" summary="Exemples">
       <created>1683794638752</created>
@@ -639,7 +620,14 @@
       <option name="project" value="LOCAL" />
       <updated>1710313796362</updated>
     </task>
-    <option name="localTasksCounter" value="124" />
+    <task id="LOCAL-00124" summary="Exemples">
+      <created>1710441989450</created>
+      <option name="number" value="00124" />
+      <option name="presentableId" value="LOCAL-00124" />
+      <option name="project" value="LOCAL" />
+      <updated>1710441989451</updated>
+    </task>
+    <option name="localTasksCounter" value="125" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
