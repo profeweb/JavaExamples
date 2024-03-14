@@ -2,8 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e3daea28-0551-4b13-ab45-39306edd8b83" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/poo/composicio/Cercle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/poo/composicio/Linia.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/poo/composicio/ProvaLinia.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/poo/composicio/ProvaPunt2D.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/poo/composicio/ProvaPunt3D.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/poo/composicio/Punt2D.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/poo/composicio/Punt3D.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/poo/composicio/Triangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/poo/persones/Alumne.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/poo/persones/Jugador.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/poo/persones/Persona.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/poo/persones/ProvaJugador.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/poo/persones/ProvaPersones.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/poo/exempleClasse/Professor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/poo/exempleClasse/Professor.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,20 +57,20 @@
       <recent name="C:\Users\tonim\IdeaProjects\JavaExamples\src\papers\paper2\t4" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="poo.composicio" />
       <recent name="conversions" />
       <recent name="training" />
       <recent name="arrays2d" />
       <recent name="trenenliniatopdown" />
-      <recent name="arrays" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Cotxes">
-    <configuration name="CalculadoraCientífica" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="training.CalculadoraCientífica" />
+  <component name="RunManager" selected="Application.ProvaJugador">
+    <configuration name="ProvaJugador" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="poo.persones.ProvaJugador" />
       <module name="JavaExamples" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="training.*" />
+          <option name="PATTERN" value="poo.persones.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -66,12 +78,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CalculadoraCientíficaBasica" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="training.CalculadoraCientíficaBasica" />
+    <configuration name="ProvaLinia" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="poo.composicio.ProvaLinia" />
       <module name="JavaExamples" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="training.*" />
+          <option name="PATTERN" value="poo.composicio.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -79,12 +91,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Cotxes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="poo.cotxes.Cotxes" />
+    <configuration name="ProvaPersones" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="poo.persones.ProvaPersones" />
       <module name="JavaExamples" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="poo.cotxes.*" />
+          <option name="PATTERN" value="poo.persones.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -92,12 +104,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Decimal2Octal2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="conversions.Decimal2Octal2" />
+    <configuration name="ProvaPunt2D" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="poo.composicio.ProvaPunt2D" />
       <module name="JavaExamples" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="conversions.*" />
+          <option name="PATTERN" value="poo.composicio.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -105,12 +117,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProvaAlumne" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="poo.exempleClasse.ProvaAlumne" />
+    <configuration name="ProvaPunt3D" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="poo.composicio.ProvaPunt3D" />
       <module name="JavaExamples" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="poo.exempleClasse.*" />
+          <option name="PATTERN" value="poo.composicio.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -120,11 +132,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Cotxes" />
-        <item itemvalue="Application.ProvaAlumne" />
-        <item itemvalue="Application.CalculadoraCientífica" />
-        <item itemvalue="Application.CalculadoraCientíficaBasica" />
-        <item itemvalue="Application.Decimal2Octal2" />
+        <item itemvalue="Application.ProvaJugador" />
+        <item itemvalue="Application.ProvaPersones" />
+        <item itemvalue="Application.ProvaLinia" />
+        <item itemvalue="Application.ProvaPunt3D" />
+        <item itemvalue="Application.ProvaPunt2D" />
       </list>
     </recent_temporary>
   </component>
@@ -280,14 +292,9 @@
       <workItem from="1710233674461" duration="7191000" />
       <workItem from="1710272054873" duration="332000" />
       <workItem from="1710272736753" duration="19000" />
-      <workItem from="1710313271868" duration="503000" />
-    </task>
-    <task id="LOCAL-00074" summary="Exemples">
-      <created>1683793531181</created>
-      <option name="number" value="00074" />
-      <option name="presentableId" value="LOCAL-00074" />
-      <option name="project" value="LOCAL" />
-      <updated>1683793531182</updated>
+      <workItem from="1710313271868" duration="6520000" />
+      <workItem from="1710323392308" duration="31000" />
+      <workItem from="1710440577244" duration="1392000" />
     </task>
     <task id="LOCAL-00075" summary="Exemples">
       <created>1683794401360</created>
@@ -625,7 +632,14 @@
       <option name="project" value="LOCAL" />
       <updated>1710272321294</updated>
     </task>
-    <option name="localTasksCounter" value="123" />
+    <task id="LOCAL-00123" summary="Exemples">
+      <created>1710313796361</created>
+      <option name="number" value="00123" />
+      <option name="presentableId" value="LOCAL-00123" />
+      <option name="project" value="LOCAL" />
+      <updated>1710313796362</updated>
+    </task>
+    <option name="localTasksCounter" value="124" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
