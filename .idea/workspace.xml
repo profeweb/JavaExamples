@@ -2,8 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e3daea28-0551-4b13-ab45-39306edd8b83" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/poo/composicio/ProvaCercle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/poo/composicio/ProvaTriangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/poo/composicio/Poligon.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/poo/composicio/PoligonR.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/poo/composicio/Quadrat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/poo/composicio/Cercle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/poo/composicio/Cercle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/poo/composicio/ProvaTriangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/poo/composicio/ProvaTriangle.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,7 +56,20 @@
       <recent name="trenenliniatopdown" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ProvaJugador">
+  <component name="RunManager" selected="Application.ProvaCercle">
+    <configuration name="ProvaCercle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="poo.composicio.ProvaCercle" />
+      <module name="JavaExamples" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="poo.composicio.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ProvaJugador" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="poo.persones.ProvaJugador" />
       <module name="JavaExamples" />
@@ -92,21 +109,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProvaPunt2D" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="poo.composicio.ProvaPunt2D" />
-      <module name="JavaExamples" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="poo.composicio.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ProvaPunt3D" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="poo.composicio.ProvaPunt3D" />
+    <configuration name="ProvaTriangle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="poo.composicio.ProvaTriangle" />
       <module name="JavaExamples" />
       <extension name="coverage">
         <pattern>
@@ -120,11 +124,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ProvaCercle" />
+        <item itemvalue="Application.ProvaTriangle" />
         <item itemvalue="Application.ProvaJugador" />
         <item itemvalue="Application.ProvaPersones" />
         <item itemvalue="Application.ProvaLinia" />
-        <item itemvalue="Application.ProvaPunt3D" />
-        <item itemvalue="Application.ProvaPunt2D" />
       </list>
     </recent_temporary>
   </component>
@@ -282,14 +286,10 @@
       <workItem from="1710272736753" duration="19000" />
       <workItem from="1710313271868" duration="6520000" />
       <workItem from="1710323392308" duration="31000" />
-      <workItem from="1710440577244" duration="1769000" />
-    </task>
-    <task id="LOCAL-00076" summary="Exemples">
-      <created>1683794638752</created>
-      <option name="number" value="00076" />
-      <option name="presentableId" value="LOCAL-00076" />
-      <option name="project" value="LOCAL" />
-      <updated>1683794638752</updated>
+      <workItem from="1710440577244" duration="2230000" />
+      <workItem from="1710487289472" duration="596000" />
+      <workItem from="1710838465456" duration="2127000" />
+      <workItem from="1710875849227" duration="505000" />
     </task>
     <task id="LOCAL-00077" summary="Exemples">
       <created>1683796773996</created>
@@ -627,7 +627,14 @@
       <option name="project" value="LOCAL" />
       <updated>1710441989451</updated>
     </task>
-    <option name="localTasksCounter" value="125" />
+    <task id="LOCAL-00125" summary="Exemples">
+      <created>1710442367652</created>
+      <option name="number" value="00125" />
+      <option name="presentableId" value="LOCAL-00125" />
+      <option name="project" value="LOCAL" />
+      <updated>1710442367652</updated>
+    </task>
+    <option name="localTasksCounter" value="126" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

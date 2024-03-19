@@ -1,6 +1,6 @@
 package poo.composicio;
 
-public class ProvaTriangle {
+public class ProvaPoligons {
 
     public static void main(String[] args) {
 

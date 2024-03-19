@@ -44,6 +44,6 @@ public class Cercle {
     public  void imprimir(){
         System.out.print("El cercle té centre a ");
         this.centre.imprimir();
-        System.out.println(" i té radi "+this.radi);
+        System.out.println("i té radi "+this.radi);
     }
 }
