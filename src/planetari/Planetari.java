@@ -10,7 +10,7 @@ public class Planetari extends PApplet {
     Boto bPlay, bPause, bPrev, bNext, bInfo, bZoomIn, bZoomOut;
 
     public void settings(){
-        size(1000, 800, P3D);
+        fullScreen(P3D);
     }
 
     public static void main(String[] args){
