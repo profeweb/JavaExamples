@@ -6,7 +6,8 @@ public class Planetari extends PApplet {
 
     CosAstronomic[] cossos;
 
-    Boto b;
+    // Botons de la interfície
+    Boto bPlay, bPause, bPrev, bNext, bInfo, bZoomIn, bZoomOut;
 
     public void settings(){
         size(1000, 800, P3D);
@@ -18,8 +19,14 @@ public class Planetari extends PApplet {
 
     public void setup(){
 
-        // PApplet p5, String i1, String i2, float x, float y, float r
-        b = new Boto(this, "botons/bInfoOn.svg", "botons/bInfoOut.svg", 200, 200, 50);
+
+        bPlay    = new Boto(this, "botons/bPlayOn.svg", "botons/bPlayOut.svg", 100, height - 100, 30);
+        bPause   = new Boto(this, "botons/bPauseOn.svg", "botons/bPauseOut.svg", 160, height - 100, 30);
+        bPrev    = new Boto(this, "botons/bPrevOn.svg", "botons/bPrevOut.svg", 220, height - 100, 30);
+        bNext    = new Boto(this, "botons/bNextOn.svg", "botons/bNextOut.svg", 280, height - 100, 30);
+        bInfo    = new Boto(this, "botons/bInfoOn.svg", "botons/bInfoOut.svg", 340, height - 100, 30);
+        bZoomIn  = new Boto(this, "botons/bZoomInOn.svg", "botons/bZoomInOut.svg", width-200, height - 100, 30);
+        bZoomOut = new Boto(this, "botons/bZoomOutOn.svg", "botons/bZoomOutOut.svg", width-120, height - 100, 30);
 
         cossos = new CosAstronomic[12];
 
@@ -56,6 +63,9 @@ public class Planetari extends PApplet {
 
         cossos[0].display(this);
 
-        b.display(this);
+        // Dibuixa els botons
+        bPlay.display(this); bPause.display(this);
+        bPrev.display(this); bNext.display(this); bInfo.display(this);
+        bZoomIn.display(this); bZoomOut.display(this);
     }
 }
