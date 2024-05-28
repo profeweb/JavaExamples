@@ -21,5 +21,4 @@ public class Quadrat extends Poligon {
         }
     }
 
-
 }

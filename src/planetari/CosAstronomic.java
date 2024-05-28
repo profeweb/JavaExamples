@@ -1,5 +1,8 @@
 package planetari;
 
+import processing.core.PApplet;
+import processing.core.PShape;
+
 public class CosAstronomic {
 
     // Tipus enumerat
@@ -25,6 +28,9 @@ public class CosAstronomic {
     double periodeOrbita;
     double periodeRotació;
     double excentricitat;
+
+    // Propietats visuals
+    PShape img;
 
     // Constructor
     CosAstronomic(String n, Tipus t, String c){
@@ -102,6 +108,10 @@ public class CosAstronomic {
         this.excentricitat = e;
     }
 
+    void setImatge(PApplet p5, String nomImatge ){
+        this.img = p5.loadShape(nomImatge);
+    }
+
     //  ************ Getters **************
 
     String getNom(){
@@ -152,6 +162,8 @@ public class CosAstronomic {
         return this.excentricitat;
     }
 
+    PShape getImatge(){ return this.img; }
+
 
     // Altres mètodes
 
@@ -174,6 +186,15 @@ public class CosAstronomic {
         System.out.println("\t\t Periode Rotació: "+this.periodeRotació);
         System.out.println("\t\t Excentricitat: "+this.excentricitat);
         System.out.println("");
+    }
+
+
+    void display(PApplet p5){
+        p5.pushMatrix();
+            p5.translate(this.x, this.y, this.z);
+            p5.imageMode(p5.CENTER);
+            p5.shape(this.img, 0, 0, 100, 100);
+        p5.popMatrix();
     }
 
 }

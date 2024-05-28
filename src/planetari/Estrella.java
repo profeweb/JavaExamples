@@ -8,7 +8,7 @@ public class Estrella extends CosAstronomic {
     float temperatura;
     float indexColorUB;
 
-    // Contructor
+    // Constructor
     Estrella(String n, String c, char te, float b){
         super(n, CosAstronomic.Tipus.ESTRELLA, c);
         this.tipusEspectral = te;

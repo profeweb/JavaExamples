@@ -2,12 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e3daea28-0551-4b13-ab45-39306edd8b83" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/poo/composicio/Poligon.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/poo/composicio/PoligonR.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/poo/composicio/Quadrat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/library.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/planetari/Boto.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/poo/composicio/Cercle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/poo/composicio/Cercle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/poo/composicio/ProvaTriangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/poo/composicio/ProvaTriangle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaExamples.iml" beforeDir="false" afterPath="$PROJECT_DIR$/JavaExamples.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/planetari/CosAstronomic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/planetari/CosAstronomic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/planetari/Estrella.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/planetari/Estrella.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/planetari/Planetari.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/planetari/Planetari.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/poo/composicio/Quadrat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/poo/composicio/Quadrat.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,16 +40,23 @@
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;full.screen.before.presentation.mode&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/tonim/IdeaProjects/JavaExamples/src/papers/paper2/t4/pregunta1b&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
+    &quot;last_opened_file_path&quot;: &quot;C:/Program Files/processing354/processing-3.5.4/core/library&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\tonim\IdeaProjects\JavaExamples\src\papers\paper2\t4\pregunta1b" />
       <recent name="C:\Users\tonim\IdeaProjects\JavaExamples\src\papers\paper2\t4" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\tonim\IdeaProjects\JavaExamples\data\planetes" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="poo.composicio" />
@@ -56,7 +66,20 @@
       <recent name="trenenliniatopdown" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ProvaCercle">
+  <component name="RunManager" selected="Application.Planetari">
+    <configuration name="Planetari" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="planetari.Planetari" />
+      <module name="JavaExamples" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="planetari.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ProvaCercle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="poo.composicio.ProvaCercle" />
       <module name="JavaExamples" />
@@ -76,19 +99,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="poo.persones.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ProvaLinia" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="poo.composicio.ProvaLinia" />
-      <module name="JavaExamples" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="poo.composicio.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -124,11 +134,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Planetari" />
         <item itemvalue="Application.ProvaCercle" />
         <item itemvalue="Application.ProvaTriangle" />
         <item itemvalue="Application.ProvaJugador" />
         <item itemvalue="Application.ProvaPersones" />
-        <item itemvalue="Application.ProvaLinia" />
       </list>
     </recent_temporary>
   </component>
@@ -289,14 +299,15 @@
       <workItem from="1710440577244" duration="2230000" />
       <workItem from="1710487289472" duration="596000" />
       <workItem from="1710838465456" duration="2127000" />
-      <workItem from="1710875849227" duration="505000" />
-    </task>
-    <task id="LOCAL-00077" summary="Exemples">
-      <created>1683796773996</created>
-      <option name="number" value="00077" />
-      <option name="presentableId" value="LOCAL-00077" />
-      <option name="project" value="LOCAL" />
-      <updated>1683796773997</updated>
+      <workItem from="1710875849227" duration="2510000" />
+      <workItem from="1710937963883" duration="15000" />
+      <workItem from="1711552832619" duration="1353000" />
+      <workItem from="1711555271028" duration="660000" />
+      <workItem from="1716282864865" duration="1279000" />
+      <workItem from="1716308389610" duration="95000" />
+      <workItem from="1716357507376" duration="2960000" />
+      <workItem from="1716386067458" duration="699000" />
+      <workItem from="1716883168465" duration="1458000" />
     </task>
     <task id="LOCAL-00078" summary="Exemples">
       <created>1684148282593</created>
@@ -634,7 +645,14 @@
       <option name="project" value="LOCAL" />
       <updated>1710442367652</updated>
     </task>
-    <option name="localTasksCounter" value="126" />
+    <task id="LOCAL-00126" summary="Exemples">
+      <created>1710876569159</created>
+      <option name="number" value="00126" />
+      <option name="presentableId" value="LOCAL-00126" />
+      <option name="project" value="LOCAL" />
+      <updated>1710876569159</updated>
+    </task>
+    <option name="localTasksCounter" value="127" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
