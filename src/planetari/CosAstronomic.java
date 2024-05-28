@@ -53,7 +53,7 @@ public class CosAstronomic {
         this.codi = c;
     }
 
-    void setPosició(float x, float y, float z){
+    void setPosicio(float x, float y, float z){
         this.x = x; this.y = y; this.z = z;
     }
 
