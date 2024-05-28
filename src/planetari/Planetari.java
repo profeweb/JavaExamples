@@ -152,9 +152,11 @@ public class Planetari extends PApplet {
     public void draw(){
         background(255, 100, 100);
 
-        //displayInfo(50, 50, cossos[0]);
+        displayInfo(50, 50, astres[numAstre]);
 
-        //cossos[0].display(this);
+        for(int i=0; i<numTotalAstres; i++) {
+            astres[i].display(this);
+        }
 
         // Dibuixa els botons
         bPlay.display(this); bPause.display(this);

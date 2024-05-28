@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e3daea28-0551-4b13-ab45-39306edd8b83" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/planetari/CosAstronomic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/planetari/CosAstronomic.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/planetari/Planetari.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/planetari/Planetari.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -301,14 +299,7 @@
       <workItem from="1716308389610" duration="95000" />
       <workItem from="1716357507376" duration="2960000" />
       <workItem from="1716386067458" duration="699000" />
-      <workItem from="1716883168465" duration="6467000" />
-    </task>
-    <task id="LOCAL-00085" summary="Exemples">
-      <created>1697543532688</created>
-      <option name="number" value="00085" />
-      <option name="presentableId" value="LOCAL-00085" />
-      <option name="project" value="LOCAL" />
-      <updated>1697543532689</updated>
+      <workItem from="1716883168465" duration="6794000" />
     </task>
     <task id="LOCAL-00086" summary="Exemples">
       <created>1697544285599</created>
@@ -646,7 +637,14 @@
       <option name="project" value="LOCAL" />
       <updated>1716888830481</updated>
     </task>
-    <option name="localTasksCounter" value="134" />
+    <task id="LOCAL-00134" summary="Exemples">
+      <created>1716890636821</created>
+      <option name="number" value="00134" />
+      <option name="presentableId" value="LOCAL-00134" />
+      <option name="project" value="LOCAL" />
+      <updated>1716890636821</updated>
+    </task>
+    <option name="localTasksCounter" value="135" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
