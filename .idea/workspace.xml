@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="e3daea28-0551-4b13-ab45-39306edd8b83" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/planetari/Planetari.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/planetari/Planetari.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -299,21 +300,7 @@
       <workItem from="1716308389610" duration="95000" />
       <workItem from="1716357507376" duration="2960000" />
       <workItem from="1716386067458" duration="699000" />
-      <workItem from="1716883168465" duration="3269000" />
-    </task>
-    <task id="LOCAL-00082" summary="Exemples">
-      <created>1696939038606</created>
-      <option name="number" value="00082" />
-      <option name="presentableId" value="LOCAL-00082" />
-      <option name="project" value="LOCAL" />
-      <updated>1696939038607</updated>
-    </task>
-    <task id="LOCAL-00083" summary="Exemples">
-      <created>1696939240309</created>
-      <option name="number" value="00083" />
-      <option name="presentableId" value="LOCAL-00083" />
-      <option name="project" value="LOCAL" />
-      <updated>1696939240310</updated>
+      <workItem from="1716883168465" duration="4557000" />
     </task>
     <task id="LOCAL-00084" summary="Exemples">
       <created>1697542829916</created>
@@ -644,7 +631,21 @@
       <option name="project" value="LOCAL" />
       <updated>1716885720719</updated>
     </task>
-    <option name="localTasksCounter" value="131" />
+    <task id="LOCAL-00131" summary="Exemples">
+      <created>1716887057518</created>
+      <option name="number" value="00131" />
+      <option name="presentableId" value="LOCAL-00131" />
+      <option name="project" value="LOCAL" />
+      <updated>1716887057518</updated>
+    </task>
+    <task id="LOCAL-00132" summary="Exemples">
+      <created>1716887112997</created>
+      <option name="number" value="00132" />
+      <option name="presentableId" value="LOCAL-00132" />
+      <option name="project" value="LOCAL" />
+      <updated>1716887112997</updated>
+    </task>
+    <option name="localTasksCounter" value="133" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
