@@ -68,4 +68,28 @@ public class Planetari extends PApplet {
         bPrev.display(this); bNext.display(this); bInfo.display(this);
         bZoomIn.display(this); bZoomOut.display(this);
     }
+
+    public void mousePressed(){
+        if(bPlay.mouseDinsBoto(this)){
+            println("PLAY");
+        }
+        else if(bPause.mouseDinsBoto(this)){
+            println("PAUSE");
+        }
+        else if(bPrev.mouseDinsBoto(this)){
+            println("PREV");
+        }
+        else if(bNext.mouseDinsBoto(this)){
+            println("NEXT");
+        }
+        else if(bInfo.mouseDinsBoto(this)){
+            println("INFO");
+        }
+        else if(bZoomIn.mouseDinsBoto(this)){
+            println("ZOOM IN");
+        }
+        else if(bZoomOut.mouseDinsBoto(this)){
+            println("ZOOM OUT");
+        }
+    }
 }
