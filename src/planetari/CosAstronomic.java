@@ -5,6 +5,7 @@ import processing.core.PShape;
 
 import static processing.core.PApplet.cos;
 import static processing.core.PApplet.sin;
+import static processing.core.PConstants.TWO_PI;
 
 public class CosAstronomic {
 
@@ -22,8 +23,8 @@ public class CosAstronomic {
     // Angles de l'Orbita i la Rotació
     float angleRotacio;
     float angleOrbita;
-    float angleStep;
-    float rotaStep;
+    float angleStep = 0.002f;
+    float rotaStep = 0.02f;
 
     // Propietats físiques
     double masa;
@@ -46,6 +47,8 @@ public class CosAstronomic {
         this.nom = n;
         this.tipus = t;
         this.codi = c;
+
+        angleOrbita = (float)( Math.random() * Math.PI * 2);
     }
 
     //  ************ Setters **************

@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e3daea28-0551-4b13-ab45-39306edd8b83" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/planetari/Orbites.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/planetari/CosAstronomic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/planetari/CosAstronomic.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/planetari/Planetari.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/planetari/Planetari.java" afterDir="false" />
@@ -61,7 +60,7 @@
       <recent name="trenenliniatopdown" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Orbites">
+  <component name="RunManager" selected="Application.Planetari">
     <configuration name="Orbites" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="planetari.Orbites" />
       <module name="JavaExamples" />
@@ -129,8 +128,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Orbites" />
         <item itemvalue="Application.Planetari" />
+        <item itemvalue="Application.Orbites" />
         <item itemvalue="Application.ProvaCercle" />
         <item itemvalue="Application.ProvaTriangle" />
         <item itemvalue="Application.ProvaJugador" />
@@ -305,14 +304,7 @@
       <workItem from="1716883168465" duration="7173000" />
       <workItem from="1716905408602" duration="493000" />
       <workItem from="1716905935277" duration="54000" />
-      <workItem from="1716962526499" duration="4375000" />
-    </task>
-    <task id="LOCAL-00087" summary="Exemples">
-      <created>1697544337358</created>
-      <option name="number" value="00087" />
-      <option name="presentableId" value="LOCAL-00087" />
-      <option name="project" value="LOCAL" />
-      <updated>1697544337358</updated>
+      <workItem from="1716962526499" duration="6020000" />
     </task>
     <task id="LOCAL-00088" summary="Exemples">
       <created>1699515216477</created>
@@ -650,7 +642,14 @@
       <option name="project" value="LOCAL" />
       <updated>1716890999659</updated>
     </task>
-    <option name="localTasksCounter" value="136" />
+    <task id="LOCAL-00136" summary="Exemples">
+      <created>1716967039458</created>
+      <option name="number" value="00136" />
+      <option name="presentableId" value="LOCAL-00136" />
+      <option name="project" value="LOCAL" />
+      <updated>1716967039459</updated>
+    </task>
+    <option name="localTasksCounter" value="137" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

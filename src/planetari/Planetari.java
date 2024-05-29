@@ -55,6 +55,8 @@ public class Planetari extends PApplet {
         sol.setPosicio(width/2, height/2, -10);
         sol.setPropsFisiques(1.9891e30, 1.4123e18, 1.41, 274, 696340);
         sol.setPropsOrbitals(0.1628, 2.25e18, 27, 0);
+        sol.setTemperatura(5778);
+        sol.setIndexColorUB(274);
         // Guardar el Sol a l'array d'astres
         astres[0] = sol;
 
@@ -62,8 +64,9 @@ public class Planetari extends PApplet {
         Planeta mercuri = new Planeta("Mercuri", "2641", Planeta.TipusPlaneta.ROCOS, sol);
         mercuri.setImatge(this, "planetes/mercury.svg");
         mercuri.setPosicio(1*width/3, height/3, 0);
-        mercuri.setPropsFisiques(1, 2, 3, 4, 5);
-        mercuri.setPropsOrbitals(6, 7, 8, 9);
+        mercuri.setPropsFisiques(3.285e23, 6.083e10, 5430, 3.7, 2439.7);
+        mercuri.setPropsOrbitals(0.387, 88, 58.645833, 0.2056306);
+        mercuri.setRadiOrbita(100);
         // Guardar Mercuri a l'array d'astres
         astres[1] = mercuri;
 
@@ -73,6 +76,7 @@ public class Planetari extends PApplet {
         venus.setPosicio(1*width/3, 1*height/2, 0);
         venus.setPropsFisiques(4.867e24, 9.38e11, 5240, 8.87, 6051.8);
         venus.setPropsOrbitals(0.723, 225, 116.75, 0.007);
+        venus.setRadiOrbita(200);
         // Guardar Venus a l'array d'astres
         astres[2] = venus;
 
@@ -82,6 +86,7 @@ public class Planetari extends PApplet {
         terra.setPosicio(1*width/3, 2*height/3, 0);
         terra.setPropsFisiques(5.973e24, 1.0832e12, 5.515, 9.780327, 6378.1);
         terra.setPropsOrbitals(0.9998555, 365.25, 0.99726, 0.016711233);
+        terra.setRadiOrbita(300);
         // Guardar la Terra a l'array d'astres
         astres[3] = terra;
 
@@ -90,7 +95,8 @@ public class Planetari extends PApplet {
         lluna.setImatge(this, "planetes/moon.svg");
         lluna.setPosicio(1*width/3 -200, 2*height/3, 0);
         lluna.setPropsFisiques(7.349e22, 2.1958e10, 3.34, 1.62, 1737.1);
-        lluna.setPropsOrbitals(0.002573566, 27.321527, 0.99726, 0.044);
+        lluna.setPropsOrbitals(2.5695552e-6, 27.321527, 0.99726, 0.044);
+        lluna.setRadiOrbita(100);
         // Guardar la Lluna a l'array d'astres
         astres[4] = lluna;
 
@@ -100,6 +106,7 @@ public class Planetari extends PApplet {
         mart.setPosicio(width/2, 1*height/3, 0);
         mart.setPropsFisiques(6.4185e23, 1.6318e11, 3.9335, 3.711, 3389.5);
         mart.setPropsOrbitals(1.523662, 686.971, 0.093315, 0.093315);
+        mart.setRadiOrbita(400);
         // Guardar Mart a l'array d'astres
         astres[5] = mart;
 
@@ -107,8 +114,9 @@ public class Planetari extends PApplet {
         Planeta jupiter = new Planeta("Júpiter", "2643", Planeta.TipusPlaneta.GASOS, sol);
         jupiter.setImatge(this, "planetes/jupiter.svg");
         jupiter.setPosicio(width/2, 2*height/3, 0);
-        jupiter.setPropsFisiques(1, 2, 3, 4, 5);
-        jupiter.setPropsOrbitals(6, 7, 8, 9);
+        jupiter.setPropsFisiques(1.899e27, 1.4313e15, 1336, 24.79, 71492);
+        jupiter.setPropsOrbitals(5.204267, 4332.71, 4332.71, 0.04839266);
+        jupiter.setRadiOrbita(500);
         // Guardar Júpiter a l'array d'astres
         astres[6] = jupiter;
 
@@ -116,8 +124,9 @@ public class Planetari extends PApplet {
         Planeta saturn = new Planeta("Saturn", "2644", Planeta.TipusPlaneta.GASOS, sol);
         saturn.setImatge(this, "planetes/saturn.svg");
         saturn.setPosicio(2*width/3, 1*height/3, 0);
-        saturn.setPropsFisiques(5.688e26, 8.27e23, 690, 10.44, 58.232);
+        saturn.setPropsFisiques(5.688e26, 8.27e23, 690, 10.44, 58232);
         saturn.setPropsOrbitals(9.537, 378.1, 0.4400231, 0.05648);
+        saturn.setRadiOrbita(600);
         // Guardar Saturn a l'array d'astres
         astres[7] = saturn;
 
@@ -125,8 +134,9 @@ public class Planetari extends PApplet {
         Planeta ura = new Planeta("Urà", "2645", Planeta.TipusPlaneta.GASOS, sol);
         ura.setImatge(this, "planetes/uranus.svg");
         ura.setPosicio(2*width/3, 1*height/2, 0);
-        ura.setPropsFisiques(1, 2, 3, 4, 5);
-        ura.setPropsOrbitals(6, 7, 8, 9);
+        ura.setPropsFisiques(8.681e25, 6.833e13, 1274, 8.87, 25362);
+        ura.setPropsOrbitals(19.18, 369.66, 0.714, 0.04405586);
+        ura.setRadiOrbita(700);
         // Guardar Urà a l'array d'astres
         astres[8] = ura;
 
@@ -136,6 +146,7 @@ public class Planetari extends PApplet {
         neptu.setPosicio(2*width/3, 2*height/3, 0);
         neptu.setPropsFisiques(1.024e26, 6.254e23, 1.64, 11.15, 24624);
         neptu.setPropsOrbitals(30.1, 60190, 0.67152777, 0.011214269);
+        neptu.setRadiOrbita(800);
         // Guardar Neptú a l'array d'astres
         astres[9] = neptu;
 
@@ -145,6 +156,7 @@ public class Planetari extends PApplet {
         pluto.setPosicio(2*width/3 + 200, 1*height/2, 0);
         pluto.setPropsFisiques(1.25e22, 8.27e23, 1750, 0.6, 1195);
         pluto.setPropsOrbitals(29.67, 90580.065, 6.375, 0.244);
+        pluto.setRadiOrbita(900);
         // Guardar Plutó a l'array d'astres
         astres[10] = pluto;
 
@@ -159,6 +171,20 @@ public class Planetari extends PApplet {
         // Dibuixa els cossos astronòmics
         for(int i=0; i<numTotalAstres; i++) {
             astres[i].display(this);
+
+            // Moviment Orbital
+            // Si el cos és un Planeta, ha d'orbitar respecte del sol
+            if(astres[i] instanceof Planeta) {
+                astres[i].orbita(astres[0]);
+            }
+            else if(astres[i] instanceof Satellit){
+                astres[i].orbita(astres[3]);
+            }
+
+            // Moviment Rotació (excepte del sol)
+            if(! (astres[i] instanceof Estrella)) {
+                astres[i].rota();
+            }
         }
 
         // Dibuixa els botons
@@ -196,22 +222,41 @@ public class Planetari extends PApplet {
         fill(255,20,20); textSize(24); textAlign(LEFT); textFont(font2);
 
         // Dibuixa les dades del cos astronòmic (bloc 1)
-        text("dada 1", x + marginLeft, y + 210 +  lineHeight*0);
-        text("dada 2", x + marginLeft, y + 210 +  lineHeight*1);
-        text("dada 3", x + marginLeft, y + 210 +  lineHeight*2);
-        text("dada 4", x + marginLeft, y + 210 +  lineHeight*3);
+        if( c instanceof Estrella){
+            Estrella e = (Estrella) c;
+            text(e.tipusEspectral, x + marginLeft, y + 210 +  lineHeight*0);
+            text(e.brillo, x + marginLeft, y + 210 +  lineHeight*1);
+            text(e.temperatura+" ºK", x + marginLeft, y + 210 +  lineHeight*2);
+            text(e.indexColorUB, x + marginLeft, y + 210 +  lineHeight*3);
+        }
+        else if( c instanceof Planeta){
+            Planeta p = (Planeta) c;
+            text(p.tipusPlaneta.toString(), x + marginLeft, y + 210 +  lineHeight*0);
+            text(p.estrella.nom, x + marginLeft, y + 210 +  lineHeight*1);
+            String txtAnells = p.anells ? "Amb anells" : "Sense anells";
+            text(txtAnells, x + marginLeft, y + 210 +  lineHeight*2);
+            text(p.numSatellits+" llunes", x + marginLeft, y + 210 +  lineHeight*3);
+        }
+        else if( c instanceof Satellit){
+            Satellit s = (Satellit) c;
+            text(s.tipusSatelit.toString(), x + marginLeft, y + 210 +  lineHeight*0);
+            text(s.planeta.nom, x + marginLeft, y + 210 +  lineHeight*1);
+            text(String.format("%.3e", s.pressio)+" Pa", x + marginLeft, y + 210 +  lineHeight*2);
+            text(String.format("%.2f", s.temperatura)+" ºK", x + marginLeft, y + 210 +  lineHeight*3);
+        }
 
-        // Dibuixa les dades del cos astronòmic (bloc 2)
-        text(String.valueOf(c.masa), x + marginLeft, y + 440 + lineHeight*0);
-        text("dada 2", x + marginLeft, y + 440 + lineHeight*1);
-        text("dada 3", x + marginLeft, y + 440 + lineHeight*2);
-        text("dada 4", x + marginLeft, y + 440 + lineHeight*3);
+        // Dibuixa les dades del cos astronòmic (bloc 2 - propietats físiques)
 
-        // Dibuixa les dades del cos astronòmic (bloc 3)
-        text(String.valueOf(c.radiOrbita), x + marginLeft, y + 655 + lineHeight*0);
-        text("dada 2", x + marginLeft, y + 655 + lineHeight*1);
-        text("dada 3", x + marginLeft, y + 655 + lineHeight*2);
-        text("dada 4", x + marginLeft, y + 655 + lineHeight*3);
+        text(String.format("%.5e", c.masa)+" kg", x + marginLeft, y + 440 + lineHeight*0);
+        text(String.format("%.4e", c.volum)+" km3", x + marginLeft, y + 440 + lineHeight*1);
+        text(String.format("%.2e", c.densitat)+" kg/m3", x + marginLeft, y + 440 + lineHeight*2);
+        text(String.format("%.3f", c.gravetat)+ " m/s2", x + marginLeft, y + 440 + lineHeight*3);
+
+        // Dibuixa les dades del cos astronòmic (bloc 3 - propietats orbitals)
+        text(String.format("%.5f", c.radiOrbita)+" ua", x + marginLeft, y + 655 + lineHeight*0);
+        text(String.format("%.4e", c.periodeOrbita)+ " d", x + marginLeft, y + 655 + lineHeight*1);
+        text(String.format("%.5f", c.periodeRotació) + " d", x + marginLeft, y + 655 + lineHeight*2);
+        text(String.format("%.5f", c.excentricitat), x + marginLeft, y + 655 + lineHeight*3);
     }
 
     public void mousePressed(){
