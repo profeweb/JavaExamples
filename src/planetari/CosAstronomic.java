@@ -3,6 +3,9 @@ package planetari;
 import processing.core.PApplet;
 import processing.core.PShape;
 
+import static processing.core.PApplet.cos;
+import static processing.core.PApplet.sin;
+
 public class CosAstronomic {
 
     // Tipus enumerat
@@ -15,6 +18,12 @@ public class CosAstronomic {
 
     //Posició
     float x, y, z;
+
+    // Angles de l'Orbita i la Rotació
+    float angleRotacio;
+    float angleOrbita;
+    float angleStep;
+    float rotaStep;
 
     // Propietats físiques
     double masa;
@@ -112,6 +121,10 @@ public class CosAstronomic {
         this.img = p5.loadShape(nomImatge);
     }
 
+    void setAngleStep(float a){ this.angleStep = a; }
+
+    void setRotaStep(float a){ this.rotaStep = a; }
+
     //  ************ Getters **************
 
     String getNom(){
@@ -192,9 +205,23 @@ public class CosAstronomic {
     void display(PApplet p5){
         p5.pushMatrix();
             p5.translate(this.x, this.y, this.z);
-            p5.imageMode(p5.CENTER);
+            p5.rotate(angleRotacio);
+            p5.shapeMode(p5.CENTER);
             p5.shape(this.img, 0, 0, 100, 100);
         p5.popMatrix();
+    }
+
+
+    void orbita(CosAstronomic astrePivot){
+        this.x = astrePivot.x + (float)radiOrbita*cos(angleOrbita);
+        this.y = astrePivot.y + (float)radiOrbita*sin(angleOrbita);
+
+        angleOrbita+= angleStep;
+    }
+
+
+    void rota(){
+        this.angleRotacio += rotaStep;
     }
 
 }

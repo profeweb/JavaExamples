@@ -37,6 +37,7 @@ public class Planetari extends PApplet {
         font1 = createFont("fonts/Starge.ttf", 40);
         font2 = createFont("fonts/Nasa.ttf", 24);
 
+        // Crea els botons de la Interfície Gràfica
         bPlay    = new Boto(this, "botons/bPlayOn.svg", "botons/bPlayOut.svg", 100, height - 100, 30);
         bPause   = new Boto(this, "botons/bPauseOn.svg", "botons/bPauseOut.svg", 160, height - 100, 30);
         bPrev    = new Boto(this, "botons/bPrevOn.svg", "botons/bPrevOut.svg", 220, height - 100, 30);
@@ -152,8 +153,10 @@ public class Planetari extends PApplet {
     public void draw(){
         background(255, 100, 100);
 
+        // Dibuixa el panell informatiu
         displayInfo(50, 50, astres[numAstre]);
 
+        // Dibuixa els cossos astronòmics
         for(int i=0; i<numTotalAstres; i++) {
             astres[i].display(this);
         }
@@ -220,9 +223,17 @@ public class Planetari extends PApplet {
         }
         else if(bPrev.mouseDinsBoto(this)){
             println("PREV");
+            numAstre--;
+            if(numAstre<0){
+                numAstre = numTotalAstres-1;
+            }
         }
         else if(bNext.mouseDinsBoto(this)){
             println("NEXT");
+            numAstre++;
+            if(numAstre >= numTotalAstres){
+                numAstre = 0;
+            }
         }
         else if(bInfo.mouseDinsBoto(this)){
             println("INFO");
