@@ -222,6 +222,26 @@ public class CosAstronomic {
         angleOrbita+= angleStep;
     }
 
+    void orbita(PApplet p5, CosAstronomic astrePivot, float pos, boolean viewOrbits){
+
+        float r = 150*pos;
+
+        this.x = astrePivot.x + r*cos(angleOrbita);
+        this.y = astrePivot.y + r*sin(angleOrbita);
+
+        float angStep = p5.map((float) this.periodeOrbita, 0, 90000, 0.001f, 0.0001f);
+        this.angleOrbita+= angStep;
+
+        if(viewOrbits){
+            p5.pushMatrix();
+            p5.translate(astrePivot.x, astrePivot.y, -5.0f);
+            p5.noFill();
+            p5.stroke(255);
+            p5.ellipse(0, 0, 2*r, 2*r);
+            p5.popMatrix();
+        }
+    }
+
 
     void rota(){
         this.angleRotacio += rotaStep;

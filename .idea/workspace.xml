@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="e3daea28-0551-4b13-ab45-39306edd8b83" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/planetari/CosAstronomic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/planetari/CosAstronomic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaExamples.iml" beforeDir="false" afterPath="$PROJECT_DIR$/JavaExamples.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/planetari/Planetari.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/planetari/Planetari.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -30,20 +30,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;full.screen.before.presentation.mode&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Program Files/processing354/processing-3.5.4/core/library&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "full.screen.before.presentation.mode": "false",
+    "last_opened_file_path": "C:/Users/tonim/Documents/Processing/libraries/peasycam/library/peasycam.jar",
+    "project.structure.last.edited": "Libraries",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\tonim\IdeaProjects\JavaExamples\src\papers\paper2\t4\pregunta1b" />
@@ -304,14 +304,10 @@
       <workItem from="1716883168465" duration="7173000" />
       <workItem from="1716905408602" duration="493000" />
       <workItem from="1716905935277" duration="54000" />
-      <workItem from="1716962526499" duration="6020000" />
-    </task>
-    <task id="LOCAL-00088" summary="Exemples">
-      <created>1699515216477</created>
-      <option name="number" value="00088" />
-      <option name="presentableId" value="LOCAL-00088" />
-      <option name="project" value="LOCAL" />
-      <updated>1699515216478</updated>
+      <workItem from="1716962526499" duration="6734000" />
+      <workItem from="1716973535026" duration="602000" />
+      <workItem from="1717055035042" duration="10000" />
+      <workItem from="1717055598739" duration="2150000" />
     </task>
     <task id="LOCAL-00089" summary="Exemples">
       <created>1699515531028</created>
@@ -649,7 +645,14 @@
       <option name="project" value="LOCAL" />
       <updated>1716967039459</updated>
     </task>
-    <option name="localTasksCounter" value="137" />
+    <task id="LOCAL-00137" summary="Exemples">
+      <created>1716968713639</created>
+      <option name="number" value="00137" />
+      <option name="presentableId" value="LOCAL-00137" />
+      <option name="project" value="LOCAL" />
+      <updated>1716968713639</updated>
+    </task>
+    <option name="localTasksCounter" value="138" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

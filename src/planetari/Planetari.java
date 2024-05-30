@@ -1,5 +1,6 @@
 package planetari;
 
+import peasy.PeasyCam;
 import processing.core.PApplet;
 import processing.core.PFont;
 import processing.core.PShape;
@@ -20,6 +21,12 @@ public class Planetari extends PApplet {
     PShape panell; // Panell de dades (SVG)
     PFont font1, font2; // Fonts (TTF o OTF)
 
+    boolean showPanel = true;
+    boolean enableMotion = false;
+
+    PeasyCam cam;
+    float zoomLevel = 1000f;
+
     public void settings(){
         fullScreen(P3D);
     }
@@ -29,6 +36,8 @@ public class Planetari extends PApplet {
     }
 
     public void setup(){
+
+        cam = new PeasyCam(this,2000);
 
         // Carrega la imatge SVG del panell informatiu
         panell = loadShape("panel.svg");
@@ -52,7 +61,7 @@ public class Planetari extends PApplet {
         // Instanciació del Sol (Estrella)
         Estrella sol = new Estrella("Sol", "2609", 'G', -26.8f );
         sol.setImatge(this, "planetes/sun.svg");
-        sol.setPosicio(width/2, height/2, -10);
+        sol.setPosicio(0, 0, -10);
         sol.setPropsFisiques(1.9891e30, 1.4123e18, 1.41, 274, 696340);
         sol.setPropsOrbitals(0.1628, 2.25e18, 27, 0);
         sol.setTemperatura(5778);
@@ -165,32 +174,37 @@ public class Planetari extends PApplet {
     public void draw(){
         background(255, 100, 100);
 
-        // Dibuixa el panell informatiu
-        displayInfo(50, 50, astres[numAstre]);
-
         // Dibuixa els cossos astronòmics
         for(int i=0; i<numTotalAstres; i++) {
             astres[i].display(this);
 
-            // Moviment Orbital
-            // Si el cos és un Planeta, ha d'orbitar respecte del sol
-            if(astres[i] instanceof Planeta) {
-                astres[i].orbita(astres[0]);
-            }
-            else if(astres[i] instanceof Satellit){
-                astres[i].orbita(astres[3]);
-            }
+            if(enableMotion) {
+                // Moviment Orbital
+                // Si el cos és un Planeta, ha d'orbitar respecte del sol
+                if (astres[i] instanceof Planeta) {
+                    astres[i].orbita(astres[0]);
+                } else if (astres[i] instanceof Satellit) {
+                    astres[i].orbita(astres[3]);
+                }
 
-            // Moviment Rotació (excepte del sol)
-            if(! (astres[i] instanceof Estrella)) {
-                astres[i].rota();
+                // Moviment Rotació (excepte del sol)
+                if (!(astres[i] instanceof Estrella)) {
+                    astres[i].rota();
+                }
             }
         }
 
-        // Dibuixa els botons
-        bPlay.display(this); bPause.display(this);
-        bPrev.display(this); bNext.display(this); bInfo.display(this);
-        bZoomIn.display(this); bZoomOut.display(this);
+        cam.beginHUD();
+            // Dibuixa el panell informatiu
+            if(showPanel) {
+                displayInfo(50, 50, astres[numAstre]);
+            }
+
+            // Dibuixa els botons
+            bPlay.display(this); bPause.display(this);
+            bPrev.display(this); bNext.display(this); bInfo.display(this);
+            bZoomIn.display(this); bZoomOut.display(this);
+        cam.endHUD();
     }
 
     void displayInfo(float x, float y, CosAstronomic c){
@@ -262,9 +276,11 @@ public class Planetari extends PApplet {
     public void mousePressed(){
         if(bPlay.mouseDinsBoto(this)){
             println("PLAY");
+            enableMotion = true;
         }
         else if(bPause.mouseDinsBoto(this)){
             println("PAUSE");
+            enableMotion = false;
         }
         else if(bPrev.mouseDinsBoto(this)){
             println("PREV");
@@ -282,12 +298,17 @@ public class Planetari extends PApplet {
         }
         else if(bInfo.mouseDinsBoto(this)){
             println("INFO");
+            showPanel = !showPanel;
         }
         else if(bZoomIn.mouseDinsBoto(this)){
             println("ZOOM IN");
+            zoomLevel -= 200;
+            cam.setDistance(zoomLevel);
         }
         else if(bZoomOut.mouseDinsBoto(this)){
             println("ZOOM OUT");
+            zoomLevel += 200;
+            cam.setDistance(zoomLevel);
         }
     }
 }
