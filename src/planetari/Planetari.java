@@ -3,6 +3,7 @@ package planetari;
 import peasy.PeasyCam;
 import processing.core.PApplet;
 import processing.core.PFont;
+import processing.core.PImage;
 import processing.core.PShape;
 
 public class Planetari extends PApplet {
@@ -20,9 +21,11 @@ public class Planetari extends PApplet {
     Boto bPlay, bPause, bPrev, bNext, bInfo, bZoomIn, bZoomOut;
     PShape panell; // Panell de dades (SVG)
     PFont font1, font2; // Fonts (TTF o OTF)
+    PImage imgFons;  // Imatge de fons (JPG)
 
     boolean showPanel = true;
-    boolean enableMotion = false;
+    boolean enableMotion = true;
+    boolean viewOrbits = true;
 
     PeasyCam cam;
     float zoomLevel = 1000f;
@@ -41,6 +44,9 @@ public class Planetari extends PApplet {
 
         // Carrega la imatge SVG del panell informatiu
         panell = loadShape("panel.svg");
+
+        // Carrega la imatge JPG del fons del planetari
+        imgFons = loadImage("fons.jpg");
 
         // Carrega les fonts TTF dels textos panell informatiu
         font1 = createFont("fonts/Starge.ttf", 40);
@@ -172,9 +178,18 @@ public class Planetari extends PApplet {
     }
 
     public void draw(){
-        background(255, 100, 100);
+
+        background(0);
+
+        // Dibuixa la imatge de fons
+        imageMode(CENTER);
+        pushMatrix();
+        translate(0, 0, -100);
+        image(imgFons, 0, 0, 4*width, 4*height);
+        popMatrix();
 
         // Dibuixa els cossos astronòmics
+        int pos = 1;
         for(int i=0; i<numTotalAstres; i++) {
             astres[i].display(this);
 
@@ -182,7 +197,9 @@ public class Planetari extends PApplet {
                 // Moviment Orbital
                 // Si el cos és un Planeta, ha d'orbitar respecte del sol
                 if (astres[i] instanceof Planeta) {
-                    astres[i].orbita(astres[0]);
+                    //astres[i].orbita(astres[0]);
+                    astres[i].orbita(this, astres[0], pos, viewOrbits);
+                    pos++;
                 } else if (astres[i] instanceof Satellit) {
                     astres[i].orbita(astres[3]);
                 }
@@ -194,7 +211,9 @@ public class Planetari extends PApplet {
             }
         }
 
+        // Inici del HUD (dibuix en 2D)
         cam.beginHUD();
+
             // Dibuixa el panell informatiu
             if(showPanel) {
                 displayInfo(50, 50, astres[numAstre]);
@@ -205,6 +224,7 @@ public class Planetari extends PApplet {
             bPrev.display(this); bNext.display(this); bInfo.display(this);
             bZoomIn.display(this); bZoomOut.display(this);
         cam.endHUD();
+        // Final del  HUD
     }
 
     void displayInfo(float x, float y, CosAstronomic c){
@@ -274,6 +294,7 @@ public class Planetari extends PApplet {
     }
 
     public void mousePressed(){
+        // Detecta si pitjam damunt algun dels botons
         if(bPlay.mouseDinsBoto(this)){
             println("PLAY");
             enableMotion = true;
