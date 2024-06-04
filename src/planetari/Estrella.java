@@ -50,7 +50,7 @@ public class Estrella extends CosAstronomic {
     }
 
     // Altres mètodes
-    void print(){
+     public void print(){
         System.out.println("ESTRELLA: ");
         System.out.println("\t Nom: "+this.nom);
         System.out.println("\t Tipus: "+this.tipus);
@@ -79,7 +79,7 @@ public class Estrella extends CosAstronomic {
         System.out.println("");
     }
 
-    void print2(){
+    public void print2(){
 
         super.print();
 

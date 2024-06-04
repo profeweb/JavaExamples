@@ -18,7 +18,7 @@ public class Planetari extends PApplet {
     int numAstre = 0;
 
     // Elements Interfície Gràfica
-    Boto bPlay, bPause, bPrev, bNext, bInfo, bZoomIn, bZoomOut;
+    public Boto bPlay, bPause, bPrev, bNext, bInfo, bZoomIn, bZoomOut;
     PShape panell; // Panell de dades (SVG)
     PFont font1, font2; // Fonts (TTF o OTF)
     PImage imgFons;  // Imatge de fons (JPG)

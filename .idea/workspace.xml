@@ -2,8 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e3daea28-0551-4b13-ab45-39306edd8b83" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/planetari/CosAstronomic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/planetari/CosAstronomic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/planetari/Estrella.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/planetari/Estrella.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/planetari/Planeta.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/planetari/Planeta.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/planetari/Planetari.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/planetari/Planetari.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/planetari/Satellit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/planetari/Satellit.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -306,14 +311,10 @@
       <workItem from="1716973535026" duration="602000" />
       <workItem from="1717055035042" duration="10000" />
       <workItem from="1717055598739" duration="2899000" />
-      <workItem from="1717395919212" duration="775000" />
-    </task>
-    <task id="LOCAL-00090" summary="Exemples">
-      <created>1699515946113</created>
-      <option name="number" value="00090" />
-      <option name="presentableId" value="LOCAL-00090" />
-      <option name="project" value="LOCAL" />
-      <updated>1699515946113</updated>
+      <workItem from="1717395919212" duration="951000" />
+      <workItem from="1717487160498" duration="81000" />
+      <workItem from="1717487563211" duration="6057000" />
+      <workItem from="1717511358384" duration="326000" />
     </task>
     <task id="LOCAL-00091" summary="Exemples">
       <created>1700559118752</created>
@@ -651,7 +652,14 @@
       <option name="project" value="LOCAL" />
       <updated>1717058058638</updated>
     </task>
-    <option name="localTasksCounter" value="139" />
+    <task id="LOCAL-00139" summary="Exemples">
+      <created>1717397286816</created>
+      <option name="number" value="00139" />
+      <option name="presentableId" value="LOCAL-00139" />
+      <option name="project" value="LOCAL" />
+      <updated>1717397286817</updated>
+    </task>
+    <option name="localTasksCounter" value="140" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

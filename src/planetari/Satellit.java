@@ -52,7 +52,7 @@ public class Satellit extends CosAstronomic {
     }
 
     // Altres mètodes
-    void print(){
+    public void print(){
         System.out.println("SATÈL·LIT: ");
         System.out.println("\t Nom: "+this.nom);
         System.out.println("\t Tipus: "+this.tipus);
@@ -81,7 +81,7 @@ public class Satellit extends CosAstronomic {
         System.out.println("");
     }
 
-    void print2(){
+    public void print2(){
         super.print();
         System.out.println("\t Propietats Satèl·lit: ");
         System.out.println("\t\t Tipus Satèl·lit: "+this.tipusSatelit);

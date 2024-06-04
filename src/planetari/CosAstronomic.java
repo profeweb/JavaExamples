@@ -5,14 +5,21 @@ import processing.core.PShape;
 
 import static processing.core.PApplet.cos;
 import static processing.core.PApplet.sin;
-import static processing.core.PConstants.TWO_PI;
 
+/**
+ * @author Toni
+ * @version 1.0
+ * Superclasse que serveix per representar qualsevol cos astronòmic.
+ */
 public class CosAstronomic {
 
     // Tipus enumerat
     enum Tipus {ESTRELLA, PLANETA, SATÈLIT, COMETA, COSMENOR};
 
-    // Atributs generals
+    /*
+     Atributs generals
+     etc
+     */
     String nom;
     Tipus tipus;
     String codi;
@@ -43,7 +50,14 @@ public class CosAstronomic {
     PShape img;
 
     // Constructor
-    CosAstronomic(String n, Tipus t, String c){
+
+    /**
+     * Constructor de cos astrònomic general.
+     * @param n Nom del cos astronòmic.
+     * @param t Tipus de cos astronòmic.
+     * @param c Codi del cos astronòmic.
+     */
+    public CosAstronomic(String n, Tipus t, String c){
         this.nom = n;
         this.tipus = t;
         this.codi = c;
@@ -53,23 +67,27 @@ public class CosAstronomic {
 
     //  ************ Setters **************
 
-    void setNom(String n){
+    /**
+     * Actualitza el nom del cos astronòmic.
+     * @param n Nom del cos astronòmic.
+     */
+    public void setNom(String n){
         this.nom = n;
     }
 
-    void setTipus(Tipus t){
+    public void setTipus(Tipus t){
         this.tipus = t;
     }
 
-    void setCodi(String c){
+    public void setCodi(String c){
         this.codi = c;
     }
 
-    void setPosicio(float x, float y, float z){
+    public void setPosicio(float x, float y, float z){
         this.x = x; this.y = y; this.z = z;
     }
 
-    void setPropsFisiques(double m, double v, double d, double g, double r){
+    public void setPropsFisiques(double m, double v, double d, double g, double r){
         this.masa = m;
         this.volum = v;
         this.densitat = d;
@@ -77,113 +95,117 @@ public class CosAstronomic {
         this.radi = r;
     }
 
-    void setMasa(double m){
+    public void setMasa(double m){
         this.masa = m;
     }
 
-    void setVolum(double v){
+    public void setVolum(double v){
         this.volum = v;
     }
 
-    void setDensitat(double d){
+    public void setDensitat(double d){
         this.densitat = d;
     }
 
-    void setGravetat(double g){
+    public void setGravetat(double g){
         this.gravetat = g;
     }
 
-    void setRadi(double r){
+    public void setRadi(double r){
         this.radi = r;
     }
 
-    void setPropsOrbitals(double ro, double po, double pr, double ex){
+    public void setPropsOrbitals(double ro, double po, double pr, double ex){
         this.radiOrbita = ro;
         this.periodeOrbita = po;
         this.periodeRotació = pr;
         this.excentricitat = ex;
     }
 
-    void setRadiOrbita(double ro){
+    public void setRadiOrbita(double ro){
         this.radiOrbita = ro;
     }
 
-    void setPeriodeOrbita(double po){
+    public void setPeriodeOrbita(double po){
         this.periodeOrbita = po;
     }
 
-    void setPeriodeRotació(double pr){
+    public void setPeriodeRotació(double pr){
         this.periodeRotació = pr;
     }
 
-    void setExcentricitat(double e){
+    public void setExcentricitat(double e){
         this.excentricitat = e;
     }
 
-    void setImatge(PApplet p5, String nomImatge ){
+    public void setImatge(PApplet p5, String nomImatge ){
         this.img = p5.loadShape(nomImatge);
     }
 
-    void setAngleStep(float a){ this.angleStep = a; }
+    public void setAngleStep(float a){ this.angleStep = a; }
 
-    void setRotaStep(float a){ this.rotaStep = a; }
+    public void setRotaStep(float a){ this.rotaStep = a; }
 
     //  ************ Getters **************
 
-    String getNom(){
+    /**
+     * Getter de la propietat nom.
+     * @return El nom del cos astronòmic
+     */
+    public String getNom(){
         return this.nom;
     }
 
-    Tipus getTipus(){
+    public Tipus getTipus(){
         return this.tipus;
     }
 
-    String getCodi(){
+    public String getCodi(){
         return this.codi;
     }
 
-    double getMasa(){
+    public double getMasa(){
         return this.masa;
     }
 
-    double getVolum(){
+    public double getVolum(){
         return this.volum;
     }
 
-    double getDensitat(){
+    public double getDensitat(){
         return this.densitat;
     }
 
-    double getGravetat(){
+    public double getGravetat(){
         return this.gravetat;
     }
 
-    double getRadi(){
+    public double getRadi(){
         return this.radi;
     }
 
-    double getRadiOrbita(){
+    public double getRadiOrbita(){
         return this.radiOrbita;
     }
 
-    double getPeriodeOrbita(){
+    public double getPeriodeOrbita(){
         return this.periodeOrbita;
     }
 
-    double getPeriodeRotació(){
+    public double getPeriodeRotació(){
         return this.periodeRotació;
     }
 
-    double getExcentricitat(){
+    public double getExcentricitat(){
         return this.excentricitat;
     }
 
-    PShape getImatge(){ return this.img; }
+    public PShape getImatge(){ return this.img; }
 
 
     // Altres mètodes
 
-    void print(){
+    public void print(){
         System.out.println("COS ASTRONÒMIC: ");
         System.out.println("\t Nom: "+this.nom);
         System.out.println("\t Tipus: "+this.tipus);
@@ -205,7 +227,7 @@ public class CosAstronomic {
     }
 
 
-    void display(PApplet p5){
+    public void display(PApplet p5){
         p5.pushMatrix();
             p5.translate(this.x, this.y, this.z);
             p5.rotate(angleRotacio);
@@ -215,14 +237,14 @@ public class CosAstronomic {
     }
 
 
-    void orbita(CosAstronomic astrePivot){
+    public void orbita(CosAstronomic astrePivot){
         this.x = astrePivot.x + (float)radiOrbita*cos(angleOrbita);
         this.y = astrePivot.y + (float)radiOrbita*sin(angleOrbita);
 
         angleOrbita+= angleStep;
     }
 
-    void orbita(PApplet p5, CosAstronomic astrePivot, float pos, boolean viewOrbits){
+    public void orbita(PApplet p5, CosAstronomic astrePivot, float pos, boolean viewOrbits){
 
         float r = 150*pos;
 
@@ -243,7 +265,7 @@ public class CosAstronomic {
     }
 
 
-    void rota(){
+    public void rota(){
         this.angleRotacio += rotaStep;
     }
 

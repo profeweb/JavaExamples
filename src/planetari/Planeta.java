@@ -11,7 +11,7 @@ public class Planeta extends CosAstronomic {
     int numSatellits;
 
     // Constructor
-    Planeta(String n, String c, TipusPlaneta tp, Estrella e){
+    public Planeta(String n, String c, TipusPlaneta tp, Estrella e){
         super(n, CosAstronomic.Tipus.PLANETA, c);
         this.tipusPlaneta = tp;
         this.estrella = e;
@@ -82,7 +82,7 @@ public class Planeta extends CosAstronomic {
         System.out.println("");
     }
 
-    void print2(){
+    public void print2(){
         super.print();
         System.out.println("\t Propietats Planeta: ");
         System.out.println("\t\t Tipus Planeta: "+this.tipusPlaneta);
