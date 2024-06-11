@@ -23,6 +23,7 @@ public class TresEnLinia {
         } while(continuar(input));
     }
 
+    //dfghjkl
     public static void jugar(Scanner input){
         int[] t = demanaTirada(input);
         tauler[t[0]][t[1]] = (numTirades % 2 == 0) ? VALOR.X : VALOR.O;

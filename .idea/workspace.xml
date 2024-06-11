@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e3daea28-0551-4b13-ab45-39306edd8b83" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/planetari/CosAstronomic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/planetari/CosAstronomic.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/planetari/Estrella.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/planetari/Estrella.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/planetari/Planeta.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/planetari/Planeta.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/planetari/Planetari.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/planetari/Planetari.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/planetari/Satellit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/planetari/Satellit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tresenlinia/TresEnLinia.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tresenlinia/TresEnLinia.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -314,14 +309,9 @@
       <workItem from="1717395919212" duration="951000" />
       <workItem from="1717487160498" duration="81000" />
       <workItem from="1717487563211" duration="6057000" />
-      <workItem from="1717511358384" duration="326000" />
-    </task>
-    <task id="LOCAL-00091" summary="Exemples">
-      <created>1700559118752</created>
-      <option name="number" value="00091" />
-      <option name="presentableId" value="LOCAL-00091" />
-      <option name="project" value="LOCAL" />
-      <updated>1700559118753</updated>
+      <workItem from="1717511358384" duration="1958000" />
+      <workItem from="1717567230224" duration="721000" />
+      <workItem from="1718090538962" duration="1548000" />
     </task>
     <task id="LOCAL-00092" summary="Exemples">
       <created>1701073649155</created>
@@ -659,7 +649,14 @@
       <option name="project" value="LOCAL" />
       <updated>1717397286817</updated>
     </task>
-    <option name="localTasksCounter" value="140" />
+    <task id="LOCAL-00140" summary="Exemples">
+      <created>1717511759844</created>
+      <option name="number" value="00140" />
+      <option name="presentableId" value="LOCAL-00140" />
+      <option name="project" value="LOCAL" />
+      <updated>1717511759844</updated>
+    </task>
+    <option name="localTasksCounter" value="141" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
