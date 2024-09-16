@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e3daea28-0551-4b13-ab45-39306edd8b83" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/marato2/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/marato2/Race.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/marato2/Runner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/marato2/Team.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/marato/Race.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/marato/Race.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/marato/Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/marato/Runner.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,7 +61,20 @@
       <recent name="trenenliniatopdown" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MatchingAlumnesPreguntes">
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="marato2.Main" />
+      <module name="JavaExamples" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="marato2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MatchingAlumnesPreguntes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="trb.MatchingAlumnesPreguntes" />
       <module name="JavaExamples" />
@@ -112,26 +127,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProvaTriangle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="poo.composicio.ProvaTriangle" />
-      <module name="JavaExamples" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="poo.composicio.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.MatchingAlumnesPreguntes" />
         <item itemvalue="Application.Planetari" />
         <item itemvalue="Application.Orbites" />
         <item itemvalue="Application.ProvaCercle" />
-        <item itemvalue="Application.ProvaTriangle" />
       </list>
     </recent_temporary>
   </component>
@@ -316,28 +318,8 @@
       <workItem from="1718093739571" duration="26000" />
       <workItem from="1726055039783" duration="984000" />
       <workItem from="1726066123557" duration="1364000" />
-      <workItem from="1726473308767" duration="1483000" />
-    </task>
-    <task id="LOCAL-00094" summary="Exemples">
-      <created>1701187423357</created>
-      <option name="number" value="00094" />
-      <option name="presentableId" value="LOCAL-00094" />
-      <option name="project" value="LOCAL" />
-      <updated>1701187423358</updated>
-    </task>
-    <task id="LOCAL-00095" summary="Exemples">
-      <created>1701249383377</created>
-      <option name="number" value="00095" />
-      <option name="presentableId" value="LOCAL-00095" />
-      <option name="project" value="LOCAL" />
-      <updated>1701249383379</updated>
-    </task>
-    <task id="LOCAL-00096" summary="Exemples">
-      <created>1701695202519</created>
-      <option name="number" value="00096" />
-      <option name="presentableId" value="LOCAL-00096" />
-      <option name="project" value="LOCAL" />
-      <updated>1701695202520</updated>
+      <workItem from="1726473308767" duration="5224000" />
+      <workItem from="1726487039202" duration="491000" />
     </task>
     <task id="LOCAL-00097" summary="Exemples">
       <created>1701766569215</created>
@@ -661,7 +643,28 @@
       <option name="project" value="LOCAL" />
       <updated>1726055750616</updated>
     </task>
-    <option name="localTasksCounter" value="143" />
+    <task id="LOCAL-00143" summary="Exemples">
+      <created>1726477706851</created>
+      <option name="number" value="00143" />
+      <option name="presentableId" value="LOCAL-00143" />
+      <option name="project" value="LOCAL" />
+      <updated>1726477706852</updated>
+    </task>
+    <task id="LOCAL-00144" summary="Exemples">
+      <created>1726477955788</created>
+      <option name="number" value="00144" />
+      <option name="presentableId" value="LOCAL-00144" />
+      <option name="project" value="LOCAL" />
+      <updated>1726477955788</updated>
+    </task>
+    <task id="LOCAL-00145" summary="Exemples">
+      <created>1726477993868</created>
+      <option name="number" value="00145" />
+      <option name="presentableId" value="LOCAL-00145" />
+      <option name="project" value="LOCAL" />
+      <updated>1726477993868</updated>
+    </task>
+    <option name="localTasksCounter" value="146" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
