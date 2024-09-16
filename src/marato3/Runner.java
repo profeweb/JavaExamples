@@ -1,4 +1,4 @@
-package marato2;
+package marato3;
 
 public class Runner {
 

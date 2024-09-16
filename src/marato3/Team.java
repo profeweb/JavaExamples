@@ -1,4 +1,4 @@
-package marato2;
+package marato3;
 
 public class Team {
 
@@ -54,6 +54,7 @@ public class Team {
             float sumTimes = 0;
             for (int i = 0; i < numRunners; i++) {
                 sumTimes += runners[i].averageTimes();
+                System.out.println(sumTimes);
             }
             return sumTimes / numRunners;
         }
