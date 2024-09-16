@@ -13,6 +13,8 @@ public class Team {
     public Team(String name, boolean international) {
         this.name = name;
         this.international = international;
+        this.runners = new Runner[5];
+        this.numRunners = 0;
     }
 
     // Getters & Setters

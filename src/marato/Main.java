@@ -9,7 +9,7 @@ public class Main {
         Team t1, t2;
         Race c1, c2, c3;
 
-        // Construcció d'objectes de classes
+        // Construcció d'objectes de classes (Runner, Team i Race)
 
         r1 = new Runner("Paco", "Playas", true);
         r2 = new Runner("Pep");

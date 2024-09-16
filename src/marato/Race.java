@@ -11,15 +11,19 @@ public class Race {
     private float classificationTime;
 
     // Constructor(s)
+
     public Race(String raceID) {
         this.raceID = raceID;
+        this.runners = new Runner[8];
+        this.times = new float[8];
     }
 
-    // Getters & Setters
+    // Getters
+
     public String getRaceID() {
         return raceID;
     }
-    
+
     public boolean isFinals() {
         return isFinals;
     }
