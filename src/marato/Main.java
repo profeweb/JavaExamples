@@ -4,7 +4,7 @@ public class Main {
 
     public static void main(String[] args){
 
-        // Variables de classe
+        // Variables de classe (Runner, Team i Race)
         Runner r1, r2, r3, r4;
         Team t1, t2;
         Race c1, c2, c3;
