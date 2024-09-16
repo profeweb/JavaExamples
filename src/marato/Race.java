@@ -15,42 +15,45 @@ public class Race {
         this.raceID = raceID;
     }
 
-    // Getters
+    // Getters & Setters
     public String getRaceID() {
         return raceID;
     }
-
-    public void setRaceID(String raceID) {
-        this.raceID = raceID;
-    }
-
+    
     public boolean isFinals() {
         return isFinals;
-    }
-
-    public void setFinals(boolean finals) {
-        isFinals = finals;
     }
 
     public int getNumRunners() {
         return numRunners;
     }
 
-    // Setters
-    public void setNumRunners(int numRunners) {
-        this.numRunners = numRunners;
-    }
-
     public float getClassificationTime() {
         return classificationTime;
+    }
+
+    // Setters
+
+    public void setRaceID(String raceID) {
+        this.raceID = raceID;
+    }
+
+    public void setFinals(boolean finals) {
+        isFinals = finals;
+    }
+
+    public void setNumRunners(int numRunners) {
+        this.numRunners = numRunners;
     }
 
     public void setClassificationTime(float classificationTime) {
         this.classificationTime = classificationTime;
     }
 
-    public void addRunner(Runner r){
 
+    // Altres
+
+    public void addRunner(Runner r){
     }
 
     public void addTimeToRunner(Runner r, float time){ }

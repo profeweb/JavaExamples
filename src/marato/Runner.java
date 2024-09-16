@@ -10,6 +10,8 @@ public class Runner {
     private int numRaces;
     private boolean professional;
 
+    // Constructor(s)
+
     public Runner(String name) {
         this.name = name;
         this.team = "Sense Equip";
@@ -63,6 +65,7 @@ public class Runner {
     public void setProfessional(boolean professional) {
         this.professional = professional;
     }
+
 
     // Altres mètodes
 
