@@ -35,7 +35,8 @@ public class Team {
         this.international = international;
     }
 
-    // Altres
+    // Altres Mètodes
+
     public void addRunner(Runner r){
         if(numRunners<5) {
             runners[numRunners] = r;
@@ -54,7 +55,6 @@ public class Team {
             float sumTimes = 0;
             for (int i = 0; i < numRunners; i++) {
                 sumTimes += runners[i].averageTimes();
-                System.out.println(sumTimes);
             }
             return sumTimes / numRunners;
         }

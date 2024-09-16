@@ -35,7 +35,8 @@ public class Team {
         this.international = international;
     }
 
-    // Altres
+    // Altres Mètodes
+
     public void addRunner(Runner r){
         if(numRunners<5) {
             runners[numRunners] = r;

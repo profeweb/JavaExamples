@@ -18,6 +18,14 @@ public class Race {
         this.times = new float[8];
     }
 
+    public Race (String raceID, boolean finals, float classificationTime){
+        this.raceID = raceID;
+        this.runners = new Runner[8];
+        this.times = new float[8];
+        this.isFinals = finals;
+        this.classificationTime = classificationTime;
+    }
+
     // Getters
 
     public String getRaceID() {
@@ -69,7 +77,7 @@ public class Race {
 
     public void addTimeToRunner(Runner r, float time){
         for(int i=0; i<numRunners; i++){
-            if(runners[i]==r){
+            if(runners[i] == r){
                 times[i] = time;
             }
         }

@@ -35,5 +35,21 @@ public class Main {
 
         System.out.printf("Temps mig de l'equip %s és %.2f. \n", t1.getName(), t1.averageTimes());
 
+        // Objectes de la classe Race
+        Race c1, c2;
+
+        // Constructor(s) de la classe Race
+        c1 = new Race("Carrera 1", false, 12);
+
+        // Mètodes de la classe Race
+        c1.addRunner(r1);
+        c1.addTimeToRunner(r1, 12.5f);
+
+        c1.addRunner(r2);
+        c1.addTimeToRunner(r2, 14.3f);
+
+        System.out.printf("Millor corredor/a de la carrea %s és %s amb temps %.2f. \n", c1.getRaceID(), c1.bestRunner(), c1.bestTime());
+
+
     }
 }
