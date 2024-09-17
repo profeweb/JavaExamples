@@ -58,9 +58,24 @@ public class Main {
         System.out.printf("Millor corredor/a de la carrera %s és %s amb temps %.2f. \n", c1.getRaceID(), c1.bestRunner(), c1.bestTime());
 
         // Mètodes Generals
+
+        // Millor corredor/a professional d'un determinat equip
         System.out.printf("%s és el millor corredor/a de l'equip %s.\n", bestProfessionalRunnerOfTeam(t1), t1.getName());
+
+        // Corredors classificats d'una determinad carrera
+        // Versió 1) void
         printClassifiedRunners(c1, t1.getName());
 
+        // Versió 2) Array
+        Runner[] classified = getClassifiedRunners(c1, t1.getName());
+        System.out.printf("Classificats de la carrera %s:\n", c1.getRaceID());
+        for(int i=0; i<classified.length; i++){
+            if(classified[i]!=null){
+                System.out.printf("\t%s.\n", classified[i].getName());
+            }
+        }
+
+        // Millor equip
         Team[] teams = {t1, t2};
         System.out.printf("%s és el millor equip.\n", bestTeam(teams));
 
