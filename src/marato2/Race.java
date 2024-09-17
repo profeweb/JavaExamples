@@ -79,6 +79,7 @@ public class Race {
         for(int i=0; i<numRunners; i++){
             if(runners[i] == r){
                 times[i] = time;
+                break;
             }
         }
     }

@@ -19,9 +19,7 @@ public class Race {
     }
 
     public Race (String raceID, boolean finals, float classificationTime){
-        this.raceID = raceID;
-        this.runners = new Runner[8];
-        this.times = new float[8];
+        this(raceID);
         this.isFinals = finals;
         this.classificationTime = classificationTime;
     }

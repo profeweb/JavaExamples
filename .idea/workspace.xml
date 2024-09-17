@@ -2,16 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e3daea28-0551-4b13-ab45-39306edd8b83" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/marato3/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/marato3/Race.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/marato3/Runner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/marato3/Team.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/marato/Race.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/marato/Race.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/marato2/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/marato2/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/marato2/Race.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/marato2/Race.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/marato2/Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/marato2/Runner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/marato2/Team.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/marato2/Team.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,19 +30,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "full.screen.before.presentation.mode": "false",
-    "last_opened_file_path": "C:/Users/tonim/IdeaProjects/JavaExamples/src/marato3",
-    "project.structure.last.edited": "Libraries",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;full.screen.before.presentation.mode&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/tonim/IdeaProjects/JavaExamples/src/marato3&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\tonim\IdeaProjects\JavaExamples\src\marato3" />
@@ -325,21 +318,9 @@
       <workItem from="1726055039783" duration="984000" />
       <workItem from="1726066123557" duration="1364000" />
       <workItem from="1726473308767" duration="5224000" />
-      <workItem from="1726487039202" duration="1579000" />
-    </task>
-    <task id="LOCAL-00098" summary="Exemples">
-      <created>1702386086467</created>
-      <option name="number" value="00098" />
-      <option name="presentableId" value="LOCAL-00098" />
-      <option name="project" value="LOCAL" />
-      <updated>1702386086468</updated>
-    </task>
-    <task id="LOCAL-00099" summary="Exemples">
-      <created>1702394655030</created>
-      <option name="number" value="00099" />
-      <option name="presentableId" value="LOCAL-00099" />
-      <option name="project" value="LOCAL" />
-      <updated>1702394655031</updated>
+      <workItem from="1726487039202" duration="1702000" />
+      <workItem from="1726488793266" duration="6000" />
+      <workItem from="1726554898450" duration="1371000" />
     </task>
     <task id="LOCAL-00100" summary="Exemples">
       <created>1702395562183</created>
@@ -670,7 +651,21 @@
       <option name="project" value="LOCAL" />
       <updated>1726487545724</updated>
     </task>
-    <option name="localTasksCounter" value="147" />
+    <task id="LOCAL-00147" summary="Exemples">
+      <created>1726488669586</created>
+      <option name="number" value="00147" />
+      <option name="presentableId" value="LOCAL-00147" />
+      <option name="project" value="LOCAL" />
+      <updated>1726488669586</updated>
+    </task>
+    <task id="LOCAL-00148" summary="Exemples">
+      <created>1726488748315</created>
+      <option name="number" value="00148" />
+      <option name="presentableId" value="LOCAL-00148" />
+      <option name="project" value="LOCAL" />
+      <updated>1726488748316</updated>
+    </task>
+    <option name="localTasksCounter" value="149" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
