@@ -96,7 +96,7 @@ public class Main {
     }
 
     public static void printClassifiedRunners(Race r, String nameTeam){
-        System.out.printf("Corredors classificats a la carrer %s: \n", r.getRaceID());
+        System.out.printf("Corredors classificats a la carrera %s: \n", r.getRaceID());
         for(int i=0; i<r.getNumRunners(); i++){
             Runner runner = r.getRunners()[i];
             float time = r.getTimes()[i];
