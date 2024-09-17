@@ -91,4 +91,18 @@ public class Main {
             }
         }
     }
+
+    public static Runner[] getClassifiedRunners(Race r, String nameTeam){
+        Runner[] classified = new Runner[r.getNumRunners()];
+        int numClassified = 0;
+        for(int i=0; i<r.getNumRunners(); i++){
+            Runner runner = r.getRunners()[i];
+            float time = r.getTimes()[i];
+            if(time < r.getClassificationTime() && runner.getTeam()== nameTeam){
+                classified[numClassified] = runner;
+                numClassified++;
+            }
+        }
+        return classified;
+    }
 }

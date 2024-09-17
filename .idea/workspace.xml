@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e3daea28-0551-4b13-ab45-39306edd8b83" name="Changes" comment="">
+    <list default="true" id="e3daea28-0551-4b13-ab45-39306edd8b83" name="Changes" comment="Exemples">
       <change beforePath="$PROJECT_DIR$/src/marato3/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/marato3/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/marato3/Race.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/marato3/Race.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,7 +58,7 @@
       <recent name="arrays2d" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="Application.marato3.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="marato2.Main" />
       <module name="JavaExamples" />
@@ -112,12 +111,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProvaCercle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="poo.composicio.ProvaCercle" />
+    <configuration name="marato3.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="marato3.Main" />
       <module name="JavaExamples" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="poo.composicio.*" />
+          <option name="PATTERN" value="marato3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -127,11 +126,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.marato3.Main" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.MatchingAlumnesPreguntes" />
         <item itemvalue="Application.Planetari" />
         <item itemvalue="Application.Orbites" />
-        <item itemvalue="Application.ProvaCercle" />
       </list>
     </recent_temporary>
   </component>
@@ -319,14 +318,7 @@
       <workItem from="1726473308767" duration="5224000" />
       <workItem from="1726487039202" duration="1702000" />
       <workItem from="1726488793266" duration="6000" />
-      <workItem from="1726554898450" duration="4496000" />
-    </task>
-    <task id="LOCAL-00103" summary="Exemples">
-      <created>1702459591248</created>
-      <option name="number" value="00103" />
-      <option name="presentableId" value="LOCAL-00103" />
-      <option name="project" value="LOCAL" />
-      <updated>1702459591250</updated>
+      <workItem from="1726554898450" duration="5175000" />
     </task>
     <task id="LOCAL-00104" summary="Exemples">
       <created>1702460149097</created>
@@ -664,7 +656,14 @@
       <option name="project" value="LOCAL" />
       <updated>1726558562721</updated>
     </task>
-    <option name="localTasksCounter" value="152" />
+    <task id="LOCAL-00152" summary="Exemples">
+      <created>1726559446884</created>
+      <option name="number" value="00152" />
+      <option name="presentableId" value="LOCAL-00152" />
+      <option name="project" value="LOCAL" />
+      <updated>1726559446884</updated>
+    </task>
+    <option name="localTasksCounter" value="153" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
