@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="e3daea28-0551-4b13-ab45-39306edd8b83" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/src/marato3/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/marato3/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/marato3/Race.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/marato3/Race.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -318,14 +319,7 @@
       <workItem from="1726473308767" duration="5224000" />
       <workItem from="1726487039202" duration="1702000" />
       <workItem from="1726488793266" duration="6000" />
-      <workItem from="1726554898450" duration="3622000" />
-    </task>
-    <task id="LOCAL-00102" summary="Exemples">
-      <created>1702406318432</created>
-      <option name="number" value="00102" />
-      <option name="presentableId" value="LOCAL-00102" />
-      <option name="project" value="LOCAL" />
-      <updated>1702406318432</updated>
+      <workItem from="1726554898450" duration="4496000" />
     </task>
     <task id="LOCAL-00103" summary="Exemples">
       <created>1702459591248</created>
@@ -663,7 +657,14 @@
       <option name="project" value="LOCAL" />
       <updated>1726557994650</updated>
     </task>
-    <option name="localTasksCounter" value="151" />
+    <task id="LOCAL-00151" summary="Exemples">
+      <created>1726558562721</created>
+      <option name="number" value="00151" />
+      <option name="presentableId" value="LOCAL-00151" />
+      <option name="project" value="LOCAL" />
+      <updated>1726558562721</updated>
+    </task>
+    <option name="localTasksCounter" value="152" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

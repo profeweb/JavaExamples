@@ -81,4 +81,14 @@ public class Main {
         }
         return teams[index].getName();
     }
+
+    public static void printClassifiedRunners(Race r, String nameTeam){
+        for(int i=0; i<r.getNumRunners(); i++){
+            Runner runner = r.getRunners()[i];
+            float time = r.getTimes()[i];
+            if(time < r.getClassificationTime() && runner.getTeam()== nameTeam){
+                System.out.println(runner.getName());
+            }
+        }
+    }
 }

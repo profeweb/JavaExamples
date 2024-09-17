@@ -40,6 +40,10 @@ public class Race {
         return numRunners;
     }
 
+    public Runner[] getRunners() { return runners; }
+
+    public float[] getTimes(){ return times; }
+
     public float getClassificationTime() {
         return classificationTime;
     }
