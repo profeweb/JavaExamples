@@ -68,4 +68,17 @@ public class Main {
         }
         return name;  // return t.getRunners[index].getName();
     }
+
+    public static String bestTeam(Team[] teams){
+        float minTime = Float.MAX_VALUE;
+        int index = -1;
+        for(int i=0; i<teams.length; i++){
+            float time = teams[i].averageTimes();
+            if(time < minTime){
+                minTime = time;
+                index = i;
+            }
+        }
+        return teams[index].getName();
+    }
 }
