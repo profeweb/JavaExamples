@@ -52,4 +52,20 @@ public class Main {
 
 
     }
+
+    public static String bestProfessionalRunnerOfTeam (Team t){
+        float minTime = Float.MAX_VALUE;
+        String name = "";   // int index = -1;
+        for(int i=0; i<t.getNumRunners();  i++){
+            Runner r = t.getRunners()[i];
+            if(r.isProfessional()){
+                float time = r.bestTime();
+                if(time < minTime){
+                    minTime = time;
+                    name = r.getName();  // index = i;
+                }
+            }
+        }
+        return name;  // return t.getRunners[index].getName();
+    }
 }

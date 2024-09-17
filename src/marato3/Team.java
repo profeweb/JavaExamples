@@ -23,6 +23,12 @@ public class Team {
         return name;
     }
 
+    public int getNumRunners() {
+        return numRunners;
+    }
+
+    public Runner[] getRunners(){ return runners; }
+
     public void setName(String name) {
         this.name = name;
     }

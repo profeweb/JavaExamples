@@ -48,8 +48,10 @@ public class Main {
         c1.addRunner(r2);
         c1.addTimeToRunner(r2, 14.3f);
 
-        System.out.printf("Millor corredor/a de la carrea %s és %s amb temps %.2f. \n", c1.getRaceID(), c1.bestRunner(), c1.bestTime());
+        System.out.printf("Millor corredor/a de la carrera %s és %s amb temps %.2f. \n",
+                c1.getRaceID(), c1.bestRunner(), c1.bestTime());
 
 
     }
+
 }
