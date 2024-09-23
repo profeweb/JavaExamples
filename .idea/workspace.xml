@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e3daea28-0551-4b13-ab45-39306edd8b83" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/marato3/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/marato3/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/trb/MatchingAlumnesPreguntes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/trb/MatchingAlumnesPreguntes.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,7 +60,7 @@
       <recent name="arrays2d" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.marato3.Main">
+  <component name="RunManager" selected="Application.MatchingAlumnesPreguntes">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="marato2.Main" />
       <module name="JavaExamples" />
@@ -126,9 +128,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MatchingAlumnesPreguntes" />
         <item itemvalue="Application.marato3.Main" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.MatchingAlumnesPreguntes" />
         <item itemvalue="Application.Planetari" />
         <item itemvalue="Application.Orbites" />
       </list>
@@ -318,14 +320,11 @@
       <workItem from="1726473308767" duration="5224000" />
       <workItem from="1726487039202" duration="1702000" />
       <workItem from="1726488793266" duration="6000" />
-      <workItem from="1726554898450" duration="7811000" />
-    </task>
-    <task id="LOCAL-00107" summary="Exemples">
-      <created>1702488569106</created>
-      <option name="number" value="00107" />
-      <option name="presentableId" value="LOCAL-00107" />
-      <option name="project" value="LOCAL" />
-      <updated>1702488569106</updated>
+      <workItem from="1726554898450" duration="8559000" />
+      <workItem from="1726672134365" duration="331000" />
+      <workItem from="1726725947112" duration="461000" />
+      <workItem from="1726731709854" duration="677000" />
+      <workItem from="1727078103791" duration="2209000" />
     </task>
     <task id="LOCAL-00108" summary="Exemples">
       <created>1702538640543</created>
@@ -663,7 +662,14 @@
       <option name="project" value="LOCAL" />
       <updated>1726562396244</updated>
     </task>
-    <option name="localTasksCounter" value="156" />
+    <task id="LOCAL-00156" summary="Exemples">
+      <created>1726564511148</created>
+      <option name="number" value="00156" />
+      <option name="presentableId" value="LOCAL-00156" />
+      <option name="project" value="LOCAL" />
+      <updated>1726564511148</updated>
+    </task>
+    <option name="localTasksCounter" value="157" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

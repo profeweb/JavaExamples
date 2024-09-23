@@ -134,4 +134,36 @@ public class Main {
         }
         return classified;
     }
+
+    public static boolean hasImproved(Runner r, Race[] races){
+        float tempsAnterior = Float.MAX_VALUE;
+        for(int i=0; i<races.length; i++){
+            for(int nr=0; nr<races[i].getNumRunners(); nr++){
+                if(races[i].getRunners()[nr] == r){
+                    float temps = races[i].getTimes()[nr];
+                    if(temps > tempsAnterior){
+                        return false;
+                    }
+                    else {
+                        tempsAnterior = temps;
+                    }
+                }
+            }
+        }
+        return true;
+    }
+
+    public static boolean everClassified(Runner r, Race[] races){
+        for(int i=0; i<races.length; i++){
+            Race race = races[i];
+            for(int nr=0; nr<race.getNumRunners(); nr++){
+                Runner rr = race.getRunners()[nr];
+                float times = race.getTimes()[nr];
+                if(r == rr && times > race.getClassificationTime()){
+                        return false;
+                }
+            }
+        }
+        return true;
+    }
 }
