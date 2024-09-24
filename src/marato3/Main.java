@@ -79,6 +79,9 @@ public class Main {
         Team[] teams = {t1, t2};
         System.out.printf("%s és el millor equip.\n", bestTeam(teams));
 
+        // Número de corredors professional de l'equip T1
+        System.out.printf("L'equip %s té %d corredor/s professionals.\n", t1.getName(), t1.getNumProfessionals());
+
     }
 
     public static String bestProfessionalRunnerOfTeam (Team t){
