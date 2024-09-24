@@ -166,4 +166,21 @@ public class Main {
         }
         return true;
     }
+
+    public static float avgNumRunners(Race[] races){
+        float sum = 0;
+        for(int i=0; i<races.length; i++){
+            sum += races[i].getNumRunners();
+        }
+        return sum / races.length;
+    }
+
+    public static float avgTimesRaces(Race[] races){
+        float sum = 0;
+        for(int i=0; i<races.length; i++){
+            sum += races[i].averageTimes();
+        }
+        return sum / races.length;
+    }
+
 }

@@ -4,7 +4,6 @@
     <list default="true" id="e3daea28-0551-4b13-ab45-39306edd8b83" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/marato3/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/marato3/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/trb/MatchingAlumnesPreguntes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/trb/MatchingAlumnesPreguntes.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -324,14 +323,8 @@
       <workItem from="1726672134365" duration="331000" />
       <workItem from="1726725947112" duration="461000" />
       <workItem from="1726731709854" duration="677000" />
-      <workItem from="1727078103791" duration="2209000" />
-    </task>
-    <task id="LOCAL-00108" summary="Exemples">
-      <created>1702538640543</created>
-      <option name="number" value="00108" />
-      <option name="presentableId" value="LOCAL-00108" />
-      <option name="project" value="LOCAL" />
-      <updated>1702538640545</updated>
+      <workItem from="1727078103791" duration="5397000" />
+      <workItem from="1727091709415" duration="807000" />
     </task>
     <task id="LOCAL-00109" summary="Exemples">
       <created>1702556804552</created>
@@ -669,7 +662,14 @@
       <option name="project" value="LOCAL" />
       <updated>1726564511148</updated>
     </task>
-    <option name="localTasksCounter" value="157" />
+    <task id="LOCAL-00157" summary="Exemples">
+      <created>1727080548660</created>
+      <option name="number" value="00157" />
+      <option name="presentableId" value="LOCAL-00157" />
+      <option name="project" value="LOCAL" />
+      <updated>1727080548661</updated>
+    </task>
+    <option name="localTasksCounter" value="158" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

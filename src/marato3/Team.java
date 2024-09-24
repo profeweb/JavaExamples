@@ -65,4 +65,15 @@ public class Team {
             return sumTimes / numRunners;
         }
     }
+
+    public int getNumProfessionals(){
+        int np = 0;
+        for(int i=0; i<numRunners; i++){
+            Runner ri = runners[i];
+            if(ri.isProfessional()){
+                np++;
+            }
+        }
+        return np;
+    }
 }
