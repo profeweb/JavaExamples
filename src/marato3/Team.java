@@ -76,4 +76,18 @@ public class Team {
         }
         return np;
     }
+
+    public boolean areAllProfessional(){
+        for(int i=0; i<getNumRunners(); i++){
+            Runner ri = getRunners()[i];
+            if(!ri.isProfessional()){
+                return false;
+            }
+        }
+        return true;
+    }
+
+    public boolean areAllProfessional2(){
+        return getNumRunners() == getNumProfessionals();
+    }
 }

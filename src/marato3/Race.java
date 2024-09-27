@@ -121,4 +121,19 @@ public class Race {
             return sumTimes / numRunners;
         }
     }
+
+    public float differenceBestFromWorst(){
+        float bestTime = Float.MAX_VALUE;
+        float worstTime = Float.MIN_VALUE;
+        for(int i=0; i<getNumRunners(); i++){
+            float time = times[i];
+            if(bestTime > time){
+                bestTime = time;
+            }
+            if(worstTime < time){
+                worstTime = time;
+            }
+        }
+        return worstTime - bestTime;
+    }
 }

@@ -186,4 +186,24 @@ public class Main {
         return sum / races.length;
     }
 
+    public static String[] racesWhereWinnerIsNotProfessional(Race[] races){
+        String[] racesIDs = new String[races.length];
+        int numWinners = 0;
+
+        for(int i=0; i<races.length; i++){
+            String winnerName = races[i].bestRunner();
+            for(int j=0; j<races[i].getNumRunners(); j++){
+                Runner r = races[i].getRunners()[j];
+                if(r.getName().equals(winnerName)){
+                    if(!r.isProfessional()){
+                        racesIDs[numWinners] = races[i].getRaceID();
+                        numWinners++;
+                    }
+                    break;
+                }
+            }
+        }
+        return racesIDs;
+    }
+
 }
