@@ -66,6 +66,7 @@ public class Team {
         }
     }
 
+
     public int getNumProfessionals(){
         int np = 0;
         for(int i=0; i<numRunners; i++){
@@ -76,6 +77,7 @@ public class Team {
         }
         return np;
     }
+
 
     public boolean areAllProfessional(){
         for(int i=0; i<getNumRunners(); i++){
