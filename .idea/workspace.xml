@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e3daea28-0551-4b13-ab45-39306edd8b83" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/arrays/OperacionsArrays.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/marato3/Team.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/marato3/Team.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,7 +59,7 @@
       <recent name="arrays2d" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.marato3.Main">
+  <component name="RunManager" selected="Application.OperacionsArrays">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="marato2.Main" />
       <module name="JavaExamples" />
@@ -86,12 +86,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Orbites" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="planetari.Orbites" />
+    <configuration name="OperacionsArrays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="arrays.OperacionsArrays" />
       <module name="JavaExamples" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="planetari.*" />
+          <option name="PATTERN" value="arrays.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -127,11 +127,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.OperacionsArrays" />
         <item itemvalue="Application.marato3.Main" />
         <item itemvalue="Application.MatchingAlumnesPreguntes" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.Planetari" />
-        <item itemvalue="Application.Orbites" />
       </list>
     </recent_temporary>
   </component>
@@ -329,13 +329,11 @@
       <workItem from="1727420200072" duration="941000" />
       <workItem from="1727438595907" duration="619000" />
       <workItem from="1727450032998" duration="263000" />
-    </task>
-    <task id="LOCAL-00112" summary="Exemples">
-      <created>1702899133756</created>
-      <option name="number" value="00112" />
-      <option name="presentableId" value="LOCAL-00112" />
-      <option name="project" value="LOCAL" />
-      <updated>1702899133756</updated>
+      <workItem from="1727597248391" duration="615000" />
+      <workItem from="1727683070889" duration="822000" />
+      <workItem from="1727777114599" duration="595000" />
+      <workItem from="1728454925539" duration="615000" />
+      <workItem from="1728895179190" duration="1198000" />
     </task>
     <task id="LOCAL-00113" summary="Exemples">
       <created>1703001618077</created>
@@ -673,7 +671,14 @@
       <option name="project" value="LOCAL" />
       <updated>1727420900949</updated>
     </task>
-    <option name="localTasksCounter" value="161" />
+    <task id="LOCAL-00161" summary="Exemples">
+      <created>1727597263668</created>
+      <option name="number" value="00161" />
+      <option name="presentableId" value="LOCAL-00161" />
+      <option name="project" value="LOCAL" />
+      <updated>1727597263670</updated>
+    </task>
+    <option name="localTasksCounter" value="162" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
