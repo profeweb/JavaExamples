@@ -2,69 +2,81 @@ package marato3;
 
 public class Main {
 
+    // Propietats estàtiques de la classe Main
+    public static Team[] allTeams;
+    public static Race[] allRaces;
+    public static Runner[] allRunners;
     public static void main(String[] args) {
 
-        // Objectes de classe Runner
-        Runner r1, r2;
+        // Instanciació dels arrays d'equips, carreres i corredors
+        allTeams = new Team[5];
+        allRaces = new Race[10];
+        allRunners = new Runner[100];
+
+        // Test de la classe Runner +++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
         // Constructor(s) de la classe Runner
-        r1 = new Runner("Paco");
-        r1.setTeam("Equip A");
-        r1.setProfessional(true);
+        allRunners[0] = new Runner("Paco");
+        allRunners[0].setTeam("Equip A");
+        allRunners[0].setProfessional(true);
 
-        r2 = new Runner("Bel", "Maravillas", true);
-        r2.setTeam("Equip B");
+        allRunners[1] = new Runner("Bel", "Maravillas", true);
+        allRunners[1].setTeam("Equip B");
 
         // Mètodes de la classe Runner
-        r1.addRace("Palma");
-        r1.addTime(12.5f);
+        allRunners[0].addRace("Palma");
+        allRunners[0].addTime(12.5f);
 
-        r1.addRace("Inca");
-        r1.addTime(12.24f);
+        allRunners[0].addRace("Inca");
+        allRunners[0].addTime(12.24f);
 
-        r2.addRace("Palma");
-        r2.addTime(14.75f);
+        allRunners[1].addRace("Palma");
+        allRunners[1].addTime(14.75f);
 
+        Runner r1 = allRunners[0];
         System.out.printf("Millor carrera de %s va ser a %s amb temps %.2f. \n",
                 r1.getName(), r1.bestRace(), r1.bestTime());
 
 
-        // Objectes de la classe Team
-        Team t1, t2;
+        // Test de la classe Team +++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
         // Constructor(s) de la classe Team
-        t1 = new Team("Equip A", true);
-        t2 = new Team("Equip B", false);
+        allTeams[0] = new Team("Equip A", true);
+        allTeams[1] = new Team("Equip B", false);
 
         // Mètodes de la classe Team
-        t1.addRunner(r1);
-        t2.addRunner(r2);
+        allTeams[0].addRunner(allRunners[0]);
+        allTeams[1].addRunner(allRunners[1]);
 
+        Team t1 = allTeams[0];
         System.out.printf("Temps mig de l'equip %s és %.2f. \n", t1.getName(), t1.averageTimes());
 
-        // Objectes de la classe Race
-        Race c1, c2;
+        // Test de la classe Race ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
         // Constructor(s) de la classe Race
-        c1 = new Race("Carrera 1", false, 13);
+        allRaces[0] = new Race("Carrera 1", false, 13);
 
         // Mètodes de la classe Race
-        c1.addRunner(r1);
-        c1.addTimeToRunner(r1, 12.5f);
+        allRaces[0].addRunner(allRunners[0]);
+        allRaces[0].addTimeToRunner(allRunners[0], 12.5f);
 
-        c1.addRunner(r2);
-        c1.addTimeToRunner(r2, 14.3f);
+        allRaces[0].addRunner(allRunners[1]);
+        allRaces[0].addTimeToRunner(allRunners[1], 14.3f);
 
-        System.out.printf("Millor corredor/a de la carrera %s és %s amb temps %.2f. \n", c1.getRaceID(), c1.bestRunner(), c1.bestTime());
+        Race c1 = allRaces[0];
+        System.out.printf("Millor corredor/a de la carrera %s és %s amb temps %.2f. \n",
+                c1.getRaceID(), c1.bestRunner(), c1.bestTime());
 
-        // Mètodes Generals
+
+        // Test dels Mètodes Generals +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
         // Millor corredor/a professional d'un determinat equip
         System.out.printf("%s és el millor corredor/a de l'equip %s.\n", bestProfessionalRunnerOfTeam(t1), t1.getName());
 
         // Corredors classificats d'una determinad carrera
+
         // Versió 1) void
-        printClassifiedRunners(c1, t1.getName());
+        printClassifiedRunners(allRaces[0], allTeams[0].getName());
 
         // Versió 2) Array
         Runner[] classified = getClassifiedRunners(c1, t1.getName());
@@ -76,38 +88,41 @@ public class Main {
         }
 
         // Millor equip
-        Team[] teams = {t1, t2};
-        System.out.printf("%s és el millor equip.\n", bestTeam(teams));
+        System.out.printf("%s és el millor equip.\n", bestTeam(allTeams));
 
         // Número de corredors professional de l'equip T1
         System.out.printf("L'equip %s té %d corredor/s professionals.\n", t1.getName(), t1.getNumProfessionals());
 
     }
 
+    // Mètodes estàtics de la classe Main
+
     public static String bestProfessionalRunnerOfTeam (Team t){
         float minTime = Float.MAX_VALUE;
-        String name = "";                           // int index = -1;
+        String name = "";
         for(int i=0; i<t.getNumRunners();  i++){
             Runner r = t.getRunners()[i];
             if(r.isProfessional()){
                 float time = r.bestTime();
                 if(time < minTime){
                     minTime = time;
-                    name = r.getName();             // index = i;
+                    name = r.getName();
                 }
             }
         }
-        return name;                                // return t.getRunners[index].getName();
+        return name;
     }
 
     public static String bestTeam(Team[] teams){
         float minTime = Float.MAX_VALUE;
         int index = -1;
         for(int i=0; i<teams.length; i++){
-            float time = teams[i].averageTimes();
-            if(time < minTime){
-                minTime = time;
-                index = i;
+            if(teams[i]!=null) {
+                float time = teams[i].averageTimes();
+                if (time < minTime) {
+                    minTime = time;
+                    index = i;
+                }
             }
         }
         return teams[index].getName();

@@ -16,12 +16,16 @@ public class Race {
         this.raceID = raceID;
         this.runners = new Runner[8];
         this.times = new float[8];
+        this.numRunners =0;
+        this.isFinals = false;
+        this.classificationTime = 0;
     }
 
     public Race (String raceID, boolean finals, float classificationTime){
         this.raceID = raceID;
         this.runners = new Runner[8];
         this.times = new float[8];
+        this.numRunners =0;
         this.isFinals = finals;
         this.classificationTime = classificationTime;
     }
@@ -70,7 +74,7 @@ public class Race {
     // Altres
 
     public void addRunner(Runner r){
-        if(numRunners<8) {
+        if(numRunners<runners.length) {
             runners[numRunners] = r;
             numRunners++;
         }

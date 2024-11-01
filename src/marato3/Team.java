@@ -17,7 +17,7 @@ public class Team {
         this.numRunners = 0;
     }
 
-    // Getters & Setters
+    // Getters
 
     public String getName() {
         return name;
@@ -29,12 +29,14 @@ public class Team {
 
     public Runner[] getRunners(){ return runners; }
 
-    public void setName(String name) {
-        this.name = name;
-    }
-
     public boolean isInternational() {
         return international;
+    }
+
+    // Setters
+
+    public void setName(String name) {
+        this.name = name;
     }
 
     public void setInternational(boolean international) {
@@ -44,7 +46,7 @@ public class Team {
     // Altres Mètodes
 
     public void addRunner(Runner r){
-        if(numRunners<5) {
+        if(numRunners<runners.length) {
             runners[numRunners] = r;
             numRunners++;
         }

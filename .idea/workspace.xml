@@ -2,13 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e3daea28-0551-4b13-ab45-39306edd8b83" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/basics/Temporal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ownersandprops/Boat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ownersandprops/House.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ownersandprops/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ownersandprops/Owner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ownersandprops/Prop.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/marato3/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/marato3/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/marato3/Race.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/marato3/Race.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/marato3/Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/marato3/Runner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/marato3/Team.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/marato3/Team.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ownersandprops/Prop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ownersandprops/Prop.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -346,14 +345,11 @@
       <workItem from="1729836660286" duration="1199000" />
       <workItem from="1729842981777" duration="4895000" />
       <workItem from="1729872614273" duration="242000" />
-      <workItem from="1730282985730" duration="2770000" />
-    </task>
-    <task id="LOCAL-00117" summary="Exemples">
-      <created>1706091500605</created>
-      <option name="number" value="00117" />
-      <option name="presentableId" value="LOCAL-00117" />
-      <option name="project" value="LOCAL" />
-      <updated>1706091500606</updated>
+      <workItem from="1730282985730" duration="2937000" />
+      <workItem from="1730287483132" duration="2133000" />
+      <workItem from="1730292617501" duration="4829000" />
+      <workItem from="1730312797023" duration="1687000" />
+      <workItem from="1730360098027" duration="6167000" />
     </task>
     <task id="LOCAL-00118" summary="Exemples">
       <created>1706092165602</created>
@@ -691,7 +687,14 @@
       <option name="project" value="LOCAL" />
       <updated>1729837269005</updated>
     </task>
-    <option name="localTasksCounter" value="166" />
+    <task id="LOCAL-00166" summary="Exemples">
+      <created>1730285937923</created>
+      <option name="number" value="00166" />
+      <option name="presentableId" value="LOCAL-00166" />
+      <option name="project" value="LOCAL" />
+      <updated>1730285937924</updated>
+    </task>
+    <option name="localTasksCounter" value="167" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

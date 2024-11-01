@@ -76,7 +76,7 @@ public class Runner {
 
     // Altres
     public void addRace(String raceID){
-        if(numRaces<5){
+        if(numRaces<raceIDs.length){
             this.raceIDs[numRaces] = raceID;
             numRaces++;
         }
@@ -86,7 +86,7 @@ public class Runner {
     }
 
     public void addTime(float time){
-        if(numRaces<=5){
+        if(numRaces<=raceIDs.length){
             this.times[numRaces-1] = time;
         }
         else {

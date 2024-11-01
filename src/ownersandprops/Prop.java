@@ -13,6 +13,7 @@ public class Prop {
         this.propID = propID;
         this.address = address;
         this.city = city;
+        this.price = 0.0f;
     }
 
     // Getters
