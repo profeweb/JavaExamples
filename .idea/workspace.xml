@@ -3,11 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="e3daea28-0551-4b13-ab45-39306edd8b83" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/marato3/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/marato3/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/marato3/Race.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/marato3/Race.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/marato3/Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/marato3/Runner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/marato3/Team.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/marato3/Team.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ownersandprops/Prop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ownersandprops/Prop.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,7 +58,20 @@
       <recent name="training" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="Application.AreaCercle2">
+    <configuration name="AreaCercle2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="basics.AreaCercle2" />
+      <module name="JavaExamples" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="basics.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Divisio2NumerosQualsevols" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="basics.Divisio2NumerosQualsevols" />
       <module name="JavaExamples" />
@@ -116,26 +124,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="marato3.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="marato3.Main" />
-      <module name="JavaExamples" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="marato3.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.AreaCercle2" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.Divisio2NumerosQualsevols" />
         <item itemvalue="Application.ImprimirEnumerats" />
         <item itemvalue="Application.OperacionsArrays" />
-        <item itemvalue="Application.marato3.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -350,13 +345,8 @@
       <workItem from="1730292617501" duration="4829000" />
       <workItem from="1730312797023" duration="1687000" />
       <workItem from="1730360098027" duration="6167000" />
-    </task>
-    <task id="LOCAL-00118" summary="Exemples">
-      <created>1706092165602</created>
-      <option name="number" value="00118" />
-      <option name="presentableId" value="LOCAL-00118" />
-      <option name="project" value="LOCAL" />
-      <updated>1706092165602</updated>
+      <workItem from="1730448286478" duration="132000" />
+      <workItem from="1730792845184" duration="1205000" />
     </task>
     <task id="LOCAL-00119" summary="Exemples">
       <created>1706092426706</created>
@@ -694,7 +684,14 @@
       <option name="project" value="LOCAL" />
       <updated>1730285937924</updated>
     </task>
-    <option name="localTasksCounter" value="167" />
+    <task id="LOCAL-00167" summary="Exemples">
+      <created>1730448395326</created>
+      <option name="number" value="00167" />
+      <option name="presentableId" value="LOCAL-00167" />
+      <option name="project" value="LOCAL" />
+      <updated>1730448395327</updated>
+    </task>
+    <option name="localTasksCounter" value="168" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

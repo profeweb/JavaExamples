@@ -1,20 +1,21 @@
 package basics;
 
 import java.util.Scanner;
+
 import static java.lang.Math.PI;
 
-class AreaCercle {
+class AreaCercle2 {
 
     public static void main(String[] args) {
 
         Scanner input = new Scanner(System.in);
 
-        // INPUT RADIUS
-        System.out.print("Enter Radius: ");
-        double r = input.nextFloat();
+        // INPUT DIÀMETRE
+        System.out.print("Enter Diameter: ");
+        double d = input.nextFloat();
 
-        // AREA = PI*R*R
-        double area = PI*r*r;
+        // AREA = PI * D*D / 4
+        double area = PI * Math.pow(d, 2) / 4;
 
         // OUTPUT AREA
         System.out.println("AREA: "+area);
