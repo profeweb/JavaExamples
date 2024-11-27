@@ -2,11 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e3daea28-0551-4b13-ab45-39306edd8b83" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/basics/Printf.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/benchmark.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/funcions/FuncioSeccioCercle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/funcions/TaulaMultiplicar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/recursius/Result.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/basics/Temporal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/basics/Temporal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ownersandprops/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ownersandprops/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bucles/MaximComuDivisor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bucles/MaximComuDivisor.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,26 +63,13 @@
       <recent name="training" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Printf">
-    <configuration name="AreaCercle2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="basics.AreaCercle2" />
+  <component name="RunManager" selected="Application.FuncioSeccioCercle">
+    <configuration name="FuncioSeccioCercle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="funcions.FuncioSeccioCercle" />
       <module name="JavaExamples" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="basics.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PotenciesDe2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="bucles.PotenciesDe2" />
-      <module name="JavaExamples" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="bucles.*" />
+          <option name="PATTERN" value="funcions.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -102,6 +90,32 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Result" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="recursius.Result" />
+      <module name="JavaExamples" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="recursius.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TaulaMultiplicar" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="funcions.TaulaMultiplicar" />
+      <module name="JavaExamples" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="funcions.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Temporal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="basics.Temporal" />
       <module name="JavaExamples" />
@@ -115,20 +129,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="benchmark" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="benchmark" />
-      <module name="JavaExamples" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Printf" />
-        <item itemvalue="Application.PotenciesDe2" />
-        <item itemvalue="Application.benchmark" />
+        <item itemvalue="Application.FuncioSeccioCercle" />
+        <item itemvalue="Application.TaulaMultiplicar" />
+        <item itemvalue="Application.Result" />
         <item itemvalue="Application.Temporal" />
-        <item itemvalue="Application.AreaCercle2" />
+        <item itemvalue="Application.Printf" />
       </list>
     </recent_temporary>
   </component>
@@ -355,13 +362,18 @@
       <workItem from="1731324812284" duration="1281000" />
       <workItem from="1731394674462" duration="3388000" />
       <workItem from="1731491806762" duration="2751000" />
-    </task>
-    <task id="LOCAL-00121" summary="Exemples">
-      <created>1707296481233</created>
-      <option name="number" value="00121" />
-      <option name="presentableId" value="LOCAL-00121" />
-      <option name="project" value="LOCAL" />
-      <updated>1707296481233</updated>
+      <workItem from="1731498487462" duration="49000" />
+      <workItem from="1731574287594" duration="3502000" />
+      <workItem from="1731583712462" duration="741000" />
+      <workItem from="1731660976317" duration="3552000" />
+      <workItem from="1731920264542" duration="32000" />
+      <workItem from="1731999935632" duration="599000" />
+      <workItem from="1732100001478" duration="931000" />
+      <workItem from="1732179893648" duration="595000" />
+      <workItem from="1732270398822" duration="2369000" />
+      <workItem from="1732434330858" duration="6000" />
+      <workItem from="1732604650427" duration="3264000" />
+      <workItem from="1732693183503" duration="413000" />
     </task>
     <task id="LOCAL-00122" summary="Exemples">
       <created>1710272321293</created>
@@ -699,7 +711,14 @@
       <option name="project" value="LOCAL" />
       <updated>1730804434168</updated>
     </task>
-    <option name="localTasksCounter" value="170" />
+    <task id="LOCAL-00170" summary="Exemples">
+      <created>1731498516836</created>
+      <option name="number" value="00170" />
+      <option name="presentableId" value="LOCAL-00170" />
+      <option name="project" value="LOCAL" />
+      <updated>1731498516837</updated>
+    </task>
+    <option name="localTasksCounter" value="171" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

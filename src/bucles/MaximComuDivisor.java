@@ -15,7 +15,7 @@ public class MaximComuDivisor {
         int b = input.nextInt();
 
         int m =  minim(a, b);
-        while(a%m!=0 || b%m!=0){
+        while(a%m != 0 || b%m!=0){
             m--;
         }
 
