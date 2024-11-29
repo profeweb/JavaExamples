@@ -21,16 +21,11 @@ public class ArrayPrimers {
     }
 
     public static boolean esPrimer(int n){
-        if(n==1){
-            return true;
+        int i = n - 1;
+        while (i > 1 && n % i != 0) {
+            i--;
         }
-        else {
-            int i = n - 1;
-            while (i > 1 && n % i != 0) {
-                i--;
-            }
-            return (i == 1);
-        }
+        return (i == 1);
     }
 
     public static void printArray(int[] array){
