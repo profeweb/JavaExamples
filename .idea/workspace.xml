@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e3daea28-0551-4b13-ab45-39306edd8b83" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/arrays/ArrayNoPrefixat.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/basics/Temporal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/basics/Temporal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/arrays/MitjanaArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/arrays/MitjanaArray.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,7 +59,7 @@
       <recent name="conversions" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ArrayNoPrefixat">
+  <component name="RunManager" selected="Application.MitjanaArray">
     <configuration name="ArrayNoPrefixat" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="arrays.ArrayNoPrefixat" />
       <module name="JavaExamples" />
@@ -87,12 +86,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Result" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="recursius.Result" />
+    <configuration name="MitjanaArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="arrays.MitjanaArray" />
       <module name="JavaExamples" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="recursius.*" />
+          <option name="PATTERN" value="arrays.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -128,11 +127,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MitjanaArray" />
         <item itemvalue="Application.ArrayNoPrefixat" />
         <item itemvalue="Application.Temporal" />
         <item itemvalue="Application.FuncioSeccioCercle" />
         <item itemvalue="Application.TaulaMultiplicar" />
-        <item itemvalue="Application.Result" />
       </list>
     </recent_temporary>
   </component>
@@ -374,13 +373,7 @@
       <workItem from="1732701237605" duration="3681000" />
       <workItem from="1732784704813" duration="6576000" />
       <workItem from="1732821634647" duration="9000" />
-    </task>
-    <task id="LOCAL-00123" summary="Exemples">
-      <created>1710313796361</created>
-      <option name="number" value="00123" />
-      <option name="presentableId" value="LOCAL-00123" />
-      <option name="project" value="LOCAL" />
-      <updated>1710313796362</updated>
+      <workItem from="1732865449682" duration="309000" />
     </task>
     <task id="LOCAL-00124" summary="Exemples">
       <created>1710441989450</created>
@@ -718,7 +711,14 @@
       <option name="project" value="LOCAL" />
       <updated>1732693664338</updated>
     </task>
-    <option name="localTasksCounter" value="172" />
+    <task id="LOCAL-00172" summary="Exemples">
+      <created>1732865690934</created>
+      <option name="number" value="00172" />
+      <option name="presentableId" value="LOCAL-00172" />
+      <option name="project" value="LOCAL" />
+      <updated>1732865690935</updated>
+    </task>
+    <option name="localTasksCounter" value="173" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

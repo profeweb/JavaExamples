@@ -8,15 +8,15 @@ public class MitjanaArray {
         int[] b = {0, 3, 1, 5, 4};
 
         float mA = mitjanaArray(a);
-        System.out.printf("La mitjana de l'array A és %f\n.", mA);
+        System.out.printf("La mitjana de l'array A és %f.\n", mA);
 
         float mB = mitjanaArray(b);
-        System.out.printf("La mitjana de l'array B és %f\n.", mB);
-        
+        System.out.printf("La mitjana de l'array B és %f.\n", mB);
+
     }
 
     public static float mitjanaArray(int[] a){
-        return sumaArray(a) / a.length;
+        return (float) sumaArray(a) / a.length;
     }
 
 
