@@ -9,27 +9,20 @@ public class Temporal {
 
       // Definició i creació
       int[] a = {3, 8, 2, 11, 25};
-      int[] b = {4, 8, 9};
-      int[] c = {3, 8, 2, 11, 25, 2, 0, 45, 23};
 
-
-      System.out.printf("La mitjana de l'array A és %d.", calculaMitjana(a));
-      System.out.printf("La mitjana de l'array B és %d.", calculaMitjana(b));
-      System.out.printf("La mitjana de l'array C és %d.", calculaMitjana(c));
+      ArrayNoPrefixat.printArray(invertArray(a));
 
    }
 
-   public static int calculaSuma(int[] array){
-      int suma = 0;
+   public static int[] invertArray(int[] array){
+      int[] invertit = new int[array.length];
       for(int i=0; i<array.length; i++){
-         suma = suma + array[i];
+         invertit[array.length-i -1] = array[i];
       }
-      return suma;
+      return  invertit;
    }
 
-   public static float calculaMitjana(int[] array){
-      return calculaSuma(array) / array.length;
-   }
+
 
 
 }

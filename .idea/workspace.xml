@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e3daea28-0551-4b13-ab45-39306edd8b83" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/arrays/SumaArray2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/arrays/MitjanaArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/arrays/MitjanaArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/arrays/CreaArrayPotencies2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/arrays/CreaArrayPotencies2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/basics/Temporal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/basics/Temporal.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,14 +54,14 @@
       <recent name="C:\Users\tonim\IdeaProjects\JavaExamples\data\planetes" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="arrays" />
       <recent name="funcions" />
       <recent name="basics" />
       <recent name="marato2" />
       <recent name="poo.composicio" />
-      <recent name="conversions" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MitjanaArray">
+  <component name="RunManager" selected="Application.Temporal">
     <configuration name="ArrayNoPrefixat" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="arrays.ArrayNoPrefixat" />
       <module name="JavaExamples" />
@@ -127,9 +129,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Temporal" />
         <item itemvalue="Application.MitjanaArray" />
         <item itemvalue="Application.ArrayNoPrefixat" />
-        <item itemvalue="Application.Temporal" />
         <item itemvalue="Application.FuncioSeccioCercle" />
         <item itemvalue="Application.TaulaMultiplicar" />
       </list>
@@ -373,14 +375,8 @@
       <workItem from="1732701237605" duration="3681000" />
       <workItem from="1732784704813" duration="6576000" />
       <workItem from="1732821634647" duration="9000" />
-      <workItem from="1732865449682" duration="309000" />
-    </task>
-    <task id="LOCAL-00124" summary="Exemples">
-      <created>1710441989450</created>
-      <option name="number" value="00124" />
-      <option name="presentableId" value="LOCAL-00124" />
-      <option name="project" value="LOCAL" />
-      <updated>1710441989451</updated>
+      <workItem from="1732865449682" duration="474000" />
+      <workItem from="1732870929907" duration="2723000" />
     </task>
     <task id="LOCAL-00125" summary="Exemples">
       <created>1710442367652</created>
@@ -718,7 +714,14 @@
       <option name="project" value="LOCAL" />
       <updated>1732865690935</updated>
     </task>
-    <option name="localTasksCounter" value="173" />
+    <task id="LOCAL-00173" summary="Exemples">
+      <created>1732865766959</created>
+      <option name="number" value="00173" />
+      <option name="presentableId" value="LOCAL-00173" />
+      <option name="project" value="LOCAL" />
+      <updated>1732865766959</updated>
+    </task>
+    <option name="localTasksCounter" value="174" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

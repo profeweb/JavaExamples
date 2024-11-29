@@ -21,7 +21,7 @@ public class CreaArrayPotencies2 {
         int[] numeros = new int[n];
 
         for(int i=0; i<numeros.length; i++){
-            numeros[i] = potencia2(i);
+            numeros[i] = (int) Math.pow(2, i);
         }
         return numeros;
     }
