@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e3daea28-0551-4b13-ab45-39306edd8b83" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/arrays/NumerosPrimersArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/strings/ProvaCharAt01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/strings/ProvaCharAt02.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/strings/ProvaLength01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/strings/ProvaLength02.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/arrays/NumerosPrimersArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/arrays/NumerosPrimersArray.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,9 +58,22 @@
       <recent name="marato2" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ProvaCharAt02">
+  <component name="RunManager" selected="Application.NumerosPrimersArray">
     <configuration name="ArrayPrimers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="arrays.ArrayPrimers" />
+      <module name="JavaExamples" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="arrays.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NumerosPrimersArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="arrays.NumerosPrimersArray" />
       <module name="JavaExamples" />
       <extension name="coverage">
         <pattern>
@@ -116,26 +124,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Temporal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="basics.Temporal" />
-      <module name="JavaExamples" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="basics.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.NumerosPrimersArray" />
         <item itemvalue="Application.ProvaCharAt02" />
         <item itemvalue="Application.ProvaLength02" />
         <item itemvalue="Application.ProvaLength01" />
         <item itemvalue="Application.ArrayPrimers" />
-        <item itemvalue="Application.Temporal" />
       </list>
     </recent_temporary>
   </component>
@@ -381,14 +376,7 @@
       <workItem from="1732870929907" duration="6275000" />
       <workItem from="1732886692794" duration="751000" />
       <workItem from="1732887523289" duration="11000" />
-      <workItem from="1733243795339" duration="2527000" />
-    </task>
-    <task id="LOCAL-00128" summary="Exemples">
-      <created>1716885146214</created>
-      <option name="number" value="00128" />
-      <option name="presentableId" value="LOCAL-00128" />
-      <option name="project" value="LOCAL" />
-      <updated>1716885146214</updated>
+      <workItem from="1733243795339" duration="2873000" />
     </task>
     <task id="LOCAL-00129" summary="Exemples">
       <created>1716885174609</created>
@@ -726,7 +714,14 @@
       <option name="project" value="LOCAL" />
       <updated>1732887414604</updated>
     </task>
-    <option name="localTasksCounter" value="177" />
+    <task id="LOCAL-00177" summary="Exemples">
+      <created>1733252077645</created>
+      <option name="number" value="00177" />
+      <option name="presentableId" value="LOCAL-00177" />
+      <option name="project" value="LOCAL" />
+      <updated>1733252077646</updated>
+    </task>
+    <option name="localTasksCounter" value="178" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
