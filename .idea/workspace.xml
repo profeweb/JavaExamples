@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e3daea28-0551-4b13-ab45-39306edd8b83" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/strings/Capicua.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/strings/ChangeAsForEs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/strings/ProvaSubstring01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/strings/ProvaSubstring02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/strings/ProvaSubtring03.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -60,7 +61,7 @@
       <recent name="marato2" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ChangeAsForEs">
+  <component name="RunManager" selected="Application.ProvaSubtring03">
     <configuration name="Capicua" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="strings.Capicua" />
       <module name="JavaExamples" />
@@ -87,32 +88,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NumerosPrimersArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="arrays.NumerosPrimersArray" />
-      <module name="JavaExamples" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="arrays.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PrintCharsString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="strings.PrintCharsString" />
-      <module name="JavaExamples" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="strings.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="PrintNumAsString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="strings.PrintNumAsString" />
       <module name="JavaExamples" />
@@ -126,13 +101,39 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ProvaSubstring02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="strings.ProvaSubstring02" />
+      <module name="JavaExamples" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="strings.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProvaSubtring03" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="strings.ProvaSubtring03" />
+      <module name="JavaExamples" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="strings.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ProvaSubtring03" />
+        <item itemvalue="Application.ProvaSubstring02" />
         <item itemvalue="Application.ChangeAsForEs" />
         <item itemvalue="Application.Capicua" />
         <item itemvalue="Application.PrintNumAsString" />
-        <item itemvalue="Application.PrintCharsString" />
-        <item itemvalue="Application.NumerosPrimersArray" />
       </list>
     </recent_temporary>
   </component>
@@ -378,14 +379,8 @@
       <workItem from="1732870929907" duration="6275000" />
       <workItem from="1732886692794" duration="751000" />
       <workItem from="1732887523289" duration="11000" />
-      <workItem from="1733243795339" duration="4237000" />
-    </task>
-    <task id="LOCAL-00131" summary="Exemples">
-      <created>1716887057518</created>
-      <option name="number" value="00131" />
-      <option name="presentableId" value="LOCAL-00131" />
-      <option name="project" value="LOCAL" />
-      <updated>1716887057518</updated>
+      <workItem from="1733243795339" duration="5952000" />
+      <workItem from="1733299643826" duration="1898000" />
     </task>
     <task id="LOCAL-00132" summary="Exemples">
       <created>1716887112997</created>
@@ -723,7 +718,14 @@
       <option name="project" value="LOCAL" />
       <updated>1733253561094</updated>
     </task>
-    <option name="localTasksCounter" value="180" />
+    <task id="LOCAL-00180" summary="Exemples">
+      <created>1733253954336</created>
+      <option name="number" value="00180" />
+      <option name="presentableId" value="LOCAL-00180" />
+      <option name="project" value="LOCAL" />
+      <updated>1733253954336</updated>
+    </task>
+    <option name="localTasksCounter" value="181" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
