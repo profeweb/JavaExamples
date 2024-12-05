@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e3daea28-0551-4b13-ab45-39306edd8b83" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/strings/FuncioCanviaAsPerEs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/strings/FuncioCapicua.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/strings/FuncioNumAsString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/strings/FuncioStartVowelString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/strings/ProvaSubtring03A.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/strings/FuncioGeneraADN.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -33,19 +29,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;full.screen.before.presentation.mode&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/tonim/IdeaProjects/JavaExamples/src/marato3&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "full.screen.before.presentation.mode": "false",
+    "last_opened_file_path": "C:/Users/tonim/IdeaProjects/JavaExamples/src/marato3",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Libraries",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\tonim\IdeaProjects\JavaExamples\src\marato3" />
@@ -63,9 +60,9 @@
       <recent name="marato2" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ProvaSubtring03A">
-    <configuration name="Capicua" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="strings.Capicua" />
+  <component name="RunManager" selected="Application.FuncioGeneraADN">
+    <configuration name="ChangeAsForEs" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="strings.ChangeAsForEs" />
       <module name="JavaExamples" />
       <extension name="coverage">
         <pattern>
@@ -77,8 +74,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ChangeAsForEs" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="strings.ChangeAsForEs" />
+    <configuration name="FuncioGeneraADN" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="strings.FuncioGeneraADN" />
       <module name="JavaExamples" />
       <extension name="coverage">
         <pattern>
@@ -131,11 +128,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FuncioGeneraADN" />
         <item itemvalue="Application.ProvaSubtring03A" />
         <item itemvalue="Application.ProvaSubtring03" />
         <item itemvalue="Application.ProvaSubstring02" />
         <item itemvalue="Application.ChangeAsForEs" />
-        <item itemvalue="Application.Capicua" />
       </list>
     </recent_temporary>
   </component>
@@ -384,14 +381,7 @@
       <workItem from="1733243795339" duration="5952000" />
       <workItem from="1733299643826" duration="4254000" />
       <workItem from="1733329790000" duration="593000" />
-      <workItem from="1733382200242" duration="672000" />
-    </task>
-    <task id="LOCAL-00133" summary="Exemples">
-      <created>1716888830481</created>
-      <option name="number" value="00133" />
-      <option name="presentableId" value="LOCAL-00133" />
-      <option name="project" value="LOCAL" />
-      <updated>1716888830481</updated>
+      <workItem from="1733382200242" duration="2256000" />
     </task>
     <task id="LOCAL-00134" summary="Exemples">
       <created>1716890636821</created>
@@ -729,7 +719,14 @@
       <option name="project" value="LOCAL" />
       <updated>1733302773151</updated>
     </task>
-    <option name="localTasksCounter" value="182" />
+    <task id="LOCAL-00182" summary="Exemples">
+      <created>1733382885444</created>
+      <option name="number" value="00182" />
+      <option name="presentableId" value="LOCAL-00182" />
+      <option name="project" value="LOCAL" />
+      <updated>1733382885445</updated>
+    </task>
+    <option name="localTasksCounter" value="183" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
