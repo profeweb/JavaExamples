@@ -1,21 +1,19 @@
 package basics;
 
-
-import arrays.ArrayNoPrefixat;
-import parametres.SumaUn;
-
 public class Temporal {
 
    public static void main(String[] args){
 
-      int n = 0;
-      System.out.println(n);
-      sumaUn(n);
-      System.out.println(n);
-   }
+      String paragraf ="Hola que tal com va";
 
-   public static void sumaUn(int n){
-      n = n + 1;
+      int numParaules = 0;
+      while(paragraf.indexOf(' ')!=-1) {
+         int posBlank = paragraf.indexOf(' ');
+         String paraula = paragraf.substring(0, posBlank);
+         paragraf = paragraf.substring(posBlank + 1);
+         numParaules++;
+      }
+      System.out.println(numParaules+1);
    }
 
 }
