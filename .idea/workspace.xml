@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e3daea28-0551-4b13-ab45-39306edd8b83" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/recursius/MitjanaRecursiva.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/recursius/SortArrayRecursiu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/recursius/SortArrayRecursiu2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/basics/Temporal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/basics/Temporal.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,33 +61,7 @@
       <recent name="basics" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MitjanaRecursiva">
-    <configuration name="DeletrejaRecursiu" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="recursius.DeletrejaRecursiu" />
-      <module name="JavaExamples" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="recursius.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DivisioSenceraRecursiva" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="recursius.DivisioSenceraRecursiva" />
-      <module name="JavaExamples" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="recursius.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.SortArrayRecursiu2">
     <configuration name="MitjanaRecursiva" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="recursius.MitjanaRecursiva" />
       <module name="JavaExamples" />
@@ -114,6 +88,32 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SortArrayRecursiu" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="recursius.SortArrayRecursiu" />
+      <module name="JavaExamples" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="recursius.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SortArrayRecursiu2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="recursius.SortArrayRecursiu2" />
+      <module name="JavaExamples" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="recursius.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Temporal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="basics.Temporal" />
       <module name="JavaExamples" />
@@ -129,11 +129,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SortArrayRecursiu2" />
+        <item itemvalue="Application.SortArrayRecursiu" />
         <item itemvalue="Application.MitjanaRecursiva" />
         <item itemvalue="Application.Temporal" />
         <item itemvalue="Application.NumParsArray" />
-        <item itemvalue="Application.DivisioSenceraRecursiva" />
-        <item itemvalue="Application.DeletrejaRecursiu" />
       </list>
     </recent_temporary>
   </component>
@@ -389,14 +389,7 @@
       <workItem from="1733912284263" duration="2594000" />
       <workItem from="1733988757047" duration="1029000" />
       <workItem from="1733993523825" duration="4042000" />
-      <workItem from="1734003167243" duration="993000" />
-    </task>
-    <task id="LOCAL-00139" summary="Exemples">
-      <created>1717397286816</created>
-      <option name="number" value="00139" />
-      <option name="presentableId" value="LOCAL-00139" />
-      <option name="project" value="LOCAL" />
-      <updated>1717397286817</updated>
+      <workItem from="1734003167243" duration="3110000" />
     </task>
     <task id="LOCAL-00140" summary="Exemples">
       <created>1717511759844</created>
@@ -734,7 +727,14 @@
       <option name="project" value="LOCAL" />
       <updated>1733989688527</updated>
     </task>
-    <option name="localTasksCounter" value="188" />
+    <task id="LOCAL-00188" summary="Exemples">
+      <created>1734004274931</created>
+      <option name="number" value="00188" />
+      <option name="presentableId" value="LOCAL-00188" />
+      <option name="project" value="LOCAL" />
+      <updated>1734004274932</updated>
+    </task>
+    <option name="localTasksCounter" value="189" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
