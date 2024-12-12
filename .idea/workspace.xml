@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e3daea28-0551-4b13-ab45-39306edd8b83" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/recursius/NumParsArray.java" afterDir="false" />
-    </list>
+    <list default="true" id="e3daea28-0551-4b13-ab45-39306edd8b83" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -385,14 +383,7 @@
       <workItem from="1733418473973" duration="55000" />
       <workItem from="1733906118984" duration="1090000" />
       <workItem from="1733912284263" duration="2594000" />
-      <workItem from="1733988757047" duration="468000" />
-    </task>
-    <task id="LOCAL-00137" summary="Exemples">
-      <created>1716968713639</created>
-      <option name="number" value="00137" />
-      <option name="presentableId" value="LOCAL-00137" />
-      <option name="project" value="LOCAL" />
-      <updated>1716968713639</updated>
+      <workItem from="1733988757047" duration="919000" />
     </task>
     <task id="LOCAL-00138" summary="Exemples">
       <created>1717058058638</created>
@@ -730,7 +721,14 @@
       <option name="project" value="LOCAL" />
       <updated>1733988920708</updated>
     </task>
-    <option name="localTasksCounter" value="186" />
+    <task id="LOCAL-00186" summary="Exemples">
+      <created>1733989430252</created>
+      <option name="number" value="00186" />
+      <option name="presentableId" value="LOCAL-00186" />
+      <option name="project" value="LOCAL" />
+      <updated>1733989430253</updated>
+    </task>
+    <option name="localTasksCounter" value="187" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
