@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e3daea28-0551-4b13-ab45-39306edd8b83" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/basics/Temporal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/basics/Temporal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/recursius/NumParsArray.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,14 +52,14 @@
       <recent name="C:\Users\tonim\IdeaProjects\JavaExamples\data\planetes" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="recursius" />
       <recent name="strings" />
       <recent name="arrays" />
       <recent name="funcions" />
       <recent name="basics" />
-      <recent name="marato2" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.DivisioSenceraRecursiva">
+  <component name="RunManager" selected="Application.NumParsArray">
     <configuration name="DeletrejaRecursiu" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="recursius.DeletrejaRecursiu" />
       <module name="JavaExamples" />
@@ -87,12 +86,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FuncioGeneraADN" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="strings.FuncioGeneraADN" />
+    <configuration name="NumAsRecursiu" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="recursius.NumAsRecursiu" />
       <module name="JavaExamples" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="strings.*" />
+          <option name="PATTERN" value="recursius.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -100,8 +99,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NumAsRecursiu" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="recursius.NumAsRecursiu" />
+    <configuration name="NumParsArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="recursius.NumParsArray" />
       <module name="JavaExamples" />
       <extension name="coverage">
         <pattern>
@@ -128,11 +127,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.NumParsArray" />
         <item itemvalue="Application.DivisioSenceraRecursiva" />
         <item itemvalue="Application.Temporal" />
         <item itemvalue="Application.DeletrejaRecursiu" />
         <item itemvalue="Application.NumAsRecursiu" />
-        <item itemvalue="Application.FuncioGeneraADN" />
       </list>
     </recent_temporary>
   </component>
@@ -386,13 +385,7 @@
       <workItem from="1733418473973" duration="55000" />
       <workItem from="1733906118984" duration="1090000" />
       <workItem from="1733912284263" duration="2594000" />
-    </task>
-    <task id="LOCAL-00136" summary="Exemples">
-      <created>1716967039458</created>
-      <option name="number" value="00136" />
-      <option name="presentableId" value="LOCAL-00136" />
-      <option name="project" value="LOCAL" />
-      <updated>1716967039459</updated>
+      <workItem from="1733988757047" duration="468000" />
     </task>
     <task id="LOCAL-00137" summary="Exemples">
       <created>1716968713639</created>
@@ -730,7 +723,14 @@
       <option name="project" value="LOCAL" />
       <updated>1733906617700</updated>
     </task>
-    <option name="localTasksCounter" value="185" />
+    <task id="LOCAL-00185" summary="Exemples">
+      <created>1733988920707</created>
+      <option name="number" value="00185" />
+      <option name="presentableId" value="LOCAL-00185" />
+      <option name="project" value="LOCAL" />
+      <updated>1733988920708</updated>
+    </task>
+    <option name="localTasksCounter" value="186" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
