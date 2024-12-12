@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e3daea28-0551-4b13-ab45-39306edd8b83" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/recursius/NumAsRecursiu.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/basics/Temporal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/basics/Temporal.java" afterDir="false" />
     </list>
@@ -61,9 +60,22 @@
       <recent name="marato2" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.DeletrejaRecursiu">
+  <component name="RunManager" selected="Application.DivisioSenceraRecursiva">
     <configuration name="DeletrejaRecursiu" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="recursius.DeletrejaRecursiu" />
+      <module name="JavaExamples" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="recursius.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DivisioSenceraRecursiva" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="recursius.DivisioSenceraRecursiva" />
       <module name="JavaExamples" />
       <extension name="coverage">
         <pattern>
@@ -101,19 +113,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProvaSubtring03A" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="strings.ProvaSubtring03A" />
-      <module name="JavaExamples" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="strings.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Temporal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="basics.Temporal" />
       <module name="JavaExamples" />
@@ -129,11 +128,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DivisioSenceraRecursiva" />
+        <item itemvalue="Application.Temporal" />
         <item itemvalue="Application.DeletrejaRecursiu" />
         <item itemvalue="Application.NumAsRecursiu" />
         <item itemvalue="Application.FuncioGeneraADN" />
-        <item itemvalue="Application.Temporal" />
-        <item itemvalue="Application.ProvaSubtring03A" />
       </list>
     </recent_temporary>
   </component>
@@ -385,14 +384,8 @@
       <workItem from="1733382200242" duration="2480000" />
       <workItem from="1733388706909" duration="1847000" />
       <workItem from="1733418473973" duration="55000" />
-      <workItem from="1733906118984" duration="329000" />
-    </task>
-    <task id="LOCAL-00135" summary="Exemples">
-      <created>1716890999659</created>
-      <option name="number" value="00135" />
-      <option name="presentableId" value="LOCAL-00135" />
-      <option name="project" value="LOCAL" />
-      <updated>1716890999659</updated>
+      <workItem from="1733906118984" duration="1090000" />
+      <workItem from="1733912284263" duration="2594000" />
     </task>
     <task id="LOCAL-00136" summary="Exemples">
       <created>1716967039458</created>
@@ -730,7 +723,14 @@
       <option name="project" value="LOCAL" />
       <updated>1733385105293</updated>
     </task>
-    <option name="localTasksCounter" value="184" />
+    <task id="LOCAL-00184" summary="Exemples">
+      <created>1733906617699</created>
+      <option name="number" value="00184" />
+      <option name="presentableId" value="LOCAL-00184" />
+      <option name="project" value="LOCAL" />
+      <updated>1733906617700</updated>
+    </task>
+    <option name="localTasksCounter" value="185" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
