@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e3daea28-0551-4b13-ab45-39306edd8b83" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/recursius/SortArrayRecursiu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/recursius/SortArrayRecursiu2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/recursius/MCMRecursiu.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -61,9 +60,9 @@
       <recent name="basics" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SortArrayRecursiu2">
-    <configuration name="MitjanaRecursiva" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="recursius.MitjanaRecursiva" />
+  <component name="RunManager" selected="Application.MCMRecursiu">
+    <configuration name="MCMRecursiu" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="recursius.MCMRecursiu" />
       <module name="JavaExamples" />
       <extension name="coverage">
         <pattern>
@@ -75,8 +74,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NumParsArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="recursius.NumParsArray" />
+    <configuration name="MitjanaRecursiva" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="recursius.MitjanaRecursiva" />
       <module name="JavaExamples" />
       <extension name="coverage">
         <pattern>
@@ -129,11 +128,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MCMRecursiu" />
         <item itemvalue="Application.SortArrayRecursiu2" />
         <item itemvalue="Application.SortArrayRecursiu" />
         <item itemvalue="Application.MitjanaRecursiva" />
         <item itemvalue="Application.Temporal" />
-        <item itemvalue="Application.NumParsArray" />
       </list>
     </recent_temporary>
   </component>
@@ -389,14 +388,8 @@
       <workItem from="1733912284263" duration="2594000" />
       <workItem from="1733988757047" duration="1029000" />
       <workItem from="1733993523825" duration="4042000" />
-      <workItem from="1734003167243" duration="3110000" />
-    </task>
-    <task id="LOCAL-00140" summary="Exemples">
-      <created>1717511759844</created>
-      <option name="number" value="00140" />
-      <option name="presentableId" value="LOCAL-00140" />
-      <option name="project" value="LOCAL" />
-      <updated>1717511759844</updated>
+      <workItem from="1734003167243" duration="3193000" />
+      <workItem from="1734007021701" duration="778000" />
     </task>
     <task id="LOCAL-00141" summary="Exemples">
       <created>1718093504855</created>
@@ -734,7 +727,14 @@
       <option name="project" value="LOCAL" />
       <updated>1734004274932</updated>
     </task>
-    <option name="localTasksCounter" value="189" />
+    <task id="LOCAL-00189" summary="Exemples">
+      <created>1734006859186</created>
+      <option name="number" value="00189" />
+      <option name="presentableId" value="LOCAL-00189" />
+      <option name="project" value="LOCAL" />
+      <updated>1734006859186</updated>
+    </task>
+    <option name="localTasksCounter" value="190" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
