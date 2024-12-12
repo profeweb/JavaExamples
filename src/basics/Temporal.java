@@ -3,40 +3,50 @@ package basics;
 public class Temporal {
 
    public static void main(String[] args){
-      countDown(10);
 
-      int x = potencia(2, 5);
+      String s = "Aloha";
+      System.out.printf("%s té %d As.", s, numVocalsR(s));
+
    }
 
-
-   public static void countDown(int n){
-      if(n==0){
-         System.out.println("Boom!!!");
+   public static boolean esUnaVocal(char c){
+      if(c=='a' || c=='A' ||
+         c=='e' || c=='E' ||
+         c=='i' || c=='I' ||
+              c=='o' || c=='O' ||
+              c=='u' || c=='U'){
+         return true;
       }
       else {
-         System.out.println(n);
-         countDown(n-1);
+         return false;
       }
    }
 
-   public static int potencia(int b, int e){
-      if(e==0){
+
+   // Funció Iterativa
+   public static int numVocals(String s){
+      int num = 0;
+      for(int i=0; i<s.length(); i++){
+         char lletra = s.charAt(i);
+         if(esUnaVocal(lletra)){
+            num++;
+         }
+      }
+      return num;
+   }
+
+   // Funció Recursiva
+   public static int numVocalsR(String s){
+      if(s.length()==1 && esUnaVocal(s.charAt(0))){
          return 1;
       }
-      else {
-         return b*potencia(b, e+1);
-      }
-   }
-
-   public static int potencia2(int b, int e){
-      if(e==0){
-         return 1;
-      }
-      else if(e%2==0){
-         return potencia2(b, e/2)*potencia2(b, e/2);
+      else if(s.length()==1 && !esUnaVocal(s.charAt(0))){
+         return 0;
       }
       else {
-         return b * potencia2(b, e/2)*potencia2(b, e/2);
+         String tros1 = s.substring(0, s.length()/2);
+         String tros2 = s.substring(s.length()/2);
+         return numVocalsR(tros1) + numVocalsR(tros2);
       }
    }
 
