@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e3daea28-0551-4b13-ab45-39306edd8b83" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/recursius/MCMRecursiu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/arrays2d/ArrayPrecipitacionsAnuals.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/basics/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/basics/Temporal.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,7 +62,20 @@
       <recent name="basics" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MCMRecursiu">
+  <component name="RunManager" selected="Application.ArrayPrecipitacionsAnuals">
+    <configuration name="ArrayPrecipitacionsAnuals" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="arrays2d.ArrayPrecipitacionsAnuals" />
+      <module name="JavaExamples" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="arrays2d.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MCMRecursiu" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="recursius.MCMRecursiu" />
       <module name="JavaExamples" />
@@ -74,12 +89,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MitjanaRecursiva" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="recursius.MitjanaRecursiva" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="basics.Main" />
       <module name="JavaExamples" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="recursius.*" />
+          <option name="PATTERN" value="basics.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -113,26 +128,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Temporal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="basics.Temporal" />
-      <module name="JavaExamples" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="basics.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ArrayPrecipitacionsAnuals" />
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.MCMRecursiu" />
         <item itemvalue="Application.SortArrayRecursiu2" />
         <item itemvalue="Application.SortArrayRecursiu" />
-        <item itemvalue="Application.MitjanaRecursiva" />
-        <item itemvalue="Application.Temporal" />
       </list>
     </recent_temporary>
   </component>
@@ -389,14 +391,11 @@
       <workItem from="1733988757047" duration="1029000" />
       <workItem from="1733993523825" duration="4042000" />
       <workItem from="1734003167243" duration="3193000" />
-      <workItem from="1734007021701" duration="778000" />
-    </task>
-    <task id="LOCAL-00141" summary="Exemples">
-      <created>1718093504855</created>
-      <option name="number" value="00141" />
-      <option name="presentableId" value="LOCAL-00141" />
-      <option name="project" value="LOCAL" />
-      <updated>1718093504855</updated>
+      <workItem from="1734007021701" duration="876000" />
+      <workItem from="1734017116916" duration="610000" />
+      <workItem from="1734075262243" duration="2291000" />
+      <workItem from="1734080052075" duration="6460000" />
+      <workItem from="1734089618752" duration="1488000" />
     </task>
     <task id="LOCAL-00142" summary="Exemples">
       <created>1726055750615</created>
@@ -734,7 +733,14 @@
       <option name="project" value="LOCAL" />
       <updated>1734006859186</updated>
     </task>
-    <option name="localTasksCounter" value="190" />
+    <task id="LOCAL-00190" summary="Exemples">
+      <created>1734007845067</created>
+      <option name="number" value="00190" />
+      <option name="presentableId" value="LOCAL-00190" />
+      <option name="project" value="LOCAL" />
+      <updated>1734007845068</updated>
+    </task>
+    <option name="localTasksCounter" value="191" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
