@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e3daea28-0551-4b13-ab45-39306edd8b83" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/arrays2d/Bidimensional.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/arrays2d/ComparaMatrius.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/arrays2d/MatriuIdentitat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/arrays2d/ProducteEscalar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/arrays2d/QuinsValorsEntreArray2D.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/arrays2d/EstadistiquesMatriu.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/arrays2d/SumaMatrius.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/arrays2d/SumaMatrius.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,7 +60,20 @@
       <recent name="basics" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.QuinsValorsEntreArray2D">
+  <component name="RunManager" selected="Application.EstadistiquesMatriu">
+    <configuration name="EstadistiquesMatriu" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="arrays2d.EstadistiquesMatriu" />
+      <module name="JavaExamples" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="arrays2d.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Majuscules" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="parametres.Majuscules" />
       <module name="JavaExamples" />
@@ -85,19 +93,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="arrays2d.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PasValor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="parametres.PasValor" />
-      <module name="JavaExamples" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="parametres.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -133,11 +128,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.EstadistiquesMatriu" />
         <item itemvalue="Application.QuinsValorsEntreArray2D" />
         <item itemvalue="Application.MatriuIdentitat" />
         <item itemvalue="Application.ProducteEscalar" />
         <item itemvalue="Application.Majuscules" />
-        <item itemvalue="Application.PasValor" />
       </list>
     </recent_temporary>
   </component>
@@ -403,14 +398,7 @@
       <workItem from="1734419990209" duration="134000" />
       <workItem from="1734517037439" duration="3232000" />
       <workItem from="1734522547618" duration="120000" />
-      <workItem from="1734596472235" duration="5309000" />
-    </task>
-    <task id="LOCAL-00143" summary="Exemples">
-      <created>1726477706851</created>
-      <option name="number" value="00143" />
-      <option name="presentableId" value="LOCAL-00143" />
-      <option name="project" value="LOCAL" />
-      <updated>1726477706852</updated>
+      <workItem from="1734596472235" duration="6744000" />
     </task>
     <task id="LOCAL-00144" summary="Exemples">
       <created>1726477955788</created>
@@ -748,7 +736,14 @@
       <option name="project" value="LOCAL" />
       <updated>1734091207111</updated>
     </task>
-    <option name="localTasksCounter" value="192" />
+    <task id="LOCAL-00192" summary="Exemples">
+      <created>1734603860255</created>
+      <option name="number" value="00192" />
+      <option name="presentableId" value="LOCAL-00192" />
+      <option name="project" value="LOCAL" />
+      <updated>1734603860256</updated>
+    </task>
+    <option name="localTasksCounter" value="193" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
