@@ -13,11 +13,13 @@ public class SumaMatrius {
 
     public static int[][] sumaMatrius(int[][] a, int[][] b){
         int[][] s = new int[a.length][a[0].length];
+
         for(int i=0; i<a.length; i++){
             for(int j=0; j<a[i].length; j++){
                 s[i][j] = a[i][j] + b[i][j];
             }
         }
+
         return s;
     }
 
