@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e3daea28-0551-4b13-ab45-39306edd8b83" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/arrays2d/EstadistiquesMatriu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="e3daea28-0551-4b13-ab45-39306edd8b83" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -398,14 +395,7 @@
       <workItem from="1734419990209" duration="134000" />
       <workItem from="1734517037439" duration="3232000" />
       <workItem from="1734522547618" duration="120000" />
-      <workItem from="1734596472235" duration="6744000" />
-    </task>
-    <task id="LOCAL-00144" summary="Exemples">
-      <created>1726477955788</created>
-      <option name="number" value="00144" />
-      <option name="presentableId" value="LOCAL-00144" />
-      <option name="project" value="LOCAL" />
-      <updated>1726477955788</updated>
+      <workItem from="1734596472235" duration="7167000" />
     </task>
     <task id="LOCAL-00145" summary="Exemples">
       <created>1726477993868</created>
@@ -743,7 +733,14 @@
       <option name="project" value="LOCAL" />
       <updated>1734603860256</updated>
     </task>
-    <option name="localTasksCounter" value="193" />
+    <task id="LOCAL-00193" summary="Exemples">
+      <created>1734607193929</created>
+      <option name="number" value="00193" />
+      <option name="presentableId" value="LOCAL-00193" />
+      <option name="project" value="LOCAL" />
+      <updated>1734607193929</updated>
+    </task>
+    <option name="localTasksCounter" value="194" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
