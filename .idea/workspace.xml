@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e3daea28-0551-4b13-ab45-39306edd8b83" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/poo/LlistaGenerica.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/poo/ExempleEquals.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/poo/ExempleEquals.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/poo/ExempleToString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/poo/ExempleToString.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,7 +61,7 @@
       <recent name="funcions" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Temp">
+  <component name="RunManager" selected="Application.ExempleToString">
     <configuration name="EstadisticaDau3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="training.EstadisticaDau3" />
       <module name="JavaExamples" />
@@ -88,12 +88,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EstadistiquesMatriu" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="arrays2d.EstadistiquesMatriu" />
+    <configuration name="ExempleEquals" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="poo.ExempleEquals" />
       <module name="JavaExamples" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="arrays2d.*" />
+          <option name="PATTERN" value="poo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -101,12 +101,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="QuinsValorsEntreArray2D" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="arrays2d.QuinsValorsEntreArray2D" />
+    <configuration name="ExempleToString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="poo.ExempleToString" />
       <module name="JavaExamples" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="arrays2d.*" />
+          <option name="PATTERN" value="poo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -129,11 +129,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ExempleToString" />
+        <item itemvalue="Application.ExempleEquals" />
         <item itemvalue="Application.Temp" />
         <item itemvalue="Application.EstadisticaMoneda" />
         <item itemvalue="Application.EstadisticaDau3" />
-        <item itemvalue="Application.EstadistiquesMatriu" />
-        <item itemvalue="Application.QuinsValorsEntreArray2D" />
       </list>
     </recent_temporary>
   </component>
@@ -410,14 +410,8 @@
       <workItem from="1737019769916" duration="1441000" />
       <workItem from="1737100114090" duration="773000" />
       <workItem from="1738921887289" duration="2325000" />
-      <workItem from="1739176131819" duration="1301000" />
-    </task>
-    <task id="LOCAL-00150" summary="Exemples">
-      <created>1726557994650</created>
-      <option name="number" value="00150" />
-      <option name="presentableId" value="LOCAL-00150" />
-      <option name="project" value="LOCAL" />
-      <updated>1726557994650</updated>
+      <workItem from="1739176131819" duration="1345000" />
+      <workItem from="1739177797929" duration="2469000" />
     </task>
     <task id="LOCAL-00151" summary="Exemples">
       <created>1726558562721</created>
@@ -755,7 +749,14 @@
       <option name="project" value="LOCAL" />
       <updated>1739176289976</updated>
     </task>
-    <option name="localTasksCounter" value="199" />
+    <task id="LOCAL-00199" summary="Exemples">
+      <created>1739177452970</created>
+      <option name="number" value="00199" />
+      <option name="presentableId" value="LOCAL-00199" />
+      <option name="project" value="LOCAL" />
+      <updated>1739177452970</updated>
+    </task>
+    <option name="localTasksCounter" value="200" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
