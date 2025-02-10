@@ -7,6 +7,6 @@ public class ExempleEquals {
     }
 
     public class Cotxe {
-        
+
     }
 }
