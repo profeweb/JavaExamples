@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e3daea28-0551-4b13-ab45-39306edd8b83" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/tad/ExempleArrayList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tad/ExempleLinkedList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/poo/ExempleEquals.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/poo/ExempleEquals.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/poo/ExempleToString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/poo/ExempleToString.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/poo/LlistaGenerica.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/poo/LlistaGenerica.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,33 +55,20 @@
       <recent name="C:\Users\tonim\IdeaProjects\JavaExamples\data\planetes" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="tad" />
       <recent name="training" />
       <recent name="recursius" />
       <recent name="strings" />
       <recent name="arrays" />
-      <recent name="funcions" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ExempleToString">
-    <configuration name="EstadisticaDau3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="training.EstadisticaDau3" />
+  <component name="RunManager" selected="Application.ExempleArrayList">
+    <configuration name="ExempleArrayList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="tad.ExempleArrayList" />
       <module name="JavaExamples" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="training.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="EstadisticaMoneda" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="training.EstadisticaMoneda" />
-      <module name="JavaExamples" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="training.*" />
+          <option name="PATTERN" value="tad.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -114,6 +102,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="LlistaGenerica" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="poo.LlistaGenerica" />
+      <module name="JavaExamples" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="poo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Temp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="basics.Temp" />
       <module name="JavaExamples" />
@@ -129,11 +130,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ExempleArrayList" />
+        <item itemvalue="Application.LlistaGenerica" />
         <item itemvalue="Application.ExempleToString" />
         <item itemvalue="Application.ExempleEquals" />
         <item itemvalue="Application.Temp" />
-        <item itemvalue="Application.EstadisticaMoneda" />
-        <item itemvalue="Application.EstadisticaDau3" />
       </list>
     </recent_temporary>
   </component>
@@ -411,14 +412,7 @@
       <workItem from="1737100114090" duration="773000" />
       <workItem from="1738921887289" duration="2325000" />
       <workItem from="1739176131819" duration="1345000" />
-      <workItem from="1739177797929" duration="2469000" />
-    </task>
-    <task id="LOCAL-00151" summary="Exemples">
-      <created>1726558562721</created>
-      <option name="number" value="00151" />
-      <option name="presentableId" value="LOCAL-00151" />
-      <option name="project" value="LOCAL" />
-      <updated>1726558562721</updated>
+      <workItem from="1739177797929" duration="6702000" />
     </task>
     <task id="LOCAL-00152" summary="Exemples">
       <created>1726559446884</created>
@@ -756,7 +750,14 @@
       <option name="project" value="LOCAL" />
       <updated>1739177452970</updated>
     </task>
-    <option name="localTasksCounter" value="200" />
+    <task id="LOCAL-00200" summary="Exemples">
+      <created>1739180298073</created>
+      <option name="number" value="00200" />
+      <option name="presentableId" value="LOCAL-00200" />
+      <option name="project" value="LOCAL" />
+      <updated>1739180298074</updated>
+    </task>
+    <option name="localTasksCounter" value="201" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
