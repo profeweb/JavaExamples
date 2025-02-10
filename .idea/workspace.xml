@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e3daea28-0551-4b13-ab45-39306edd8b83" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/basics/Temp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/training/EstadisticaText.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -59,7 +61,7 @@
       <recent name="funcions" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.EstadisticaMoneda">
+  <component name="RunManager" selected="Application.Temp">
     <configuration name="EstadisticaDau3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="training.EstadisticaDau3" />
       <module name="JavaExamples" />
@@ -99,19 +101,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MatriuIdentitat" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="arrays2d.MatriuIdentitat" />
-      <module name="JavaExamples" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="arrays2d.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="QuinsValorsEntreArray2D" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="arrays2d.QuinsValorsEntreArray2D" />
       <module name="JavaExamples" />
@@ -125,13 +114,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Temp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="basics.Temp" />
+      <module name="JavaExamples" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="basics.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Temp" />
         <item itemvalue="Application.EstadisticaMoneda" />
         <item itemvalue="Application.EstadisticaDau3" />
         <item itemvalue="Application.EstadistiquesMatriu" />
         <item itemvalue="Application.QuinsValorsEntreArray2D" />
-        <item itemvalue="Application.MatriuIdentitat" />
       </list>
     </recent_temporary>
   </component>
@@ -405,14 +407,9 @@
       <workItem from="1736320752021" duration="47000" />
       <workItem from="1736420426654" duration="736000" />
       <workItem from="1736493448265" duration="2207000" />
-      <workItem from="1737019769916" duration="1384000" />
-    </task>
-    <task id="LOCAL-00148" summary="Exemples">
-      <created>1726488748315</created>
-      <option name="number" value="00148" />
-      <option name="presentableId" value="LOCAL-00148" />
-      <option name="project" value="LOCAL" />
-      <updated>1726488748316</updated>
+      <workItem from="1737019769916" duration="1441000" />
+      <workItem from="1737100114090" duration="773000" />
+      <workItem from="1738921887289" duration="2325000" />
     </task>
     <task id="LOCAL-00149" summary="Exemples">
       <created>1726556291188</created>
@@ -750,7 +747,14 @@
       <option name="project" value="LOCAL" />
       <updated>1737020064121</updated>
     </task>
-    <option name="localTasksCounter" value="197" />
+    <task id="LOCAL-00197" summary="Exemples">
+      <created>1737021269866</created>
+      <option name="number" value="00197" />
+      <option name="presentableId" value="LOCAL-00197" />
+      <option name="project" value="LOCAL" />
+      <updated>1737021269866</updated>
+    </task>
+    <option name="localTasksCounter" value="198" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
