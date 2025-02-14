@@ -4,19 +4,12 @@ public class Temp {
 
     public static void main(String[] args) {
 
-        int baseOrigen = 10;
-        int baseDesti = 2;
+            String s = "FA1B";
 
-        int no = 125;
-        int pos = 0, nd =  0, pot = 1;
+            int numLletres = s.length();
+            char darrera = s.charAt(numLletres-1);
+            String davant = s.substring(0, numLletres-1);
+            System.out.printf("%c i %s", darrera, davant);
 
-        while(no>0){
-            int d = no % baseDesti;
-            no = no / baseDesti;
-            nd = nd + d*pot;
-            pos = pos + 1;
-            pot = pot * baseOrigen;
-        }
-        System.out.println("Num Desti: "+nd);
     }
 }

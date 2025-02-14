@@ -2,8 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e3daea28-0551-4b13-ab45-39306edd8b83" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/conversions/Binari2Hexadecimal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/conversions/Binari2Hexadecimal2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/conversions/Decimal2Hexa2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/paper3/ExempleGradientDescent.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/poo/ExempleSignatura.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/poo/ExempleSignatura.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/basics/Temp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/basics/Temp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/poo/ExempleOverride.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/poo/ExempleOverride.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,20 +58,20 @@
       <recent name="C:\Users\tonim\IdeaProjects\JavaExamples\data\planetes" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="conversions" />
       <recent name="tad" />
       <recent name="training" />
       <recent name="recursius" />
       <recent name="strings" />
-      <recent name="arrays" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ExempleStatic">
-    <configuration name="ExempleArrayList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="tad.ExempleArrayList" />
+  <component name="RunManager" selected="Application.Binari2Hexadecimal">
+    <configuration name="Binari2Hexadecimal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="conversions.Binari2Hexadecimal" />
       <module name="JavaExamples" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tad.*" />
+          <option name="PATTERN" value="conversions.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -74,12 +79,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ExempleOverride" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="poo.ExempleOverride" />
+    <configuration name="Binari2Hexadecimal2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="conversions.Binari2Hexadecimal2" />
       <module name="JavaExamples" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="poo.*" />
+          <option name="PATTERN" value="conversions.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -87,8 +92,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ExempleStatic" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="basics.ExempleStatic" />
+    <configuration name="Decimal2Hexa2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="conversions.Decimal2Hexa2" />
+      <module name="JavaExamples" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="conversions.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ExempleGradientDescent" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="paper3.ExempleGradientDescent" />
+      <module name="JavaExamples" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="paper3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Temp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="basics.Temp" />
       <module name="JavaExamples" />
       <extension name="coverage">
         <pattern>
@@ -100,39 +131,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ExempleToString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="poo.ExempleToString" />
-      <module name="JavaExamples" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="poo.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LlistaGenerica" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="poo.LlistaGenerica" />
-      <module name="JavaExamples" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="poo.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ExempleStatic" />
-        <item itemvalue="Application.ExempleOverride" />
-        <item itemvalue="Application.ExempleArrayList" />
-        <item itemvalue="Application.LlistaGenerica" />
-        <item itemvalue="Application.ExempleToString" />
+        <item itemvalue="Application.Binari2Hexadecimal" />
+        <item itemvalue="Application.Binari2Hexadecimal2" />
+        <item itemvalue="Application.ExempleGradientDescent" />
+        <item itemvalue="Application.Temp" />
+        <item itemvalue="Application.Decimal2Hexa2" />
       </list>
     </recent_temporary>
   </component>
@@ -413,14 +418,14 @@
       <workItem from="1739177797929" duration="6718000" />
       <workItem from="1739257951092" duration="5629000" />
       <workItem from="1739289586097" duration="215000" />
-      <workItem from="1739349966814" duration="581000" />
-    </task>
-    <task id="LOCAL-00156" summary="Exemples">
-      <created>1726564511148</created>
-      <option name="number" value="00156" />
-      <option name="presentableId" value="LOCAL-00156" />
-      <option name="project" value="LOCAL" />
-      <updated>1726564511148</updated>
+      <workItem from="1739349966814" duration="2046000" />
+      <workItem from="1739354045125" duration="1338000" />
+      <workItem from="1739360042169" duration="860000" />
+      <workItem from="1739431915848" duration="1415000" />
+      <workItem from="1739435387275" duration="4761000" />
+      <workItem from="1739445515636" duration="626000" />
+      <workItem from="1739457137905" duration="2460000" />
+      <workItem from="1739517381995" duration="2453000" />
     </task>
     <task id="LOCAL-00157" summary="Exemples">
       <created>1727080548660</created>
@@ -758,7 +763,14 @@
       <option name="project" value="LOCAL" />
       <updated>1739265517890</updated>
     </task>
-    <option name="localTasksCounter" value="205" />
+    <task id="LOCAL-00205" summary="Exemples">
+      <created>1739350559800</created>
+      <option name="number" value="00205" />
+      <option name="presentableId" value="LOCAL-00205" />
+      <option name="project" value="LOCAL" />
+      <updated>1739350559801</updated>
+    </task>
+    <option name="localTasksCounter" value="206" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
