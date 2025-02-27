@@ -38,15 +38,15 @@ public class ExempleGradientDescent extends PApplet {
             double y = df.apply(x);
             float mappedX = map((float)x, -3, 3, 10, width-10);
             float mappedY = map((float)y, -10, 10, height-100, 100);
-            //println(mappedX, mappedY);
             punts.add(new PVector(mappedX, mappedY));
         }
-
-        println("DONE");
     }
 
     public void draw(){
         background(255);
+
+        fill(0); textSize(24); textAlign(LEFT);
+        text("f(x) = x^3 - 3x^2 + x", 50, 50);
 
         stroke(0); strokeWeight(1);
         line (width/2, 0, width/2, height);

@@ -6,7 +6,7 @@ public class Binari2Hexadecimal2 {
     public static void main(String[] args){
         Scanner input = new Scanner(System.in);
 
-        // Demanam el número binari a convertir (long perquè pot ser molt llarg)
+        // Demanam el número binari a convertir (long perquè pot ser molt llarg - té un límit-)
         System.out.print("Enter Binary number: ");
         long nb = input.nextLong();
 
@@ -16,8 +16,7 @@ public class Binari2Hexadecimal2 {
         while(nb!=0){
 
             // Agafam un tros de 4 bits (o menys!) des de la dreta
-            int r = (int)(nb % 10000);
-            System.out.println(r);
+            int r = (int)(nb % 10000);  // ALERTA! Cal fer un casting de long a int
 
             // Convertim aquest número al seu equivalent dígit hexadecimal
             String dh = digitToHexaString(binari2decimal(r));

@@ -9,7 +9,7 @@ public class TresEnLiniaV01 {
     public static VALOR[][] tauler;
 
     // Valors possibles del resultat de la partida i la seva variable
-    public enum RESULTAT {EMPAT, GUANYADOR_A, GUANYADOR_B};
+    public enum RESULTAT {EN_JOC, EMPAT, GUANYADOR_A, GUANYADOR_B};
     public static RESULTAT resultat;
 
     // Valors possibles del torn i la seva variable
@@ -49,7 +49,7 @@ public class TresEnLiniaV01 {
     public static TORN canviarTorn(TORN t) { return TORN.JUGADOR_A; }
 
     // Retorna el resultat de la partida (EMPAT, GUANYA A o GUANYA B)
-    public static RESULTAT comprovaResultat(VALOR[][] t){ return RESULTAT.EMPAT; }
+    public static RESULTAT comprovaResultat(VALOR[][] t){ return RESULTAT.EN_JOC; }
 
     // Indica el resultat de la partida (EMPAT, GUANYA A o GUANYA B)
     public static void mostrarResultat(RESULTAT r) {}

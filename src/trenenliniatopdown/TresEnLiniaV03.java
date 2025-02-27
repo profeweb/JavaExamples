@@ -148,8 +148,8 @@ public class TresEnLiniaV03 {
         // Comprova guanyar per Diagonal Ascendent
         boolean guanyaDA = false;
         boolean bDA = true;
-        for(int i=0; i<t.length-1; i++){
-            bDA = bDA && (t[i][i]==t[i+1][i+1]  && t[i][i] != VALOR.BUIDA);
+        for(int c=0, f = t.length-1; c<t.length-1; c++, f--){
+            bDA = bDA && (t[f][c]==t[f-1][c+1]  && t[f][c] != VALOR.BUIDA);
         }
         guanyaDA = bDA;
 
