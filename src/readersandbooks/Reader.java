@@ -49,7 +49,6 @@ public class Reader {
 
     // Altres
 
-
     @Override
     public String toString() {
         return "Lector/a: { nom = " + nom + "}";
@@ -70,7 +69,7 @@ public class Reader {
     }
 
 
-    // Compara amb un altre lector (amb el número total pàgines de tots els llibres de totes les llistes
+    // Compara amb un altre lector (amb el número total pàgines de tots els llibres de totes les llistes)
     public boolean betterReader(Reader otherReader){
         int numTotalPages = 0;
         for(int i=0; i<getNumLists(); i++){
@@ -85,6 +84,15 @@ public class Reader {
         }
 
         return numTotalPages > otherNumTotalPages;
+    }
+
+    // Mitjana del número de llibres de les llistes del lector
+    public float averageNumBooks(){
+        float n = 0;
+        for(int i=0; i<getNumLists(); i++){
+            n += getBookListAt(i).getNumBooks();
+        }
+        return n / getNumLists();
     }
 
 

@@ -6,9 +6,8 @@ public class Main {
 
     public static Reader[] readers;
 
+
     public static void main(String[] args) {
-
-
 
         // Creació de 2 lectors
         Reader reader1 = new Reader("Alice");
@@ -32,14 +31,25 @@ public class Main {
         // Mostra la informació del lector
         System.out.println(reader1);
 
+        // Instanciar l'array de lectors amb 10 caselles
         readers = new Reader[10];
-        // Emplenar
+
+        // Emplenar algunes caselles de l'array readers
         readers[0] = reader1;
         readers[1] = reader2;
-        //
+
+        // Número de llibres del gènere (sense duplicats) entre tots els lectors
         Book.Genere g = Book.Genere.NOVELA;
         int nbg = numBooksGenreNoDuplicates(g, readers);
         System.out.printf("Num. Llibres Gènere %s: %d.\n", g, nbg);
+
+        // Compara 2 lectors
+        if(reader1.betterReader(reader2)){
+            System.out.printf("% és millor lector que %s.\n", reader1.getNom(), reader2.getNom());
+        }
+        else {
+            System.out.printf("% és millor lector que %s.\n", reader2.getNom(), reader1.getNom());
+        }
     }
 
 
@@ -75,5 +85,36 @@ public class Main {
         }
         return n;
     }
+
+    // Nom del lector amb la mitjana més alta de llibres en llistes
+    public static String readerNameMaxAverage(Reader[] readers){
+        float maxAvg =  0;
+        int indexReader = -1;
+        for(int r=0; r<readers.length; r++){
+            if(readers[r].averageNumBooks() > maxAvg){
+                maxAvg = readers[r].averageNumBooks();
+                indexReader = r;
+            }
+        }
+        return readers[indexReader].getNom();
+    }
+    
+    // Determina si el llibre està en alguna llista de tots els lectors
+    public boolean isBookInAllReadersList(Book b, Reader[] readers){
+        for(int r=0; r<readers.length; r++){
+            boolean bookReader = false;
+            for(int nl=0; nl<readers[r].getNumLists(); nl++){
+                if(readers[r].getBookListAt(nl).includesBook(b.getIsbn())){
+                    bookReader = true;
+                    break;
+                }
+            }
+            if(!bookReader){
+                return false;
+            }
+        }
+        return true;
+    }
+
 
 }

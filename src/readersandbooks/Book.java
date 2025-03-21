@@ -58,9 +58,9 @@ public class Book {
     @Override
     public String toString() {
         return "Llibre: {" +
-                "títol = " + titol +
-                ", autor = " + autor + 
-                ", isbn = " + isbn +
+                    "títol = " + titol +
+                    ", autor = " + autor +
+                    ", isbn = " + isbn +
                 '}';
     }
 
