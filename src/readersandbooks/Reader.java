@@ -6,19 +6,19 @@ import java.util.List;
 public class Reader {
 
     // Atributs
-    private String name;
+    private String nom;
     private List<BookList> bookLists;
 
     // Constructor
-    public Reader(String name) {
-        this.name = name;
+    public Reader(String nom) {
+        this.nom = nom;
         this.bookLists = new ArrayList<>();
     }
 
     // Getters
 
-    public String getName() {
-        return name;
+    public String getNom() {
+        return nom;
     }
 
     public List<BookList> getBookLists() {
@@ -48,6 +48,12 @@ public class Reader {
     }
 
     // Altres
+
+
+    @Override
+    public String toString() {
+        return "Lector/a: { nom = " + nom + "}";
+    }
 
     // Nom de la llista de llibres amb més llibres
     public String getNameLongestList(){
