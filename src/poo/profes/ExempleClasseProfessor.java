@@ -7,6 +7,7 @@ public class ExempleClasseProfessor {
         // Cridades als constructors
         Professor a = new Professor("Manel", 35, Professor.DEPARTAMENT.FÍSICA);
         Professor b = new Professor("Xesca", 22, Professor.DEPARTAMENT.CATALÀ);
+        Professor c = new Professor("Carles", Professor.DEPARTAMENT.MATES);
 
         // Aplicam setters
         a.setNom("MANEL");
@@ -19,6 +20,7 @@ public class ExempleClasseProfessor {
         // Imprimim informació dels Professors
         a.print();
         b.print();
+        c.print();
 
     }
 }
