@@ -53,6 +53,7 @@ public class Main {
     }
 
 
+    // Número de llibres del genere entre totes les llistes de tots els lectors (ignora repetits)
     public static int numBooksGenre(Book.Genere genere, Reader[] readers){
         int n = 0;
         for(int nr=0; nr<readers.length; nr++) {
@@ -65,6 +66,7 @@ public class Main {
         return n;
     }
 
+    // Número de llibres del gènere entre totes les llistes de tots els lectors (sense repetits)
     public static int numBooksGenreNoDuplicates(Book.Genere genere, Reader[] readers){
         ArrayList<String> isbns = new ArrayList<>();
         int n = 0;
@@ -98,7 +100,7 @@ public class Main {
         }
         return readers[indexReader].getNom();
     }
-    
+
     // Determina si el llibre està en alguna llista de tots els lectors
     public boolean isBookInAllReadersList(Book b, Reader[] readers){
         for(int r=0; r<readers.length; r++){

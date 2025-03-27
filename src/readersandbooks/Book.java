@@ -40,15 +40,12 @@ public class Book {
     public void setTitol(String titol) {
         this.titol = titol;
     }
-
     public void setAutor(String autor) {
         this.autor = autor;
     }
-
     public void setIsbn(String isbn) {
         this.isbn = isbn;
     }
-
     public void setGenere(Genere genere) {
         this.genere = genere;
     }
