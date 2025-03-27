@@ -12,10 +12,16 @@ public class Professor {
 
     // Mètodes de la classe Alumne //////////////////////////////////////////////////
 
-    // Constructor
+    // Constructor (s)
     Professor(String n, int c, DEPARTAMENT d){
         nom = n;
         anys = c;
+        departament = d;
+    }
+
+    Professor(String n, DEPARTAMENT d){
+        nom = n;
+        anys = 0;  // Valor per defecte, en cas de no saber-ho.
         departament = d;
     }
 

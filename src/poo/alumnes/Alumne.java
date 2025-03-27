@@ -10,11 +10,17 @@ public class Alumne {
 
     // Mètodes de la classe Alumne //////////////////////////////////////////////////////
 
-    // Constructor
+    // Constructor(s)
     Alumne(String n, int c, char g){
         nom = n;
         curs = c;
         grup = g;
+    }
+
+    Alumne(String n){
+        nom = n;
+        curs = 1;   // Valor per defecte
+        grup = 'A'; // Valor per defecte
     }
 
     // Getters (accesores) //////////////////////////////////////////////////////////////
@@ -51,7 +57,7 @@ public class Alumne {
     }
 
     // Altres mètodes //////////////////////////////////////////////////////////////////////
-    
+
     void print(){
         System.out.printf("%s va a %d - %c.\n", nom, curs, grup);
     }
