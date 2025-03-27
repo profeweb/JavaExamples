@@ -63,13 +63,13 @@
       <recent name="recursius" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
-    <configuration name="Binari2Hexadecimal2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="conversions.Binari2Hexadecimal2" />
+  <component name="RunManager" selected="Application.ExempleClasseProfessor">
+    <configuration name="ExempleClasseProfessor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="poo.profes.ExempleClasseProfessor" />
       <module name="JavaExamples" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="conversions.*" />
+          <option name="PATTERN" value="poo.profes.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -131,11 +131,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ExempleClasseProfessor" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.TresEnLiniaV04" />
         <item itemvalue="Application.TresTemp" />
         <item itemvalue="Application.ExempleGradientDescent" />
-        <item itemvalue="Application.Binari2Hexadecimal2" />
       </list>
     </recent_temporary>
   </component>

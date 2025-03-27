@@ -2,14 +2,15 @@ package poo.profes;
 
 public class Professor {
 
+    // Declaració del tipus enumerat
     enum DEPARTAMENT {FÍSICA, CATALÀ, MATES};
 
-    // Propietats, atributs, informació o variables de classe
+    // Propietats, atributs, informació o variables de classe ////////////////////////
     String nom;
     int anys;
     DEPARTAMENT departament;
 
-    // Mètodes de la classe Alumne
+    // Mètodes de la classe Alumne //////////////////////////////////////////////////
 
     // Constructor
     Professor(String n, int c, DEPARTAMENT d){
@@ -18,7 +19,8 @@ public class Professor {
         departament = d;
     }
 
-    // Getters (accesores)
+    // Getters (accesores) ////////////////////////////////////////////////////////////
+
     String getNom(){
         return nom;
     }
@@ -31,7 +33,8 @@ public class Professor {
         return departament;
     }
 
-    // Setters (mutadores)
+    // Setters (mutadores) ////////////////////////////////////////////////////////////
+
     void setNom(String n){
         nom = n;
     }
@@ -44,8 +47,8 @@ public class Professor {
         departament = d;
     }
 
+    // Altres mètodes ////////////////////////////////////////////////////////////////////
 
-    // Altres mètodes
     void print(){
         System.out.printf("%s de %d - %s.\n", nom, anys, departament);
     }

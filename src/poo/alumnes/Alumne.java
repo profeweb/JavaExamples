@@ -2,12 +2,14 @@ package poo.alumnes;
 
 public class Alumne {
 
-    // Propietats, atributs, informació o variables de classe
+    // Propietats, atributs, informació o variables de classe /////////////////////////////
+
     String nom;
     int curs;
     char grup;
 
-    // Mètodes de la classe Alumne
+    // Mètodes de la classe Alumne //////////////////////////////////////////////////////
+
     // Constructor
     Alumne(String n, int c, char g){
         nom = n;
@@ -15,7 +17,8 @@ public class Alumne {
         grup = g;
     }
 
-    // Getters (accesores)
+    // Getters (accesores) //////////////////////////////////////////////////////////////
+
     String getNom(){
         return nom;
     }
@@ -28,7 +31,8 @@ public class Alumne {
         return grup;
     }
 
-    // Setters (mutadores)
+    // Setters (mutadores) ///////////////////////////////////////////////////////////////
+
     void setNom(String n){
         nom = n;
     }
@@ -46,7 +50,8 @@ public class Alumne {
         grup = g;
     }
 
-    // Altres mètodes
+    // Altres mètodes //////////////////////////////////////////////////////////////////////
+    
     void print(){
         System.out.printf("%s va a %d - %c.\n", nom, curs, grup);
     }
