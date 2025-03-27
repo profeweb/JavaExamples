@@ -7,6 +7,7 @@ public class ExempleClasseAlumne {
         // Cridades als constructors
         Alumne a = new Alumne("Paco", 1, 'D');
         Alumne b = new Alumne("Pep", 2, 'A');
+        Alumne c = new Alumne("Jaume");
 
         // Aplicam setters
         a.setNom("Paquito");
@@ -19,6 +20,7 @@ public class ExempleClasseAlumne {
         // Imprimim informació dels Alumnes
         a.print();
         b.print();
+        c.print();
 
     }
 }
