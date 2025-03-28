@@ -9,15 +9,15 @@ public class ExempleClasseAlumne {
         Alumne b = new Alumne("Pep", 2, 'A');
         Alumne c = new Alumne("Jaume");
 
-        // Aplicam setters
+        // Aplicam setters per modificar els atributs dels alumnes
         a.setNom("Paquito");
         b.setCursGrup(3, 'C');
 
-        // Utilitzam un getter
+        // Utilitzam getters per obtenir informació dels alumnes
         String nMaj = a.getNom().toUpperCase();
         System.out.println(nMaj);
 
-        // Imprimim informació dels Alumnes
+        // Imprimim informació dels alumnes
         a.print();
         b.print();
         c.print();

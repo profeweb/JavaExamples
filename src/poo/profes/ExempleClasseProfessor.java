@@ -9,15 +9,15 @@ public class ExempleClasseProfessor {
         Professor b = new Professor("Xesca", 22, Professor.DEPARTAMENT.CATALÀ);
         Professor c = new Professor("Carles", Professor.DEPARTAMENT.MATES);
 
-        // Aplicam setters
+        // Aplicam setters per modificar atributs dels professors
         a.setNom("MANEL");
         b.setAnys(23);
 
-        // Utilitzam getters
+        // Utilitzam getters per obtenir informació dels professors
         int sumaAnys = a.getAnys() + b.getAnys();
         System.out.println("SUMA ANYS: " + sumaAnys);
 
-        // Imprimim informació dels Professors
+        // Imprimim informació dels professors
         a.print();
         b.print();
         c.print();
