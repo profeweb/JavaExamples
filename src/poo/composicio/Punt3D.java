@@ -1,5 +1,7 @@
 package poo.composicio;
 
+import processing.core.PApplet;
+
 public class Punt3D {
 
     // Atributs
@@ -61,5 +63,18 @@ public class Punt3D {
 
     void imprimir(){
         System.out.printf("Punt %s(%f, %f, %f).%n", nom, x, y, z);
+    }
+
+    void display(PApplet p5){
+        p5.pushMatrix();
+        p5.pushStyle();
+        p5.fill(0);
+        p5.translate(this.x, this.y, this.z);
+        p5.circle(0, 0, 10);
+        p5.textAlign(p5.LEFT); p5.textSize(18);
+        p5.translate(10, 0, 0);
+        p5.text(this.nom + "("+this.x+","+this.y+","+this.z+")", 10, 0, 0);
+        p5.popStyle();
+        p5.popMatrix();
     }
 }

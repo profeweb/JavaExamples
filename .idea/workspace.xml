@@ -1,16 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e3daea28-0551-4b13-ab45-39306edd8b83" name="Changes" comment="Exemples">
-      <change afterPath="$PROJECT_DIR$/src/poo/composicio/ProvaPunt2DP5.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/poo/temp/Alumne.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/poo/temp/MainAlumnes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/poo/temp/MainProfes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/poo/temp/Professor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/poo/alumnes/ExempleClasseAlumne.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/poo/alumnes/ExempleClasseAlumne.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/poo/composicio/Punt2D.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/poo/composicio/Punt2D.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/poo/profes/ExempleClasseProfessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/poo/profes/ExempleClasseProfessor.java" afterDir="false" />
+    <list default="true" id="e3daea28-0551-4b13-ab45-39306edd8b83" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/poo/composicio/ProvaPunt3DP5.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/poo/composicio/Punt3D.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/poo/composicio/Punt3D.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,7 +60,7 @@
       <recent name="training" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ProvaPunt2DP5">
+  <component name="RunManager" selected="Application.ProvaPunt3DP5">
     <configuration name="ExempleClasseProfessor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="poo.profes.ExempleClasseProfessor" />
       <module name="JavaExamples" />
@@ -107,6 +100,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ProvaPunt3DP5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="poo.composicio.ProvaPunt3DP5" />
+      <module name="JavaExamples" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="poo.composicio.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TresEnLiniaV04" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="trenenliniatopdown.TresEnLiniaV04" />
       <module name="JavaExamples" />
@@ -120,26 +126,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TresTemp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="trenenliniatopdown.TresTemp" />
-      <module name="JavaExamples" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="trenenliniatopdown.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ProvaPunt3DP5" />
         <item itemvalue="Application.ProvaPunt2DP5" />
         <item itemvalue="Application.ExempleClasseProfessor" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.TresEnLiniaV04" />
-        <item itemvalue="Application.TresTemp" />
       </list>
     </recent_temporary>
   </component>
@@ -447,14 +440,7 @@
       <workItem from="1743060613705" duration="1520000" />
       <workItem from="1743065107244" duration="6187000" />
       <workItem from="1743091724640" duration="69000" />
-      <workItem from="1743150334506" duration="357000" />
-    </task>
-    <task id="LOCAL-00168" summary="Exemples">
-      <created>1730804319145</created>
-      <option name="number" value="00168" />
-      <option name="presentableId" value="LOCAL-00168" />
-      <option name="project" value="LOCAL" />
-      <updated>1730804319145</updated>
+      <workItem from="1743150334506" duration="673000" />
     </task>
     <task id="LOCAL-00169" summary="Exemples">
       <created>1730804434168</created>
@@ -792,7 +778,14 @@
       <option name="project" value="LOCAL" />
       <updated>1743061565036</updated>
     </task>
-    <option name="localTasksCounter" value="217" />
+    <task id="LOCAL-00217" summary="Exemples">
+      <created>1743150864197</created>
+      <option name="number" value="00217" />
+      <option name="presentableId" value="LOCAL-00217" />
+      <option name="project" value="LOCAL" />
+      <updated>1743150864198</updated>
+    </task>
+    <option name="localTasksCounter" value="218" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
