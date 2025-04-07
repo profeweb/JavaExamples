@@ -61,6 +61,10 @@ public class Punt3D {
         this.z = z;
     }
 
+    double distancia(Punt3D altre){
+        return Math.sqrt( Math.pow(this.x - altre.x, 2) + Math.pow(this.y-altre.y, 2) + Math.pow(this.z-altre.z, 2));
+    }
+
     void imprimir(){
         System.out.printf("Punt %s(%f, %f, %f).%n", nom, x, y, z);
     }

@@ -54,6 +54,10 @@ public class Punt2D {
 
     // Altres
 
+    double distancia(Punt2D altre){
+        return Math.sqrt( Math.pow(this.x - altre.x, 2) + Math.pow(this.y-altre.y, 2));
+    }
+
     void imprimir(){
         System.out.printf("Punt %s(%f, %f).%n", nom, x, y);
     }
