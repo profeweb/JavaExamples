@@ -2,17 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e3daea28-0551-4b13-ab45-39306edd8b83" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/poo/temp/MainPunt2D.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/poo/temp/MainPunt2DP5.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/poo/temp/MainPunt3DP5.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/poo/temp/Punt2D.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/poo/temp/Punt3D.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/poo/testString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/poo/triangle/MainTriangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/poo/triangle/Punt2D.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/poo/triangle/Triangle.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/poo/composicio/ProvaPunt2D.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/poo/composicio/ProvaPunt2D.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/poo/composicio/ProvaPunt3D.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/poo/composicio/ProvaPunt3D.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/poo/composicio/Punt2D.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/poo/composicio/Punt2D.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/poo/composicio/Punt3D.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/poo/composicio/Punt3D.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,13 +66,13 @@
       <recent name="tad" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.testString">
-    <configuration name="MainPunt2D" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="poo.temp.MainPunt2D" />
+  <component name="RunManager" selected="Application.MainTriangle">
+    <configuration name="ExempleGradientDescent" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="paper3.ExempleGradientDescent" />
       <module name="JavaExamples" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="poo.temp.*" />
+          <option name="PATTERN" value="paper3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -113,12 +106,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProvaPunt3D" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="poo.composicio.ProvaPunt3D" />
+    <configuration name="MainTriangle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="poo.triangle.MainTriangle" />
       <module name="JavaExamples" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="poo.composicio.*" />
+          <option name="PATTERN" value="poo.triangle.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -141,11 +134,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MainTriangle" />
+        <item itemvalue="Application.ExempleGradientDescent" />
         <item itemvalue="Application.testString" />
         <item itemvalue="Application.MainPunt3DP5" />
         <item itemvalue="Application.MainPunt2DP5" />
-        <item itemvalue="Application.MainPunt2D" />
-        <item itemvalue="Application.ProvaPunt3D" />
       </list>
     </recent_temporary>
   </component>
@@ -460,21 +453,11 @@
       <workItem from="1743165464304" duration="889000" />
       <workItem from="1743412924756" duration="620000" />
       <workItem from="1743487770808" duration="107000" />
-      <workItem from="1744014312937" duration="954000" />
-    </task>
-    <task id="LOCAL-00170" summary="Exemples">
-      <created>1731498516836</created>
-      <option name="number" value="00170" />
-      <option name="presentableId" value="LOCAL-00170" />
-      <option name="project" value="LOCAL" />
-      <updated>1731498516837</updated>
-    </task>
-    <task id="LOCAL-00171" summary="Exemples">
-      <created>1732693664337</created>
-      <option name="number" value="00171" />
-      <option name="presentableId" value="LOCAL-00171" />
-      <option name="project" value="LOCAL" />
-      <updated>1732693664338</updated>
+      <workItem from="1744014312937" duration="1754000" />
+      <workItem from="1744027994526" duration="227000" />
+      <workItem from="1744093944492" duration="693000" />
+      <workItem from="1744190281760" duration="2879000" />
+      <workItem from="1744200618274" duration="645000" />
     </task>
     <task id="LOCAL-00172" summary="Exemples">
       <created>1732865690934</created>
@@ -805,7 +788,21 @@
       <option name="project" value="LOCAL" />
       <updated>1743151199199</updated>
     </task>
-    <option name="localTasksCounter" value="219" />
+    <task id="LOCAL-00219" summary="Exemples">
+      <created>1744022914855</created>
+      <option name="number" value="00219" />
+      <option name="presentableId" value="LOCAL-00219" />
+      <option name="project" value="LOCAL" />
+      <updated>1744022914856</updated>
+    </task>
+    <task id="LOCAL-00220" summary="Exemples">
+      <created>1744023105026</created>
+      <option name="number" value="00220" />
+      <option name="presentableId" value="LOCAL-00220" />
+      <option name="project" value="LOCAL" />
+      <updated>1744023105026</updated>
+    </task>
+    <option name="localTasksCounter" value="221" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
