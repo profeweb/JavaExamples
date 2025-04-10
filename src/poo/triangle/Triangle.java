@@ -19,15 +19,53 @@ public class Triangle {
     }
 
     // Setters
-    
+
+    public void setA(Punt2D a) {
+        this.a = a;
+    }
+
+    public void setB(Punt2D b) {
+        this.b = b;
+    }
+
+    public void setC(Punt2D c) {
+        this.c = c;
+    }
+
 
     // Getters
+
+    public Punt2D getA() {
+        return a;
+    }
+
+    public Punt2D getB() {
+        return b;
+    }
+
+    public Punt2D getC() {
+        return c;
+    }
 
 
     // Altres
 
     public void display(PApplet p5){
 
+        p5.stroke(0); p5.strokeWeight(2);
+        p5.fill(200, 50, 50, 50);
+
+        // Dibuixa triangle
+        p5.beginShape();
+        p5.vertex(a.x, a.y);
+        p5.vertex(b.x, b.y);
+        p5.vertex(c.x, c.y);
+        p5.endShape(p5.CLOSE);
+
+        // Dibuixa punts
+        a.display(p5);
+        b.display(p5);
+        c.display(p5);
     }
 
 }

@@ -30,8 +30,8 @@ public class Punt2D {
 
     // Altres
     void display(PApplet p5){
-        p5.circle(this.x, this.y, 30);
         p5.fill(0);
+        p5.circle(this.x, this.y, 30);
         p5.text(this.nom, this.x + 30, this.y);
     }
 }
