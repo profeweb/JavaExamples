@@ -50,10 +50,10 @@ public class Triangle {
 
     // Altres
 
-    public void display(PApplet p5){
+    public void display(PApplet p5, int tColor){
 
         p5.stroke(0); p5.strokeWeight(2);
-        p5.fill(200, 50, 50, 50);
+        p5.fill(tColor);
 
         // Dibuixa triangle
         p5.beginShape();

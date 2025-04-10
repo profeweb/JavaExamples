@@ -36,8 +36,8 @@ public class MainTriangle extends PApplet {
         line(0, -height, 0, height);
 
         // Dibuixa triangles
-        t1.display(this);
-        t2.display(this);
+        t1.display(this, color(255, 100, 50, 50));
+        t2.display(this, color(50, 255, 100, 50));
 
     }
 
