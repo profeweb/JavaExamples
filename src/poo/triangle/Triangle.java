@@ -66,6 +66,7 @@ public class Triangle {
         a.display(p5);
         b.display(p5);
         c.display(p5);
+
     }
 
 }

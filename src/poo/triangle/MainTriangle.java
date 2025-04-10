@@ -40,4 +40,9 @@ public class MainTriangle extends PApplet {
         t2.display(this);
 
     }
+
+    public void mousePressed(){
+        Punt2D pMouse = new Punt2D("A", mouseX - width/2, mouseY - height/2);
+        t1.setA(pMouse);
+    }
 }
