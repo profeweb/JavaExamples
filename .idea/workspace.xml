@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e3daea28-0551-4b13-ab45-39306edd8b83" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/poo/persones/Professor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/poo/poligons/MainPoligon.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/poo/poligons/Poligon.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/poo/poligons/Punt2D.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/poo/persones/ProvaPersones.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/poo/persones/ProvaPersones.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,14 +59,14 @@
       <recent name="C:\Users\tonim\IdeaProjects\JavaExamples\data\planetes" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="poo.poligons" />
       <recent name="poo.persones" />
       <recent name="poo.temp" />
       <recent name="poo.composicio" />
       <recent name="trenenliniatopdown" />
-      <recent name="conversions" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MainCercle">
+  <component name="RunManager" selected="Application.MainPoligon">
     <configuration name="ExempleGradientDescent" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="paper3.ExempleGradientDescent" />
       <module name="JavaExamples" />
@@ -92,12 +93,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainPunt3DP5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="poo.temp.MainPunt3DP5" />
+    <configuration name="MainPoligon" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="poo.poligons.MainPoligon" />
       <module name="JavaExamples" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="poo.temp.*" />
+          <option name="PATTERN" value="poo.poligons.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -133,11 +134,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MainPoligon" />
         <item itemvalue="Application.MainCercle" />
         <item itemvalue="Application.MainTriangle" />
         <item itemvalue="Application.ExempleGradientDescent" />
         <item itemvalue="Application.testString" />
-        <item itemvalue="Application.MainPunt3DP5" />
       </list>
     </recent_temporary>
   </component>
@@ -459,14 +460,8 @@
       <workItem from="1744200618274" duration="645000" />
       <workItem from="1744265444029" duration="1660000" />
       <workItem from="1744268897325" duration="7913000" />
-      <workItem from="1744352384852" duration="353000" />
-    </task>
-    <task id="LOCAL-00178" summary="Exemples">
-      <created>1733252487008</created>
-      <option name="number" value="00178" />
-      <option name="presentableId" value="LOCAL-00178" />
-      <option name="project" value="LOCAL" />
-      <updated>1733252487008</updated>
+      <workItem from="1744352384852" duration="1522000" />
+      <workItem from="1744358257789" duration="3557000" />
     </task>
     <task id="LOCAL-00179" summary="Exemples">
       <created>1733253561094</created>
@@ -804,7 +799,14 @@
       <option name="project" value="LOCAL" />
       <updated>1744277169471</updated>
     </task>
-    <option name="localTasksCounter" value="227" />
+    <task id="LOCAL-00227" summary="Exemples">
+      <created>1744352747435</created>
+      <option name="number" value="00227" />
+      <option name="presentableId" value="LOCAL-00227" />
+      <option name="project" value="LOCAL" />
+      <updated>1744352747435</updated>
+    </task>
+    <option name="localTasksCounter" value="228" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
