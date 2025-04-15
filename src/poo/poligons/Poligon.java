@@ -6,13 +6,13 @@ import static processing.core.PApplet.*;
 
 public class Poligon {
 
-    Punt2D[] punts;  // Composició
+    public Punt2D[] punts;  // Composició
 
-    Poligon(int n){
+    public Poligon(int n){
         punts = new Punt2D[n];
     }
 
-    Poligon(int n, Punt2D c, float r){
+    public Poligon(int n, Punt2D c, float r){
         this(n);  // Cridada a l'altre constructor de Poligon
         float angStep = 360f / n;
         float ang = 0;
@@ -25,11 +25,11 @@ public class Poligon {
         }
     }
 
-    void setPuntAt(int i, Punt2D p){
+    public void setPuntAt(int i, Punt2D p){
         punts[i] = p;
     }
 
-    Punt2D getPuntAt(int i){
+    public Punt2D getPuntAt(int i){
         return punts[i];
     }
 

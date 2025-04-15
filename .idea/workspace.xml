@@ -2,9 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e3daea28-0551-4b13-ab45-39306edd8b83" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/poo/poligons/Hexagon.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/poo/poligons/MainHexagon.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/poo/poligons/Estrella.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/poo/poligons/MainEstrella.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/poo/poligons/MainSol.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/poo/poligons/Sol.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/poo/quadrat/MainQuadrat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/poo/quadrat/Quadrat.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/poo/poligons/Poligon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/poo/poligons/Poligon.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,7 +45,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;full.screen.before.presentation.mode&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/tonim/IdeaProjects/JavaExamples/src/marato3&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/tonim/IdeaProjects/JavaExamples/src/poo&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
@@ -50,6 +55,7 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\tonim\IdeaProjects\JavaExamples\src\poo" />
       <recent name="C:\Users\tonim\IdeaProjects\JavaExamples\src\marato3" />
       <recent name="C:\Users\tonim\IdeaProjects\JavaExamples\src\papers\paper2\t4\pregunta1b" />
       <recent name="C:\Users\tonim\IdeaProjects\JavaExamples\src\papers\paper2\t4" />
@@ -65,35 +71,9 @@
       <recent name="trenenliniatopdown" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MainPoligon">
-    <configuration name="ExempleGradientDescent" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="paper3.ExempleGradientDescent" />
-      <module name="JavaExamples" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="paper3.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MainCercle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="poo.cercle.MainCercle" />
-      <module name="JavaExamples" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="poo.cercle.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MainPoligon" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="poo.poligons.MainPoligon" />
+  <component name="RunManager" selected="Application.MainPetals">
+    <configuration name="MainEngranatge" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="poo.poligons.MainEngranatge" />
       <module name="JavaExamples" />
       <extension name="coverage">
         <pattern>
@@ -105,12 +85,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainTriangle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="poo.triangle.MainTriangle" />
+    <configuration name="MainEstrella" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="poo.poligons.MainEstrella" />
       <module name="JavaExamples" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="poo.triangle.*" />
+          <option name="PATTERN" value="poo.poligons.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -118,12 +98,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="testString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="poo.testString" />
+    <configuration name="MainPetals" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="poo.poligons.MainPetals" />
       <module name="JavaExamples" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="poo.*" />
+          <option name="PATTERN" value="poo.poligons.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainQuadrat" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="poo.quadrat.MainQuadrat" />
+      <module name="JavaExamples" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="poo.quadrat.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainSol" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="poo.poligons.MainSol" />
+      <module name="JavaExamples" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="poo.poligons.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -133,11 +139,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MainPoligon" />
-        <item itemvalue="Application.MainCercle" />
-        <item itemvalue="Application.MainTriangle" />
-        <item itemvalue="Application.ExempleGradientDescent" />
-        <item itemvalue="Application.testString" />
+        <item itemvalue="Application.MainPetals" />
+        <item itemvalue="Application.MainEngranatge" />
+        <item itemvalue="Application.MainSol" />
+        <item itemvalue="Application.MainQuadrat" />
+        <item itemvalue="Application.MainEstrella" />
       </list>
     </recent_temporary>
   </component>
@@ -460,14 +466,10 @@
       <workItem from="1744265444029" duration="1660000" />
       <workItem from="1744268897325" duration="7913000" />
       <workItem from="1744352384852" duration="1522000" />
-      <workItem from="1744358257789" duration="4389000" />
-    </task>
-    <task id="LOCAL-00180" summary="Exemples">
-      <created>1733253954336</created>
-      <option name="number" value="00180" />
-      <option name="presentableId" value="LOCAL-00180" />
-      <option name="project" value="LOCAL" />
-      <updated>1733253954336</updated>
+      <workItem from="1744358257789" duration="7158000" />
+      <workItem from="1744370878018" duration="6169000" />
+      <workItem from="1744384812847" duration="514000" />
+      <workItem from="1744733159350" duration="1460000" />
     </task>
     <task id="LOCAL-00181" summary="Exemples">
       <created>1733302773150</created>
@@ -805,7 +807,14 @@
       <option name="project" value="LOCAL" />
       <updated>1744362858338</updated>
     </task>
-    <option name="localTasksCounter" value="229" />
+    <task id="LOCAL-00229" summary="Exemples">
+      <created>1744363704581</created>
+      <option name="number" value="00229" />
+      <option name="presentableId" value="LOCAL-00229" />
+      <option name="project" value="LOCAL" />
+      <updated>1744363704581</updated>
+    </task>
+    <option name="localTasksCounter" value="230" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
