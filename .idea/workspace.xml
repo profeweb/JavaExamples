@@ -2,14 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e3daea28-0551-4b13-ab45-39306edd8b83" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/poo/poligons/Estrella.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/poo/poligons/MainEstrella.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/poo/poligons/MainSol.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/poo/poligons/Sol.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/poo/quadrat/MainQuadrat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/poo/quadrat/Quadrat.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/poo/poligons/Poligon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/poo/poligons/Poligon.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/readersandbooks/BookList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/readersandbooks/BookList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/readersandbooks/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/readersandbooks/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,7 +40,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;full.screen.before.presentation.mode&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/tonim/IdeaProjects/JavaExamples/src/poo&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/tonim/Desktop&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
@@ -469,14 +464,11 @@
       <workItem from="1744358257789" duration="7158000" />
       <workItem from="1744370878018" duration="6169000" />
       <workItem from="1744384812847" duration="514000" />
-      <workItem from="1744733159350" duration="1460000" />
-    </task>
-    <task id="LOCAL-00181" summary="Exemples">
-      <created>1733302773150</created>
-      <option name="number" value="00181" />
-      <option name="presentableId" value="LOCAL-00181" />
-      <option name="project" value="LOCAL" />
-      <updated>1733302773151</updated>
+      <workItem from="1744733159350" duration="2342000" />
+      <workItem from="1744785565009" duration="114000" />
+      <workItem from="1744793446004" duration="7470000" />
+      <workItem from="1744830221209" duration="1373000" />
+      <workItem from="1745256155579" duration="850000" />
     </task>
     <task id="LOCAL-00182" summary="Exemples">
       <created>1733382885444</created>
@@ -814,7 +806,14 @@
       <option name="project" value="LOCAL" />
       <updated>1744363704581</updated>
     </task>
-    <option name="localTasksCounter" value="230" />
+    <task id="LOCAL-00230" summary="Exemples">
+      <created>1744734914871</created>
+      <option name="number" value="00230" />
+      <option name="presentableId" value="LOCAL-00230" />
+      <option name="project" value="LOCAL" />
+      <updated>1744734914872</updated>
+    </task>
+    <option name="localTasksCounter" value="231" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

@@ -23,6 +23,7 @@ public class BookList {
     public boolean isEmpty(){ return books.isEmpty(); }
 
     // Setters
+    public void setName(String n){ this.name = n; }
     public void addBook(Book book) { books.add(book); }
     public void removeBook(Book book) { books.remove(book); }
 

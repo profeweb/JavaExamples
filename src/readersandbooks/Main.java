@@ -9,6 +9,9 @@ public class Main {
 
     public static void main(String[] args) {
 
+        // Instanciar l'array de lectors amb 10 caselles
+        readers = new Reader[10];
+
         // Creació de 2 lectors
         Reader reader1 = new Reader("Alice");
         Reader reader2 = new Reader("John");
@@ -24,15 +27,13 @@ public class Main {
         // Mostra la informació del llibre
         System.out.println(book1);
 
-        // Afegir les llibres a una llista del lector
+        // Afegir els llibres a una llista del lector
         reader1.addBookToList("Favorits", book1);
         reader1.addBookToList("Favorits", book2);
 
         // Mostra la informació del lector
         System.out.println(reader1);
 
-        // Instanciar l'array de lectors amb 10 caselles
-        readers = new Reader[10];
 
         // Emplenar algunes caselles de l'array readers
         readers[0] = reader1;
@@ -50,10 +51,22 @@ public class Main {
         else {
             System.out.printf("% és millor lector que %s.\n", reader2.getNom(), reader1.getNom());
         }
+
+        // Indica el nom del lector amb major mitjana de llibres en llistes
+        String bestReaderName = readerNameMaxAverage(readers);
+        System.out.printf("Lector amb major mitjana de llibres en llistes: %s.\n", bestReaderName);
+
+        // Determina si el llibre està en alguna llista de tots els lectors
+        if(isBookInAllReadersList(book1, readers)){
+            System.out.printf("El llibre % està en tots lectors.\n", book1.getTitol());
+        }
+        else {
+            System.out.printf("El llibre % NO està en tots lectors.\n", book1.getTitol());
+        }
     }
 
 
-    // Número de llibres del genere entre totes les llistes de tots els lectors (ignora repetits)
+    // Número de llibres del gènere entre totes les llistes de tots els lectors (ignora repetits)
     public static int numBooksGenre(Book.Genere genere, Reader[] readers){
         int n = 0;
         for(int nr=0; nr<readers.length; nr++) {
@@ -102,7 +115,7 @@ public class Main {
     }
 
     // Determina si el llibre està en alguna llista de tots els lectors
-    public boolean isBookInAllReadersList(Book b, Reader[] readers){
+    public static boolean isBookInAllReadersList(Book b, Reader[] readers){
         for(int r=0; r<readers.length; r++){
             boolean bookReader = false;
             for(int nl=0; nl<readers[r].getNumLists(); nl++){
