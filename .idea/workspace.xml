@@ -2,9 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e3daea28-0551-4b13-ab45-39306edd8b83" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/diagrames/diagrama01/Biblioteca.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/diagrames/diagrama01/Estudiante.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/diagrames/diagrama01/Libro.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/diagrames/diagrama01/Material.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/diagrames/diagrama01/Prestamo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/diagrames/diagrama01/Profesor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/diagrames/diagrama01/Revista.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/diagrames/diagrama01/Tesis.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/diagrames/diagrama01/Usuario.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/readersandbooks/BookList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/readersandbooks/BookList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/readersandbooks/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/readersandbooks/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -468,14 +475,8 @@
       <workItem from="1744785565009" duration="114000" />
       <workItem from="1744793446004" duration="7470000" />
       <workItem from="1744830221209" duration="1373000" />
-      <workItem from="1745256155579" duration="850000" />
-    </task>
-    <task id="LOCAL-00182" summary="Exemples">
-      <created>1733382885444</created>
-      <option name="number" value="00182" />
-      <option name="presentableId" value="LOCAL-00182" />
-      <option name="project" value="LOCAL" />
-      <updated>1733382885445</updated>
+      <workItem from="1745256155579" duration="1668000" />
+      <workItem from="1745838845911" duration="2329000" />
     </task>
     <task id="LOCAL-00183" summary="Exemples">
       <created>1733385105293</created>
@@ -813,7 +814,14 @@
       <option name="project" value="LOCAL" />
       <updated>1744734914872</updated>
     </task>
-    <option name="localTasksCounter" value="231" />
+    <task id="LOCAL-00231" summary="Exemples">
+      <created>1745257233406</created>
+      <option name="number" value="00231" />
+      <option name="presentableId" value="LOCAL-00231" />
+      <option name="project" value="LOCAL" />
+      <updated>1745257233407</updated>
+    </task>
+    <option name="localTasksCounter" value="232" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
