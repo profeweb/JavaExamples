@@ -60,11 +60,12 @@ public class Main {
 
     public static int countRecursive(LinkedList<Customer> customerList, int max, int n) {
 
+        // Cas base (no queden clients per comptar)
         if (n >= customerList.size()) {
-            return 0; // Cas base (no queden clients per comptar)
+            return 0; // Retorna zero
         }
 
-        // Cas recursiu
+        // Casos recursius
         Customer current = customerList.get(n);
         if (current.getMaximumBudget() > max) {
             return 1 + countRecursive(customerList, max, n + 1);

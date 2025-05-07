@@ -118,15 +118,20 @@ public class Runner {
     }
 
     public String bestRace(){
-        float minTime = Float.MAX_VALUE;
-        int index = -1;
-        for(int i=0; i<numRaces; i++){
-            if(times[i]<minTime){
-                minTime = times[i];
-                index = i;
-            }
+        if(numRaces==0){
+            return "No races";
         }
-        return raceIDs[index];
+        else {
+            float minTime = Float.MAX_VALUE;
+            int index = -1;
+            for (int i = 0; i < numRaces; i++) {
+                if (times[i] < minTime) {
+                    minTime = times[i];
+                    index = i;
+                }
+            }
+            return raceIDs[index];
+        }
     }
 
 
