@@ -1,7 +1,5 @@
 package papers.paper2.maig25;
 
-import access.a.A;
-
 import java.util.LinkedList;
 
 public class Main {
@@ -49,10 +47,10 @@ public class Main {
             if (artist != null && artist.getName().equals(artistName)) {
                 // Recorrem tot l'array de les seves obres
                 for (int i=0; i<artist.getNoOfArtworks(); i++) {
-                    Artwork a = artist.getArtwork(i);
-                    // En cas de ser l'bra que cercam
-                    if (a != null && a.getArtworkTitle().equals(artworkTitle)) {
-                        a.isSold(); // Marcam l'obra com a venuda
+                    Artwork artwork = artist.getArtwork(i);
+                    // En cas de ser l'obra que cercam
+                    if (artwork != null && artwork.getArtworkTitle().equals(artworkTitle)) {
+                        artwork.isSold(); // Marcam l'obra com a venuda
                         break; // S'ha trobat i marcat l'obra, no cal seguir, podem sortir del mètode
                     }
                 }
