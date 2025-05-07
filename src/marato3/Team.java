@@ -82,7 +82,7 @@ public class Team {
 
 
     public boolean areAllProfessional(){
-        for(int i=0; i<getNumRunners(); i++){
+        for(int i=0; i<numRunners; i++){
             Runner ri = getRunners()[i];
             if(!ri.isProfessional()){
                 return false;

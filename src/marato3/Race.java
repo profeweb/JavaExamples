@@ -129,7 +129,7 @@ public class Race {
     public float differenceBestFromWorst(){
         float bestTime = Float.MAX_VALUE;
         float worstTime = Float.MIN_VALUE;
-        for(int i=0; i<getNumRunners(); i++){
+        for(int i=0; i<numRunners; i++){
             float time = times[i];
             if(bestTime > time){
                 bestTime = time;
