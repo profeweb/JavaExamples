@@ -119,7 +119,7 @@ public class Runner {
 
     public String bestRace(){
         if(numRaces==0){
-            return "No races";
+            return "No hi ha cerreres.";
         }
         else {
             float minTime = Float.MAX_VALUE;
