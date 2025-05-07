@@ -2,22 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e3daea28-0551-4b13-ab45-39306edd8b83" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/diagrames/diagrama04/Archivo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/diagrames/diagrama04/Curso.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/diagrames/diagrama04/Entrega.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/diagrames/diagrama04/Estudiante.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/diagrames/diagrama04/Inscripcion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/diagrames/diagrama04/Instructor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/diagrames/diagrama04/Tarea.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/diagrames/diagrama04/Usuario.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/papers/paper2/maig25/Artist.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/papers/paper2/maig25/Artwork.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/papers/paper2/maig25/Customer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/papers/paper2/maig25/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/papers/paper2/maig25/Painting.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/papers/paper2/maig25/Performance.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/papers/paper2/maig25/Sculpture.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/papers/paper2/maig25/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/papers/paper2/maig25/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,13 +65,13 @@
       <recent name="trenenliniatopdown" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MainPetals">
-    <configuration name="MainEngranatge" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="poo.poligons.MainEngranatge" />
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="papers.paper2.maig25.Main" />
       <module name="JavaExamples" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="poo.poligons.*" />
+          <option name="PATTERN" value="papers.paper2.maig25.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -93,8 +79,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainEstrella" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="poo.poligons.MainEstrella" />
+    <configuration name="MainEngranatge" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="poo.poligons.MainEngranatge" />
       <module name="JavaExamples" />
       <extension name="coverage">
         <pattern>
@@ -147,11 +133,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.MainPetals" />
         <item itemvalue="Application.MainEngranatge" />
         <item itemvalue="Application.MainSol" />
         <item itemvalue="Application.MainQuadrat" />
-        <item itemvalue="Application.MainEstrella" />
       </list>
     </recent_temporary>
   </component>
@@ -486,14 +472,7 @@
       <workItem from="1745911655204" duration="1192000" />
       <workItem from="1745998213148" duration="2263000" />
       <workItem from="1746003060879" duration="1735000" />
-      <workItem from="1746601216771" duration="1000000" />
-    </task>
-    <task id="LOCAL-00184" summary="Exemples">
-      <created>1733906617699</created>
-      <option name="number" value="00184" />
-      <option name="presentableId" value="LOCAL-00184" />
-      <option name="project" value="LOCAL" />
-      <updated>1733906617700</updated>
+      <workItem from="1746601216771" duration="2163000" />
     </task>
     <task id="LOCAL-00185" summary="Exemples">
       <created>1733988920707</created>
@@ -831,7 +810,14 @@
       <option name="project" value="LOCAL" />
       <updated>1745841205969</updated>
     </task>
-    <option name="localTasksCounter" value="233" />
+    <task id="LOCAL-00233" summary="Exemples">
+      <created>1746602465297</created>
+      <option name="number" value="00233" />
+      <option name="presentableId" value="LOCAL-00233" />
+      <option name="project" value="LOCAL" />
+      <updated>1746602465297</updated>
+    </task>
+    <option name="localTasksCounter" value="234" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
