@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e3daea28-0551-4b13-ab45-39306edd8b83" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/xarxes/CompressioText.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/xarxes/CompressioText.java" afterDir="false" />
-    </list>
+    <list default="true" id="e3daea28-0551-4b13-ab45-39306edd8b83" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -478,14 +476,7 @@
       <workItem from="1746690555120" duration="1416000" />
       <workItem from="1746699801971" duration="598000" />
       <workItem from="1748500090218" duration="865000" />
-      <workItem from="1748504984983" duration="4123000" />
-    </task>
-    <task id="LOCAL-00193" summary="Exemples">
-      <created>1734607193929</created>
-      <option name="number" value="00193" />
-      <option name="presentableId" value="LOCAL-00193" />
-      <option name="project" value="LOCAL" />
-      <updated>1734607193929</updated>
+      <workItem from="1748504984983" duration="4380000" />
     </task>
     <task id="LOCAL-00194" summary="Exemples">
       <created>1734679718462</created>
@@ -823,7 +814,14 @@
       <option name="project" value="LOCAL" />
       <updated>1748513439162</updated>
     </task>
-    <option name="localTasksCounter" value="242" />
+    <task id="LOCAL-00242" summary="Exemples">
+      <created>1748514031242</created>
+      <option name="number" value="00242" />
+      <option name="presentableId" value="LOCAL-00242" />
+      <option name="project" value="LOCAL" />
+      <updated>1748514031242</updated>
+    </task>
+    <option name="localTasksCounter" value="243" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
