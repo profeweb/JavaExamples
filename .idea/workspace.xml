@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="e3daea28-0551-4b13-ab45-39306edd8b83" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/xarxes/BitParitat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/xarxes/BitParitat.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,13 +65,13 @@
       <recent name="trenenliniatopdown" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Planetari">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="papers.paper2.maig25.Main" />
+  <component name="RunManager" selected="Application.BitParitat">
+    <configuration name="BitParitat" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="xarxes.BitParitat" />
       <module name="JavaExamples" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="papers.paper2.maig25.*" />
+          <option name="PATTERN" value="xarxes.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -78,12 +79,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainEngranatge" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="poo.poligons.MainEngranatge" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="papers.paper2.maig25.Main" />
       <module name="JavaExamples" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="poo.poligons.*" />
+          <option name="PATTERN" value="papers.paper2.maig25.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -132,11 +133,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BitParitat" />
         <item itemvalue="Application.Planetari" />
         <item itemvalue="Application.Orbites" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.MainPetals" />
-        <item itemvalue="Application.MainEngranatge" />
       </list>
     </recent_temporary>
   </component>
@@ -477,13 +478,8 @@
       <workItem from="1746636441576" duration="615000" />
       <workItem from="1746690555120" duration="1416000" />
       <workItem from="1746699801971" duration="598000" />
-    </task>
-    <task id="LOCAL-00190" summary="Exemples">
-      <created>1734007845067</created>
-      <option name="number" value="00190" />
-      <option name="presentableId" value="LOCAL-00190" />
-      <option name="project" value="LOCAL" />
-      <updated>1734007845068</updated>
+      <workItem from="1748500090218" duration="865000" />
+      <workItem from="1748504984983" duration="2111000" />
     </task>
     <task id="LOCAL-00191" summary="Exemples">
       <created>1734091207110</created>
@@ -821,7 +817,14 @@
       <option name="project" value="LOCAL" />
       <updated>1746635490088</updated>
     </task>
-    <option name="localTasksCounter" value="239" />
+    <task id="LOCAL-00239" summary="Exemples">
+      <created>1748500153650</created>
+      <option name="number" value="00239" />
+      <option name="presentableId" value="LOCAL-00239" />
+      <option name="project" value="LOCAL" />
+      <updated>1748500153650</updated>
+    </task>
+    <option name="localTasksCounter" value="240" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
