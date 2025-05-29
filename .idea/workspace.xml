@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e3daea28-0551-4b13-ab45-39306edd8b83" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/xarxes/CompressioText.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/xarxes/CompressioText.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -479,14 +478,7 @@
       <workItem from="1746690555120" duration="1416000" />
       <workItem from="1746699801971" duration="598000" />
       <workItem from="1748500090218" duration="865000" />
-      <workItem from="1748504984983" duration="3776000" />
-    </task>
-    <task id="LOCAL-00192" summary="Exemples">
-      <created>1734603860255</created>
-      <option name="number" value="00192" />
-      <option name="presentableId" value="LOCAL-00192" />
-      <option name="project" value="LOCAL" />
-      <updated>1734603860256</updated>
+      <workItem from="1748504984983" duration="4123000" />
     </task>
     <task id="LOCAL-00193" summary="Exemples">
       <created>1734607193929</created>
@@ -824,7 +816,14 @@
       <option name="project" value="LOCAL" />
       <updated>1748511922630</updated>
     </task>
-    <option name="localTasksCounter" value="241" />
+    <task id="LOCAL-00241" summary="Exemples">
+      <created>1748513439162</created>
+      <option name="number" value="00241" />
+      <option name="presentableId" value="LOCAL-00241" />
+      <option name="project" value="LOCAL" />
+      <updated>1748513439162</updated>
+    </task>
+    <option name="localTasksCounter" value="242" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
