@@ -4,8 +4,11 @@ public class CompressioText {
 
     public static void main(String[] args) {
         String original = "ABCCCCCCC DEF GGGGGG ZUQ.";
+        System.out.println("Original Message: " + original);
+        
         String zipped = zipText(original);
         System.out.println("Zipped Message: " + zipped);
+
         String unzipped = unzipText(zipped);
         System.out.println("Unzipped Message: " + unzipped);
     }
