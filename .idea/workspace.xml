@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e3daea28-0551-4b13-ab45-39306edd8b83" name="Changes" comment="" />
+    <list default="true" id="e3daea28-0551-4b13-ab45-39306edd8b83" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -62,7 +64,7 @@
       <recent name="trenenliniatopdown" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="Application.Planetari">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="papers.paper2.maig25.Main" />
       <module name="JavaExamples" />
@@ -102,12 +104,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainQuadrat" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="poo.quadrat.MainQuadrat" />
+    <configuration name="Orbites" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="planetari.Orbites" />
       <module name="JavaExamples" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="poo.quadrat.*" />
+          <option name="PATTERN" value="planetari.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -115,12 +117,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainSol" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="poo.poligons.MainSol" />
+    <configuration name="Planetari" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="planetari.Planetari" />
       <module name="JavaExamples" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="poo.poligons.*" />
+          <option name="PATTERN" value="planetari.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -130,11 +132,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Planetari" />
+        <item itemvalue="Application.Orbites" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.MainPetals" />
         <item itemvalue="Application.MainEngranatge" />
-        <item itemvalue="Application.MainSol" />
-        <item itemvalue="Application.MainQuadrat" />
       </list>
     </recent_temporary>
   </component>
@@ -471,14 +473,10 @@
       <workItem from="1746003060879" duration="1735000" />
       <workItem from="1746601216771" duration="3512000" />
       <workItem from="1746610311028" duration="1598000" />
-      <workItem from="1746634659065" duration="716000" />
-    </task>
-    <task id="LOCAL-00189" summary="Exemples">
-      <created>1734006859186</created>
-      <option name="number" value="00189" />
-      <option name="presentableId" value="LOCAL-00189" />
-      <option name="project" value="LOCAL" />
-      <updated>1734006859186</updated>
+      <workItem from="1746634659065" duration="829000" />
+      <workItem from="1746636441576" duration="615000" />
+      <workItem from="1746690555120" duration="1416000" />
+      <workItem from="1746699801971" duration="598000" />
     </task>
     <task id="LOCAL-00190" summary="Exemples">
       <created>1734007845067</created>
@@ -816,7 +814,14 @@
       <option name="project" value="LOCAL" />
       <updated>1746634890753</updated>
     </task>
-    <option name="localTasksCounter" value="238" />
+    <task id="LOCAL-00238" summary="Exemples">
+      <created>1746635490088</created>
+      <option name="number" value="00238" />
+      <option name="presentableId" value="LOCAL-00238" />
+      <option name="project" value="LOCAL" />
+      <updated>1746635490088</updated>
+    </task>
+    <option name="localTasksCounter" value="239" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
