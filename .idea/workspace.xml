@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="e3daea28-0551-4b13-ab45-39306edd8b83" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/xarxes/BitParitat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/xarxes/BitParitat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/xarxes/CompressioText.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/xarxes/CompressioText.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,9 +65,22 @@
       <recent name="trenenliniatopdown" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.BitParitat">
+  <component name="RunManager" selected="Application.CompressioText">
     <configuration name="BitParitat" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="xarxes.BitParitat" />
+      <module name="JavaExamples" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="xarxes.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CompressioText" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="xarxes.CompressioText" />
       <module name="JavaExamples" />
       <extension name="coverage">
         <pattern>
@@ -85,19 +98,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="papers.paper2.maig25.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MainPetals" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="poo.poligons.MainPetals" />
-      <module name="JavaExamples" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="poo.poligons.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -133,11 +133,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CompressioText" />
         <item itemvalue="Application.BitParitat" />
         <item itemvalue="Application.Planetari" />
         <item itemvalue="Application.Orbites" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.MainPetals" />
       </list>
     </recent_temporary>
   </component>
@@ -479,14 +479,7 @@
       <workItem from="1746690555120" duration="1416000" />
       <workItem from="1746699801971" duration="598000" />
       <workItem from="1748500090218" duration="865000" />
-      <workItem from="1748504984983" duration="2111000" />
-    </task>
-    <task id="LOCAL-00191" summary="Exemples">
-      <created>1734091207110</created>
-      <option name="number" value="00191" />
-      <option name="presentableId" value="LOCAL-00191" />
-      <option name="project" value="LOCAL" />
-      <updated>1734091207111</updated>
+      <workItem from="1748504984983" duration="3776000" />
     </task>
     <task id="LOCAL-00192" summary="Exemples">
       <created>1734603860255</created>
@@ -824,7 +817,14 @@
       <option name="project" value="LOCAL" />
       <updated>1748500153650</updated>
     </task>
-    <option name="localTasksCounter" value="240" />
+    <task id="LOCAL-00240" summary="Exemples">
+      <created>1748511922630</created>
+      <option name="number" value="00240" />
+      <option name="presentableId" value="LOCAL-00240" />
+      <option name="project" value="LOCAL" />
+      <updated>1748511922630</updated>
+    </task>
+    <option name="localTasksCounter" value="241" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
