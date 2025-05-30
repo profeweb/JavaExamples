@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e3daea28-0551-4b13-ab45-39306edd8b83" name="Changes" comment="" />
+    <list default="true" id="e3daea28-0551-4b13-ab45-39306edd8b83" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/xarxes/CompressioText.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/xarxes/CompressioText.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -477,20 +480,9 @@
       <workItem from="1746699801971" duration="598000" />
       <workItem from="1748500090218" duration="865000" />
       <workItem from="1748504984983" duration="4380000" />
-    </task>
-    <task id="LOCAL-00194" summary="Exemples">
-      <created>1734679718462</created>
-      <option name="number" value="00194" />
-      <option name="presentableId" value="LOCAL-00194" />
-      <option name="project" value="LOCAL" />
-      <updated>1734679718463</updated>
-    </task>
-    <task id="LOCAL-00195" summary="Exemples">
-      <created>1736495392815</created>
-      <option name="number" value="00195" />
-      <option name="presentableId" value="LOCAL-00195" />
-      <option name="project" value="LOCAL" />
-      <updated>1736495392816</updated>
+      <workItem from="1748514074078" duration="243000" />
+      <workItem from="1748518282729" duration="805000" />
+      <workItem from="1748587407923" duration="320000" />
     </task>
     <task id="LOCAL-00196" summary="Exemples">
       <created>1737020064120</created>
@@ -821,7 +813,21 @@
       <option name="project" value="LOCAL" />
       <updated>1748514031242</updated>
     </task>
-    <option name="localTasksCounter" value="243" />
+    <task id="LOCAL-00243" summary="Exemples">
+      <created>1748514255212</created>
+      <option name="number" value="00243" />
+      <option name="presentableId" value="LOCAL-00243" />
+      <option name="project" value="LOCAL" />
+      <updated>1748514255213</updated>
+    </task>
+    <task id="LOCAL-00244" summary="Exemples">
+      <created>1748514293188</created>
+      <option name="number" value="00244" />
+      <option name="presentableId" value="LOCAL-00244" />
+      <option name="project" value="LOCAL" />
+      <updated>1748514293188</updated>
+    </task>
+    <option name="localTasksCounter" value="245" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
