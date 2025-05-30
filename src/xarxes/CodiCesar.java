@@ -39,12 +39,20 @@ public class CodiCesar {
         return xifrat;
     }
 
+    public static String desxifrar(String xifrat, int shift){
+        return xifrar(xifrat, -shift);
+    }
+
     public static void main(String[] args) {
 
+        int shift = -5;
         String original = "HOLA QUE TAL CESAR!";
         System.out.println("Missatge Original: "+ original);
 
-        String xifrat = xifrar(original, 5);
+        String xifrat = xifrar(original, shift);
         System.out.println("Missatge Xifrat: "+ xifrat);
+
+        String desxifrat = desxifrar(xifrat, -shift);
+        System.out.println("Missatge Desxifrat: "+ desxifrat);
     }
 }
