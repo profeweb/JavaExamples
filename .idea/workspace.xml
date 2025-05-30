@@ -64,9 +64,22 @@
       <recent name="trenenliniatopdown" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CompressioText">
+  <component name="RunManager" selected="Application.CodiCesar">
     <configuration name="BitParitat" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="xarxes.BitParitat" />
+      <module name="JavaExamples" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="xarxes.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CodiCesar" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="xarxes.CodiCesar" />
       <module name="JavaExamples" />
       <extension name="coverage">
         <pattern>
@@ -84,19 +97,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="xarxes.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="papers.paper2.maig25.Main" />
-      <module name="JavaExamples" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="papers.paper2.maig25.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -132,11 +132,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CodiCesar" />
         <item itemvalue="Application.CompressioText" />
         <item itemvalue="Application.BitParitat" />
         <item itemvalue="Application.Planetari" />
         <item itemvalue="Application.Orbites" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -482,21 +482,7 @@
       <workItem from="1748514074078" duration="243000" />
       <workItem from="1748518282729" duration="805000" />
       <workItem from="1748587407923" duration="1507000" />
-      <workItem from="1748593381450" duration="3411000" />
-    </task>
-    <task id="LOCAL-00201" summary="Exemples">
-      <created>1739186104053</created>
-      <option name="number" value="00201" />
-      <option name="presentableId" value="LOCAL-00201" />
-      <option name="project" value="LOCAL" />
-      <updated>1739186104053</updated>
-    </task>
-    <task id="LOCAL-00202" summary="Exemples">
-      <created>1739258451064</created>
-      <option name="number" value="00202" />
-      <option name="presentableId" value="LOCAL-00202" />
-      <option name="project" value="LOCAL" />
-      <updated>1739258451065</updated>
+      <workItem from="1748593381450" duration="3812000" />
     </task>
     <task id="LOCAL-00203" summary="Exemples">
       <created>1739260765980</created>
@@ -827,7 +813,21 @@
       <option name="project" value="LOCAL" />
       <updated>1748597310779</updated>
     </task>
-    <option name="localTasksCounter" value="250" />
+    <task id="LOCAL-00250" summary="Exemples">
+      <created>1748598768558</created>
+      <option name="number" value="00250" />
+      <option name="presentableId" value="LOCAL-00250" />
+      <option name="project" value="LOCAL" />
+      <updated>1748598768558</updated>
+    </task>
+    <task id="LOCAL-00251" summary="Exemples">
+      <created>1748599030252</created>
+      <option name="number" value="00251" />
+      <option name="presentableId" value="LOCAL-00251" />
+      <option name="project" value="LOCAL" />
+      <updated>1748599030252</updated>
+    </task>
+    <option name="localTasksCounter" value="252" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

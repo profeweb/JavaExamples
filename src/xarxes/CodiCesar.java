@@ -3,7 +3,7 @@ package xarxes;
 public class CodiCesar {
 
     public static final char[] ALPHABET26 = {'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'};
-    
+
     public static char xifrar(char c, int shift){
 
         int pos = -1;
@@ -12,7 +12,7 @@ public class CodiCesar {
                 pos = i;
             }
         }
-        if(pos>0) {
+        if(pos>=0) {
             int shiftPos = (pos + shift);
             if (shiftPos >= ALPHABET26.length){
                 shiftPos = shiftPos % ALPHABET26.length;
@@ -37,5 +37,14 @@ public class CodiCesar {
             xifrat += xifrar(original.charAt(i), shift);
         }
         return xifrat;
+    }
+
+    public static void main(String[] args) {
+
+        String original = "HOLA QUE TAL CESAR!";
+        System.out.println("Missatge Original: "+ original);
+
+        String xifrat = xifrar(original, 5);
+        System.out.println("Missatge Xifrat: "+ xifrat);
     }
 }
