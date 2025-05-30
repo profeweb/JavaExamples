@@ -2,28 +2,28 @@ package xarxes;
 
 public class CodiCesar {
 
-    public static final char[] ALPHABET26 = {'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'};
+    public static final char[] ALPHABET = {'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'};
 
     public static char xifrar(char c, int shift){
 
         int pos = -1;
-        for(int i=0; i< ALPHABET26.length; i++){
-            if(ALPHABET26[i]==c){
+        for(int i = 0; i< ALPHABET.length; i++){
+            if(ALPHABET[i]==c){
                 pos = i;
             }
         }
         if(pos>=0) {
             int shiftPos = (pos + shift);
-            if (shiftPos >= ALPHABET26.length){
-                shiftPos = shiftPos % ALPHABET26.length;
+            if (shiftPos >= ALPHABET.length){
+                shiftPos = shiftPos % ALPHABET.length;
             }
-            else if(shiftPos>=0 && shiftPos< ALPHABET26.length) {
+            else if(shiftPos>=0 && shiftPos< ALPHABET.length) {
                 shiftPos = shiftPos;
             }
             else if(shiftPos<0){
-                shiftPos = ALPHABET26.length + shiftPos;
+                shiftPos = ALPHABET.length + shiftPos;
             }
-            return ALPHABET26[shiftPos];
+            return ALPHABET[shiftPos];
         }
         else {
             return c;
@@ -52,7 +52,7 @@ public class CodiCesar {
         String xifrat = xifrar(original, shift);
         System.out.println("Missatge Xifrat: "+ xifrat);
 
-        String desxifrat = desxifrar(xifrat, -shift);
+        String desxifrat = desxifrar(xifrat, shift);
         System.out.println("Missatge Desxifrat: "+ desxifrat);
     }
 }

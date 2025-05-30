@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e3daea28-0551-4b13-ab45-39306edd8b83" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/xarxes/CodiCesar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/xarxes/CodiCesar.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -64,7 +65,7 @@
       <recent name="trenenliniatopdown" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CodiCesar">
+  <component name="RunManager" selected="Application.Planetari">
     <configuration name="BitParitat" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="xarxes.BitParitat" />
       <module name="JavaExamples" />
@@ -132,10 +133,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Planetari" />
         <item itemvalue="Application.CodiCesar" />
         <item itemvalue="Application.CompressioText" />
         <item itemvalue="Application.BitParitat" />
-        <item itemvalue="Application.Planetari" />
         <item itemvalue="Application.Orbites" />
       </list>
     </recent_temporary>
@@ -482,14 +483,8 @@
       <workItem from="1748514074078" duration="243000" />
       <workItem from="1748518282729" duration="805000" />
       <workItem from="1748587407923" duration="1507000" />
-      <workItem from="1748593381450" duration="4312000" />
-    </task>
-    <task id="LOCAL-00204" summary="Exemples">
-      <created>1739265517890</created>
-      <option name="number" value="00204" />
-      <option name="presentableId" value="LOCAL-00204" />
-      <option name="project" value="LOCAL" />
-      <updated>1739265517890</updated>
+      <workItem from="1748593381450" duration="4479000" />
+      <workItem from="1748600174153" duration="621000" />
     </task>
     <task id="LOCAL-00205" summary="Exemples">
       <created>1739350559800</created>
@@ -827,7 +822,14 @@
       <option name="project" value="LOCAL" />
       <updated>1748599273442</updated>
     </task>
-    <option name="localTasksCounter" value="253" />
+    <task id="LOCAL-00253" summary="Exemples">
+      <created>1748599676273</created>
+      <option name="number" value="00253" />
+      <option name="presentableId" value="LOCAL-00253" />
+      <option name="project" value="LOCAL" />
+      <updated>1748599676273</updated>
+    </task>
+    <option name="localTasksCounter" value="254" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
