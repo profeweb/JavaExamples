@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e3daea28-0551-4b13-ab45-39306edd8b83" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/xarxes/CompressioText.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/xarxes/CompressioText.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/xarxes/CodiCesar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/xarxes/CodiCesar.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -483,14 +482,7 @@
       <workItem from="1748514074078" duration="243000" />
       <workItem from="1748518282729" duration="805000" />
       <workItem from="1748587407923" duration="1507000" />
-      <workItem from="1748593381450" duration="1966000" />
-    </task>
-    <task id="LOCAL-00200" summary="Exemples">
-      <created>1739180298073</created>
-      <option name="number" value="00200" />
-      <option name="presentableId" value="LOCAL-00200" />
-      <option name="project" value="LOCAL" />
-      <updated>1739180298074</updated>
+      <workItem from="1748593381450" duration="3411000" />
     </task>
     <task id="LOCAL-00201" summary="Exemples">
       <created>1739186104053</created>
@@ -828,7 +820,14 @@
       <option name="project" value="LOCAL" />
       <updated>1748590434665</updated>
     </task>
-    <option name="localTasksCounter" value="249" />
+    <task id="LOCAL-00249" summary="Exemples">
+      <created>1748597310778</created>
+      <option name="number" value="00249" />
+      <option name="presentableId" value="LOCAL-00249" />
+      <option name="project" value="LOCAL" />
+      <updated>1748597310779</updated>
+    </task>
+    <option name="localTasksCounter" value="250" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
