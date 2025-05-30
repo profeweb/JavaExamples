@@ -59,6 +59,7 @@ public class CompressioText {
     }
 
     public static String unzipText(String zipped){
+
         String unzipped = "";
         int index = 0;
 
@@ -76,7 +77,7 @@ public class CompressioText {
             else {
                 char nextChar = zipped.charAt(index + 1);
 
-                // Si és un número
+                // Si és un número ('0'-'9')
                 if (Character.isDigit(nextChar)) {
                     int times = Character.getNumericValue(nextChar);
                     for (int t = 0; t < times; t++) {
@@ -92,5 +93,25 @@ public class CompressioText {
             }
         }
         return unzipped;
+    }
+
+    public static boolean esNumero(char c){
+        return c=='0' || c=='1' || c=='2' || c=='3' ||
+                c=='4' || c=='5' || c=='6' ||
+                c=='7' || c=='8' || c=='9';
+    }
+
+    public int convertCharToInt(char c){
+        if(c=='0'){ return 0; }
+        else if(c=='1'){ return 1; }
+        else if(c=='2'){ return 2; }
+        else if(c=='3'){ return 3; }
+        else if(c=='4'){ return 4; }
+        else if(c=='5'){ return 5; }
+        else if(c=='6'){ return 6; }
+        else if(c=='7'){ return 7; }
+        else if(c=='8'){ return 8; }
+        else if(c=='9'){ return 9; }
+        else { return '0'; }
     }
 }
