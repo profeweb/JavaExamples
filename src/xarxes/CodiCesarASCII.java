@@ -25,9 +25,35 @@ public class CodiCesarASCII {
         System.out.printf("El caràcter %c és majúscula: %b.\n", c2, Character.isUpperCase(c2));
     }
 
-    public static char xifrar(char c, int shift){ }
+    public static char xifrar(char c, int shift){
+        if(Character.isLetter(c) && Character.isUpperCase(c)){
+            int asciiCode = (int) c;
+            int shiftCode = asciiCode + shift;
+            if(shiftCode>=65 && shiftCode<=90){
+                return (char) shiftCode;
+            }
+            else if(shiftCode>90){
+                shiftCode = 65 + (shiftCode % 26);
+                return (char) shiftCode;
+            }
+            else {
+                shiftCode = shiftCode + 91;
+                return (char) shiftCode;
+            }
+        }
+        else if(Character.isLetter(c) && !Character.isUpperCase(c)) {
+            int asciiCode;
+        }
+        else {
+            return c;
+        }
+    }
 
-    public static String xifrar(String original, int shift){ }
+    public static String xifrar(String original, int shift){
 
-    public static String desxifrar(String xifrat, int shift){ }
+    }
+
+    public static String desxifrar(String xifrat, int shift){
+
+    }
 }
