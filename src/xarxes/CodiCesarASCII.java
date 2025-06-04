@@ -8,21 +8,15 @@ public class CodiCesarASCII {
 
     public static void main(String[] args) {
 
-        // Codi ASCII (int) a partir de caràcter (char)
-        char c1 = 'A';
-        int asciiCode = c1;
-        System.out.printf("El codi ASCII de %c és %d.\n", c1, asciiCode);
+        int shift = -5;
+        String original = "Hola, que tal CESAR!";
+        System.out.println("Missatge Original: "+ original);
 
-        // Caràcter (char) a partir de codi ASCII (int)
-        asciiCode = 80;
-        char c2 = (char) asciiCode;
-        System.out.printf("El caràcter del codi ASCII %d és %c.\n", asciiCode, c2);
+        String xifrat = xifrar(original, shift);
+        System.out.println("Missatge Xifrat: "+ xifrat);
 
-        // Detecció de Lletra de l'alfabet
-        System.out.printf("El caràcter %c és lletra: %b.\n", c2, Character.isLetter(c2));
-
-        // Detecció de Majúscula
-        System.out.printf("El caràcter %c és majúscula: %b.\n", c2, Character.isUpperCase(c2));
+        String desxifrat = desxifrar(xifrat, shift);
+        System.out.println("Missatge Desxifrat: "+ desxifrat);
     }
 
     public static char xifrar(char c, int shift){
@@ -33,11 +27,11 @@ public class CodiCesarASCII {
                 return (char) shiftCode;
             }
             else if(shiftCode>90){
-                shiftCode = 65 + (shiftCode % 26);
+                shiftCode = 65 + ((shiftCode - 65) % 26);
                 return (char) shiftCode;
             }
             else {
-                shiftCode = shiftCode + 91;
+                shiftCode = (shiftCode - 65) + 91;
                 return (char) shiftCode;
             }
         }
@@ -48,11 +42,11 @@ public class CodiCesarASCII {
                 return (char) shiftCode;
             }
             else if(shiftCode>122){
-                shiftCode = 97 + (shiftCode % 26);
+                shiftCode = 97 + ((shiftCode - 97) % 26);
                 return (char) shiftCode;
             }
             else {
-                shiftCode = shiftCode + 123;
+                shiftCode = (shiftCode - 97) + 123;
                 return (char) shiftCode;
             }
         }
