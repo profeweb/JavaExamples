@@ -20,6 +20,8 @@ public class CodiCesarASCII {
     }
 
     public static char xifrar(char c, int shift){
+
+        // Letra majúscula 'A' - 'Z'
         if(Character.isLetter(c) && Character.isUpperCase(c)){
             int asciiCode = c;
             int shiftCode = asciiCode + shift;
@@ -35,6 +37,7 @@ public class CodiCesarASCII {
                 return (char) shiftCode;
             }
         }
+        // Letra minúscula 'a' - 'z'
         else if(Character.isLetter(c) && !Character.isUpperCase(c)) {
             int asciiCode = c;
             int shiftCode = asciiCode + shift;
@@ -50,6 +53,7 @@ public class CodiCesarASCII {
                 return (char) shiftCode;
             }
         }
+        // No lletra
         else {
             return c;
         }
