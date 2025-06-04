@@ -24,4 +24,10 @@ public class CodiCesarASCII {
         // Detecció de Majúscula
         System.out.printf("El caràcter %c és majúscula: %b.\n", c2, Character.isUpperCase(c2));
     }
+
+    public static char xifrar(char c, int shift){ }
+
+    public static String xifrar(String original, int shift){ }
+
+    public static String desxifrar(String xifrat, int shift){ }
 }
