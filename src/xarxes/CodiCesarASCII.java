@@ -17,5 +17,8 @@ public class CodiCesarASCII {
         asciiCode = 80;
         char c2 = (char) asciiCode;
         System.out.printf("El caràcter del codi ASCII %d és %c.\n", asciiCode, c2);
+
+        // Detecció de Majúscula
+        System.out.printf("El caràcter %c és majúscula: %b.\n", c2, Character.isUpperCase(c2));
     }
 }

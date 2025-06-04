@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e3daea28-0551-4b13-ab45-39306edd8b83" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/xarxes/CodiCesarASCII.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/xarxes/CodiCesarASCII.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -488,13 +487,7 @@
       <workItem from="1748625543499" duration="9000" />
       <workItem from="1749017793714" duration="428000" />
       <workItem from="1749025608219" duration="221000" />
-    </task>
-    <task id="LOCAL-00206" summary="Exemples">
-      <created>1739520138398</created>
-      <option name="number" value="00206" />
-      <option name="presentableId" value="LOCAL-00206" />
-      <option name="project" value="LOCAL" />
-      <updated>1739520138399</updated>
+      <workItem from="1749028002242" duration="341000" />
     </task>
     <task id="LOCAL-00207" summary="Exemples">
       <created>1740651878839</created>
@@ -832,7 +825,14 @@
       <option name="project" value="LOCAL" />
       <updated>1748601412725</updated>
     </task>
-    <option name="localTasksCounter" value="255" />
+    <task id="LOCAL-00255" summary="Exemples">
+      <created>1749028189714</created>
+      <option name="number" value="00255" />
+      <option name="presentableId" value="LOCAL-00255" />
+      <option name="project" value="LOCAL" />
+      <updated>1749028189714</updated>
+    </task>
+    <option name="localTasksCounter" value="256" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
