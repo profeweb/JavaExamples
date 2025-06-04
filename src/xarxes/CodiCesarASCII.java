@@ -27,7 +27,7 @@ public class CodiCesarASCII {
 
     public static char xifrar(char c, int shift){
         if(Character.isLetter(c) && Character.isUpperCase(c)){
-            int asciiCode = (int) c;
+            int asciiCode = c;
             int shiftCode = asciiCode + shift;
             if(shiftCode>=65 && shiftCode<=90){
                 return (char) shiftCode;
@@ -42,7 +42,19 @@ public class CodiCesarASCII {
             }
         }
         else if(Character.isLetter(c) && !Character.isUpperCase(c)) {
-            int asciiCode;
+            int asciiCode = c;
+            int shiftCode = asciiCode + shift;
+            if(shiftCode>=97 && shiftCode<=122){
+                return (char) shiftCode;
+            }
+            else if(shiftCode>122){
+                shiftCode = 97 + (shiftCode % 26);
+                return (char) shiftCode;
+            }
+            else {
+                shiftCode = shiftCode + 123;
+                return (char) shiftCode;
+            }
         }
         else {
             return c;
@@ -50,10 +62,14 @@ public class CodiCesarASCII {
     }
 
     public static String xifrar(String original, int shift){
-
+        String xifrat="";
+        for(int i=0; i<original.length(); i++){
+            xifrat += xifrar(original.charAt(i), shift);
+        }
+        return xifrat;
     }
 
     public static String desxifrar(String xifrat, int shift){
-
+        return xifrar(xifrat, -shift);
     }
 }
