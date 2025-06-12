@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e3daea28-0551-4b13-ab45-39306edd8b83" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/diagrames/diagrama05/Llibre.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/diagrames/diagrama05/LlibreDigital.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/diagrames/diagrama05/LlibreFisic.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/diagrames/diagrama05/Prestec.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/diagrames/diagrama05/ServeiNotificacio.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/diagrames/diagrama05/Usuari.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/processing/FullExampleProcessing.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/processing/MainProcessing.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -70,20 +66,7 @@
       <recent name="trenenliniatopdown" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CodiCesarASCII">
-    <configuration name="BitParitat" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="xarxes.BitParitat" />
-      <module name="JavaExamples" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="xarxes.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.FullExampleProcessing">
     <configuration name="CodiCesar" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="xarxes.CodiCesar" />
       <module name="JavaExamples" />
@@ -123,6 +106,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="FullExampleProcessing" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="processing.FullExampleProcessing" />
+      <module name="JavaExamples" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="processing.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Planetari" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="planetari.Planetari" />
       <module name="JavaExamples" />
@@ -138,11 +134,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FullExampleProcessing" />
         <item itemvalue="Application.CodiCesarASCII" />
         <item itemvalue="Application.Planetari" />
         <item itemvalue="Application.CodiCesar" />
         <item itemvalue="Application.CompressioText" />
-        <item itemvalue="Application.BitParitat" />
       </list>
     </recent_temporary>
   </component>
@@ -495,14 +491,8 @@
       <workItem from="1749025608219" duration="221000" />
       <workItem from="1749028002242" duration="2934000" />
       <workItem from="1749032525861" duration="1092000" />
-      <workItem from="1749047377376" duration="1193000" />
-    </task>
-    <task id="LOCAL-00214" summary="Exemples">
-      <created>1743061465461</created>
-      <option name="number" value="00214" />
-      <option name="presentableId" value="LOCAL-00214" />
-      <option name="project" value="LOCAL" />
-      <updated>1743061465461</updated>
+      <workItem from="1749047377376" duration="2402000" />
+      <workItem from="1749716940962" duration="1006000" />
     </task>
     <task id="LOCAL-00215" summary="Exemples">
       <created>1743061516295</created>
@@ -840,7 +830,14 @@
       <option name="project" value="LOCAL" />
       <updated>1749033505239</updated>
     </task>
-    <option name="localTasksCounter" value="263" />
+    <task id="LOCAL-00263" summary="Exemples">
+      <created>1749048956625</created>
+      <option name="number" value="00263" />
+      <option name="presentableId" value="LOCAL-00263" />
+      <option name="project" value="LOCAL" />
+      <updated>1749048956626</updated>
+    </task>
+    <option name="localTasksCounter" value="264" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
