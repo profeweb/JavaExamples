@@ -2,13 +2,17 @@ package processing;
 
 import processing.core.PApplet;
 import processing.core.PFont;
+import processing.core.PShape;
+import processing.sound.SoundFile;
 
 public class FullExampleProcessing extends PApplet {
 
     // Variable global
     float diametre;
     int color, color1, color2;
-    PFont font;
+    PFont font1;
+    SoundFile so;
+    PShape shape;
 
     public static void main(String[] args) {
         PApplet.main("processing.FullExampleProcessing");
@@ -24,7 +28,9 @@ public class FullExampleProcessing extends PApplet {
         color2 = color(100, 200, 100);
         color = color1;
 
-        font = createFont("C:\\Users\\tonim\\IdeaProjects\\JavaExamples\\data\\fonts\\Starge.tff", 24);
+        shape = loadShape("imgs/maximize.svg");
+        font1 = createFont("fonts/Starge.ttf", 40);
+        so = new SoundFile(this, "sons/clap.wav");
     }
 
     public void draw(){
@@ -32,7 +38,10 @@ public class FullExampleProcessing extends PApplet {
         fill(color); strokeWeight(5);
         circle(width/2, height/2, diametre);
 
-        textSize(24); textAlign(CENTER); fill(0); textFont(font);
+        shapeMode(CENTER);
+        shape(shape, width/2, height/2, diametre*0.75f, diametre*0.75f);
+
+        textSize(24); textAlign(CENTER); fill(0); textFont(font1);
         text("Processing + IDEA", width/2, 100);
     }
 
@@ -45,6 +54,7 @@ public class FullExampleProcessing extends PApplet {
         else if(mouseButton==RIGHT){
             diametre+=10;
         }
+        so.play();
     }
 
     public void keyPressed(){

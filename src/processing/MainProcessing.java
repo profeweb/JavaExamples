@@ -18,7 +18,7 @@ public class MainProcessing extends PApplet {
 
     public void draw(){
     }
-    
+
     // Interacció amb teclat i ratolí
     public void mousePressed(){
     }
