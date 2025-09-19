@@ -12,6 +12,7 @@ public class House extends Prop {
     public House(String propID, String address, String city, int numRooms) {
         super(propID, address, city);
         this.numRooms = numRooms;
+        this.swimmingPool = false;
     }
 
     // Getters

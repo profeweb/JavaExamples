@@ -2,12 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e3daea28-0551-4b13-ab45-39306edd8b83" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/library1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/peasy_math.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaExamples.iml" beforeDir="false" afterPath="$PROJECT_DIR$/JavaExamples.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/processing/FullExampleProcessing.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/processing/FullExampleProcessing.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/processing/MainProcessing.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/processing/MainProcessing.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ownersandprops/Boat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ownersandprops/Boat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ownersandprops/House.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ownersandprops/House.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ownersandprops/Owner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ownersandprops/Owner.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,25 +31,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Downloaded.Files.Path.Enabled": "false",
-    "Repository.Attach.Annotations": "false",
-    "Repository.Attach.JavaDocs": "false",
-    "Repository.Attach.Sources": "false",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "full.screen.before.presentation.mode": "false",
-    "last_opened_file_path": "C:/Users/tonim/Documents/Processing/libraries/sound/library",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Libraries",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;full.screen.before.presentation.mode&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/tonim/Documents/Processing/libraries/sound/library&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\tonim\IdeaProjects\JavaExamples\src\poo" />
@@ -496,14 +494,9 @@
       <workItem from="1749028002242" duration="2934000" />
       <workItem from="1749032525861" duration="1092000" />
       <workItem from="1749047377376" duration="2402000" />
-      <workItem from="1749716940962" duration="1787000" />
-    </task>
-    <task id="LOCAL-00216" summary="Exemples">
-      <created>1743061565036</created>
-      <option name="number" value="00216" />
-      <option name="presentableId" value="LOCAL-00216" />
-      <option name="project" value="LOCAL" />
-      <updated>1743061565036</updated>
+      <workItem from="1749716940962" duration="2473000" />
+      <workItem from="1750142439474" duration="1005000" />
+      <workItem from="1758175054825" duration="2445000" />
     </task>
     <task id="LOCAL-00217" summary="Exemples">
       <created>1743150864197</created>
@@ -841,7 +834,14 @@
       <option name="project" value="LOCAL" />
       <updated>1749717964236</updated>
     </task>
-    <option name="localTasksCounter" value="265" />
+    <task id="LOCAL-00265" summary="Exemples">
+      <created>1749718883595</created>
+      <option name="number" value="00265" />
+      <option name="presentableId" value="LOCAL-00265" />
+      <option name="project" value="LOCAL" />
+      <updated>1749718883595</updated>
+    </task>
+    <option name="localTasksCounter" value="266" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

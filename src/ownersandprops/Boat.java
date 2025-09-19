@@ -11,6 +11,7 @@ public class Boat extends Prop {
     public Boat(String propID, String address, String city, float length) {
         super(propID, address, city);
         this.length = length;
+        this.navigable = true;
     }
 
     // Getters
