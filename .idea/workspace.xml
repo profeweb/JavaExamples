@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e3daea28-0551-4b13-ab45-39306edd8b83" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/swapping1/Memory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/swapping1/Proces.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/swapping1/Swapping.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ownersandprops/Boat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ownersandprops/Boat.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ownersandprops/House.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ownersandprops/House.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ownersandprops/Owner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ownersandprops/Owner.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,7 +68,7 @@
       <recent name="poo.composicio" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.FullExampleProcessing">
+  <component name="RunManager" selected="Application.Swapping">
     <configuration name="CodiCesar" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="xarxes.CodiCesar" />
       <module name="JavaExamples" />
@@ -84,19 +84,6 @@
     </configuration>
     <configuration name="CodiCesarASCII" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="xarxes.CodiCesarASCII" />
-      <module name="JavaExamples" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="xarxes.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CompressioText" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="xarxes.CompressioText" />
       <module name="JavaExamples" />
       <extension name="coverage">
         <pattern>
@@ -134,13 +121,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Swapping" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="swapping1.Swapping" />
+      <module name="JavaExamples" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="swapping1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Swapping" />
         <item itemvalue="Application.FullExampleProcessing" />
         <item itemvalue="Application.Planetari" />
         <item itemvalue="Application.CodiCesarASCII" />
         <item itemvalue="Application.CodiCesar" />
-        <item itemvalue="Application.CompressioText" />
       </list>
     </recent_temporary>
   </component>
@@ -497,13 +497,9 @@
       <workItem from="1749716940962" duration="2473000" />
       <workItem from="1750142439474" duration="1005000" />
       <workItem from="1758175054825" duration="2445000" />
-    </task>
-    <task id="LOCAL-00217" summary="Exemples">
-      <created>1743150864197</created>
-      <option name="number" value="00217" />
-      <option name="presentableId" value="LOCAL-00217" />
-      <option name="project" value="LOCAL" />
-      <updated>1743150864198</updated>
+      <workItem from="1758286003105" duration="488000" />
+      <workItem from="1758295319309" duration="290000" />
+      <workItem from="1758527591055" duration="3402000" />
     </task>
     <task id="LOCAL-00218" summary="Exemples">
       <created>1743151199199</created>
@@ -841,7 +837,14 @@
       <option name="project" value="LOCAL" />
       <updated>1749718883595</updated>
     </task>
-    <option name="localTasksCounter" value="266" />
+    <task id="LOCAL-00266" summary="Exemples">
+      <created>1758286039005</created>
+      <option name="number" value="00266" />
+      <option name="presentableId" value="LOCAL-00266" />
+      <option name="project" value="LOCAL" />
+      <updated>1758286039005</updated>
+    </task>
+    <option name="localTasksCounter" value="267" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
