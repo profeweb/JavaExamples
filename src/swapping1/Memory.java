@@ -54,7 +54,8 @@ public class Memory {
         int ml = mida - mo;
         p5.text("Lliure: "+ml, 100, 500);
 
-
+        int np = numProcessos();
+        p5.text("Num Procesos Actius: "+np, 100, 620);
 
 
         for(int i=0; i<procesos.length; i++){
@@ -76,7 +77,13 @@ public class Memory {
     }
 
     int numProcessos(){
-        return 0;
+        int total = 0;
+        for(int i=0; i<procesos.length; i++){
+            if(procesos[i]!=null) {
+                total ++;
+            }
+        }
+        return total;
     }
 
 
