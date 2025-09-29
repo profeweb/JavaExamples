@@ -48,6 +48,14 @@ public class Memory {
         p5.text("Memòria RAM", 100, 60);
         p5.text("Total: "+mida, 100, 400);
 
+        int mo = calculaMemoriaOcupada();
+        p5.text("Ocupada: "+mo, 100, 540);
+
+        int ml = mida - mo;
+        p5.text("Lliure: "+ml, 100, 500);
+
+
+
 
         for(int i=0; i<procesos.length; i++){
             if(procesos[i]!=null) {
@@ -58,6 +66,16 @@ public class Memory {
     }
 
     int calculaMemoriaOcupada(){
+        int total = 0;
+        for(int i=0; i<procesos.length; i++){
+            if(procesos[i]!=null) {
+                total += procesos[i].mida;
+            }
+        }
+        return total;
+    }
+
+    int numProcessos(){
         return 0;
     }
 
