@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e3daea28-0551-4b13-ab45-39306edd8b83" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/swapping2/Hole.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/swapping2/Memory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/swapping2/Memory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/swapping2/Swapping.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/swapping2/Swapping.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,20 +68,7 @@
       <recent name="poo.composicio" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Swapping">
-    <configuration name="CodiCesar" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="xarxes.CodiCesar" />
-      <module name="JavaExamples" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="xarxes.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.swapping2.Swapping">
     <configuration name="CodiCesarASCII" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="xarxes.CodiCesarASCII" />
       <module name="JavaExamples" />
@@ -134,13 +121,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="swapping2.Swapping" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="swapping2.Swapping" />
+      <module name="JavaExamples" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="swapping2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.swapping2.Swapping" />
         <item itemvalue="Application.Swapping" />
         <item itemvalue="Application.FullExampleProcessing" />
         <item itemvalue="Application.Planetari" />
         <item itemvalue="Application.CodiCesarASCII" />
-        <item itemvalue="Application.CodiCesar" />
       </list>
     </recent_temporary>
   </component>
@@ -502,14 +502,7 @@
       <workItem from="1758527591055" duration="3984000" />
       <workItem from="1758779749137" duration="3612000" />
       <workItem from="1758787025482" duration="226000" />
-      <workItem from="1759132368049" duration="3295000" />
-    </task>
-    <task id="LOCAL-00223" summary="Exemples">
-      <created>1744272469757</created>
-      <option name="number" value="00223" />
-      <option name="presentableId" value="LOCAL-00223" />
-      <option name="project" value="LOCAL" />
-      <updated>1744272469757</updated>
+      <workItem from="1759132368049" duration="5126000" />
     </task>
     <task id="LOCAL-00224" summary="Exemples">
       <created>1744272999298</created>
@@ -847,7 +840,14 @@
       <option name="project" value="LOCAL" />
       <updated>1759133461659</updated>
     </task>
-    <option name="localTasksCounter" value="272" />
+    <task id="LOCAL-00272" summary="Exemples">
+      <created>1759135700581</created>
+      <option name="number" value="00272" />
+      <option name="presentableId" value="LOCAL-00272" />
+      <option name="project" value="LOCAL" />
+      <updated>1759135700581</updated>
+    </task>
+    <option name="localTasksCounter" value="273" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

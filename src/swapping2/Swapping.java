@@ -4,11 +4,11 @@ import processing.core.PApplet;
 
 public class Swapping extends PApplet {
 
-    Proces p0, p1, p2, p3, p4;
+    Proces p0, p1, p2, p3, p4, p5;
     Memory memory;
 
     public static void main(String[] args) {
-        PApplet.main("swapping1.Swapping");
+        PApplet.main("swapping2.Swapping");
     }
 
     public void settings(){
@@ -23,7 +23,8 @@ public class Swapping extends PApplet {
         p1 = new Proces("P1", color(255, 0, 0), 64);
         p2 = new Proces("P2", color(255, 255, 0), 128);
         p3 = new Proces("P3", color(255, 0, 255), 256);
-        p4 = new Proces("P4", color(0, 255, 255), 128);
+        p4 = new Proces("P4", color(0, 255, 255), 64);
+        p5 = new Proces("P5", color(155, 255, 60), 128);
 
         memory.swapIn(p0);
 
@@ -47,6 +48,12 @@ public class Swapping extends PApplet {
         }
         else if(frameCount == 500){
             memory.swapIn(p4);
+        }
+        else if(frameCount == 600){
+            memory.swapOut(p3);
+        }
+        else if(frameCount == 700){
+            memory.swapIn(p5);
         }
 
     }
