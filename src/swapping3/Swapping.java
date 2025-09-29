@@ -1,4 +1,4 @@
-package swapping2;
+package swapping3;
 
 import processing.core.PApplet;
 
@@ -8,7 +8,7 @@ public class Swapping extends PApplet {
     Memory memory;
 
     public static void main(String[] args) {
-        PApplet.main("swapping2.Swapping");
+        PApplet.main("swapping3.Swapping");
     }
 
     public void settings(){
