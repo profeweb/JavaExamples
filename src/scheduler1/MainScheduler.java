@@ -26,6 +26,9 @@ public class MainScheduler extends PApplet {
         scheduler.enterProces(p1);
         scheduler.enterProces(p2);
         scheduler.enterProces(p3);
+
+        scheduler.setPolitica(Scheduler.POLITICA.ROUND_ROBIN);
+        scheduler.setCiclesQuantum(3);
     }
 
     public void draw(){
