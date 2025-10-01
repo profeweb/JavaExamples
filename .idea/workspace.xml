@@ -2,8 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e3daea28-0551-4b13-ab45-39306edd8b83" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/scheduler1/MainSchedulerFIFO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scheduler1/MainSchedulerSJF.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scheduler1/MainSchedulerSRJF.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scheduler1/SchedulerFIFO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scheduler1/SchedulerRR.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scheduler1/SchedulerSJF.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scheduler1/SchedulerSRJF.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scheduler1/MainScheduler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/scheduler1/MainScheduler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scheduler1/MainScheduler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/scheduler1/MainSchedulerRR.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/scheduler1/Scheduler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/scheduler1/Scheduler.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -61,29 +68,16 @@
       <recent name="C:\Users\tonim\IdeaProjects\JavaExamples\data\planetes" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="scheduler1" />
       <recent name="processing" />
       <recent name="poo.poligons" />
       <recent name="poo.persones" />
       <recent name="poo.temp" />
-      <recent name="poo.composicio" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MainScheduler">
-    <configuration name="FullExampleProcessing" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="processing.FullExampleProcessing" />
-      <module name="JavaExamples" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="processing.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MainScheduler" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="scheduler1.MainScheduler" />
+  <component name="RunManager" selected="Application.MainSchedulerRR">
+    <configuration name="MainSchedulerFIFO" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="scheduler1.MainSchedulerFIFO" />
       <module name="JavaExamples" />
       <extension name="coverage">
         <pattern>
@@ -95,12 +89,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Planetari" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="planetari.Planetari" />
+    <configuration name="MainSchedulerRR" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="scheduler1.MainSchedulerRR" />
       <module name="JavaExamples" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="planetari.*" />
+          <option name="PATTERN" value="scheduler1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -108,12 +102,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Swapping" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="swapping1.Swapping" />
+    <configuration name="MainSchedulerSJF" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="scheduler1.MainSchedulerSJF" />
       <module name="JavaExamples" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="swapping1.*" />
+          <option name="PATTERN" value="scheduler1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainSchedulerSRJF" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="scheduler1.MainSchedulerSRJF" />
+      <module name="JavaExamples" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="scheduler1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -136,11 +143,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MainScheduler" />
+        <item itemvalue="Application.MainSchedulerRR" />
+        <item itemvalue="Application.MainSchedulerSRJF" />
+        <item itemvalue="Application.MainSchedulerSJF" />
+        <item itemvalue="Application.MainSchedulerFIFO" />
         <item itemvalue="Application.swapping2.Swapping" />
-        <item itemvalue="Application.Swapping" />
-        <item itemvalue="Application.FullExampleProcessing" />
-        <item itemvalue="Application.Planetari" />
       </list>
     </recent_temporary>
   </component>
@@ -507,14 +514,7 @@
       <workItem from="1759230623657" duration="156000" />
       <workItem from="1759239747889" duration="1212000" />
       <workItem from="1759248576127" duration="2575000" />
-      <workItem from="1759299593607" duration="1478000" />
-    </task>
-    <task id="LOCAL-00228" summary="Exemples">
-      <created>1744362858337</created>
-      <option name="number" value="00228" />
-      <option name="presentableId" value="LOCAL-00228" />
-      <option name="project" value="LOCAL" />
-      <updated>1744362858338</updated>
+      <workItem from="1759299593607" duration="3468000" />
     </task>
     <task id="LOCAL-00229" summary="Exemples">
       <created>1744363704581</created>
@@ -852,7 +852,14 @@
       <option name="project" value="LOCAL" />
       <updated>1759240778342</updated>
     </task>
-    <option name="localTasksCounter" value="277" />
+    <task id="LOCAL-00277" summary="Exemples">
+      <created>1759301202847</created>
+      <option name="number" value="00277" />
+      <option name="presentableId" value="LOCAL-00277" />
+      <option name="project" value="LOCAL" />
+      <updated>1759301202847</updated>
+    </task>
+    <option name="localTasksCounter" value="278" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
