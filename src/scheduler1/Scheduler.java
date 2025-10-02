@@ -62,12 +62,16 @@ public class Scheduler {
         Proces current = getCurrentProces();
         if(current!=null) {
             current.run();
-            log += "Cycle "+ numCicles + ": running " + current.nom + "\n";
+            updateLog(current);
             if(current.estat == Proces.ESTAT.FINISHED){
                 exitProces(current);
             }
         }
         numCicles++;
+    }
+
+    public void updateLog(Proces current){
+        log += "Cycle "+ numCicles + ": running " + current.nom + "\n";
     }
 
     public void display(PApplet p5, float x, float y, float s){

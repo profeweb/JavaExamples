@@ -2,15 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e3daea28-0551-4b13-ab45-39306edd8b83" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/scheduler1/MainSchedulerFIFO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scheduler1/MainSchedulerSJF.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scheduler1/MainSchedulerSRJF.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scheduler1/SchedulerFIFO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scheduler1/SchedulerRR.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scheduler1/SchedulerSJF.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scheduler1/SchedulerSRJF.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scheduler1/MainScheduler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/scheduler1/MainSchedulerRR.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/scheduler1/Scheduler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/scheduler1/Scheduler.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -75,7 +67,7 @@
       <recent name="poo.temp" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MainSchedulerRR">
+  <component name="RunManager" selected="Application.Swapping">
     <configuration name="MainSchedulerFIFO" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="scheduler1.MainSchedulerFIFO" />
       <module name="JavaExamples" />
@@ -128,12 +120,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="swapping2.Swapping" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="swapping2.Swapping" />
+    <configuration name="Swapping" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="swapping3.Swapping" />
       <module name="JavaExamples" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="swapping2.*" />
+          <option name="PATTERN" value="swapping3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -143,11 +135,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Swapping" />
         <item itemvalue="Application.MainSchedulerRR" />
         <item itemvalue="Application.MainSchedulerSRJF" />
         <item itemvalue="Application.MainSchedulerSJF" />
         <item itemvalue="Application.MainSchedulerFIFO" />
-        <item itemvalue="Application.swapping2.Swapping" />
       </list>
     </recent_temporary>
   </component>
@@ -514,21 +506,8 @@
       <workItem from="1759230623657" duration="156000" />
       <workItem from="1759239747889" duration="1212000" />
       <workItem from="1759248576127" duration="2575000" />
-      <workItem from="1759299593607" duration="3468000" />
-    </task>
-    <task id="LOCAL-00229" summary="Exemples">
-      <created>1744363704581</created>
-      <option name="number" value="00229" />
-      <option name="presentableId" value="LOCAL-00229" />
-      <option name="project" value="LOCAL" />
-      <updated>1744363704581</updated>
-    </task>
-    <task id="LOCAL-00230" summary="Exemples">
-      <created>1744734914871</created>
-      <option name="number" value="00230" />
-      <option name="presentableId" value="LOCAL-00230" />
-      <option name="project" value="LOCAL" />
-      <updated>1744734914872</updated>
+      <workItem from="1759299593607" duration="4413000" />
+      <workItem from="1759384622654" duration="829000" />
     </task>
     <task id="LOCAL-00231" summary="Exemples">
       <created>1745257233406</created>
@@ -859,7 +838,21 @@
       <option name="project" value="LOCAL" />
       <updated>1759301202847</updated>
     </task>
-    <option name="localTasksCounter" value="278" />
+    <task id="LOCAL-00278" summary="Exemples">
+      <created>1759304605869</created>
+      <option name="number" value="00278" />
+      <option name="presentableId" value="LOCAL-00278" />
+      <option name="project" value="LOCAL" />
+      <updated>1759304605869</updated>
+    </task>
+    <task id="LOCAL-00279" summary="Exemples">
+      <created>1759304882389</created>
+      <option name="number" value="00279" />
+      <option name="presentableId" value="LOCAL-00279" />
+      <option name="project" value="LOCAL" />
+      <updated>1759304882389</updated>
+    </task>
+    <option name="localTasksCounter" value="280" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

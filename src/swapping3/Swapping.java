@@ -28,7 +28,7 @@ public class Swapping extends PApplet {
 
         memory.swapIn(p0);
 
-        frameRate(10);
+        //frameRate(10);
 
     }
 
@@ -59,4 +59,12 @@ public class Swapping extends PApplet {
         }
 
     }
+
+
+    public void keyPressed(){
+        if(key=='c' || key=='C'){
+            memory.compacta();
+        }
+    }
+
 }
