@@ -22,7 +22,7 @@ public class MainSchedulerRR extends PApplet {
         p3 = new Proces("P3", 4);
 
         scheduler = new SchedulerRR();
-        scheduler.setCiclesQuantum(3);
+        scheduler.setCiclesQuantum(2);
 
         scheduler.enterProces(p1);
         scheduler.enterProces(p2);
