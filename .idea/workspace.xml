@@ -2,11 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e3daea28-0551-4b13-ab45-39306edd8b83" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/basics/OperacionsMath.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bucles/ForCompost.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/condicionals/SwitchDiesSetmana.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/condicionals/SwitchNotes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bucles/AdivinaNumero.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bucles/MaximComuDivisorSenseFuncio.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bucles/MinimComuMultipleSenseFuncio.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bucles/PrintNumbersAndChars.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bucles/PrintNumbersAndOdds.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/basics/ImprimirPrintF.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/basics/ImprimirPrintF.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/basics/OperacionsMath.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/basics/OperacionsMath.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,16 +66,29 @@
       <recent name="C:\Users\tonim\IdeaProjects\JavaExamples\data\planetes" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="bucles" />
       <recent name="condicionals" />
       <recent name="scheduler1" />
       <recent name="processing" />
       <recent name="poo.poligons" />
-      <recent name="poo.persones" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SumaDosNumeros">
-    <configuration name="Divisio2Numeros" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="basics.Divisio2Numeros" />
+  <component name="RunManager" selected="Application.AdivinaNumero">
+    <configuration name="AdivinaNumero" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="bucles.AdivinaNumero" />
+      <module name="JavaExamples" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="bucles.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ImprimirPrintF" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="basics.ImprimirPrintF" />
       <module name="JavaExamples" />
       <extension name="coverage">
         <pattern>
@@ -84,12 +100,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainSchedulerFIFO" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="scheduler1.MainSchedulerFIFO" />
+    <configuration name="PrintNumbersAndChars" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="bucles.PrintNumbersAndChars" />
       <module name="JavaExamples" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="scheduler1.*" />
+          <option name="PATTERN" value="bucles.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -97,25 +113,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainSchedulerRR" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="scheduler1.MainSchedulerRR" />
+    <configuration name="PrintNumbersAndOdds" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="bucles.PrintNumbersAndOdds" />
       <module name="JavaExamples" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="scheduler1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MainSchedulerSJF" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="scheduler1.MainSchedulerSJF" />
-      <module name="JavaExamples" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="scheduler1.*" />
+          <option name="PATTERN" value="bucles.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -138,11 +141,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.AdivinaNumero" />
+        <item itemvalue="Application.PrintNumbersAndOdds" />
+        <item itemvalue="Application.PrintNumbersAndChars" />
+        <item itemvalue="Application.ImprimirPrintF" />
         <item itemvalue="Application.SumaDosNumeros" />
-        <item itemvalue="Application.Divisio2Numeros" />
-        <item itemvalue="Application.MainSchedulerRR" />
-        <item itemvalue="Application.MainSchedulerSJF" />
-        <item itemvalue="Application.MainSchedulerFIFO" />
       </list>
     </recent_temporary>
   </component>
@@ -521,14 +524,9 @@
       <workItem from="1760687393508" duration="3020000" />
       <workItem from="1760696321327" duration="87000" />
       <workItem from="1760943196564" duration="1844000" />
-      <workItem from="1761026438520" duration="4683000" />
-    </task>
-    <task id="LOCAL-00233" summary="Exemples">
-      <created>1746602465297</created>
-      <option name="number" value="00233" />
-      <option name="presentableId" value="LOCAL-00233" />
-      <option name="project" value="LOCAL" />
-      <updated>1746602465297</updated>
+      <workItem from="1761026438520" duration="5195000" />
+      <workItem from="1761292482340" duration="3705000" />
+      <workItem from="1761550797198" duration="853000" />
     </task>
     <task id="LOCAL-00234" summary="Exemples">
       <created>1746603404925</created>
@@ -866,7 +864,14 @@
       <option name="project" value="LOCAL" />
       <updated>1761026549052</updated>
     </task>
-    <option name="localTasksCounter" value="282" />
+    <task id="LOCAL-00282" summary="Exemples">
+      <created>1761033006254</created>
+      <option name="number" value="00282" />
+      <option name="presentableId" value="LOCAL-00282" />
+      <option name="project" value="LOCAL" />
+      <updated>1761033006255</updated>
+    </task>
+    <option name="localTasksCounter" value="283" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

@@ -20,7 +20,7 @@ public class OperacionsMath {
         // Arrodonir número
         int nota = (int)Math.round(4.7);
         System.out.println("Nota arrodonida: " + nota);
-        
+
         // Número aleatori entre 10 i 50
         int nr = (int)(10 + Math.random()*40);
         System.out.println("Número Aleatori: " + nr);
