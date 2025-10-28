@@ -3,6 +3,7 @@ package funcions;
 public class FuncioSuma {
 
     public static void main(String[] args){
+
         int s1 = suma(3, 5);
         System.out.printf("La suma de %d i %d és %d.", 3, 5, s1);
 

@@ -2,14 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e3daea28-0551-4b13-ab45-39306edd8b83" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/bucles/AdivinaNumero.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bucles/MaximComuDivisorSenseFuncio.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bucles/MinimComuMultipleSenseFuncio.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bucles/PrintNumbersAndChars.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bucles/PrintNumbersAndOdds.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/funcions/ImprimirParellsArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/funcions/Temp.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/basics/ImprimirPrintF.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/basics/ImprimirPrintF.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/basics/OperacionsMath.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/basics/OperacionsMath.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/funcions/FuncioSuma.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/funcions/FuncioSuma.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,7 +69,7 @@
       <recent name="poo.poligons" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.AdivinaNumero">
+  <component name="RunManager" selected="Application.Temp">
     <configuration name="AdivinaNumero" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="bucles.AdivinaNumero" />
       <module name="JavaExamples" />
@@ -126,12 +122,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SumaDosNumeros" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="basics.SumaDosNumeros" />
+    <configuration name="Temp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="funcions.Temp" />
       <module name="JavaExamples" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="basics.*" />
+          <option name="PATTERN" value="funcions.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -141,11 +137,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Temp" />
         <item itemvalue="Application.AdivinaNumero" />
         <item itemvalue="Application.PrintNumbersAndOdds" />
         <item itemvalue="Application.PrintNumbersAndChars" />
         <item itemvalue="Application.ImprimirPrintF" />
-        <item itemvalue="Application.SumaDosNumeros" />
       </list>
     </recent_temporary>
   </component>
@@ -526,14 +522,9 @@
       <workItem from="1760943196564" duration="1844000" />
       <workItem from="1761026438520" duration="5195000" />
       <workItem from="1761292482340" duration="3705000" />
-      <workItem from="1761550797198" duration="853000" />
-    </task>
-    <task id="LOCAL-00234" summary="Exemples">
-      <created>1746603404925</created>
-      <option name="number" value="00234" />
-      <option name="presentableId" value="LOCAL-00234" />
-      <option name="project" value="LOCAL" />
-      <updated>1746603404925</updated>
+      <workItem from="1761550797198" duration="3833000" />
+      <workItem from="1761568349278" duration="86000" />
+      <workItem from="1761634691439" duration="6903000" />
     </task>
     <task id="LOCAL-00235" summary="Exemples">
       <created>1746603573356</created>
@@ -871,7 +862,14 @@
       <option name="project" value="LOCAL" />
       <updated>1761033006255</updated>
     </task>
-    <option name="localTasksCounter" value="283" />
+    <task id="LOCAL-00283" summary="Exemples">
+      <created>1761551669009</created>
+      <option name="number" value="00283" />
+      <option name="presentableId" value="LOCAL-00283" />
+      <option name="project" value="LOCAL" />
+      <updated>1761551669010</updated>
+    </task>
+    <option name="localTasksCounter" value="284" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
