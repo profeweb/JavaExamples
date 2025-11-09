@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e3daea28-0551-4b13-ab45-39306edd8b83" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/funcions/ImprimirParellsArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/funcions/Temp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/arrays/MinimArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/arrays/TempArray.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/funcions/FuncioSuma.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/funcions/FuncioSuma.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,7 +68,7 @@
       <recent name="poo.poligons" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Temp">
+  <component name="RunManager" selected="Application.MinimArrayFuncio">
     <configuration name="AdivinaNumero" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="bucles.AdivinaNumero" />
       <module name="JavaExamples" />
@@ -83,25 +82,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ImprimirPrintF" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="basics.ImprimirPrintF" />
+    <configuration name="MinimArrayFuncio" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="arrays.MinimArrayFuncio" />
       <module name="JavaExamples" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="basics.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PrintNumbersAndChars" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="bucles.PrintNumbersAndChars" />
-      <module name="JavaExamples" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="bucles.*" />
+          <option name="PATTERN" value="arrays.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -135,13 +121,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="arrays.TempArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="arrays.TempArray" />
+      <module name="JavaExamples" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="arrays.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MinimArrayFuncio" />
+        <item itemvalue="Application.arrays.TempArray" />
         <item itemvalue="Application.Temp" />
         <item itemvalue="Application.AdivinaNumero" />
         <item itemvalue="Application.PrintNumbersAndOdds" />
-        <item itemvalue="Application.PrintNumbersAndChars" />
-        <item itemvalue="Application.ImprimirPrintF" />
       </list>
     </recent_temporary>
   </component>
@@ -524,14 +523,10 @@
       <workItem from="1761292482340" duration="3705000" />
       <workItem from="1761550797198" duration="3833000" />
       <workItem from="1761568349278" duration="86000" />
-      <workItem from="1761634691439" duration="6903000" />
-    </task>
-    <task id="LOCAL-00235" summary="Exemples">
-      <created>1746603573356</created>
-      <option name="number" value="00235" />
-      <option name="presentableId" value="LOCAL-00235" />
-      <option name="project" value="LOCAL" />
-      <updated>1746603573356</updated>
+      <workItem from="1761634691439" duration="8103000" />
+      <workItem from="1761651359631" duration="7000" />
+      <workItem from="1762507988390" duration="5232000" />
+      <workItem from="1762710575746" duration="420000" />
     </task>
     <task id="LOCAL-00236" summary="Exemples">
       <created>1746634754655</created>
@@ -869,7 +864,14 @@
       <option name="project" value="LOCAL" />
       <updated>1761551669010</updated>
     </task>
-    <option name="localTasksCounter" value="284" />
+    <task id="LOCAL-00284" summary="Exemples">
+      <created>1761641711778</created>
+      <option name="number" value="00284" />
+      <option name="presentableId" value="LOCAL-00284" />
+      <option name="project" value="LOCAL" />
+      <updated>1761641711780</updated>
+    </task>
+    <option name="localTasksCounter" value="285" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
