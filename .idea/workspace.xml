@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e3daea28-0551-4b13-ab45-39306edd8b83" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/arrays/Temp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/strings/StringMethods.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/strings/EmailValidFuncio.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -68,7 +67,20 @@
       <recent name="processing" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.StringMethods">
+  <component name="RunManager" selected="Application.EmailValidFuncio">
+    <configuration name="EmailValidFuncio" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="strings.EmailValidFuncio" />
+      <module name="JavaExamples" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="strings.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MinimArrayFuncio" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="arrays.MinimArrayFuncio" />
       <module name="JavaExamples" />
@@ -88,19 +100,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="strings.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Temp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="funcions.Temp" />
-      <module name="JavaExamples" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="funcions.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -136,11 +135,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.EmailValidFuncio" />
         <item itemvalue="Application.StringMethods" />
         <item itemvalue="Application.arrays.Temp" />
         <item itemvalue="Application.MinimArrayFuncio" />
         <item itemvalue="Application.arrays.TempArray" />
-        <item itemvalue="Application.Temp" />
       </list>
     </recent_temporary>
   </component>
@@ -528,14 +527,8 @@
       <workItem from="1762507988390" duration="5232000" />
       <workItem from="1762710575746" duration="1073000" />
       <workItem from="1762761532932" duration="3678000" />
-      <workItem from="1762844464419" duration="6645000" />
-    </task>
-    <task id="LOCAL-00237" summary="Exemples">
-      <created>1746634890753</created>
-      <option name="number" value="00237" />
-      <option name="presentableId" value="LOCAL-00237" />
-      <option name="project" value="LOCAL" />
-      <updated>1746634890753</updated>
+      <workItem from="1762844464419" duration="7268000" />
+      <workItem from="1763110522032" duration="1843000" />
     </task>
     <task id="LOCAL-00238" summary="Exemples">
       <created>1746635490088</created>
@@ -873,7 +866,14 @@
       <option name="project" value="LOCAL" />
       <updated>1762711050478</updated>
     </task>
-    <option name="localTasksCounter" value="286" />
+    <task id="LOCAL-00286" summary="Exemples">
+      <created>1762851264215</created>
+      <option name="number" value="00286" />
+      <option name="presentableId" value="LOCAL-00286" />
+      <option name="project" value="LOCAL" />
+      <updated>1762851264216</updated>
+    </task>
+    <option name="localTasksCounter" value="287" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
