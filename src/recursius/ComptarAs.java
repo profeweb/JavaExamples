@@ -25,7 +25,7 @@ public class ComptarAs {
         }
         else {
             String left = s.substring(0, s.length()/2);
-            String dreta = s.substring(s.length()/2, s.length());
+            String dreta = s.substring(s.length()/2);
             return comptarAsRec(left) + comptarAsRec(dreta);
         }
     }
