@@ -10,7 +10,7 @@ public class EstadisticaMoneda {
         // Array per comptabilitzar les cares
         float [] cares = new float[2];
 
-        // Fer les tirades i comptabilitzar els ocurrències
+        // Fer les tirades i comptabilitzar les ocurrències
         for(int i=0; i<numTirades; i++){
             int d = tirarMoneda();
             cares[d]++;

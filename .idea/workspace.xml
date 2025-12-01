@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e3daea28-0551-4b13-ab45-39306edd8b83" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/tad/Cua.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tad/MainCua.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/training/EstadisticaMoneda.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/training/EstadisticaMoneda.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,7 +69,7 @@
       <recent name="processing" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.UnicodeExample">
+  <component name="RunManager" selected="Application.MainCua">
     <configuration name="Bidimensionals" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="arrays.Bidimensionals" />
       <module name="JavaExamples" />
@@ -80,8 +83,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainPila" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="tad.MainPila" />
+    <configuration name="MainCua" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="tad.MainCua" />
       <module name="JavaExamples" />
       <extension name="coverage">
         <pattern>
@@ -93,12 +96,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OrdenaArrayMin" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="recursius.OrdenaArrayMin" />
+    <configuration name="MainPila" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="tad.MainPila" />
       <module name="JavaExamples" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="recursius.*" />
+          <option name="PATTERN" value="tad.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -128,11 +131,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MainCua" />
         <item itemvalue="Application.UnicodeExample" />
         <item itemvalue="Application.MainPila" />
         <item itemvalue="Application.Temp" />
         <item itemvalue="Application.Bidimensionals" />
-        <item itemvalue="Application.OrdenaArrayMin" />
       </list>
     </recent_temporary>
   </component>
@@ -527,13 +530,8 @@
       <workItem from="1763715003885" duration="6867000" />
       <workItem from="1763728036024" duration="8000" />
       <workItem from="1763971111865" duration="5067000" />
-    </task>
-    <task id="LOCAL-00240" summary="Exemples">
-      <created>1748511922630</created>
-      <option name="number" value="00240" />
-      <option name="presentableId" value="LOCAL-00240" />
-      <option name="project" value="LOCAL" />
-      <updated>1748511922630</updated>
+      <workItem from="1764526973441" duration="467000" />
+      <workItem from="1764574792688" duration="4165000" />
     </task>
     <task id="LOCAL-00241" summary="Exemples">
       <created>1748513439162</created>
@@ -871,7 +869,14 @@
       <option name="project" value="LOCAL" />
       <updated>1763977460404</updated>
     </task>
-    <option name="localTasksCounter" value="289" />
+    <task id="LOCAL-00289" summary="Exemples">
+      <created>1764527047281</created>
+      <option name="number" value="00289" />
+      <option name="presentableId" value="LOCAL-00289" />
+      <option name="project" value="LOCAL" />
+      <updated>1764527047281</updated>
+    </task>
+    <option name="localTasksCounter" value="290" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
