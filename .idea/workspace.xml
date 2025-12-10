@@ -2,10 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e3daea28-0551-4b13-ab45-39306edd8b83" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/tad/Cua.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tad/MainCua.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sudoku/SudokuGeneratorVF.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sudoku/step1/SudokuGeneratorV1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sudoku/step2/SudokuGeneratorV2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sudoku/step3/SudokuGeneratorV3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sudoku/step4/SudokuGeneratorV4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sudoku/step5/SudokuGeneratorV5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sudoku/step6/SudokuGeneratorV6.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/training/EstadisticaMoneda.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/training/EstadisticaMoneda.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,20 +66,20 @@
       <recent name="C:\Users\tonim\IdeaProjects\JavaExamples\data\planetes" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="arrays" />
-      <recent name="bucles" />
-      <recent name="condicionals" />
-      <recent name="scheduler1" />
-      <recent name="processing" />
+      <recent name="sudoku.step6" />
+      <recent name="sudoku.step5" />
+      <recent name="sudoku.step4" />
+      <recent name="sudoku.step3" />
+      <recent name="sudoku.step2" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MainCua">
-    <configuration name="Bidimensionals" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="arrays.Bidimensionals" />
+  <component name="RunManager" selected="Application.SudokuGeneratorV6">
+    <configuration name="SudokuGeneratorV2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sudoku.step2.SudokuGeneratorV2" />
       <module name="JavaExamples" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="arrays.*" />
+          <option name="PATTERN" value="sudoku.step2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -83,12 +87,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainCua" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="tad.MainCua" />
+    <configuration name="SudokuGeneratorV3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sudoku.step3.SudokuGeneratorV3" />
       <module name="JavaExamples" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tad.*" />
+          <option name="PATTERN" value="sudoku.step3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -96,12 +100,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainPila" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="tad.MainPila" />
+    <configuration name="SudokuGeneratorV4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sudoku.step4.SudokuGeneratorV4" />
       <module name="JavaExamples" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tad.*" />
+          <option name="PATTERN" value="sudoku.step4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -109,19 +113,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Temp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Temp" />
+    <configuration name="SudokuGeneratorV5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sudoku.step5.SudokuGeneratorV5" />
       <module name="JavaExamples" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="sudoku.step5.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UnicodeExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="unicode.UnicodeExample" />
+    <configuration name="SudokuGeneratorV6" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sudoku.step6.SudokuGeneratorV6" />
       <module name="JavaExamples" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="unicode.*" />
+          <option name="PATTERN" value="sudoku.step6.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -131,11 +141,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MainCua" />
-        <item itemvalue="Application.UnicodeExample" />
-        <item itemvalue="Application.MainPila" />
-        <item itemvalue="Application.Temp" />
-        <item itemvalue="Application.Bidimensionals" />
+        <item itemvalue="Application.SudokuGeneratorV6" />
+        <item itemvalue="Application.SudokuGeneratorV5" />
+        <item itemvalue="Application.SudokuGeneratorV4" />
+        <item itemvalue="Application.SudokuGeneratorV3" />
+        <item itemvalue="Application.SudokuGeneratorV2" />
       </list>
     </recent_temporary>
   </component>
@@ -531,14 +541,8 @@
       <workItem from="1763728036024" duration="8000" />
       <workItem from="1763971111865" duration="5067000" />
       <workItem from="1764526973441" duration="467000" />
-      <workItem from="1764574792688" duration="4165000" />
-    </task>
-    <task id="LOCAL-00241" summary="Exemples">
-      <created>1748513439162</created>
-      <option name="number" value="00241" />
-      <option name="presentableId" value="LOCAL-00241" />
-      <option name="project" value="LOCAL" />
-      <updated>1748513439162</updated>
+      <workItem from="1764574792688" duration="5123000" />
+      <workItem from="1765350470782" duration="6782000" />
     </task>
     <task id="LOCAL-00242" summary="Exemples">
       <created>1748514031242</created>
@@ -876,7 +880,14 @@
       <option name="project" value="LOCAL" />
       <updated>1764527047281</updated>
     </task>
-    <option name="localTasksCounter" value="290" />
+    <task id="LOCAL-00290" summary="Exemples">
+      <created>1764587151412</created>
+      <option name="number" value="00290" />
+      <option name="presentableId" value="LOCAL-00290" />
+      <option name="project" value="LOCAL" />
+      <updated>1764587151413</updated>
+    </task>
+    <option name="localTasksCounter" value="291" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
