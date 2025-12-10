@@ -81,7 +81,7 @@ public class SudokuGeneratorV2 {
         for (int i = 0; i < 3; i++) {
             for (int j = 0; j < 3; j++) {
                 do {
-                    // Generate a random number between 1 and 9
+                    // Genera un número aleatori entre 1 i 9
                     num = (int)(Math.random()*9) + 1;
                 } while (!noUsedInBox(grid, row, col, num));
                 grid[row + i][col + j] = num;

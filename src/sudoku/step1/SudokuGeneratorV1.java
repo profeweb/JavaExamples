@@ -44,7 +44,8 @@ public class SudokuGeneratorV1 {
             // Imprimeix les caselles
             for (int c = 0; c < grid[r].length; c++) {
                 String separator = c > 0 && c % 3 == 0 ? " | " : " ";
-                String value = grid[r][c] == 0 ? " " : Integer.toString(grid[r][c]);
+                String sValue = Integer.toString(grid[r][c]);
+                String value = grid[r][c] == 0 ? " " : sValue;
                 System.out.printf("%s%s", separator, value);
             }
             System.out.println();
