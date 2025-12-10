@@ -7,9 +7,9 @@ public class SudokuGeneratorV6 {
     // Graella del sudoku
     public static int [][] grid;
 
-    // Símbols separador i casella buida
+    // Símbols UNICODE separador i casella buida
     public static char separatorUnicode = '\u25CF';
-    public static char emptyUnicode = ' ';
+    public static char emptyUnicode = '\u25A1';
 
     // Array de dificultats (caselles buides)
     public static int[] dificultat = {60, 40, 20, 10};
