@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e3daea28-0551-4b13-ab45-39306edd8b83" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/papers/paper2/TempStatic.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/poo/repas/Colleccionista.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/poo/repas/Element.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/poo/repas/MainColleccionista.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/poo/repas/Segell.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/poo/repas/Xapa.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/poo/repas/MainColleccionista.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/poo/repas/MainColleccionista.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,12 +40,12 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;full.screen.before.presentation.mode&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/tonim/IdeaProjects/JavaExamples/src/swapping3&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/tonim/Desktop&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.ide.settings.uml&quot;
   }
 }</component>
   <component name="RecentsManager">
@@ -546,21 +541,9 @@
       <workItem from="1765436019675" duration="11000" />
       <workItem from="1765437391417" duration="913000" />
       <workItem from="1765441761094" duration="11000" />
-      <workItem from="1765444032423" duration="1763000" />
-    </task>
-    <task id="LOCAL-00244" summary="Exemples">
-      <created>1748514293188</created>
-      <option name="number" value="00244" />
-      <option name="presentableId" value="LOCAL-00244" />
-      <option name="project" value="LOCAL" />
-      <updated>1748514293188</updated>
-    </task>
-    <task id="LOCAL-00245" summary="Exemples">
-      <created>1748587736692</created>
-      <option name="number" value="00245" />
-      <option name="presentableId" value="LOCAL-00245" />
-      <option name="project" value="LOCAL" />
-      <updated>1748587736692</updated>
+      <workItem from="1765444032423" duration="2022000" />
+      <workItem from="1765457308394" duration="1117000" />
+      <workItem from="1765465594415" duration="1017000" />
     </task>
     <task id="LOCAL-00246" summary="Exemples">
       <created>1748588180825</created>
@@ -891,7 +874,21 @@
       <option name="project" value="LOCAL" />
       <updated>1765389296961</updated>
     </task>
-    <option name="localTasksCounter" value="293" />
+    <task id="LOCAL-00293" summary="Exemples">
+      <created>1765445819202</created>
+      <option name="number" value="00293" />
+      <option name="presentableId" value="LOCAL-00293" />
+      <option name="project" value="LOCAL" />
+      <updated>1765445819202</updated>
+    </task>
+    <task id="LOCAL-00294" summary="Exemples">
+      <created>1765446032163</created>
+      <option name="number" value="00294" />
+      <option name="presentableId" value="LOCAL-00294" />
+      <option name="project" value="LOCAL" />
+      <updated>1765446032163</updated>
+    </task>
+    <option name="localTasksCounter" value="295" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -911,5 +908,9 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Exemples" />
     <option name="LAST_COMMIT_MESSAGE" value="Exemples" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
