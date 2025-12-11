@@ -2,10 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e3daea28-0551-4b13-ab45-39306edd8b83" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/papers/paper2/TempStatic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/poo/repas/Colleccionista.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/poo/repas/Element.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/poo/repas/MainColleccionista.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/poo/repas/Segell.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/poo/repas/Xapa.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sudoku/step1/SudokuGeneratorV1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sudoku/step1/SudokuGeneratorV1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sudoku/step2/SudokuGeneratorV2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sudoku/step2/SudokuGeneratorV2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sudoku/step6/SudokuGeneratorV6.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sudoku/step6/SudokuGeneratorV6.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -539,14 +542,11 @@
       <workItem from="1764526973441" duration="467000" />
       <workItem from="1764574792688" duration="5123000" />
       <workItem from="1765350470782" duration="7833000" />
-      <workItem from="1765382063577" duration="4572000" />
-    </task>
-    <task id="LOCAL-00243" summary="Exemples">
-      <created>1748514255212</created>
-      <option name="number" value="00243" />
-      <option name="presentableId" value="LOCAL-00243" />
-      <option name="project" value="LOCAL" />
-      <updated>1748514255213</updated>
+      <workItem from="1765382063577" duration="4603000" />
+      <workItem from="1765436019675" duration="11000" />
+      <workItem from="1765437391417" duration="913000" />
+      <workItem from="1765441761094" duration="11000" />
+      <workItem from="1765444032423" duration="1763000" />
     </task>
     <task id="LOCAL-00244" summary="Exemples">
       <created>1748514293188</created>
@@ -884,7 +884,14 @@
       <option name="project" value="LOCAL" />
       <updated>1765357722504</updated>
     </task>
-    <option name="localTasksCounter" value="292" />
+    <task id="LOCAL-00292" summary="Exemples">
+      <created>1765389296961</created>
+      <option name="number" value="00292" />
+      <option name="presentableId" value="LOCAL-00292" />
+      <option name="project" value="LOCAL" />
+      <updated>1765389296961</updated>
+    </task>
+    <option name="localTasksCounter" value="293" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
