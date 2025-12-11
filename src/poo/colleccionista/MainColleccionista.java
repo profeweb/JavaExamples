@@ -1,4 +1,4 @@
-package poo.repas;
+package poo.colleccionista;
 
 public class MainColleccionista {
 

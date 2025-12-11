@@ -1,18 +1,19 @@
-package poo.repas;
+package poo.colleccionista;
 
-public class Segell {
+public class Xapa {
 
     private String nom;
     private double preu;
     private int anys;
 
-    public Segell(String nom, double preu, int anys){
+    public Xapa(String nom, double preu, int antic){
         this.nom =nom;
         this.preu = preu;
-        this.anys = anys;
+        this.anys = antic;
     }
 
-    // Getters i Setters
+    // Setters i Getters
+
 
     public String getNom() {
         return nom;

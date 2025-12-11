@@ -1,4 +1,4 @@
-package poo.repas;
+package poo.colleccionista;
 
 public class Colleccionista {
 
@@ -12,6 +12,9 @@ public class Colleccionista {
     private int numXapes;
 
     public Colleccionista(String nom, int anys){
+        this.nom = nom;
+        this.anys = anys;
+
         segells = new Segell[100];
         numSegells = 0;
 
