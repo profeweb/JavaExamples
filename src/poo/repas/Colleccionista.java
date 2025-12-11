@@ -70,8 +70,8 @@ public class Colleccionista {
         int maximAnys = 0;
         Segell maxSegell = null;
         for(int i=0; i<numSegells; i++){
-            if(segells[i].getAntic()>maximAnys){
-                maximAnys = segells[i].getAntic();
+            if(segells[i].getAnys()>maximAnys){
+                maximAnys = segells[i].getAnys();
                 maxSegell = segells[i];
             }
         }
@@ -82,8 +82,8 @@ public class Colleccionista {
         int minimAnys = Integer.MAX_VALUE;
         Xapa minXapa = null;
         for(int i=0; i<numXapes; i++){
-            if(xapes[i].getAntic()<minimAnys){
-                minimAnys = xapes[i].getAntic();
+            if(xapes[i].getAnys()<minimAnys){
+                minimAnys = xapes[i].getAnys();
                 minXapa = xapes[i];
             }
         }

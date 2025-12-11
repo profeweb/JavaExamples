@@ -4,12 +4,12 @@ public class Segell {
 
     private String nom;
     private double preu;
-    private int antic;
+    private int anys;
 
-    public Segell(String nom, double preu, int antic){
+    public Segell(String nom, double preu, int anys){
         this.nom =nom;
         this.preu = preu;
-        this.antic = antic;
+        this.anys = anys;
     }
 
     // Getters i Setters
@@ -30,11 +30,11 @@ public class Segell {
         this.preu = preu;
     }
 
-    public int getAntic() {
-        return antic;
+    public int getAnys() {
+        return anys;
     }
 
-    public void setAntic(int antic) {
-        this.antic = antic;
+    public void setAnys(int anys) {
+        this.anys = anys;
     }
 }

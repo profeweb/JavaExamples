@@ -4,12 +4,12 @@ public class Xapa {
 
     private String nom;
     private double preu;
-    private int antic;
+    private int anys;
 
     public Xapa(String nom, double preu, int antic){
         this.nom =nom;
         this.preu = preu;
-        this.antic = antic;
+        this.anys = antic;
     }
 
     // Setters i Getters
@@ -31,11 +31,11 @@ public class Xapa {
         this.preu = preu;
     }
 
-    public int getAntic() {
-        return antic;
+    public int getAnys() {
+        return anys;
     }
 
-    public void setAntic(int antic) {
-        this.antic = antic;
+    public void setAnys(int anys) {
+        this.anys = anys;
     }
 }
