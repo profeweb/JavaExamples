@@ -1,6 +1,5 @@
 package tad;
 
-import poo.LlistaGenerica;
 import processing.core.PApplet;
 
 public class LlistaNodes {
