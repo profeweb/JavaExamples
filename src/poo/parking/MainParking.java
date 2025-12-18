@@ -12,7 +12,6 @@ public class MainParking {
         vehicles[3] = new Cotxe("7251AE)", Cotxe.TIPUS.ELECTRIC);
         vehicles[4] = new Moto("2134HQ", 75);
 
-
         vehicles[0].rodar();
         vehicles[0].rodar();
         vehicles[1].rodar();
