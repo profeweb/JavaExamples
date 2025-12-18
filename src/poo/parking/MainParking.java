@@ -14,7 +14,14 @@ public class MainParking {
 
         vehicles[0].rodar();
         vehicles[0].rodar();
+
         vehicles[1].rodar();
+
+        vehicles[2].rodar();
+
+        System.out.println("Kms Vehicle 0: "+ vehicles[0].getNumKms());
+        System.out.println("Kms Vehicle 1: "+ vehicles[1].getNumKms());
+        System.out.println("Kms Vehicle 2: "+ vehicles[2].getNumKms());
     }
 
     public static String matriculaVehicleMesKms(Vehicle[] vehicles){

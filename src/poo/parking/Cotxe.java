@@ -10,7 +10,7 @@ public class Cotxe extends Vehicle{
    // Constructor
 
     public Cotxe(String matricula, TIPUS tipus) {
-        super(matricula, 2, 0);
+        super(matricula, 4, 0);
         this.tipus = tipus;
     }
 
