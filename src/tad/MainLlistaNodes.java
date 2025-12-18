@@ -4,7 +4,7 @@ import processing.core.PApplet;
 
 public class MainLlistaNodes extends PApplet {
 
-    Node n1, n2;
+    LlistaNodes l;
 
     public static void main(String[] args) {
         PApplet.main("tad.MainLlistaNodes");
@@ -15,15 +15,36 @@ public class MainLlistaNodes extends PApplet {
     }
 
     public void setup(){
-        n1 = new Node(23);
-        n2 = new Node(47, n1);
+        l = new LlistaNodes();
+        l.append(23);
+        l.append(17);
+        l.append(8);
+        l.append(5);
+
+        l.removeFirst();
     }
 
     public void draw(){
         background(200);
+        l.display(this, 50, 120, 50);
+    }
 
-        n2.display(this, 100, 100, 200);
-
-        n1.display(this, 100, 300, 200);
+    public void keyPressed(){
+        if(key=='a' || key=='A'){
+            int n = (int)random(0, 100);
+            l.append(n);
+            println("APPEND: "+ n);
+        }
+        else if(key=='p' || key=='P'){
+            int n = (int)random(0, 100);
+            l.preppend(n);
+            println("PREPPEND: "+ n);
+        }
+        else if(key=='i' || key=='I'){
+            int i = (int)random(0, l.numNodes);
+            int n = (int)random(0, 100);
+            l.insertAt(i, n);
+            println("INSERT : "+ n + " AT : " +i);
+        }
     }
 }
