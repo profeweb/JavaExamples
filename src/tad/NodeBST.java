@@ -21,4 +21,28 @@ public class NodeBST {
     public void visitar(){
         System.out.print(this.valor +", ");
     }
+
+    public void inordre(){
+        if(this.esq!=null){ this.esq.inordre(); }
+        visitar();
+        if(this.dret!=null){ this.dret.inordre();}
+    }
+
+    public void preordre(){
+        visitar();
+        if(this.esq!=null){ this.esq.preordre(); }
+        if(this.dret!=null){ this.dret.preordre();}
+    }
+
+    public void postordre(){
+        if(this.esq!=null){ this.esq.postordre(); }
+        if(this.dret!=null){ this.dret.postordre();}
+        visitar();
+    }
+
+    public void revers(){
+        if(this.dret!=null){ this.dret.revers();}
+        visitar();
+        if(this.esq!=null){ this.esq.revers(); }
+    }
 }
