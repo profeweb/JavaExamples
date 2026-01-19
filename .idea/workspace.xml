@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e3daea28-0551-4b13-ab45-39306edd8b83" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/tad/ArbreBST.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tad/MainArbreBST.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/tad/NodeBST.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tad/NodeBST.java" afterDir="false" />
     </list>
@@ -67,9 +69,22 @@
       <recent name="sudoku.step2" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ExempleArbreBST">
+  <component name="RunManager" selected="Application.MainArbreBST">
     <configuration name="ExempleArbreBST" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="tad.ExempleArbreBST" />
+      <module name="JavaExamples" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tad.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainArbreBST" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="tad.MainArbreBST" />
       <module name="JavaExamples" />
       <extension name="coverage">
         <pattern>
@@ -120,26 +135,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TempConversio" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="conversions.TempConversio" />
-      <module name="JavaExamples" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="conversions.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MainArbreBST" />
         <item itemvalue="Application.ExempleArbreBST" />
         <item itemvalue="Application.MainParking" />
         <item itemvalue="Application.MainLlistaNodes" />
         <item itemvalue="Application.SudokuGeneratorV6" />
-        <item itemvalue="Application.TempConversio" />
       </list>
     </recent_temporary>
   </component>
@@ -554,14 +556,7 @@
       <workItem from="1766073855436" duration="397000" />
       <workItem from="1768208013248" duration="4458000" />
       <workItem from="1768460666739" duration="603000" />
-      <workItem from="1768807579324" duration="1796000" />
-    </task>
-    <task id="LOCAL-00256" summary="Exemples">
-      <created>1749028351459</created>
-      <option name="number" value="00256" />
-      <option name="presentableId" value="LOCAL-00256" />
-      <option name="project" value="LOCAL" />
-      <updated>1749028351459</updated>
+      <workItem from="1768807579324" duration="5121000" />
     </task>
     <task id="LOCAL-00257" summary="Exemples">
       <created>1749028420159</created>
@@ -899,7 +894,14 @@
       <option name="project" value="LOCAL" />
       <updated>1768221049178</updated>
     </task>
-    <option name="localTasksCounter" value="305" />
+    <task id="LOCAL-00305" summary="Exemples">
+      <created>1768816002237</created>
+      <option name="number" value="00305" />
+      <option name="presentableId" value="LOCAL-00305" />
+      <option name="project" value="LOCAL" />
+      <updated>1768816002238</updated>
+    </task>
+    <option name="localTasksCounter" value="306" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
