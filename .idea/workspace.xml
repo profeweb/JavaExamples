@@ -4,6 +4,8 @@
     <list default="true" id="e3daea28-0551-4b13-ab45-39306edd8b83" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/tad/ArbreBST.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tad/ArbreBST.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tad/MainArbreBST.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tad/MainArbreBST.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tad/NodeBST.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tad/NodeBST.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -555,14 +557,7 @@
       <workItem from="1768208013248" duration="4458000" />
       <workItem from="1768460666739" duration="603000" />
       <workItem from="1768807579324" duration="6040000" />
-      <workItem from="1769065390713" duration="1825000" />
-    </task>
-    <task id="LOCAL-00259" summary="Exemples">
-      <created>1749031535562</created>
-      <option name="number" value="00259" />
-      <option name="presentableId" value="LOCAL-00259" />
-      <option name="project" value="LOCAL" />
-      <updated>1749031535562</updated>
+      <workItem from="1769065390713" duration="2530000" />
     </task>
     <task id="LOCAL-00260" summary="Exemples">
       <created>1749031895613</created>
@@ -900,7 +895,14 @@
       <option name="project" value="LOCAL" />
       <updated>1768825209594</updated>
     </task>
-    <option name="localTasksCounter" value="308" />
+    <task id="LOCAL-00308" summary="Exemples">
+      <created>1769068385376</created>
+      <option name="number" value="00308" />
+      <option name="presentableId" value="LOCAL-00308" />
+      <option name="project" value="LOCAL" />
+      <updated>1769068385377</updated>
+    </task>
+    <option name="localTasksCounter" value="309" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

@@ -60,6 +60,22 @@ public class ArbreBST {
         }
     }
 
+    public int getMinim(){
+        NodeBST pare = this.arrel;
+        while(pare.esq!=null){
+            pare = pare.esq;
+        }
+        return pare.valor;
+    }
+
+    public int getMaxim(){
+        NodeBST pare = this.arrel;
+        while(pare.dret!=null){
+            pare = pare.dret;
+        }
+        return pare.valor;
+    }
+
     public void display(PApplet p5, NodeBST n, float x, float y, float r, int level){
 
         float dx = (p5.width/3)/(level+2);

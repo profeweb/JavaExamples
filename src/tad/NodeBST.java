@@ -62,6 +62,7 @@ public class NodeBST {
             p5.line(x, y, x + dx, y + 2*r);
         }
 
+        p5.fill(255);
         p5.ellipse(x, y, r,r);
         p5.fill(0); p5.textSize(18); p5.textAlign(p5.CENTER);
         p5.text(this.valor, x, y + r/6);
