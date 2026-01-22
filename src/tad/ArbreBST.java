@@ -42,6 +42,24 @@ public class ArbreBST {
         }
     }
 
+    public boolean cercaElement(int valor, NodeBST n){
+        if(n==null){
+            return false;
+        }
+        else if(n.valor==valor) {
+            return true;
+        }
+        else {
+            if(valor < n.valor && n.esq!=null){
+                return cercaElement(valor, n.esq);
+            }
+            else if(valor > n.valor && n.dret!=null){
+                return cercaElement(valor, n.dret);
+            }
+            return false;
+        }
+    }
+
     public void display(PApplet p5, NodeBST n, float x, float y, float r, int level){
 
         float dx = (p5.width/3)/(level+2);
