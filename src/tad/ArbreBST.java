@@ -108,6 +108,7 @@ public class ArbreBST {
                 }
             }
         }
+        System.out.println();
     }
 
     public NodeBST[] adjacents(NodeBST n){
@@ -120,20 +121,25 @@ public class ArbreBST {
     public void inordre(){
         System.out.print("IN-ORDRE: ");
         this.arrel.inordre();
+        System.out.println();
     }
 
     public void preordre(){
         System.out.print("PRE-ORDRE: ");
         this.arrel.preordre();
+        System.out.println();
     }
 
     public void postordre(){
         System.out.print("POST-ORDRE: ");
-        this.arrel.postordre(); }
+        this.arrel.postordre();
+        System.out.println();
+    }
 
     public void revers(){
         System.out.print("REVERS: ");
         this.arrel.revers();
+        System.out.println();
     }
 
 

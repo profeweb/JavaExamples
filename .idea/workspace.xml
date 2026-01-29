@@ -2,15 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e3daea28-0551-4b13-ab45-39306edd8b83" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/data/paraules.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/files/TF_IDF.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/files/WordCounter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/files/test/Test_WordCounter_01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tad/CuaNodeBST.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/tad/ArbreBST.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tad/ArbreBST.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/tad/MainArbreBST.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tad/MainArbreBST.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tad/NodeBST.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tad/NodeBST.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -567,14 +561,8 @@
       <workItem from="1769152199531" duration="4363000" />
       <workItem from="1769168072718" duration="664000" />
       <workItem from="1769276198058" duration="34000" />
-      <workItem from="1769669602150" duration="3391000" />
-    </task>
-    <task id="LOCAL-00262" summary="Exemples">
-      <created>1749033505239</created>
-      <option name="number" value="00262" />
-      <option name="presentableId" value="LOCAL-00262" />
-      <option name="project" value="LOCAL" />
-      <updated>1749033505239</updated>
+      <workItem from="1769669602150" duration="4015000" />
+      <workItem from="1769686852680" duration="402000" />
     </task>
     <task id="LOCAL-00263" summary="Exemples">
       <created>1749048956625</created>
@@ -912,7 +900,14 @@
       <option name="project" value="LOCAL" />
       <updated>1769069504524</updated>
     </task>
-    <option name="localTasksCounter" value="311" />
+    <task id="LOCAL-00311" summary="Exemples">
+      <created>1769676675745</created>
+      <option name="number" value="00311" />
+      <option name="presentableId" value="LOCAL-00311" />
+      <option name="project" value="LOCAL" />
+      <updated>1769676675745</updated>
+    </task>
+    <option name="localTasksCounter" value="312" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
