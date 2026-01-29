@@ -2,7 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e3daea28-0551-4b13-ab45-39306edd8b83" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/data/paraules.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/files/TF_IDF.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/files/WordCounter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/files/test/Test_WordCounter_01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tad/CuaNodeBST.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tad/ArbreBST.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tad/ArbreBST.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/tad/MainArbreBST.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tad/MainArbreBST.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tad/NodeBST.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tad/NodeBST.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,11 +67,11 @@
       <recent name="C:\Users\tonim\IdeaProjects\JavaExamples\data\planetes" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="tad" />
       <recent name="sudoku.step6" />
       <recent name="sudoku.step5" />
       <recent name="sudoku.step4" />
       <recent name="sudoku.step3" />
-      <recent name="sudoku.step2" />
     </key>
   </component>
   <component name="RunManager" selected="Application.MainArbreBST">
@@ -119,12 +127,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SudokuGeneratorV6" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="sudoku.step6.SudokuGeneratorV6" />
+    <configuration name="Test_WordCounter_01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="files.test.Test_WordCounter_01" />
       <module name="JavaExamples" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="sudoku.step6.*" />
+          <option name="PATTERN" value="files.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -135,10 +143,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.MainArbreBST" />
+        <item itemvalue="Application.Test_WordCounter_01" />
         <item itemvalue="Application.ExempleArbreBST" />
         <item itemvalue="Application.MainParking" />
         <item itemvalue="Application.MainLlistaNodes" />
-        <item itemvalue="Application.SudokuGeneratorV6" />
       </list>
     </recent_temporary>
   </component>
@@ -554,14 +562,12 @@
       <workItem from="1768208013248" duration="4458000" />
       <workItem from="1768460666739" duration="603000" />
       <workItem from="1768807579324" duration="6040000" />
-      <workItem from="1769065390713" duration="2837000" />
-    </task>
-    <task id="LOCAL-00261" summary="Exemples">
-      <created>1749033422246</created>
-      <option name="number" value="00261" />
-      <option name="presentableId" value="LOCAL-00261" />
-      <option name="project" value="LOCAL" />
-      <updated>1749033422247</updated>
+      <workItem from="1769065390713" duration="3563000" />
+      <workItem from="1769083118388" duration="416000" />
+      <workItem from="1769152199531" duration="4363000" />
+      <workItem from="1769168072718" duration="664000" />
+      <workItem from="1769276198058" duration="34000" />
+      <workItem from="1769669602150" duration="3391000" />
     </task>
     <task id="LOCAL-00262" summary="Exemples">
       <created>1749033505239</created>
@@ -899,7 +905,14 @@
       <option name="project" value="LOCAL" />
       <updated>1769069097417</updated>
     </task>
-    <option name="localTasksCounter" value="310" />
+    <task id="LOCAL-00310" summary="Exemples">
+      <created>1769069504524</created>
+      <option name="number" value="00310" />
+      <option name="presentableId" value="LOCAL-00310" />
+      <option name="project" value="LOCAL" />
+      <updated>1769069504524</updated>
+    </task>
+    <option name="localTasksCounter" value="311" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

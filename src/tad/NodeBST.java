@@ -6,12 +6,15 @@ public class NodeBST {
 
     int valor;
     NodeBST esq, dret;
+    boolean visitat = false;
 
     public NodeBST(int v){
         this.valor = v;
         this.esq = null;
         this.dret = null;
     }
+
+    public void setVisitat(boolean b){ this.visitat = b; }
 
     public void setFillEsq(NodeBST esq){
         this.esq = esq;

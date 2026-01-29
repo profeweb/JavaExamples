@@ -90,7 +90,51 @@ public class ArbreBST {
         }
     }
 
+    public void bfs(NodeBST node, int valor){
+        System.out.print("BFS: ");
+        CuaNodeBST c = new CuaNodeBST();
+        node.setVisitat(true);
+        c.encola(node);
+        while(!c.isEmpty()){
+            NodeBST nodeActual = c.desencola();
+            nodeActual.visitar();
+            if(nodeActual.valor==valor){
+                System.out.println("TROBAT!!!!");
+            }
+            for(NodeBST fill : adjacents(nodeActual)){
+                if(fill!=null && !fill.visitat){
+                    fill.setVisitat(true);
+                    c.encola(fill);
+                }
+            }
+        }
+    }
 
+    public NodeBST[] adjacents(NodeBST n){
+        NodeBST[] nodes = new NodeBST[2];
+        nodes[0] = n.esq;
+        nodes[1] = n.dret;
+        return  nodes;
+    }
+
+    public void inordre(){
+        System.out.print("IN-ORDRE: ");
+        this.arrel.inordre();
+    }
+
+    public void preordre(){
+        System.out.print("PRE-ORDRE: ");
+        this.arrel.preordre();
+    }
+
+    public void postordre(){
+        System.out.print("POST-ORDRE: ");
+        this.arrel.postordre(); }
+
+    public void revers(){
+        System.out.print("REVERS: ");
+        this.arrel.revers();
+    }
 
 
 }

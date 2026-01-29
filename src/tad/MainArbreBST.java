@@ -48,6 +48,15 @@ public class MainArbreBST extends PApplet {
             }
             valorMaxim = arbreBST.getMaxim();
             valorMinim = arbreBST.getMinim();
+            arbreBST.inordre();
+            println();
+            arbreBST.preordre();
+            println();
+            arbreBST.postordre();
+            println();
+            arbreBST.revers();
+            println();
+            arbreBST.bfs(arbreBST.arrel, -1);
         }
         else if(key=='c' || key=='C'){
             valorCerca = (int) random(0, 100);
