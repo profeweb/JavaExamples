@@ -2,9 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e3daea28-0551-4b13-ab45-39306edd8b83" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/files/DiccionariLema.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/files/test/Test_LemmaDic_01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/poo/abstracte/ClasseAbstracte.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/poo/abstracte/MainAbstracte.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/poo/estatic/CosesEstatiques.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/poo/estatic/MainCosesEstatiques.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/poo/generica/Cotxeria.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/poo/generica/MainCotxeria.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/poo/object/MainToString1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/poo/temp2/Alumne.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/poo/temp2/MainAlumne.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/poo/temp2/Professor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tad/MainArrayList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tad/MainLinkedList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tad/ArbreBST.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tad/ArbreBST.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tad/MainArbreBST.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tad/MainArbreBST.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,19 +74,19 @@
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="tad" />
+      <recent name="files.test" />
       <recent name="sudoku.step6" />
       <recent name="sudoku.step5" />
       <recent name="sudoku.step4" />
-      <recent name="sudoku.step3" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MainArbreBST">
-    <configuration name="ExempleArbreBST" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="tad.ExempleArbreBST" />
+  <component name="RunManager" selected="Application.MainCosesEstatiques">
+    <configuration name="MainAlumne" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="poo.temp2.MainAlumne" />
       <module name="JavaExamples" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tad.*" />
+          <option name="PATTERN" value="poo.temp2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -82,12 +94,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainArbreBST" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="tad.MainArbreBST" />
+    <configuration name="MainCosesEstatiques" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="poo.estatic.MainCosesEstatiques" />
       <module name="JavaExamples" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tad.*" />
+          <option name="PATTERN" value="poo.estatic.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -95,12 +107,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainLlistaNodes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="tad.MainLlistaNodes" />
+    <configuration name="MainToString1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="poo.object.MainToString1" />
       <module name="JavaExamples" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tad.*" />
+          <option name="PATTERN" value="poo.object.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -108,12 +120,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainParking" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="poo.parking.MainParking" />
+    <configuration name="Test_LemmaDic_01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="files.test.Test_LemmaDic_01" />
       <module name="JavaExamples" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="poo.parking.*" />
+          <option name="PATTERN" value="files.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -136,11 +148,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MainArbreBST" />
+        <item itemvalue="Application.MainCosesEstatiques" />
+        <item itemvalue="Application.MainToString1" />
+        <item itemvalue="Application.MainAlumne" />
+        <item itemvalue="Application.Test_LemmaDic_01" />
         <item itemvalue="Application.Test_WordCounter_01" />
-        <item itemvalue="Application.ExempleArbreBST" />
-        <item itemvalue="Application.MainParking" />
-        <item itemvalue="Application.MainLlistaNodes" />
       </list>
     </recent_temporary>
   </component>
@@ -562,14 +574,10 @@
       <workItem from="1769168072718" duration="664000" />
       <workItem from="1769276198058" duration="34000" />
       <workItem from="1769669602150" duration="4015000" />
-      <workItem from="1769686852680" duration="402000" />
-    </task>
-    <task id="LOCAL-00263" summary="Exemples">
-      <created>1749048956625</created>
-      <option name="number" value="00263" />
-      <option name="presentableId" value="LOCAL-00263" />
-      <option name="project" value="LOCAL" />
-      <updated>1749048956626</updated>
+      <workItem from="1769686852680" duration="1242000" />
+      <workItem from="1769772801440" duration="4822000" />
+      <workItem from="1769945540039" duration="28000" />
+      <workItem from="1770018949815" duration="10675000" />
     </task>
     <task id="LOCAL-00264" summary="Exemples">
       <created>1749717964236</created>
@@ -907,7 +915,14 @@
       <option name="project" value="LOCAL" />
       <updated>1769676675745</updated>
     </task>
-    <option name="localTasksCounter" value="312" />
+    <task id="LOCAL-00312" summary="Exemples">
+      <created>1769687378810</created>
+      <option name="number" value="00312" />
+      <option name="presentableId" value="LOCAL-00312" />
+      <option name="project" value="LOCAL" />
+      <updated>1769687378810</updated>
+    </task>
+    <option name="localTasksCounter" value="313" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
