@@ -1,5 +1,7 @@
 package poo.geometria;
 
+import processing.core.PApplet;
+
 public class Linia {
 
     Punt a, b;
@@ -33,5 +35,12 @@ public class Linia {
         System.out.println("Línia formada per:");
         this.a.print();
         this.b.print();
+    }
+
+    public void display(PApplet p5){
+        p5.strokeWeight(3); p5.stroke(0);
+        p5.line(a.x, a.y, b.x, b.y);
+        a.display(p5);
+        b.display(p5);
     }
 }

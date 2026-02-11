@@ -2,21 +2,39 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e3daea28-0551-4b13-ab45-39306edd8b83" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/files/DiccionariLema.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/files/test/Test_LemmaDic_01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/poo/abstracte/ClasseAbstracte.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/poo/abstracte/MainAbstracte.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/poo/estatic/CosesEstatiques.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/poo/estatic/MainCosesEstatiques.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/poo/generica/Cotxeria.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/poo/generica/MainCotxeria.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/poo/object/MainToString1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/poo/temp2/Alumne.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/poo/temp2/MainAlumne.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/poo/temp2/Professor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tad/MainArrayList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tad/MainLinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/notesalumnes/Alumne.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/notesalumnes/MainNotesAlumnes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/notesalumnes/Nota.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/poo/geometria/Engranatge.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/poo/geometria/Estrella.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/poo/geometria/MainEstrella.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/poo/geometria/MainPoligonRegular.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/poo/geometria/MainQuadrat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/poo/geometria/MainTriangleOK.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/poo/geometria/Pentagon.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/poo/geometria/Petal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/poo/geometria/PoligonOK.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/poo/geometria/PoligonR.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/poo/geometria/Quadrat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/poo/geometria/Sol.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/poo/geometria/TriangleOK.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/poo/temp2/Cercle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/poo/temp2/Linia2D.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/poo/temp2/Linia2DMal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/poo/temp2/MainCercles.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/poo/temp2/MainPunt2D.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/poo/temp2/Punt2D.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/poo/temp2/Punt3D.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/poo/temp2/TestProcessing.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/poo/temp3/Alumne.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/poo/temp3/MainPersona.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/poo/temp3/Persona.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/poo/temp3/Professor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/poo/geometria/Geometria.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/poo/geometria/Geometria.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/poo/geometria/Linia.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/poo/geometria/Linia.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/poo/geometria/Punt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/poo/geometria/Punt.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/poo/geometria/Triangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/poo/geometria/Triangle.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,20 +91,20 @@
       <recent name="C:\Users\tonim\IdeaProjects\JavaExamples\data\planetes" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="poo.geometria" />
+      <recent name="poo.temp2" />
       <recent name="tad" />
       <recent name="files.test" />
       <recent name="sudoku.step6" />
-      <recent name="sudoku.step5" />
-      <recent name="sudoku.step4" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MainCosesEstatiques">
-    <configuration name="MainAlumne" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="poo.temp2.MainAlumne" />
+  <component name="RunManager" selected="Application.MainNotesAlumnes">
+    <configuration name="MainEstrella" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="poo.geometria.MainEstrella" />
       <module name="JavaExamples" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="poo.temp2.*" />
+          <option name="PATTERN" value="poo.geometria.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -94,12 +112,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainCosesEstatiques" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="poo.estatic.MainCosesEstatiques" />
+    <configuration name="MainNotesAlumnes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="notesalumnes.MainNotesAlumnes" />
       <module name="JavaExamples" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="poo.estatic.*" />
+          <option name="PATTERN" value="notesalumnes.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -107,12 +125,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainToString1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="poo.object.MainToString1" />
+    <configuration name="MainPoligonRegular" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="poo.geometria.MainPoligonRegular" />
       <module name="JavaExamples" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="poo.object.*" />
+          <option name="PATTERN" value="poo.geometria.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -120,12 +138,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test_LemmaDic_01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="files.test.Test_LemmaDic_01" />
+    <configuration name="MainQuadrat" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="poo.geometria.MainQuadrat" />
       <module name="JavaExamples" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="files.test.*" />
+          <option name="PATTERN" value="poo.geometria.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -133,12 +151,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test_WordCounter_01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="files.test.Test_WordCounter_01" />
+    <configuration name="MainTriangleOK" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="poo.geometria.MainTriangleOK" />
       <module name="JavaExamples" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="files.test.*" />
+          <option name="PATTERN" value="poo.geometria.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -148,11 +166,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MainCosesEstatiques" />
-        <item itemvalue="Application.MainToString1" />
-        <item itemvalue="Application.MainAlumne" />
-        <item itemvalue="Application.Test_LemmaDic_01" />
-        <item itemvalue="Application.Test_WordCounter_01" />
+        <item itemvalue="Application.MainNotesAlumnes" />
+        <item itemvalue="Application.MainEstrella" />
+        <item itemvalue="Application.MainPoligonRegular" />
+        <item itemvalue="Application.MainQuadrat" />
+        <item itemvalue="Application.MainTriangleOK" />
       </list>
     </recent_temporary>
   </component>
@@ -578,13 +596,15 @@
       <workItem from="1769772801440" duration="4822000" />
       <workItem from="1769945540039" duration="28000" />
       <workItem from="1770018949815" duration="10675000" />
-    </task>
-    <task id="LOCAL-00264" summary="Exemples">
-      <created>1749717964236</created>
-      <option name="number" value="00264" />
-      <option name="presentableId" value="LOCAL-00264" />
-      <option name="project" value="LOCAL" />
-      <updated>1749717964236</updated>
+      <workItem from="1770101843235" duration="7321000" />
+      <workItem from="1770131536344" duration="1185000" />
+      <workItem from="1770368151760" duration="7164000" />
+      <workItem from="1770460769533" duration="19000" />
+      <workItem from="1770622181970" duration="5398000" />
+      <workItem from="1770644229950" duration="741000" />
+      <workItem from="1770706545772" duration="6937000" />
+      <workItem from="1770735627246" duration="66000" />
+      <workItem from="1770804719270" duration="1076000" />
     </task>
     <task id="LOCAL-00265" summary="Exemples">
       <created>1749718883595</created>
@@ -922,7 +942,14 @@
       <option name="project" value="LOCAL" />
       <updated>1769687378810</updated>
     </task>
-    <option name="localTasksCounter" value="313" />
+    <task id="LOCAL-00313" summary="Exemples">
+      <created>1770102013053</created>
+      <option name="number" value="00313" />
+      <option name="presentableId" value="LOCAL-00313" />
+      <option name="project" value="LOCAL" />
+      <updated>1770102013054</updated>
+    </task>
+    <option name="localTasksCounter" value="314" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
