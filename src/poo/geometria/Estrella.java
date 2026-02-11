@@ -5,7 +5,7 @@ import static processing.core.PApplet.sin;
 import static processing.core.PConstants.PI;
 import static processing.core.PConstants.TWO_PI;
 
-public class Estrella extends PoligonOK{
+public class Estrella extends Poligon{
 
     Estrella(int n, Punt centre, float radi1, float radi2){
         super(n);

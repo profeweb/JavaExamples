@@ -2,39 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e3daea28-0551-4b13-ab45-39306edd8b83" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/notesalumnes/Alumne.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/notesalumnes/MainNotesAlumnes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/notesalumnes/Nota.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/poo/geometria/Engranatge.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/poo/geometria/Estrella.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/poo/geometria/MainEstrella.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/poo/geometria/MainPoligonRegular.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/poo/geometria/MainQuadrat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/poo/geometria/MainTriangleOK.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/poo/geometria/Pentagon.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/poo/geometria/Petal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/poo/geometria/PoligonOK.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/poo/geometria/PoligonR.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/poo/geometria/Quadrat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/poo/geometria/Sol.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/poo/geometria/TriangleOK.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/poo/temp2/Cercle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/poo/temp2/Linia2D.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/poo/temp2/Linia2DMal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/poo/temp2/MainCercles.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/poo/temp2/MainPunt2D.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/poo/temp2/Punt2D.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/poo/temp2/Punt3D.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/poo/temp2/TestProcessing.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/poo/temp3/Alumne.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/poo/temp3/MainPersona.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/poo/temp3/Persona.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/poo/temp3/Professor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/poo/geometria/Geometria.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/poo/geometria/Geometria.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/poo/geometria/Linia.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/poo/geometria/Linia.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/poo/geometria/Punt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/poo/geometria/Punt.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/poo/geometria/Triangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/poo/geometria/Triangle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/poo/geometria/Poligon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/poo/geometria/Poligon.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/poo/geometria/PoligonR.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/poo/geometria/PoligonR.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -98,7 +68,7 @@
       <recent name="sudoku.step6" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MainNotesAlumnes">
+  <component name="RunManager" selected="Application.MainEstrella">
     <configuration name="MainEstrella" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="poo.geometria.MainEstrella" />
       <module name="JavaExamples" />
@@ -166,8 +136,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MainNotesAlumnes" />
         <item itemvalue="Application.MainEstrella" />
+        <item itemvalue="Application.MainNotesAlumnes" />
         <item itemvalue="Application.MainPoligonRegular" />
         <item itemvalue="Application.MainQuadrat" />
         <item itemvalue="Application.MainTriangleOK" />
@@ -604,14 +574,8 @@
       <workItem from="1770644229950" duration="741000" />
       <workItem from="1770706545772" duration="6937000" />
       <workItem from="1770735627246" duration="66000" />
-      <workItem from="1770804719270" duration="1076000" />
-    </task>
-    <task id="LOCAL-00265" summary="Exemples">
-      <created>1749718883595</created>
-      <option name="number" value="00265" />
-      <option name="presentableId" value="LOCAL-00265" />
-      <option name="project" value="LOCAL" />
-      <updated>1749718883595</updated>
+      <workItem from="1770804719270" duration="1392000" />
+      <workItem from="1770807877752" duration="1295000" />
     </task>
     <task id="LOCAL-00266" summary="Exemples">
       <created>1758286039005</created>
@@ -949,7 +913,14 @@
       <option name="project" value="LOCAL" />
       <updated>1770102013054</updated>
     </task>
-    <option name="localTasksCounter" value="314" />
+    <task id="LOCAL-00314" summary="Exemples">
+      <created>1770805834902</created>
+      <option name="number" value="00314" />
+      <option name="presentableId" value="LOCAL-00314" />
+      <option name="project" value="LOCAL" />
+      <updated>1770805834903</updated>
+    </task>
+    <option name="localTasksCounter" value="315" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

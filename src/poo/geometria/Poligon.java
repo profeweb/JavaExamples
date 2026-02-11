@@ -1,5 +1,7 @@
 package poo.geometria;
 
+import processing.core.PApplet;
+
 public class Poligon {
 
     Punt[] punts;
@@ -9,6 +11,10 @@ public class Poligon {
         for(int i=0; i<punts.length; i++){
             punts[i] = ps[i];
         }
+    }
+
+    public Poligon(int n){
+        this.punts = new Punt[n];
     }
 
     Poligon(Punt centre, float radi, int numPunts){
@@ -22,15 +28,28 @@ public class Poligon {
         }
     }
 
+    public Punt getPuntAt(int n){ return this.punts[n]; }
 
-    int getNumPunts(){
+    public void setPuntAt(int n, Punt p){ this.punts[n] = p; }
+
+    public int getNumPunts(){
         return punts.length;
     }
 
-    void print(){
+    public void print(){
         System.out.printf("Polígon format per %d punts:\n", getNumPunts());
         for(int i=0; i<punts.length; i++){
             punts[i].print();
+        }
+    }
+
+    public void display(PApplet p5){
+        for(int i=0; i<punts.length; i++){
+            this.punts[i].display(p5);
+            int j = (i+1) % punts.length;
+            p5.strokeWeight(3); p5.stroke(0);
+            p5.line(this.punts[i].x, this.punts[i].y,
+                    this.punts[j].x, this.punts[j].y);
         }
     }
 }

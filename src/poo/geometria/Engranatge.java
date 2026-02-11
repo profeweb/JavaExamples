@@ -5,7 +5,7 @@ import static processing.core.PApplet.sin;
 import static processing.core.PConstants.PI;
 import static processing.core.PConstants.TWO_PI;
 
-public class Engranatge extends PoligonOK{
+public class Engranatge extends Poligon{
 
     Engranatge(int n, Punt centre, float radi1, float radi2){
         super(n);

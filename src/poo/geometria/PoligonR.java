@@ -5,7 +5,7 @@ import static processing.core.PApplet.sin;
 import static processing.core.PConstants.PI;
 import static processing.core.PConstants.TWO_PI;
 
-public class PoligonR extends PoligonOK{
+public class PoligonR extends Poligon{
 
     PoligonR(int n, Punt centre, float radi){
         super(n);

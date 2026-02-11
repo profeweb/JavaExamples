@@ -5,7 +5,7 @@ import static processing.core.PApplet.sin;
 import static processing.core.PConstants.PI;
 import static processing.core.PConstants.TWO_PI;
 
-public class Sol extends PoligonOK{
+public class Sol extends Poligon{
 
     Sol(int n, Punt centre, float radi1, float radi2){
         super(n);
