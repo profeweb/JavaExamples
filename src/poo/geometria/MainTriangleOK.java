@@ -5,7 +5,7 @@ import processing.core.PApplet;
 public class MainTriangleOK extends PApplet {
 
     TriangleOK t1;
-    PoligonOK p1;
+    Poligon p1;
 
     public static void main(String[] args) {
         PApplet.main("poo.geometria.MainTriangleOK");
@@ -20,7 +20,7 @@ public class MainTriangleOK extends PApplet {
                             new Punt('B', 500, 300),
                             new Punt('C', 200, 600));
 
-        p1 = new PoligonOK(3);
+        p1 = new Poligon(3);
         p1.setPuntAt(0, new Punt('1', 200, 200));
         p1.setPuntAt(1, new Punt('2', 250, 400));
         p1.setPuntAt(2, new Punt('3', 100, 500));

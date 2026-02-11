@@ -68,7 +68,7 @@
       <recent name="sudoku.step6" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MainEstrella">
+  <component name="RunManager" selected="Application.MainTriangleOK">
     <configuration name="MainEstrella" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="poo.geometria.MainEstrella" />
       <module name="JavaExamples" />
@@ -136,11 +136,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MainTriangleOK" />
         <item itemvalue="Application.MainEstrella" />
         <item itemvalue="Application.MainNotesAlumnes" />
         <item itemvalue="Application.MainPoligonRegular" />
         <item itemvalue="Application.MainQuadrat" />
-        <item itemvalue="Application.MainTriangleOK" />
       </list>
     </recent_temporary>
   </component>
