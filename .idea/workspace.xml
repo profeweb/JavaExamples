@@ -2,9 +2,32 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e3daea28-0551-4b13-ab45-39306edd8b83" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/data/Personatge 1/frame0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/Personatge 1/frame1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/Personatge 1/frame2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/Personatge 1/frame3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/Personatge 1/frame4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/Personatge 1/frame5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/Personatge 1/frame6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/Personatge 1/frame7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/Personatge 2/Artboard 0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/Personatge 2/Artboard 1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/Personatge 2/Artboard 2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/Personatge 2/Artboard 3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/Personatge 2/Artboard 4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/Personatge 2/Artboard 5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/Personatge 2/Artboard 6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/Personatge 2/Artboard 7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/Personatge 2/Artboard 8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/Personatge 2/Artboard 9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lemmatization-ca.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/processing/Animacio.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/processing/AnimacioClasse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/processing/Personatge.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/poo/geometria/MainPoligonRegular.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/poo/geometria/MainPoligonRegular.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/poo/geometria/Poligon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/poo/geometria/Poligon.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/poo/geometria/PoligonR.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/poo/geometria/PoligonR.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/poo/geometria/PoligonOK.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/poo/geometria/PoligonOK.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,14 +84,40 @@
       <recent name="C:\Users\tonim\IdeaProjects\JavaExamples\data\planetes" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="processing" />
       <recent name="poo.geometria" />
       <recent name="poo.temp2" />
       <recent name="tad" />
       <recent name="files.test" />
-      <recent name="sudoku.step6" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MainTriangleOK">
+  <component name="RunManager" selected="Application.AnimacioClasse">
+    <configuration name="Animacio" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="processing.Animacio" />
+      <module name="JavaExamples" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="processing.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AnimacioClasse" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="processing.AnimacioClasse" />
+      <module name="JavaExamples" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="processing.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MainEstrella" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="poo.geometria.MainEstrella" />
       <module name="JavaExamples" />
@@ -82,34 +131,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainNotesAlumnes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="notesalumnes.MainNotesAlumnes" />
-      <module name="JavaExamples" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="notesalumnes.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="MainPoligonRegular" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="poo.geometria.MainPoligonRegular" />
-      <module name="JavaExamples" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="poo.geometria.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MainQuadrat" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="poo.geometria.MainQuadrat" />
       <module name="JavaExamples" />
       <extension name="coverage">
         <pattern>
@@ -136,11 +159,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.AnimacioClasse" />
+        <item itemvalue="Application.Animacio" />
+        <item itemvalue="Application.MainPoligonRegular" />
         <item itemvalue="Application.MainTriangleOK" />
         <item itemvalue="Application.MainEstrella" />
-        <item itemvalue="Application.MainNotesAlumnes" />
-        <item itemvalue="Application.MainPoligonRegular" />
-        <item itemvalue="Application.MainQuadrat" />
       </list>
     </recent_temporary>
   </component>
@@ -575,21 +598,8 @@
       <workItem from="1770706545772" duration="6937000" />
       <workItem from="1770735627246" duration="66000" />
       <workItem from="1770804719270" duration="1392000" />
-      <workItem from="1770807877752" duration="1295000" />
-    </task>
-    <task id="LOCAL-00266" summary="Exemples">
-      <created>1758286039005</created>
-      <option name="number" value="00266" />
-      <option name="presentableId" value="LOCAL-00266" />
-      <option name="project" value="LOCAL" />
-      <updated>1758286039005</updated>
-    </task>
-    <task id="LOCAL-00267" summary="Exemples">
-      <created>1758535730280</created>
-      <option name="number" value="00267" />
-      <option name="presentableId" value="LOCAL-00267" />
-      <option name="project" value="LOCAL" />
-      <updated>1758535730281</updated>
+      <workItem from="1770807877752" duration="1882000" />
+      <workItem from="1770971030883" duration="7784000" />
     </task>
     <task id="LOCAL-00268" summary="Exemples">
       <created>1758786686255</created>
@@ -920,7 +930,21 @@
       <option name="project" value="LOCAL" />
       <updated>1770805834903</updated>
     </task>
-    <option name="localTasksCounter" value="315" />
+    <task id="LOCAL-00315" summary="Exemples">
+      <created>1770813990913</created>
+      <option name="number" value="00315" />
+      <option name="presentableId" value="LOCAL-00315" />
+      <option name="project" value="LOCAL" />
+      <updated>1770813990913</updated>
+    </task>
+    <task id="LOCAL-00316" summary="Exemples">
+      <created>1770814066552</created>
+      <option name="number" value="00316" />
+      <option name="presentableId" value="LOCAL-00316" />
+      <option name="project" value="LOCAL" />
+      <updated>1770814066552</updated>
+    </task>
+    <option name="localTasksCounter" value="317" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

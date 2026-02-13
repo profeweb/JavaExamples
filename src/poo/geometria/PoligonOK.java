@@ -25,13 +25,17 @@ public class PoligonOK {
         }
     }
 
-    public void display(PApplet p5){
+    public void display(PApplet p5, int c){
         for(int i=0; i<punts.length; i++){
             this.punts[i].display(p5);
             int j = (i+1) % punts.length;
-            p5.strokeWeight(3); p5.stroke(0);
+            p5.strokeWeight(3); p5.stroke(c);
             p5.line(this.punts[i].x, this.punts[i].y,
                     this.punts[j].x, this.punts[j].y);
         }
+    }
+
+    public void display(PApplet p5){
+        display(p5, p5.color(0));
     }
 }
