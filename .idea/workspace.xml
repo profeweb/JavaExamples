@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e3daea28-0551-4b13-ab45-39306edd8b83" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/motion/HorizontalMotion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/motion/RadialMotion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/motion/SpiralMotion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/motion/VerticalMotion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/motion/WaveMotion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cerca/Cerca.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/motion/BoundaryMotion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/motion/TweenMotion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/motion/TweenTriangleMotion.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -71,9 +70,9 @@
       <recent name="tad" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.WaveMotion">
-    <configuration name="HorizontalMotion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="motion.HorizontalMotion" />
+  <component name="RunManager" selected="Application.Cerca">
+    <configuration name="BoundaryMotion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="motion.BoundaryMotion" />
       <module name="JavaExamples" />
       <extension name="coverage">
         <pattern>
@@ -85,8 +84,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RadialMotion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="motion.RadialMotion" />
+    <configuration name="Cerca" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cerca.Cerca" />
+      <module name="JavaExamples" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cerca.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TweenMotion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="motion.TweenMotion" />
       <module name="JavaExamples" />
       <extension name="coverage">
         <pattern>
@@ -98,8 +110,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SpiralMotion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="motion.SpiralMotion" />
+    <configuration name="TweenTriangleMotion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="motion.TweenTriangleMotion" />
       <module name="JavaExamples" />
       <extension name="coverage">
         <pattern>
@@ -111,20 +123,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="VerticalMotion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="motion.VerticalMotion" />
-      <module name="JavaExamples" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="motion.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="WaveMotion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="motion.WaveMotion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="motion.WaveMotion" />
       <module name="JavaExamples" />
       <extension name="coverage">
@@ -139,11 +138,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.WaveMotion" />
-        <item itemvalue="Application.SpiralMotion" />
-        <item itemvalue="Application.RadialMotion" />
-        <item itemvalue="Application.VerticalMotion" />
-        <item itemvalue="Application.HorizontalMotion" />
+        <item itemvalue="Application.Cerca" />
+        <item itemvalue="Application.TweenTriangleMotion" />
+        <item itemvalue="Application.TweenMotion" />
+        <item itemvalue="Application.BoundaryMotion" />
+        <item itemvalue="Application.motion.WaveMotion" />
       </list>
     </recent_temporary>
   </component>
@@ -585,14 +584,9 @@
       <workItem from="1771311417287" duration="3002000" />
       <workItem from="1771402904988" duration="64000" />
       <workItem from="1771571058883" duration="2626000" />
-      <workItem from="1771582675630" duration="3488000" />
-    </task>
-    <task id="LOCAL-00270" summary="Exemples">
-      <created>1759133258940</created>
-      <option name="number" value="00270" />
-      <option name="presentableId" value="LOCAL-00270" />
-      <option name="project" value="LOCAL" />
-      <updated>1759133258940</updated>
+      <workItem from="1771582675630" duration="4112000" />
+      <workItem from="1771592213507" duration="8000" />
+      <workItem from="1771831854025" duration="5783000" />
     </task>
     <task id="LOCAL-00271" summary="Exemples">
       <created>1759133461659</created>
@@ -930,7 +924,14 @@
       <option name="project" value="LOCAL" />
       <updated>1771322811251</updated>
     </task>
-    <option name="localTasksCounter" value="319" />
+    <task id="LOCAL-00319" summary="Exemples">
+      <created>1771586233813</created>
+      <option name="number" value="00319" />
+      <option name="presentableId" value="LOCAL-00319" />
+      <option name="project" value="LOCAL" />
+      <updated>1771586233814</updated>
+    </task>
+    <option name="localTasksCounter" value="320" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
