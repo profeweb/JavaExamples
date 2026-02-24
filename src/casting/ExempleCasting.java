@@ -3,25 +3,33 @@ package casting;
 public class ExempleCasting {
 
     public static void main(String[] args) {
-        Persona persona = new Persona("Paco");
-        Alumne alumne = new Alumne("Bel", 4);
-        Professor profe = new Professor("Pep", "Mates");
 
-        // No serà possible copiar objectes entre subclasses
+        // CASTING DE TIPUS BÀSICS (només possible entre números -float, int, double, char-).
+        int x = 6;
+        float y = 6.75f;
+
+        x = (int) y;    // Casting explicit de tipus (perd informació -decimals suprimits-).
+        y = x;          // Casting implicit de tipus (no perd informació -decimals afegits-).
+
+        // CASTING D'OBJETES DE CLASSE (només possible entre subclasses i superclasses).
+
+        Persona persona = new Persona("Paco");     // objecte de la superclasse Persona
+        Alumne alumne = new Alumne("Bel", 4);   // objecte de la subclasse Alumne
+        Professor profe = new Professor("Pep", "Mates");    // objecte de la subclasse Professor
+
+        // No serà possible copiar objectes entre subclasses (ERROR).
         // alumne = profe;
         // profe = alumne;
 
-        // Copiar desde subclasse a superclasse
+        // Casting ascendent ( convertir un objecte de la subclasse en objecte de la superclasse).
         persona = alumne;
-        // Casting ascendent ( convertir un objecte de la subclasse en objecte de la superclasse)
-        persona = (Persona) alumne;
-        System.out.println(persona.nom); // Només puc accedir a propietats de superclasse
+        System.out.println(persona.nom); // Només puc accedir a propietats de la superclasse
 
-        // Casting descendent
+        // Casting descendent (de Superclasse a Subclasse).
         Alumne alumne2 = (Alumne) persona;
         System.out.println(alumne2.curs);
 
-        // Intent de casting impossible (ERROR)
+        // Intent de casting no possible (ERROR perquè persona no conté un Professor sinó un Alumne).
         Professor profe2 = (Professor) persona;
         System.out.println(profe2.departament);
     }
