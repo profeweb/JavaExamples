@@ -13,11 +13,17 @@ public class ExempleCasting {
 
         // Copiar desde subclasse a superclasse
         persona = alumne;
+        // Casting ascendent ( convertir un objecte de la subclasse en objecte de la superclasse)
+        persona = (Persona) alumne;
         System.out.println(persona.nom); // Només puc accedir a propietats de superclasse
 
         // Casting descendent
         Alumne alumne2 = (Alumne) persona;
         System.out.println(alumne2.curs);
+
+        // Intent de casting impossible (ERROR)
+        Professor profe2 = (Professor) persona;
+        System.out.println(profe2.departament);
     }
 
     static class Persona {
