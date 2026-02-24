@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e3daea28-0551-4b13-ab45-39306edd8b83" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/casting/ArraySuperClasse.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/casting/ExempleCasting.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/casting/ExempleCasting.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/casting/ArraySuperClasse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/casting/ArraySuperClasse.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,13 +67,13 @@
       <recent name="tad" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ExempleCasting">
-    <configuration name="BoundaryMotion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="motion.BoundaryMotion" />
+  <component name="RunManager" selected="Application.ArraySuperClasse">
+    <configuration name="ArraySuperClasse" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="casting.ArraySuperClasse" />
       <module name="JavaExamples" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="motion.*" />
+          <option name="PATTERN" value="casting.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -136,11 +135,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ArraySuperClasse" />
         <item itemvalue="Application.ExempleCasting" />
         <item itemvalue="Application.Cerca" />
         <item itemvalue="Application.TweenTriangleMotion" />
         <item itemvalue="Application.TweenMotion" />
-        <item itemvalue="Application.BoundaryMotion" />
       </list>
     </recent_temporary>
   </component>
@@ -585,14 +584,7 @@
       <workItem from="1771582675630" duration="4112000" />
       <workItem from="1771592213507" duration="8000" />
       <workItem from="1771831854025" duration="6550000" />
-      <workItem from="1771916704770" duration="1538000" />
-    </task>
-    <task id="LOCAL-00274" summary="Exemples">
-      <created>1759139222971</created>
-      <option name="number" value="00274" />
-      <option name="presentableId" value="LOCAL-00274" />
-      <option name="project" value="LOCAL" />
-      <updated>1759139222971</updated>
+      <workItem from="1771916704770" duration="2597000" />
     </task>
     <task id="LOCAL-00275" summary="Exemples">
       <created>1759140532086</created>
@@ -930,7 +922,14 @@
       <option name="project" value="LOCAL" />
       <updated>1771917553982</updated>
     </task>
-    <option name="localTasksCounter" value="323" />
+    <task id="LOCAL-00323" summary="Exemples">
+      <created>1771918262918</created>
+      <option name="number" value="00323" />
+      <option name="presentableId" value="LOCAL-00323" />
+      <option name="project" value="LOCAL" />
+      <updated>1771918262918</updated>
+    </task>
+    <option name="localTasksCounter" value="324" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
