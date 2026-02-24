@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e3daea28-0551-4b13-ab45-39306edd8b83" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/cerca/Cerca.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cerca/Cerca.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/casting/ExempleCasting.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -582,14 +583,8 @@
       <workItem from="1771571058883" duration="2626000" />
       <workItem from="1771582675630" duration="4112000" />
       <workItem from="1771592213507" duration="8000" />
-      <workItem from="1771831854025" duration="6509000" />
-    </task>
-    <task id="LOCAL-00272" summary="Exemples">
-      <created>1759135700581</created>
-      <option name="number" value="00272" />
-      <option name="presentableId" value="LOCAL-00272" />
-      <option name="project" value="LOCAL" />
-      <updated>1759135700581</updated>
+      <workItem from="1771831854025" duration="6550000" />
+      <workItem from="1771916704770" duration="834000" />
     </task>
     <task id="LOCAL-00273" summary="Exemples">
       <created>1759138598854</created>
@@ -927,7 +922,14 @@
       <option name="project" value="LOCAL" />
       <updated>1771839484361</updated>
     </task>
-    <option name="localTasksCounter" value="321" />
+    <task id="LOCAL-00321" summary="Exemples">
+      <created>1771845800268</created>
+      <option name="number" value="00321" />
+      <option name="presentableId" value="LOCAL-00321" />
+      <option name="project" value="LOCAL" />
+      <updated>1771845800268</updated>
+    </task>
+    <option name="localTasksCounter" value="322" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
