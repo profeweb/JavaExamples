@@ -12,8 +12,8 @@ public class Sol extends Poligon{
         float angle = 3*PI/2;
         for(int i=0; i<n; i++){
             float radi = i%3==0 ? radi2 : radi1;
-            float x = centre.x + radi * cos(angle);
-            float y = centre.y + radi * sin(angle);
+            float x = centre.getX() + radi * cos(angle);
+            float y = centre.getY() + radi * sin(angle);
             Punt p = new Punt(' ', x, y);
             this.setPuntAt(i, p);
             angle+=TWO_PI/n;

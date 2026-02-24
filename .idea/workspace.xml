@@ -2,7 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e3daea28-0551-4b13-ab45-39306edd8b83" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/casting/ExempleCasting.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/casting/ExempleCasting.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/poo/geometria/Engranatge.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/poo/geometria/Engranatge.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/poo/geometria/Estrella.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/poo/geometria/Estrella.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/poo/geometria/Geometria.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/poo/geometria/Geometria.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/poo/geometria/Linia.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/poo/geometria/Linia.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/poo/geometria/Petal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/poo/geometria/Petal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/poo/geometria/Poligon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/poo/geometria/Poligon.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/poo/geometria/PoligonOK.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/poo/geometria/PoligonOK.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/poo/geometria/PoligonR.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/poo/geometria/PoligonR.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/poo/geometria/Punt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/poo/geometria/Punt.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/poo/geometria/Sol.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/poo/geometria/Sol.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/poo/geometria/Triangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/poo/geometria/Triangle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/poo/geometria/TriangleOK.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/poo/geometria/TriangleOK.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -583,14 +595,7 @@
       <workItem from="1771582675630" duration="4112000" />
       <workItem from="1771592213507" duration="8000" />
       <workItem from="1771831854025" duration="6550000" />
-      <workItem from="1771916704770" duration="6861000" />
-    </task>
-    <task id="LOCAL-00278" summary="Exemples">
-      <created>1759304605869</created>
-      <option name="number" value="00278" />
-      <option name="presentableId" value="LOCAL-00278" />
-      <option name="project" value="LOCAL" />
-      <updated>1759304605869</updated>
+      <workItem from="1771916704770" duration="11060000" />
     </task>
     <task id="LOCAL-00279" summary="Exemples">
       <created>1759304882389</created>
@@ -928,7 +933,14 @@
       <option name="project" value="LOCAL" />
       <updated>1771928756566</updated>
     </task>
-    <option name="localTasksCounter" value="327" />
+    <task id="LOCAL-00327" summary="Exemples">
+      <created>1771929354508</created>
+      <option name="number" value="00327" />
+      <option name="presentableId" value="LOCAL-00327" />
+      <option name="project" value="LOCAL" />
+      <updated>1771929354508</updated>
+    </task>
+    <option name="localTasksCounter" value="328" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

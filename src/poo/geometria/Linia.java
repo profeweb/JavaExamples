@@ -39,7 +39,7 @@ public class Linia {
 
     public void display(PApplet p5){
         p5.strokeWeight(3); p5.stroke(0);
-        p5.line(a.x, a.y, b.x, b.y);
+        p5.line(a.getX(), a.getY(), b.getX(), b.getY());
         a.display(p5);
         b.display(p5);
     }

@@ -30,8 +30,8 @@ public class PoligonOK {
             this.punts[i].display(p5);
             int j = (i+1) % punts.length;
             p5.strokeWeight(3); p5.stroke(c);
-            p5.line(this.punts[i].x, this.punts[i].y,
-                    this.punts[j].x, this.punts[j].y);
+            p5.line(this.punts[i].getX(), this.punts[i].getY(),
+                    this.punts[j].getX(), this.punts[j].getY());
         }
     }
 

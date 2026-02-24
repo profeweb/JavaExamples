@@ -29,7 +29,7 @@ public class Geometria extends PApplet {
         p3 = new Punt('B',300, 450);
         p4 = new Punt('C',100, -25);
 
-        float d12 = distancia(p1.x, p1.y, p2.x, p2.y);
+        float d12 = distancia(p1.getX(), p1.getY(), p2.getX(), p2.getY());
         System.out.println("Distancia Funció: "+ d12);
 
         double d = p1.distancia(p2);

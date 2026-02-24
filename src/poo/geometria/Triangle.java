@@ -45,9 +45,9 @@ public class Triangle {
 
     public void display(PApplet p5){
         p5.strokeWeight(3); p5.stroke(0);
-        p5.line(a.x, a.y, b.x, b.y);
-        p5.line(b.x, b.y, c.x, c.y);
-        p5.line(c.x, c.y, a.x, a.y);
+        p5.line(a.getX(), a.getY(), b.getX(), b.getY());
+        p5.line(b.getX(), b.getY(), c.getX(), c.getY());
+        p5.line(c.getX(), c.getY(), a.getX(), a.getY());
         a.display(p5);
         b.display(p5);
         c.display(p5);
