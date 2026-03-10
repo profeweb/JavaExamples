@@ -17,6 +17,7 @@ public class MainTrasto {
         double calcul = Math.PI * Math.pow(2, 5);
 
         Trasto t2 = new Trasto("COSA 2");
+
         Trasto t3 = new Trasto("COSA 3");
 
         System.out.println(Trasto.nomEstatic);
