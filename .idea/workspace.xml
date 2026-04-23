@@ -2,17 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e3daea28-0551-4b13-ab45-39306edd8b83" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/abstracta/ClasseAbstracta.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/abstracta/MainClasseAbstracta.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/abstracta/SubClasse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/generica/Bicicleta.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/generica/Cotxe.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/generica/MainParking.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/generica/MainParkingGeneric.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/generica/Parking.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/generica/ParkingGeneric.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classeobject/Cosa.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vocabulari/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vocabulari/Moto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vocabulari/ParkingA.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vocabulari/ParkingC.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vocabulari/Vehicle.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/estatic/MainTrasto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/estatic/MainTrasto.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,33 +65,20 @@
       <recent name="C:\Users\tonim\IdeaProjects\JavaExamples\data\planetes" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="vocabulari" />
       <recent name="generica" />
       <recent name="motion" />
       <recent name="processing" />
       <recent name="poo.geometria" />
-      <recent name="poo.temp2" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MainParking">
-    <configuration name="ArraySuperClasse" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="casting.ArraySuperClasse" />
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Cosa" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="classeobject.Cosa" />
       <module name="JavaExamples" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="casting.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ExempleCasting" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="casting.ExempleCasting" />
-      <module name="JavaExamples" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="casting.*" />
+          <option name="PATTERN" value="classeobject.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -109,6 +92,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="classeobject.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="vocabulari.Main" />
+      <module name="JavaExamples" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="vocabulari.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -144,11 +140,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Cosa" />
         <item itemvalue="Application.MainParking" />
         <item itemvalue="Application.MainTrasto" />
         <item itemvalue="Application.ExempleObject" />
-        <item itemvalue="Application.ArraySuperClasse" />
-        <item itemvalue="Application.ExempleCasting" />
       </list>
     </recent_temporary>
   </component>
@@ -600,14 +596,14 @@
       <workItem from="1772701058405" duration="929000" />
       <workItem from="1772706106067" duration="213000" />
       <workItem from="1773041747477" duration="2534000" />
-      <workItem from="1773127300371" duration="4018000" />
-    </task>
-    <task id="LOCAL-00281" summary="Exemples">
-      <created>1761026549051</created>
-      <option name="number" value="00281" />
-      <option name="presentableId" value="LOCAL-00281" />
-      <option name="project" value="LOCAL" />
-      <updated>1761026549052</updated>
+      <workItem from="1773127300371" duration="6568000" />
+      <workItem from="1773298860548" duration="121000" />
+      <workItem from="1773307378403" duration="684000" />
+      <workItem from="1773654393747" duration="8000" />
+      <workItem from="1773911160099" duration="250000" />
+      <workItem from="1773911917278" duration="1337000" />
+      <workItem from="1773941659735" duration="189000" />
+      <workItem from="1776924309803" duration="3742000" />
     </task>
     <task id="LOCAL-00282" summary="Exemples">
       <created>1761033006254</created>
@@ -945,7 +941,14 @@
       <option name="project" value="LOCAL" />
       <updated>1773046172311</updated>
     </task>
-    <option name="localTasksCounter" value="330" />
+    <task id="LOCAL-00330" summary="Exemples">
+      <created>1773131355609</created>
+      <option name="number" value="00330" />
+      <option name="presentableId" value="LOCAL-00330" />
+      <option name="project" value="LOCAL" />
+      <updated>1773131355610</updated>
+    </task>
+    <option name="localTasksCounter" value="331" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
