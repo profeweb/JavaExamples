@@ -59,16 +59,16 @@ public class Main {
 
         // TADs genèrics (ArrayList, LinkedList, Stack, ...)
 
-        ArrayList<Vehicle> vs = new ArrayList<>();
-        vs.add(v);
+        ArrayList<Vehicle> vs = new ArrayList<>();  //Constructor
+        vs.add(v);  // Afegir elements
         vs.add(c);
-        System.out.println(vs.get(0));
-        System.out.println(vs.size());
+        System.out.println(vs.get(0));  // Accedir a l'element
+        System.out.println(vs.size());  // Llargada
 
-        LinkedList<String> noms2 = new LinkedList<>();
-        noms2.add("Paco");
+        LinkedList<String> noms2 = new LinkedList<>();  //Constructor
+        noms2.add("Paco");  // Afegir elements
         noms2.add("Pep");
-        System.out.println(noms2.get(0));
-        System.out.println(noms2.size());
+        System.out.println(noms2.get(0));  // Accedir a l'element
+        System.out.println(noms2.size()); // Llargada
     }
 }
