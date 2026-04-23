@@ -23,4 +23,8 @@ public class ParkingC {
         numVehicles++;
     }
 
+    public void print(){
+
+    }
+
 }

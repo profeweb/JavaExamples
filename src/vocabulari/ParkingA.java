@@ -38,4 +38,8 @@ public class ParkingA {
         return pc;
     }
 
+    public void print(){
+
+    }
+
 }
