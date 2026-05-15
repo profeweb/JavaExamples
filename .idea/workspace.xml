@@ -2,6 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e3daea28-0551-4b13-ab45-39306edd8b83" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/xarxes/XarxesBitParitat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/xarxes/XarxesCesar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/xarxes/XarxesCompressio.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/vocabulari/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/vocabulari/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -66,7 +70,7 @@
       <recent name="poo.geometria" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.vocabulari.Main">
+  <component name="RunManager" selected="Application.XarxesCesar">
     <configuration name="Cosa" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="classeobject.Cosa" />
       <module name="JavaExamples" />
@@ -80,12 +84,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ExempleObject" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="classeobject.ExempleObject" />
+    <configuration name="XarxesBitParitat" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="xarxes.XarxesBitParitat" />
       <module name="JavaExamples" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="classeobject.*" />
+          <option name="PATTERN" value="xarxes.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -93,12 +97,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainParking" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="generica.MainParking" />
+    <configuration name="XarxesCesar" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="xarxes.XarxesCesar" />
       <module name="JavaExamples" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="generica.*" />
+          <option name="PATTERN" value="xarxes.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -106,12 +110,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainTrasto" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="estatic.MainTrasto" />
+    <configuration name="XarxesCompressio" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="xarxes.XarxesCompressio" />
       <module name="JavaExamples" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="estatic.*" />
+          <option name="PATTERN" value="xarxes.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -134,11 +138,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.XarxesCesar" />
+        <item itemvalue="Application.XarxesCompressio" />
+        <item itemvalue="Application.XarxesBitParitat" />
         <item itemvalue="Application.vocabulari.Main" />
         <item itemvalue="Application.Cosa" />
-        <item itemvalue="Application.MainParking" />
-        <item itemvalue="Application.MainTrasto" />
-        <item itemvalue="Application.ExempleObject" />
       </list>
     </recent_temporary>
   </component>
@@ -597,14 +601,13 @@
       <workItem from="1773911160099" duration="250000" />
       <workItem from="1773911917278" duration="1337000" />
       <workItem from="1773941659735" duration="189000" />
-      <workItem from="1776924309803" duration="8617000" />
-    </task>
-    <task id="LOCAL-00284" summary="Exemples">
-      <created>1761641711778</created>
-      <option name="number" value="00284" />
-      <option name="presentableId" value="LOCAL-00284" />
-      <option name="project" value="LOCAL" />
-      <updated>1761641711780</updated>
+      <workItem from="1776924309803" duration="8657000" />
+      <workItem from="1776936244417" duration="13000" />
+      <workItem from="1776941973442" duration="151000" />
+      <workItem from="1776952468864" duration="68000" />
+      <workItem from="1777110031031" duration="623000" />
+      <workItem from="1778049115938" duration="833000" />
+      <workItem from="1778831945910" duration="7083000" />
     </task>
     <task id="LOCAL-00285" summary="Exemples">
       <created>1762711050477</created>
@@ -942,7 +945,14 @@
       <option name="project" value="LOCAL" />
       <updated>1776932914218</updated>
     </task>
-    <option name="localTasksCounter" value="333" />
+    <task id="LOCAL-00333" summary="Exemples">
+      <created>1776934504094</created>
+      <option name="number" value="00333" />
+      <option name="presentableId" value="LOCAL-00333" />
+      <option name="project" value="LOCAL" />
+      <updated>1776934504094</updated>
+    </task>
+    <option name="localTasksCounter" value="334" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

@@ -48,7 +48,6 @@ public class Main {
             }
         }
 
-
         // Instanciació de classe genèrica
         Plaça<Moto> pm = new Plaça<>();
         pm.aparcar(v);
@@ -56,9 +55,7 @@ public class Main {
         Plaça<Cotxe> pc = new Plaça<>();
         pc.aparcar(c);
 
-
         // TADs genèrics (ArrayList, LinkedList, Stack, ...)
-
         ArrayList<Vehicle> vs = new ArrayList<>();  //Constructor
         vs.add(v);  // Afegir elements
         vs.add(c);
