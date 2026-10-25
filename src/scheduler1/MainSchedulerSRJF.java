@@ -4,7 +4,7 @@ import processing.core.PApplet;
 
 public class MainSchedulerSRJF extends PApplet {
 
-    Proces p1, p2, p3;
+    Proces p1, p2, p3, p4;
     SchedulerSRJF scheduler;
 
     public static void main(String[] args) {
@@ -20,6 +20,7 @@ public class MainSchedulerSRJF extends PApplet {
         p1 = new Proces("P1", 6);
         p2 = new Proces("P2", 2);
         p3 = new Proces("P3", 4);
+        p4 = new Proces("P4", 1);
 
         scheduler = new SchedulerSRJF();
 
@@ -40,6 +41,10 @@ public class MainSchedulerSRJF extends PApplet {
     public void keyPressed(){
         if(key=='r'){
             scheduler.run();
+        }
+
+        if(key=='4'){
+            scheduler.enterProces(p4);
         }
     }
 }

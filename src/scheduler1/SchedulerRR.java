@@ -11,7 +11,7 @@ public class SchedulerRR extends Scheduler{
     public SchedulerRR(){
         super();
         setPolitica(POLITICA.ROUND_ROBIN);
-        setCiclesQuantum(2);
+        setCiclesQuantum(3);
     }
 
     public void setCiclesQuantum(int q){
